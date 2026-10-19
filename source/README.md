@@ -14,7 +14,7 @@ Raw group-chat export and shared files from the project team. Contains real name
 Project brief: `../project-brief.md`.
 
 ## Audio and video: GitHub release `source-media-v1`
-https://github.com/Vinayak-RZ/Illusion/releases/tag/source-media-v1
+https://github.com/Vinayak-RZ/community-outreach/releases/tag/source-media-v1
 Zips are uncompressed (stored), and paths inside them are `comm outreach/<original Drive filename>`. Checksums are in `SHA256SUMS.txt`.
 
 | Asset | Files | Size | Contents |
