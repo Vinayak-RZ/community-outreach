@@ -1,0 +1,265 @@
+{
+ "source_file": "Voice 261014_223912.m4a",
+ "created": "2026-10-19T11:12:53.853081+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.382,
+  "top": [
+   [
+    "hi",
+    0.382
+   ],
+   [
+    "en",
+    0.185
+   ],
+   [
+    "ur",
+    0.144
+   ]
+  ]
+ },
+ "duration_s": 17.02,
+ "processing_s": 29.7,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 2.76,
+   "text": "इए परू सच्छां। बढिया है भी जेश्ट।",
+   "avg_logprob": -0.879,
+   "no_speech_prob": 0.607,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.36,
+     "word": " इए",
+     "prob": 0.24
+    },
+    {
+     "start": 0.36,
+     "end": 0.62,
+     "word": " परू",
+     "prob": 0.329
+    },
+    {
+     "start": 0.62,
+     "end": 1.64,
+     "word": " सच्छां।",
+     "prob": 0.434
+    },
+    {
+     "start": 1.64,
+     "end": 2.0,
+     "word": " बढिया",
+     "prob": 0.493
+    },
+    {
+     "start": 2.0,
+     "end": 2.06,
+     "word": " है",
+     "prob": 0.636
+    },
+    {
+     "start": 2.06,
+     "end": 2.16,
+     "word": " भी",
+     "prob": 0.424
+    },
+    {
+     "start": 2.16,
+     "end": 2.76,
+     "word": " जेश्ट।",
+     "prob": 0.478
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 6.33,
+   "end": 7.83,
+   "text": "अगर आओए इक्वों आओँ।",
+   "avg_logprob": -0.879,
+   "no_speech_prob": 0.607,
+   "words": [
+    {
+     "start": 6.33,
+     "end": 6.63,
+     "word": " अगर",
+     "prob": 0.405
+    },
+    {
+     "start": 6.63,
+     "end": 7.19,
+     "word": " आओए",
+     "prob": 0.558
+    },
+    {
+     "start": 7.19,
+     "end": 7.35,
+     "word": " इक्वों",
+     "prob": 0.372
+    },
+    {
+     "start": 7.35,
+     "end": 7.83,
+     "word": " आओँ।",
+     "prob": 0.587
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 8.71,
+   "end": 10.67,
+   "text": "ज़िन्ति आओई ज़िन्ति आओई ज़िन्ति.",
+   "avg_logprob": -0.879,
+   "no_speech_prob": 0.607,
+   "words": [
+    {
+     "start": 8.71,
+     "end": 8.95,
+     "word": " ज़िन्ति",
+     "prob": 0.401
+    },
+    {
+     "start": 8.95,
+     "end": 9.21,
+     "word": " आओई",
+     "prob": 0.681
+    },
+    {
+     "start": 9.21,
+     "end": 9.75,
+     "word": " ज़िन्ति",
+     "prob": 0.704
+    },
+    {
+     "start": 9.75,
+     "end": 10.39,
+     "word": " आओई",
+     "prob": 0.822
+    },
+    {
+     "start": 10.39,
+     "end": 10.67,
+     "word": " ज़िन्ति.",
+     "prob": 0.885
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 11.17,
+   "end": 13.63,
+   "text": "यह देखो, तीवल देखो कौन बैट रहे है?",
+   "avg_logprob": -0.879,
+   "no_speech_prob": 0.607,
+   "words": [
+    {
+     "start": 11.17,
+     "end": 11.55,
+     "word": " यह",
+     "prob": 0.539
+    },
+    {
+     "start": 11.55,
+     "end": 12.17,
+     "word": " देखो,",
+     "prob": 0.85
+    },
+    {
+     "start": 12.45,
+     "end": 12.71,
+     "word": " तीवल",
+     "prob": 0.618
+    },
+    {
+     "start": 12.71,
+     "end": 12.95,
+     "word": " देखो",
+     "prob": 0.828
+    },
+    {
+     "start": 12.95,
+     "end": 13.15,
+     "word": " कौन",
+     "prob": 0.394
+    },
+    {
+     "start": 13.15,
+     "end": 13.39,
+     "word": " बैट",
+     "prob": 0.669
+    },
+    {
+     "start": 13.39,
+     "end": 13.63,
+     "word": " रहे",
+     "prob": 0.414
+    },
+    {
+     "start": 13.63,
+     "end": 13.63,
+     "word": " है?",
+     "prob": 0.894
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 13.81,
+   "end": 15.93,
+   "text": "ओ इस तो मुझे पढसून है।",
+   "avg_logprob": -0.879,
+   "no_speech_prob": 0.607,
+   "words": [
+    {
+     "start": 13.81,
+     "end": 14.29,
+     "word": " ओ",
+     "prob": 0.633
+    },
+    {
+     "start": 14.29,
+     "end": 14.55,
+     "word": " इस",
+     "prob": 0.298
+    },
+    {
+     "start": 14.55,
+     "end": 14.61,
+     "word": " तो",
+     "prob": 0.472
+    },
+    {
+     "start": 14.61,
+     "end": 14.79,
+     "word": " मुझे",
+     "prob": 0.922
+    },
+    {
+     "start": 14.79,
+     "end": 15.19,
+     "word": " पढसून",
+     "prob": 0.657
+    },
+    {
+     "start": 15.19,
+     "end": 15.93,
+     "word": " है।",
+     "prob": 0.82
+    }
+   ]
+  }
+ ]
+}

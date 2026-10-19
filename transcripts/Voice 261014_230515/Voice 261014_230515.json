@@ -1,0 +1,117 @@
+{
+ "source_file": "Voice 261014_230515.m4a",
+ "created": "2026-10-19T11:12:17.784559+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.501,
+  "top": [
+   [
+    "hi",
+    0.501
+   ],
+   [
+    "ur",
+    0.452
+   ],
+   [
+    "en",
+    0.019
+   ]
+  ]
+ },
+ "duration_s": 3.11,
+ "processing_s": 6.4,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.52,
+   "end": 3.08,
+   "text": "जब में भुई स्कृट पैक है, वास नहीं आती लिए अच्छी से।",
+   "avg_logprob": -0.645,
+   "no_speech_prob": 0.102,
+   "words": [
+    {
+     "start": 0.52,
+     "end": 0.88,
+     "word": " जब",
+     "prob": 0.715
+    },
+    {
+     "start": 0.88,
+     "end": 0.96,
+     "word": " में",
+     "prob": 0.816
+    },
+    {
+     "start": 0.96,
+     "end": 1.18,
+     "word": " भुई",
+     "prob": 0.433
+    },
+    {
+     "start": 1.18,
+     "end": 1.42,
+     "word": " स्कृट",
+     "prob": 0.584
+    },
+    {
+     "start": 1.42,
+     "end": 1.54,
+     "word": " पैक",
+     "prob": 0.616
+    },
+    {
+     "start": 1.54,
+     "end": 1.62,
+     "word": " है,",
+     "prob": 0.534
+    },
+    {
+     "start": 1.66,
+     "end": 1.92,
+     "word": " वास",
+     "prob": 0.672
+    },
+    {
+     "start": 1.92,
+     "end": 2.04,
+     "word": " नहीं",
+     "prob": 0.671
+    },
+    {
+     "start": 2.04,
+     "end": 2.22,
+     "word": " आती",
+     "prob": 0.44
+    },
+    {
+     "start": 2.22,
+     "end": 2.34,
+     "word": " लिए",
+     "prob": 0.646
+    },
+    {
+     "start": 2.34,
+     "end": 2.62,
+     "word": " अच्छी",
+     "prob": 0.682
+    },
+    {
+     "start": 2.62,
+     "end": 3.08,
+     "word": " से।",
+     "prob": 0.681
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "source_file": "ROBOCON.m4a",
+ "created": "2026-10-19T11:13:51.166314+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "en",
+  "probability": 0.794,
+  "top": [
+   [
+    "en",
+    0.794
+   ],
+   [
+    "hi",
+    0.17
+   ],
+   [
+    "ur",
+    0.003
+   ]
+  ]
+ },
+ "duration_s": 26.37,
+ "processing_s": 50.5,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 3.86,
+   "text": "तो इसे हमारे प्रजेक के लिए अपने आपके लिए नहीं है।",
+   "avg_logprob": -0.53,
+   "no_speech_prob": 0.151,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.5,
+     "word": " तो",
+     "prob": 0.506
+    },
+    {
+     "start": 0.5,
+     "end": 0.76,
+     "word": " इसे",
+     "prob": 0.387
+    },
+    {
+     "start": 0.76,
+     "end": 0.88,
+     "word": " हमारे",
+     "prob": 0.421
+    },
+    {
+     "start": 0.88,
+     "end": 2.32,
+     "word": " प्रजेक",
+     "prob": 0.45
+    },
+    {
+     "start": 2.32,
+     "end": 2.32,
+     "word": " के",
+     "prob": 0.369
+    },
+    {
+     "start": 2.32,
+     "end": 2.56,
+     "word": " लिए",
+     "prob": 0.683
+    },
+    {
+     "start": 2.56,
+     "end": 2.56,
+     "word": " अपने",
+     "prob": 0.458
+    },
+    {
+     "start": 2.56,
+     "end": 2.82,
+     "word": " आपके",
+     "prob": 0.468
+    },
+    {
+     "start": 2.82,
+     "end": 3.04,
+     "word": " लिए",
+     "prob": 0.7
+    },
+    {
+     "start": 3.04,
+     "end": 3.5,
+     "word": " नहीं",
+     "prob": 0.528
+    },
+    {
+     "start": 3.5,
+     "end": 3.86,
+     "word": " है।",
+     "prob": 0.563
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 3.86,
+   "end": 6.72,
+   "text": "तो आपके लिए नहीं होता हैं, और आपके लिए नहीं होता हैं,",
+   "avg_logprob": -0.53,
+   "no_speech_prob": 0.151,
+   "words": [
+    {
+     "start": 3.86,
+     "end": 4.06,
+     "word": " तो",
+     "prob": 0.679
+    },
+    {
+     "start": 4.06,
+     "end": 4.36,
+     "word": " आपके",
+     "prob": 0.636
+    },
+    {
+     "start": 4.36,
+     "end": 4.36,
+     "word": " लिए",
+     "prob": 0.83
+    },
+    {
+     "start": 4.36,
+     "end": 5.36,
+     "word": " नहीं",
+     "prob": 0.797
+    },
+    {
+     "start": 5.36,
+     "end": 5.54,
+     "word": " होता",
+     "prob": 0.266
+    },
+    {
+     "start": 5.54,
+     "end": 5.54,
+     "word": " हैं,",
+     "prob": 0.653
+    },
+    {
+     "start": 5.54,
+     "end": 5.58,
+     "word": " और",
+     "prob": 0.614
+    },
+    {
+     "start": 5.58,
+     "end": 6.4,
+     "word": " आपके",
+     "prob": 0.716
+    },
+    {
+     "start": 6.4,
+     "end": 6.4,
+     "word": " लिए",
+     "prob": 0.864
+    },
+    {
+     "start": 6.4,
+     "end": 6.4,
+     "word": " नहीं",
+     "prob": 0.876
+    },
+    {
+     "start": 6.4,
+     "end": 6.6,
+     "word": " होता",
+     "prob": 0.788
+    },
+    {
+     "start": 6.6,
+     "end": 6.72,
+     "word": " हैं,",
+     "prob": 0.81
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 6.72,
+   "end": 9.8,
+   "text": "और आपके लिए नहीं होता हैं, और आपके लिए नहीं होता हैं,",
+   "avg_logprob": -0.53,
+   "no_speech_prob": 0.151,
+   "words": [
+    {
+     "start": 6.72,
+     "end": 7.04,
+     "word": " और",
+     "prob": 0.812
+    },
+    {
+     "start": 7.04,
+     "end": 7.34,
+     "word": " आपके",
+     "prob": 0.788
+    },
+    {
+     "start": 7.34,
+     "end": 7.92,
+     "word": " लिए",
+     "prob": 0.881
+    },
+    {
+     "start": 7.92,
+     "end": 8.1,
+     "word": " नहीं",
+     "prob": 0.943
+    },
+    {
+     "start": 8.1,
+     "end": 8.74,
+     "word": " होता",
+     "prob": 0.903
+    },
+    {
+     "start": 8.74,
+     "end": 8.86,
+     "word": " हैं,",
+     "prob": 0.868
+    },
+    {
+     "start": 8.86,
+     "end": 9.1,
+     "word": " और",
+     "prob": 0.901
+    },
+    {
+     "start": 9.1,
+     "end": 9.14,
+     "word": " आपके",
+     "prob": 0.866
+    },
+    {
+     "start": 9.14,
+     "end": 9.4,
+     "word": " लिए",
+     "prob": 0.89
+    },
+    {
+     "start": 9.4,
+     "end": 9.4,
+     "word": " नहीं",
+     "prob": 0.965
+    },
+    {
+     "start": 9.4,
+     "end": 9.6,
+     "word": " होता",
+     "prob": 0.94
+    },
+    {
+     "start": 9.6,
+     "end": 9.8,
+     "word": " हैं,",
+     "prob": 0.92
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 9.8,
+   "end": 26.34,
+   "text": "और आपके लिए नहीं होता हैं, और आपके लिए नहीं होता हैं.",
+   "avg_logprob": -0.53,
+   "no_speech_prob": 0.151,
+   "words": [
+    {
+     "start": 9.8,
+     "end": 9.86,
+     "word": " और",
+     "prob": 0.938
+    },
+    {
+     "start": 9.86,
+     "end": 9.98,
+     "word": " आपके",
+     "prob": 0.915
+    },
+    {
+     "start": 9.98,
+     "end": 10.06,
+     "word": " लिए",
+     "prob": 0.922
+    },
+    {
+     "start": 10.06,
+     "end": 10.72,
+     "word": " नहीं",
+     "prob": 0.974
+    },
+    {
+     "start": 10.72,
+     "end": 11.12,
+     "word": " होता",
+     "prob": 0.954
+    },
+    {
+     "start": 11.12,
+     "end": 11.12,
+     "word": " हैं,",
+     "prob": 0.948
+    },
+    {
+     "start": 11.66,
+     "end": 13.1,
+     "word": " और",
+     "prob": 0.946
+    },
+    {
+     "start": 13.1,
+     "end": 13.96,
+     "word": " आपके",
+     "prob": 0.929
+    },
+    {
+     "start": 13.96,
+     "end": 13.96,
+     "word": " लिए",
+     "prob": 0.949
+    },
+    {
+     "start": 13.96,
+     "end": 18.48,
+     "word": " नहीं",
+     "prob": 0.979
+    },
+    {
+     "start": 18.48,
+     "end": 18.58,
+     "word": " होता",
+     "prob": 0.964
+    },
+    {
+     "start": 18.58,
+     "end": 26.34,
+     "word": " हैं.",
+     "prob": 0.967
+    }
+   ]
+  }
+ ]
+}
