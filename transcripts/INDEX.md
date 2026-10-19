@@ -17,7 +17,7 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | AUD-20261015-WA0000.opus |  | 0:32 | hi (detector: hi 0.99) | Not an interview: a speaker describes sending crypto to a friend's wallet whose private key had leaked, and the funds being drained instantly; warns to keep private keys safe | Clear speech; transcript readable. Unrelated to the dogs project; fair (mean logprob -0.40) | [txt](AUD-20261015-WA0000/AUD-20261015-WA0000.txt) |
 | Agrim.m4a | 14/10/2026 22:55 | 2:52 | hi (detector: hi 0.91) | Student (EC dept, 3rd year) on dogs inside bhawans (e.g. Jawahar), aggressive dogs, a dog asleep next to a friend in his room, CMO advice that even a scratch is a bite (rabies risk); fine with dogs on roads near MAC/MNC/SAC but not inside hostels; suggests designated shelters | Good for field audio; English words kept in Latin script; fair (mean logprob -0.41) | [txt](Agrim/Agrim.txt) |
 | Archi dept ma’am.m4a | 19/10/2026 02:37 (export time) | 5:06 |  | not transcribed yet |  |  |
-| Cautley Bhawan 2.m4a | 19/10/2026 14:30 (export time) | 4:12 |  | not transcribed yet |  |  |
+| Cautley Bhawan 2.m4a | 19/10/2026 14:30 (export time) | 4:12 | hi (detector: en 0.83) | not yet reviewed | poor (mean logprob -0.78) | [txt](Cautley%20Bhawan%202/Cautley%20Bhawan%202.txt) |
 | Cautley Bhawan.m4a | 19/10/2026 14:29 (export time) | 5:00 |  | not transcribed yet |  |  |
 | Chayan.m4a | 14/10/2026 23:00 | 3:26 | hi (detector: hi 0.94) | Student: most dogs live in harmony but a few aggressive ones cause trouble (e.g. one near Rajendra Bhawan) and should be identified and moved; dogs messing up rooms; hygiene concerns in mess and water coolers; not aware of CCF | Fair; several long untranscribed gaps; fair (mean logprob -0.54) | [txt](Chayan/Chayan.txt) |
 | IMG_0570.MOV | 23/08/2026 19:24 | 0:17 |  | not transcribed yet |  |  |
@@ -32,11 +32,11 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | IMG_5269.MOV | 23/08/2026 19:50 | 1:18 |  | not transcribed yet |  |  |
 | IMG_9397.MOV | 14/10/2026 22:03 | 0:23 |  | not transcribed yet |  |  |
 | IMG_9400.MOV | 14/10/2026 22:11 | 0:12 |  | not transcribed yet |  |  |
-| Indian Institute of Technology 2.m4a | 19/10/2026 14:29 (export time) | 4:57 |  | not transcribed yet |  |  |
+| Indian Institute of Technology 2.m4a | 19/10/2026 14:29 (export time) | 4:57 | hi (detector: hi 0.85) | not yet reviewed | poor (mean logprob -0.65) | [txt](Indian%20Institute%20of%20Technology%202/Indian%20Institute%20of%20Technology%202.txt) |
 | Indian Institute of Technology 3.m4a | 19/10/2026 14:30 (export time) | 5:16 |  | not transcribed yet |  |  |
 | Indian Institute of Technology.m4a | 19/10/2026 14:30 (export time) | 4:57 |  | not transcribed yet |  |  |
 | Jawahar bhawan guard.m4a | 19/10/2026 02:37 (export time) | 2:31 | hi (detector: hi 0.63) | Jawahar Bhawan guard on dogs entering rooms and fouling, chasing bikes, a student injured falling while fleeing a dog; guards can only shoo dogs and report upward; feels dogs should be kept out of the hostel; a feeding zone exists outside | Fair; readable gist with some repeated lines; fair (mean logprob -0.49) | [txt](Jawahar%20bhawan%20guard/Jawahar%20bhawan%20guard.txt) |
-| Jawahar rishit.m4a | 19/10/2026 02:37 (export time) | 3:27 | hi (detector: hi 0.86) | not yet reviewed | poor (mean logprob -0.56) | [txt](Jawahar%20rishit/Jawahar%20rishit.txt) |
+| Jawahar rishit.m4a | 19/10/2026 02:37 (export time) | 3:27 | hi (detector: hi 0.86) | Student in Jawahar Bhawan: little interaction with dogs except at canteen doors and crowded areas; dogs have entered his room a couple of times; dogs carry off and tear shoes left outside rooms; feeders should use feeding zones; doubts shelters would work; says dogs should be sterilised | Fair; gist recoverable; poor (mean logprob -0.56) | [txt](Jawahar%20rishit/Jawahar%20rishit.txt) |
 | Mac balu.m4a | 16/10/2026 18:59 | 9:21 |  | not transcribed yet |  |  |
 | Mac guard.m4a | 14/10/2026 23:51 | 3:22 | hi (detector: hi 0.93) | MAC guard: a dog once bit him; says most people are dog lovers; dogs get medical care/injections; hospital reports more bite cases in 1-2 years, blamed on outside dogs; one or two dogs per bhawan are fine, extras should be removed; child safety comes first | Fair; readable gist; fair (mean logprob -0.47) | [txt](Mac%20guard/Mac%20guard.txt) |
 | Malishka pt1.m4a | 25/09/2026 01:15 (from WhatsApp copy) | 2:57 | hi (detector: en 0.78) | Opening of a conversation recorded 25/9 (same audio as the WhatsApp attachment of 25/9 01:15 IST); content largely unintelligible in the transcript | Poor: mostly garbled, long silent gap (0:49-2:41); poor (mean logprob -1.18) | [txt](Malishka%20pt1/Malishka%20pt1.txt) |
@@ -80,5 +80,5 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | WhatsApp Video 2026-10-19 at 3.46.14 PM (1).mp4 |  | 0:14 |  | not transcribed yet |  |  |
 | WhatsApp Video 2026-10-19 at 3.46.14 PM.mp4 |  | 0:22 |  | not transcribed yet |  |  |
 
-Transcribed so far: 17 recordings, 0.56 h (duplicates not counted).
-Generated 19/10/2026 18:13 IST by `pipeline/make_index.py`.
+Transcribed so far: 19 recordings, 0.71 h (duplicates not counted).
+Generated 19/10/2026 18:29 IST by `pipeline/make_index.py`.
