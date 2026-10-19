@@ -93,4 +93,4 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | VID-20261016-WA0018.mp4 |  | 9:39 | en (detector: en 0.77) | not yet reviewed | poor (mean logprob -0.61) | [txt](VID-20261016-WA0018/VID-20261016-WA0018.txt) · [en](VID-20261016-WA0018/VID-20261016-WA0018.en.txt) |
 
 Transcribed so far: 32 recordings, 3.00 h (duplicates not counted).
-Generated 19/10/2026 22:30 IST by `pipeline/make_index.py`.
+Generated 19/10/2026 22:32 IST by `pipeline/make_index.py`.
