@@ -202,6 +202,7 @@ def main():
     ap.add_argument("--blur-backend", default="auto", choices=["auto", "egoblur", "yunet"])
     ap.add_argument("--no-blur", action="store_true"); ap.add_argument("--no-transcribe", action="store_true")
     ap.add_argument("--only", help="process only this raw filename")
+    ap.add_argument("--files-from", help="process only the raw filenames listed in this file, in that order")
     ap.add_argument("--force", action="store_true", help="redo stages even if outputs exist")
     ap.add_argument("--dry-run", action="store_true", help="show what would be ingested; change nothing")
     args = ap.parse_args()
@@ -218,6 +219,10 @@ def main():
         d = float(r.get("duration_s") or 0)
         return (0 if r["type"] == "audio" else 1 if r["type"] == "video" and d >= 60 else 2, d)
     todo.sort(key=prio)
+    if args.files_from:
+        order = [l.strip() for l in open(args.files_from, encoding="utf-8") if l.strip()]
+        rank = {n: i for i, n in enumerate(order)}
+        todo = sorted([r for r in todo if r["file"] in rank], key=lambda r: rank[r["file"]])
     if not todo:
         log("nothing to do"); return
     for r in todo:
