@@ -81,4 +81,4 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | WhatsApp Video 2026-10-19 at 3.46.14 PM.mp4 |  | 0:22 |  | not transcribed yet |  |  |
 
 Transcribed so far: 28 recordings, 1.71 h (duplicates not counted).
-Generated 19/10/2026 20:03 IST by `pipeline/make_index.py`.
+Generated 19/10/2026 20:18 IST by `pipeline/make_index.py`.
