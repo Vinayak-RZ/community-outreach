@@ -11,7 +11,7 @@ from datetime import datetime
 
 ROOT = os.environ.get("MEDIA_ROOT", "/workspace/library/acads/community-outreach/media")
 PIPE = os.path.dirname(os.path.abspath(__file__))
-FIELDS = ["file", "sha256", "date_added", "type", "duration_s", "language", "transcript_path",
+FIELDS = ["file", "sha256", "audio_md5", "date_added", "type", "duration_s", "language", "transcript_path",
           "translation_path", "blurred_path", "status", "notes"]
 AUDIO_EXT = {".mp3", ".m4a", ".wav", ".ogg", ".opus", ".aac", ".flac", ".amr", ".wma", ".3gp"}
 VIDEO_EXT = {".mp4", ".mov", ".mkv", ".webm", ".avi", ".m4v", ".3gp", ".mts"}
@@ -70,6 +70,14 @@ def media_type(path):
     return "other", dur
 
 
+def audio_md5(path):
+    """MD5 of the decoded audio track: catches re-exports/forwards of the same recording
+    whose container bytes (timestamps etc.) differ."""
+    p = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", path, "-map", "0:a:0", "-f", "md5", "-"],
+                       capture_output=True, text=True)
+    return p.stdout.strip().removeprefix("MD5=") if p.returncode == 0 else ""
+
+
 def unique_raw_name(name):
     dst = D("raw", name)
     if not os.path.exists(dst):
@@ -89,6 +97,10 @@ def run(cmd, logname):
 
 def ingest(rows, dry):
     known = {r["sha256"]: r for r in rows}
+    for r in rows:  # backfill audio fingerprints for rows from older manifests
+        if not r.get("audio_md5") and r["type"] in ("audio", "video") and not r["status"].startswith("duplicate"):
+            r["audio_md5"] = audio_md5(D("raw", r["file"]))
+    by_audio = {r["audio_md5"]: r for r in rows if r.get("audio_md5") and not r["status"].startswith("duplicate")}
     for name in sorted(os.listdir(D("inbox"))):
         src = D("inbox", name)
         if name.startswith(".") or name.startswith("_") or not os.path.isfile(src):
@@ -100,16 +112,32 @@ def ingest(rows, dry):
                 os.makedirs(D("inbox", "_duplicates"), exist_ok=True)
                 shutil.move(src, D("inbox", "_duplicates", name))
             continue
-        rname = unique_raw_name(name)
         mtype, dur = media_type(src)
+        amd5 = audio_md5(src) if mtype in ("audio", "video") else ""
+        if amd5 and amd5 in by_audio and mtype == "audio":
+            orig = by_audio[amd5]
+            log(f"same audio as {orig['file']}: {name} -> inbox/_duplicates/ (reusing its transcript)")
+            if not dry:
+                os.makedirs(D("inbox", "_duplicates"), exist_ok=True)
+                shutil.move(src, D("inbox", "_duplicates", name))
+                rows.append({"file": "_duplicates/" + name, "sha256": h, "audio_md5": amd5,
+                             "date_added": datetime.now().strftime("%Y-%m-%d %H:%M"), "type": mtype, "duration_s": dur,
+                             "language": orig.get("language", ""), "transcript_path": orig.get("transcript_path", ""),
+                             "translation_path": orig.get("translation_path", ""),
+                             "status": f"duplicate of {orig['file']}", "notes": "identical decoded audio; not reprocessed"})
+                known[h] = rows[-1]; save_manifest(rows)
+            continue
+        rname = unique_raw_name(name)
         log(f"ingest {name} -> raw/{rname} ({mtype}, {dur or '?'} s)")
         if dry:
             continue
         shutil.move(src, D("raw", rname))
         os.chmod(D("raw", rname), 0o444)  # originals are never modified
         r = {"file": rname, "sha256": h, "date_added": datetime.now().strftime("%Y-%m-%d %H:%M"),
-             "type": mtype, "duration_s": dur, "status": "pending"}
+             "audio_md5": amd5, "type": mtype, "duration_s": dur, "status": "pending"}
         rows.append(r); known[h] = r
+        if amd5:
+            by_audio[amd5] = r
         save_manifest(rows)
 
 
@@ -123,6 +151,7 @@ def process(r, args):
             cmd = [os.path.join(PIPE, "transcribe"), raw, "-o", tdir, "--stem", stem]
             if args.language: cmd += ["-l", args.language]
             if args.translate: cmd.append("--translate")
+            if os.path.exists(tjson) and not args.force: cmd.append("--reuse-transcript")
             if args.model: cmd += ["-m", args.model]
             if args.initial_prompt: cmd += ["--initial-prompt", args.initial_prompt]
             log(f"transcribe {r['file']}")
@@ -152,8 +181,13 @@ def process(r, args):
             r["blurred_path"] = os.path.relpath(out_path, ROOT)
     if r["type"] == "other":
         r["status"] = "skipped (unsupported type)"
+    elif errors:
+        r["status"] = "error: " + "; ".join(errors)
     else:
-        r["status"] = "error: " + "; ".join(errors) if errors else "done"
+        missing = []
+        if r["type"] in ("audio", "video") and not r.get("transcript_path"): missing.append("transcript")
+        if r["type"] in ("video", "image") and not r.get("blurred_path"): missing.append("blur")
+        r["status"] = "partial (no " + ", ".join(missing) + ")" if missing else "done"
     if notes or errors:
         r["notes"] = "; ".join(notes + errors)
     log(f"{r['file']}: {r['status']}")
@@ -177,8 +211,13 @@ def main():
     ingest(rows, args.dry_run)
     if args.dry_run:
         return
-    todo = [r for r in rows if (r["status"] != "done" or args.force or args.translate and not r.get("translation_path")
+    todo = [r for r in rows if not r["status"].startswith("duplicate") and (r["status"] != "done" or args.force or args.translate and not r.get("translation_path")
                                 and r["type"] in ("audio", "video")) and (not args.only or r["file"] == args.only)]
+    # Transcripts first: interview audio, then long videos (>=60 s), then short clips.
+    def prio(r):
+        d = float(r.get("duration_s") or 0)
+        return (0 if r["type"] == "audio" else 1 if r["type"] == "video" and d >= 60 else 2, d)
+    todo.sort(key=prio)
     if not todo:
         log("nothing to do"); return
     for r in todo:
