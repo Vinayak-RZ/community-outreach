@@ -85,7 +85,7 @@ def main():
     ap.add_argument("--stem", help="output basename (default: input filename without extension)")
     ap.add_argument("-l", "--language", default=None,
                     help="force language code (hi, en, ...). 'auto-hi' = treat as Hindi unless the model is "
-                         ">=0.97 sure it's English (Whisper often mislabels Hinglish as English). Default: plain auto")
+                         ">=0.7 sure it's English (Whisper often mislabels Hinglish as English). Default: plain auto")
     ap.add_argument("--translate", action="store_true", help="also produce an English translation (.en.*)")
     ap.add_argument("-m", "--model", default=os.environ.get("WHISPER_MODEL", "medium"))
     ap.add_argument("--translate-model", default=os.environ.get("WHISPER_TRANSLATE_MODEL", "medium"),
@@ -136,7 +136,8 @@ def main():
             lg, pr, allp = model.detect_language(decode_audio(wav), language_detection_segments=4)
             detection = {"detected": lg, "probability": round(pr, 3),
                          "top": [[l, round(p, 3)] for l, p in allp[:3]]}
-            args.language = "en" if (lg == "en" and pr >= 0.97) else "hi"
+            # medium labels Hindi/Hinglish field audio as hi (0.5-0.99); en >= 0.7 has meant English speech.
+            args.language = "en" if (lg == "en" and pr >= 0.7) else "hi"
         segs, info, el = run_pass(model, wav, "transcribe", args)
         meta = {"source_file": os.path.basename(src), "created": datetime.now(timezone.utc).isoformat(),
                 "model": args.model, "device": device, "compute_type": compute,
