@@ -44,7 +44,7 @@ For Topic 3 the deck asks: *"What happens when it's not safe to walk in a campus
 ## Method
 | Strand | What | Status (19/10/2026) |
 |---|---|---|
-| Interviews | Guards (gates, bhawans, MAC, MNC), canteen and mess staff, students, faculty, a CCF member, the CMO at the institute hospital | ~40 audio and video files on Drive, ~113 min of audio downloaded. CMO interview 13/10, notes only (recording not allowed). Not yet transcribed. |
+| Interviews | Guards (gates, bhawans, MAC, MNC), canteen and mess staff, students, faculty, a CCF member, the CMO at the institute hospital | ~40 audio and video files on Drive, ~113 min of audio downloaded. CMO interview 13/10, notes only (recording not allowed). Being transcribed (see Status). |
 | CCF meeting | Google Meet with a CCF office-bearer, 24/9: feeding, medical care, sterilisation, shelter, hotspots | Auto-transcript in `source/ccf-gmeet-transcript.txt` |
 | Survey | Google Form "Condition of Dogs in campus", 13–17/10 | **211 responses**, analysed in `analysis/survey-analysis.md` |
 | Field observation | Fieldwork night 14/10, hostel and campus videos and photos (several GPS-tagged), field notes | Media in release `source-media-v1`; notes in `source/gandagi.md` |
@@ -83,7 +83,7 @@ Audio, video and other large binaries are **never committed**; `.gitignore` bloc
 ## Media pipeline (brief)
 `pipeline/` runs on the team's shared processing machine (see `pipeline/README.md`):
 - New media dropped into the inbox is fingerprinted (SHA-256) and stored read-only.
-- It's transcribed with faster-whisper (large-v3-turbo; Hindi, English or mixed; optional English translation).
+- It's transcribed with faster-whisper, using the `medium` model in float32 on CPU (Hindi, English or mixed, with an English translation). Medium replaced large-v3-turbo: on the noisy Hindi field recordings turbo produced garbled text and sometimes labelled Hindi speech as English, so it output English instead of a transcript. int8 was garbled on this machine, and full large-v3 didn't fit in memory.
 - Faces in videos and photos are blurred (EgoBlur / YuNet).
 - Everything is logged in `manifest.csv`.
 - Transcripts land in `transcripts/`. Machine transcripts must be checked against the audio before quoting.
