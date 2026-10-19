@@ -6,7 +6,7 @@ WhatsApp group "Comm Kaam", created by Vinayak on 19/10/2026. He is the only mem
 |---|---|
 | `messages.md` | All texts verbatim, plus captions and which media went with which time block |
 | `media-log.csv` | One row per media item (P01–P25 photos, V01–V25 videos, A01 audio): file, kind, duration, forwarded time, original date, GPS, caption context, location stated or visible, inside a building?, what it shows, duplicate_of, notes |
-| `media/` | 22 of the 25 photos (3.3 MB) |
+| `photos/` | 22 of the 25 photos (3.3 MB). The folder is named photos/, not media/, because the repo .gitignore ignores every media/ directory |
 
 **Not committed:**
 - **Three photos**, kept on the box only (`/workspace/library/acads/community-outreach/source/whatsapp-comm-kaam/media/`). They're screenshots showing survey respondents' names or emails, and the repo copy of the survey is de-identified.
