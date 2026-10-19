@@ -81,7 +81,7 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | WhatsApp Video 2026-10-19 at 3.46.14 PM.mp4 |  | 0:22 |  | not transcribed yet |  |  |
 | 20261013_120723.mp4 | 13/10/2026 12:09 | 1:42 |  | not transcribed yet |  |  |
 | IMG_0576.MOV | 23/08/2026 19:33 | 3:44 |  | not transcribed yet |  |  |
-| IMG_5268.MOV | 23/08/2026 19:37 | 9:45 |  | not transcribed yet |  |  |
+| IMG_5268.MOV | 23/08/2026 19:37 | 9:45 | hi (detector: hi 0.51) | not yet reviewed | poor (mean logprob -0.66, 11 repeated lines) | [txt](IMG_5268/IMG_5268.txt) · [en](IMG_5268/IMG_5268.en.txt) |
 | IMG_9395.MOV | 14/10/2026 21:53 | 3:20 |  | not transcribed yet |  |  |
 | IMG_9401.MOV | 14/10/2026 22:12 | 3:13 |  | not transcribed yet |  |  |
 | IMG_9402.MOV | 14/10/2026 22:25 | 3:45 |  | not transcribed yet |  |  |
@@ -92,5 +92,5 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | Recording 2026-09-25 163540.mp4 | 24/09/2026 21:47 | 36:26 | en (detector: en 0.99) | not yet reviewed | fair (mean logprob -0.46) | [txt](Recording%202026-09-25%20163540/Recording%202026-09-25%20163540.txt) · [en](Recording%202026-09-25%20163540/Recording%202026-09-25%20163540.en.txt) |
 | VID-20261016-WA0018.mp4 |  | 9:39 |  | not transcribed yet |  |  |
 
-Transcribed so far: 30 recordings, 2.68 h (duplicates not counted).
-Generated 19/10/2026 21:18 IST by `pipeline/make_index.py`.
+Transcribed so far: 31 recordings, 2.84 h (duplicates not counted).
+Generated 19/10/2026 22:23 IST by `pipeline/make_index.py`.
