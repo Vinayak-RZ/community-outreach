@@ -10,7 +10,7 @@ Vansh Gautam (team lead, group admin), Vinayak Raizada, Jay D, Vrinda Gupta, Jiy
 
 <!-- status:start -->
 ## Status
-_Last updated: 19 Oct 2026, 18:30 IST. Numbers are refreshed from the pipeline's `manifest.csv` each time transcripts are pushed._
+_Last updated: 19 Oct 2026, 18:44 IST. Numbers are refreshed from the pipeline's `manifest.csv` each time transcripts are pushed._
 
 **Collected**
 - Survey: 211 responses (13–17/10), de-identified copy in `source/survey/`.
@@ -19,7 +19,7 @@ _Last updated: 19 Oct 2026, 18:30 IST. Numbers are refreshed from the pipeline's
 - 3 more files were exact re-sends of recordings already held (same decoded audio) and aren't counted.
 - Releases: [`source-media-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/source-media-v1), [`comm-kaam-media-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/comm-kaam-media-v1), [`raw-drive-videos-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/raw-drive-videos-v1).
 
-**Transcribed**: 19 of 80 recordings (0.71 of 3.95 h); interview audio 19 of 29. English translations: 0. See [`transcripts/INDEX.md`](transcripts/INDEX.md). Machine transcripts: check against the audio before quoting.
+**Transcribed**: 22 of 80 recordings (0.96 of 3.95 h); interview audio 22 of 29. English translations: 0. See [`transcripts/INDEX.md`](transcripts/INDEX.md). Machine transcripts: check against the audio before quoting.
 
 **Analysis**: the survey analysis is in [`analysis/survey-analysis.md`](analysis/survey-analysis.md) (headline results below). Interview coding hasn't started: `interviews/` holds only its README so far.
 
