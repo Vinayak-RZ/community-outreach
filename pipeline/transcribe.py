@@ -27,10 +27,11 @@ def run_pass(model, wav, task, args):
     lang = "en" if task == "en-decode" else args.language
     task = "transcribe" if task == "en-decode" else task
     segments, info = model.transcribe(
-        wav, task=task, language=lang, beam_size=args.beam_size,
+        # Translation uses greedy decoding (2-3x cheaper on this shared CPU; it's a reading aid, not a quote source).
+        wav, task=task, language=lang, beam_size=args.beam_size if task == "transcribe" else 1,
         # Limited temperature fallback + mild repetition penalty: full fallback (6 temps) made
         # noisy field audio 3-5x slower, and temp 0 alone looped ("क्या किस लिए?" x14).
-        temperature=[0.0, 0.4], repetition_penalty=1.1,
+        temperature=[0.0, 0.4], best_of=2, repetition_penalty=1.1,
         vad_filter=not args.no_vad, word_timestamps=True,
         # The vocabulary prompt helps transcription but gets echoed verbatim by the translate task.
         initial_prompt=args.initial_prompt if task == "transcribe" else None,
@@ -93,7 +94,8 @@ def main():
     ap.add_argument("--device", default="auto", help="auto | cpu | cuda")
     ap.add_argument("--compute-type", default=os.environ.get("WHISPER_COMPUTE", "float32"),
                     help="float32 on this CPU box: int8 output is garbled here (CTranslate2 4.8 + AMX CPU)")
-    ap.add_argument("--threads", type=int, default=os.cpu_count())
+    ap.add_argument("--threads", type=int, default=int(os.environ.get("WHISPER_THREADS", 4)),
+                    help="CPU threads (4: using all 8 on the shared box made decoding several times slower)")
     ap.add_argument("--beam-size", type=int, default=5)
     ap.add_argument("--initial-prompt", default=None,
                     help="optional context/vocab hint, e.g. 'IIT Roorkee campus dogs, Hinglish interview'")
