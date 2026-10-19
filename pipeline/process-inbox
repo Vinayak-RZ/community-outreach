@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$DIR/config.sh"
+mkdir -p "$MEDIA_ROOT/logs"
+# One run at a time (the box is shared by several agents).
+exec 9>"$MEDIA_ROOT/logs/.process-inbox.lock"
+flock -n 9 || { echo "another process-inbox run is active; exiting" >&2; exit 1; }
+exec "$WHISPER_VENV/bin/python" "$DIR/process_inbox.py" "$@"
