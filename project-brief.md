@@ -1,7 +1,7 @@
 # Project brief: EEC 399 Community Outreach, "Campus dogs: two sides of one street" (group 23)
 
 INTERNAL ONLY — classmates' and interviewees' material. Lives in the PRIVATE repo Vinayak-RZ/community-outreach (formerly "Illusion"; private since 19/10/2026). Don't publish it or put interviewee names on the poster.
-Updated 19/10/2026 by Acads (survey added 19/10 afternoon).
+Updated 19/10/2026 by Acads (survey added 19/10 afternoon; Comm Kaam material 19/10, 4:30 pm IST).
 
 **Source keys**
 - Paths are relative to the repo root. Audio/video live in GitHub release `source-media-v1` (see source/README.md).
@@ -9,6 +9,7 @@ Updated 19/10/2026 by Acads (survey added 19/10 afternoon).
 - [PPTX s#] = course deck, slide number (source/whatsapp/extracted/)
 - [CCF-Meet] = source/ccf-gmeet-transcript.txt (Tactiq auto-transcript of the 24/9 CCF Google Meet; nandini interviewing Aryan Raj, CCF Joint Secretary Operations). Machine transcript, often garbled: treat numbers as unconfirmed.
 - [Gandagi] = source/gandagi.md (Vinayak's Google Doc, 24/9)
+- [CK hh:mm] = source/whatsapp-comm-kaam/messages.md (WhatsApp group "Comm Kaam", items forwarded by Vinayak on 19/10; original senders and dates not shown). [CK-log Pnn/Vnn] = source/whatsapp-comm-kaam/media-log.csv.
 - [Survey] = source/survey/survey-responses.csv + analysis/survey-analysis.md (211 responses, read 19/10)
 - [Drive-inv] = source/drive-inventory.csv; [Media-meta] = source/media-metadata.csv (ffprobe/EXIF of the downloaded files)
 
@@ -149,6 +150,42 @@ Full write-up: analysis/survey-analysis.md. Charts: analysis/figures/.
 - **Proposed Record KPI wording (for the team to agree):** "1 survey dataset (211 respondents) + 1 hotspot map, each with a method note." The achieved figure for the survey part is 211. Don't add a target number retroactively without team agreement.
 - The survey's place mentions (MNC, Govind, Rajiv/RJB, Kasturba, MAC, Himalaya, Thomson lane, LBS, LHC) [Survey §6] plus the GPS-tagged videos can seed the hotspot map, the second Record artefact.
 
+### New from "Comm Kaam" (19/10) [CK; CK-log]
+**Guards' side: forwarded field notes** [CK 3:47]. They're unattributed but read as notes from the guard interviews. Paraphrased; the original wording is in messages.md.
+- Dogs tear clothes. Problems are worse in winter and at night.
+- "50% against and for": the guards' sense of how opinion splits. It's a rough impression, not a measured figure.
+- A dog attack near Govind ("but a guy in bag": unclear).
+- **Guards are caught in the middle.** Students pressure them not to act against dogs, but they feel a moral responsibility for safety. "Dog lovers have never been troubled [by] dogs and do not let guards take aggressive actions against dogs."
+- **"4 saal pehle"** (about 4 years ago), a **dog house was built near KB and Govind** for food and shelter, and later removed. Compare CCF: the medical shelter moved from DS Barracks behind Govind to near Kasturba / the badminton hall [CCF-Meet]; and nandini relayed a guard (Govind) saying shelters built 3–4 years ago failed because dogs kept escaping [CCF-Meet]. Same history, three slightly different accounts. Check with CCF and Estate.
+- **Sterilisation:** "A govt doc did fertilization [sterilisation] of dogs but iit admin did objection", and "careless sterilization drives". Compare CCF's claim that almost all female dogs are neutered [CCF-Meet]. This conflict needs a record (ABC / vet records).
+- **Guards' view: "complete removal".** Dogs are a "menace for the guards".
+- **Property damage:** dogs "tore away couches in archi and chem dept" (department property).
+- "Bus ek ye govind wala hi hai" ("only this Govind one"): context unclear.
+
+**Student complaints (screenshots of a Jawahar Bhawan "Complaints" WhatsApp group, undated)** [CK-log P12, P13]
+- A student reports a dog barking at them near B Block and asks who would be responsible if it bites a student, and for more guards in Jawahar, stationed at different places.
+- Another says that after a **"director mail regarding dog menace"**, students still fed dogs near the night canteen, and that **"it's strictly prohibited to feed dogs outside feeding zones"**.
+- This is the first sign of a written **policy** (a director's email and feeding-zone rules). Getting a copy of that email would serve "Facts on record" (deck slide 8). Unverified until then.
+
+**Other items**
+- **Photos with the Chief Medical Officer at the institute hospital** (P18–P20, P22; the name board is visible). These are evidence of the CMO visit [chat 13/10]. Faces are visible, so blur them before any external use, and don't put them on the poster ("team selfie", slide 21).
+- **A survey respondent asked which authority was running the survey.** The team replied (13/10) that it's for the EE B.Tech 3rd-year community outreach course [CK-log P21, P23]. This fits Vrinda's remark that people think it's official [chat 16/10] and belongs in the survey method note.
+- **The KPI table image** (P24) is deck slide 16, word for word. **The "Dogs in a group?" poster** (P25) is Vinayak's 15/10 awareness poster. Both are transcribed, with their KPI implications, in source/whatsapp-comm-kaam/README.md.
+- **Duplicates:**
+  - The 11:33 audio is byte-identical to `ccf bhavagna interview.mp4`.
+  - The CCF transcript PDF is byte-identical to the Drive copy.
+  - V22 and V23 duplicate comm3 and comm.
+  - V13–V18 are re-encodes of the 23/8 IMG_52xx videos.
+  - V20 (3:45) and V21 (9:27) match the lengths of Jay's 24/9 voice notes [chat 24/9] and look like interview sessions. Both are staged for transcription.
+
+**Dogs-inside-buildings media log** [CK-log]
+- 15 items show dogs inside hostels or departments:
+  - photos P01, P02, P04–P07, P09, P10, P14 (corridors, a washroom with a tipped bin, outside room doors, next to a bed)
+  - videos V02–V05, V19, V25 (office or lab rooms, asleep on a chair, on a bed, in a study room)
+- Captions name CB 7th floor, CB 8th and A block 5th floor [CK 3:33, 3:46].
+- Other items show packs on roads, night feeding (V09–V10), and a dog in a box outside Satkar Canteen (V23).
+- **Limitation:** WhatsApp removed every date and GPS tag, so these aren't "geotagged / dated" evidence (slide 18) until we get originals or dated statements from whoever took them.
+
 ---
 
 ## KPI table draft (targets to be agreed by the team)
@@ -156,10 +193,10 @@ The deck asks for five rows with targets set by the team, achieved figures and e
 
 | KPI | What the course wants [PPTX s16-17] | Evidence we have now | Missing / to do |
 |---|---|---|---|
-| **Reach** (people engaged) | Count of people engaged; evidence: consent sheet + contact log | ~21 person/place-labelled recordings + CCF interview (17/9) + CCF Meet (24/9) + CMO interview (13/10, notes only) [Drive-inv; CCF-Meet; chat 13/10]. **211 survey responses** (209 students), verified from the sheet [Survey]. | **No consent sheets** found anywhere (chat or Drive). No contact log. De-duplicate recordings (IIT 1 vs 2; Malishka pt1/2 = 1 person; Cautley ×2, Neh Road ×3 may be 1-3 people). Target 30+ interviews [chat 13/10]. |
+| **Reach** (people engaged) | Count of people engaged; evidence: consent sheet + contact log | Guards' field notes [CK 3:47]; ~21 person/place-labelled recordings + CCF interview (17/9) + CCF Meet (24/9) + CMO interview (13/10, notes only) [Drive-inv; CCF-Meet; chat 13/10]. **211 survey responses** (209 students), verified from the sheet [Survey]. | **No consent sheets** found anywhere (chat or Drive). No contact log. De-duplicate recordings (IIT 1 vs 2; Malishka pt1/2 = 1 person; Cautley ×2, Neh Road ×3 may be 1-3 people). Target 30+ interviews [chat 13/10]. |
 | **Depth** (person-hours) | Person-hours; evidence: dated field diary | ~113 min audio + ~20 min video downloaded; the 12 large videos (7.6 GB, not downloaded) are not yet measured [Media-meta]. Dated sessions: 23/8 meetup, 17/9 CCF, 24/9 hospital + CCF Meet, 13/10 CMO, 14/10 fieldwork night, 16/10 interviews [chat]. | **No field diary.** Vrinda flagged hours proof on 12/10 [chat 12/10]. Need a dated diary (date, place, who went, hours) reconstructed from chat + file timestamps, and a person-hours total. |
-| **Record** (new dataset + method note) | A new dataset with a method note | **Survey dataset: 211 responses × 8 questions**, de-identified CSV/XLSX, a data dictionary (exact wording, options, required flags, scale labels), coded columns, reproducible scripts and 6 charts [Survey; source/survey/data-dictionary.md; analysis/figures/]. Geotagged videos of dog locations (23/8, 14/10) [Media-meta]. Hotspots named by CCF, Gandagi, the chat and 14 survey answers [CCF-Meet; Gandagi; chat; Survey §6]. | A **method note** for the survey: how it was circulated, dates, sampling caveats, the missing removal option (draft material in analysis/survey-analysis.md §1, §7). A second coder to check the free-text coding. **Hotspot map not built.** Interviews not transcribed or coded. |
-| **Output** (something handed back, acknowledged) | e.g. written submission to an office, with acknowledgement | Vinayak's awareness poster draft (15/10) [chat 15-16/10]; emails to director/CMO and hospital chairperson (15-16/10) [chat]. | Nothing handed back yet. No acknowledgement. Candidate: a written findings note + awareness poster submitted to CCF / Chief Warden / hospital, with a signed or emailed acknowledgement. |
+| **Record** (new dataset + method note) | A new dataset with a method note | **Survey dataset: 211 responses × 8 questions**, de-identified CSV/XLSX, a data dictionary (exact wording, options, required flags, scale labels), coded columns, reproducible scripts and 6 charts [Survey; source/survey/data-dictionary.md; analysis/figures/]. Geotagged videos of dog locations (23/8, 14/10) [Media-meta]. Hotspots named by CCF, Gandagi, the chat and 14 survey answers [CCF-Meet; Gandagi; chat; Survey §6]. | A **method note** for the survey: how it was circulated, dates, sampling caveats, the missing removal option (draft material in analysis/survey-analysis.md §1, §7). A second coder to check the free-text coding. **Hotspot map not built.** Interviews not transcribed or coded. Comm Kaam media log (15 dogs-inside-buildings items) has no dates or GPS: get originals [CK-log]. |
+| **Output** (something handed back, acknowledged) | e.g. written submission to an office, with acknowledgement | Vinayak's awareness poster draft (15/10) [chat 15-16/10]; emails to director/CMO and hospital chairperson (15-16/10) [chat]. | Nothing handed back yet. No acknowledgement. Candidate: a written findings note + the "Dogs in a group?" poster (transcribed in source/whatsapp-comm-kaam/README.md) submitted to CCF / Chief Warden / hospital, with a signed or emailed acknowledgement. A copy of the "director mail regarding dog menace" [CK-log P13] would show which office to address. |
 | **Change** (one concrete shift, in writing) | One concrete shift confirmed in writing | None. (Extra guards near Chem/Phy/Govind [Gandagi] predate and aren't caused by the project.) | Need one small, confirmable change, e.g. the awareness poster put up at MAC/one bhawan with CCF permission [chat 15-16/10], confirmed in writing by CCF or the bhawan. |
 
 ## Top gaps (for KPI table and poster)
