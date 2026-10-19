@@ -3,12 +3,15 @@
 
 Replaces the text between <!-- status:start --> and <!-- status:end --> in README.md.
 Only counts things that can be read from the manifest, the inbox and the repo.
+Rule: never commit the status on its own. Run this right before every commit and stage
+README.md in that same commit (`--stage` does the `git add`; `pipeline/commit` wraps it all).
 """
 import csv, json, os, subprocess, sys
 from datetime import datetime, timedelta, timezone
 
 ROOT = os.environ.get("MEDIA_ROOT", "/workspace/library/acads/community-outreach/media")
-README = sys.argv[1] if len(sys.argv) > 1 else "/workspace/repos/Illusion/README.md"
+args = [a for a in sys.argv[1:] if a != "--stage"]
+README = args[0] if args else "/workspace/repos/Illusion/README.md"
 IST = timezone(timedelta(hours=5, minutes=30))
 REL = "https://github.com/Vinayak-RZ/community-outreach/releases/tag/"
 
@@ -62,4 +65,6 @@ if a not in s:
     raise SystemExit("status markers not found in README")
 i, j = s.index(a) + len(a), s.index(b)
 open(README, "w", encoding="utf-8").write(s[:i] + "\n" + block + s[j:])
+if "--stage" in sys.argv:
+    subprocess.run(["git", "-C", os.path.dirname(os.path.abspath(README)), "add", os.path.basename(README)], check=True)
 print(f"status: {len(tr)}/{len(items)} transcribed")

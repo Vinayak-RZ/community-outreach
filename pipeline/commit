@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Commit to the Illusion repo with the README status refreshed inside the same commit.
+# Usage: pipeline/commit "type(scope): subject" path...   (fetches, rebases and pushes; never force-pushes)
+set -euo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; source "$DIR/config.sh"
+REPO="${ILLUSION_REPO:-/workspace/repos/Illusion}"; MSG="$1"; shift
+cd "$REPO"
+git fetch -q origin && git rebase -q --autostash origin/main
+git add -- "$@"
+"$WHISPER_VENV/bin/python" "$DIR/make_status.py" "$REPO/README.md" --stage >/dev/null
+git commit -qm "$MSG"
+for i in 1 2 3; do git push -q origin main && break; git fetch -q origin && git rebase -q --autostash origin/main; done
+git rev-parse --short HEAD
