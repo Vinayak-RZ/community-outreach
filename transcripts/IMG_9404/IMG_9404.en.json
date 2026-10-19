@@ -1,0 +1,2843 @@
+{
+ "source_file": "IMG_9404.MOV",
+ "created": "2026-10-19T21:05:12.058796+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.828,
+  "top": [
+   [
+    "hi",
+    0.828
+   ],
+   [
+    "ur",
+    0.115
+   ],
+   [
+    "en",
+    0.038
+   ]
+  ]
+ },
+ "duration_s": 161.83,
+ "processing_s": 78.2,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.14,
+   "end": 1.08,
+   "text": "I don't know.",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 0.14,
+     "end": 0.72,
+     "word": " I",
+     "prob": 0.046
+    },
+    {
+     "start": 0.72,
+     "end": 0.72,
+     "word": " don't",
+     "prob": 0.565
+    },
+    {
+     "start": 0.72,
+     "end": 1.08,
+     "word": " know.",
+     "prob": 0.773
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 1.84,
+   "end": 2.56,
+   "text": "Next time.",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 1.84,
+     "end": 2.3,
+     "word": " Next",
+     "prob": 0.217
+    },
+    {
+     "start": 2.3,
+     "end": 2.56,
+     "word": " time.",
+     "prob": 0.307
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 2.82,
+   "end": 3.16,
+   "text": "You will do that?",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 2.82,
+     "end": 2.88,
+     "word": " You",
+     "prob": 0.122
+    },
+    {
+     "start": 2.88,
+     "end": 3.16,
+     "word": " will",
+     "prob": 0.312
+    },
+    {
+     "start": 3.16,
+     "end": 3.16,
+     "word": " do",
+     "prob": 0.743
+    },
+    {
+     "start": 3.16,
+     "end": 3.16,
+     "word": " that?",
+     "prob": 0.758
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 3.68,
+   "end": 4.78,
+   "text": "Oh yes!",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 3.68,
+     "end": 4.04,
+     "word": " Oh",
+     "prob": 0.242
+    },
+    {
+     "start": 4.04,
+     "end": 4.78,
+     "word": " yes!",
+     "prob": 0.711
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 5.08,
+   "end": 5.48,
+   "text": "Okay, start.",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 5.08,
+     "end": 5.08,
+     "word": " Okay,",
+     "prob": 0.164
+    },
+    {
+     "start": 5.14,
+     "end": 5.48,
+     "word": " start.",
+     "prob": 0.791
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 7.64,
+   "end": 9.14,
+   "text": "What is your experience?",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 7.64,
+     "end": 7.64,
+     "word": " What",
+     "prob": 0.226
+    },
+    {
+     "start": 7.64,
+     "end": 8.04,
+     "word": " is",
+     "prob": 0.471
+    },
+    {
+     "start": 8.04,
+     "end": 8.7,
+     "word": " your",
+     "prob": 0.945
+    },
+    {
+     "start": 8.7,
+     "end": 9.14,
+     "word": " experience?",
+     "prob": 0.969
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 9.72,
+   "end": 12.58,
+   "text": "There are many people who come to camp and trouble you.",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 9.72,
+     "end": 10.16,
+     "word": " There",
+     "prob": 0.167
+    },
+    {
+     "start": 10.16,
+     "end": 10.94,
+     "word": " are",
+     "prob": 0.846
+    },
+    {
+     "start": 10.94,
+     "end": 11.28,
+     "word": " many",
+     "prob": 0.35
+    },
+    {
+     "start": 11.28,
+     "end": 11.28,
+     "word": " people",
+     "prob": 0.066
+    },
+    {
+     "start": 11.28,
+     "end": 11.28,
+     "word": " who",
+     "prob": 0.206
+    },
+    {
+     "start": 11.28,
+     "end": 11.28,
+     "word": " come",
+     "prob": 0.294
+    },
+    {
+     "start": 11.28,
+     "end": 11.28,
+     "word": " to",
+     "prob": 0.567
+    },
+    {
+     "start": 11.28,
+     "end": 11.28,
+     "word": " camp",
+     "prob": 0.187
+    },
+    {
+     "start": 11.28,
+     "end": 11.36,
+     "word": " and",
+     "prob": 0.141
+    },
+    {
+     "start": 11.36,
+     "end": 12.58,
+     "word": " trouble",
+     "prob": 0.095
+    },
+    {
+     "start": 12.58,
+     "end": 12.58,
+     "word": " you.",
+     "prob": 0.471
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 13.74,
+   "end": 16.86,
+   "text": "Personally, I haven't been troubled by any of them yet.",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 13.74,
+     "end": 14.62,
+     "word": " Personally,",
+     "prob": 0.567
+    },
+    {
+     "start": 15.06,
+     "end": 15.3,
+     "word": " I",
+     "prob": 0.725
+    },
+    {
+     "start": 15.3,
+     "end": 15.34,
+     "word": " haven't",
+     "prob": 0.747
+    },
+    {
+     "start": 15.34,
+     "end": 16.14,
+     "word": " been",
+     "prob": 0.68
+    },
+    {
+     "start": 16.14,
+     "end": 16.14,
+     "word": " troubled",
+     "prob": 0.482
+    },
+    {
+     "start": 16.14,
+     "end": 16.24,
+     "word": " by",
+     "prob": 0.301
+    },
+    {
+     "start": 16.24,
+     "end": 16.52,
+     "word": " any",
+     "prob": 0.281
+    },
+    {
+     "start": 16.52,
+     "end": 16.64,
+     "word": " of",
+     "prob": 0.326
+    },
+    {
+     "start": 16.64,
+     "end": 16.86,
+     "word": " them",
+     "prob": 0.466
+    },
+    {
+     "start": 16.86,
+     "end": 16.86,
+     "word": " yet.",
+     "prob": 0.311
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 17.38,
+   "end": 19.18,
+   "text": "But yeah, I have seen a lot of people who come after Coimbatore.",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 17.38,
+     "end": 17.68,
+     "word": " But",
+     "prob": 0.787
+    },
+    {
+     "start": 17.68,
+     "end": 17.88,
+     "word": " yeah,",
+     "prob": 0.057
+    },
+    {
+     "start": 18.02,
+     "end": 18.02,
+     "word": " I",
+     "prob": 0.949
+    },
+    {
+     "start": 18.02,
+     "end": 18.12,
+     "word": " have",
+     "prob": 0.742
+    },
+    {
+     "start": 18.12,
+     "end": 18.46,
+     "word": " seen",
+     "prob": 0.931
+    },
+    {
+     "start": 18.46,
+     "end": 18.58,
+     "word": " a",
+     "prob": 0.205
+    },
+    {
+     "start": 18.58,
+     "end": 18.58,
+     "word": " lot",
+     "prob": 0.991
+    },
+    {
+     "start": 18.58,
+     "end": 18.58,
+     "word": " of",
+     "prob": 0.948
+    },
+    {
+     "start": 18.58,
+     "end": 18.58,
+     "word": " people",
+     "prob": 0.172
+    },
+    {
+     "start": 18.58,
+     "end": 18.58,
+     "word": " who",
+     "prob": 0.36
+    },
+    {
+     "start": 18.58,
+     "end": 18.58,
+     "word": " come",
+     "prob": 0.37
+    },
+    {
+     "start": 18.58,
+     "end": 18.58,
+     "word": " after",
+     "prob": 0.226
+    },
+    {
+     "start": 18.58,
+     "end": 19.18,
+     "word": " Coimbatore.",
+     "prob": 0.559
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 21.86,
+   "end": 25.6,
+   "text": "They come in groups sometimes.",
+   "avg_logprob": -0.823,
+   "no_speech_prob": 0.569,
+   "words": [
+    {
+     "start": 21.86,
+     "end": 22.3,
+     "word": " They",
+     "prob": 0.275
+    },
+    {
+     "start": 22.3,
+     "end": 22.92,
+     "word": " come",
+     "prob": 0.523
+    },
+    {
+     "start": 22.92,
+     "end": 24.06,
+     "word": " in",
+     "prob": 0.609
+    },
+    {
+     "start": 24.06,
+     "end": 24.64,
+     "word": " groups",
+     "prob": 0.768
+    },
+    {
+     "start": 24.64,
+     "end": 25.6,
+     "word": " sometimes.",
+     "prob": 0.178
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 25.6,
+   "end": 30.8,
+   "text": "They are scared of people and run after them.",
+   "avg_logprob": -0.868,
+   "no_speech_prob": 0.662,
+   "words": [
+    {
+     "start": 25.6,
+     "end": 26.26,
+     "word": " They",
+     "prob": 0.083
+    },
+    {
+     "start": 26.26,
+     "end": 26.56,
+     "word": " are",
+     "prob": 0.262
+    },
+    {
+     "start": 26.56,
+     "end": 27.36,
+     "word": " scared",
+     "prob": 0.231
+    },
+    {
+     "start": 27.36,
+     "end": 28.12,
+     "word": " of",
+     "prob": 0.282
+    },
+    {
+     "start": 28.12,
+     "end": 28.56,
+     "word": " people",
+     "prob": 0.345
+    },
+    {
+     "start": 28.56,
+     "end": 29.08,
+     "word": " and",
+     "prob": 0.173
+    },
+    {
+     "start": 29.08,
+     "end": 29.2,
+     "word": " run",
+     "prob": 0.408
+    },
+    {
+     "start": 29.2,
+     "end": 30.46,
+     "word": " after",
+     "prob": 0.688
+    },
+    {
+     "start": 30.46,
+     "end": 30.8,
+     "word": " them.",
+     "prob": 0.697
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 31.04,
+   "end": 36.1,
+   "text": "It seems like they will be almost cut off but I have never seen anyone being cut off from dogs.",
+   "avg_logprob": -0.868,
+   "no_speech_prob": 0.662,
+   "words": [
+    {
+     "start": 31.04,
+     "end": 31.46,
+     "word": " It",
+     "prob": 0.237
+    },
+    {
+     "start": 31.46,
+     "end": 31.8,
+     "word": " seems",
+     "prob": 0.505
+    },
+    {
+     "start": 31.8,
+     "end": 31.98,
+     "word": " like",
+     "prob": 0.355
+    },
+    {
+     "start": 31.98,
+     "end": 32.08,
+     "word": " they",
+     "prob": 0.808
+    },
+    {
+     "start": 32.08,
+     "end": 32.36,
+     "word": " will",
+     "prob": 0.124
+    },
+    {
+     "start": 32.36,
+     "end": 32.78,
+     "word": " be",
+     "prob": 0.619
+    },
+    {
+     "start": 32.78,
+     "end": 32.78,
+     "word": " almost",
+     "prob": 0.404
+    },
+    {
+     "start": 32.78,
+     "end": 33.06,
+     "word": " cut",
+     "prob": 0.173
+    },
+    {
+     "start": 33.06,
+     "end": 33.46,
+     "word": " off",
+     "prob": 0.411
+    },
+    {
+     "start": 33.46,
+     "end": 34.18,
+     "word": " but",
+     "prob": 0.415
+    },
+    {
+     "start": 34.18,
+     "end": 34.94,
+     "word": " I",
+     "prob": 0.601
+    },
+    {
+     "start": 34.94,
+     "end": 34.94,
+     "word": " have",
+     "prob": 0.447
+    },
+    {
+     "start": 34.94,
+     "end": 34.94,
+     "word": " never",
+     "prob": 0.563
+    },
+    {
+     "start": 34.94,
+     "end": 34.94,
+     "word": " seen",
+     "prob": 0.561
+    },
+    {
+     "start": 34.94,
+     "end": 35.5,
+     "word": " anyone",
+     "prob": 0.682
+    },
+    {
+     "start": 35.5,
+     "end": 35.76,
+     "word": " being",
+     "prob": 0.228
+    },
+    {
+     "start": 35.76,
+     "end": 35.76,
+     "word": " cut",
+     "prob": 0.621
+    },
+    {
+     "start": 35.76,
+     "end": 35.76,
+     "word": " off",
+     "prob": 0.832
+    },
+    {
+     "start": 35.76,
+     "end": 35.8,
+     "word": " from",
+     "prob": 0.73
+    },
+    {
+     "start": 35.8,
+     "end": 36.1,
+     "word": " dogs.",
+     "prob": 0.495
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 39.8,
+   "end": 47.82,
+   "text": "Many people have a opinion that they want to keep dogs, but here there are designated trading spots.",
+   "avg_logprob": -0.934,
+   "no_speech_prob": 0.401,
+   "words": [
+    {
+     "start": 39.8,
+     "end": 40.38,
+     "word": " Many",
+     "prob": 0.136
+    },
+    {
+     "start": 40.38,
+     "end": 40.68,
+     "word": " people",
+     "prob": 0.813
+    },
+    {
+     "start": 40.68,
+     "end": 40.86,
+     "word": " have",
+     "prob": 0.234
+    },
+    {
+     "start": 40.86,
+     "end": 41.0,
+     "word": " a",
+     "prob": 0.326
+    },
+    {
+     "start": 41.0,
+     "end": 41.46,
+     "word": " opinion",
+     "prob": 0.116
+    },
+    {
+     "start": 41.46,
+     "end": 42.14,
+     "word": " that",
+     "prob": 0.262
+    },
+    {
+     "start": 42.14,
+     "end": 42.34,
+     "word": " they",
+     "prob": 0.581
+    },
+    {
+     "start": 42.34,
+     "end": 42.86,
+     "word": " want",
+     "prob": 0.543
+    },
+    {
+     "start": 42.86,
+     "end": 43.2,
+     "word": " to",
+     "prob": 0.575
+    },
+    {
+     "start": 43.2,
+     "end": 43.62,
+     "word": " keep",
+     "prob": 0.653
+    },
+    {
+     "start": 43.62,
+     "end": 43.62,
+     "word": " dogs,",
+     "prob": 0.575
+    },
+    {
+     "start": 43.96,
+     "end": 45.52,
+     "word": " but",
+     "prob": 0.308
+    },
+    {
+     "start": 45.52,
+     "end": 46.48,
+     "word": " here",
+     "prob": 0.285
+    },
+    {
+     "start": 46.48,
+     "end": 46.9,
+     "word": " there",
+     "prob": 0.208
+    },
+    {
+     "start": 46.9,
+     "end": 46.98,
+     "word": " are",
+     "prob": 0.829
+    },
+    {
+     "start": 46.98,
+     "end": 47.02,
+     "word": " designated",
+     "prob": 0.801
+    },
+    {
+     "start": 47.02,
+     "end": 47.32,
+     "word": " trading",
+     "prob": 0.332
+    },
+    {
+     "start": 47.32,
+     "end": 47.82,
+     "word": " spots.",
+     "prob": 0.498
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 49.36,
+   "end": 50.86,
+   "text": "If we go in hostels...",
+   "avg_logprob": -0.934,
+   "no_speech_prob": 0.401,
+   "words": [
+    {
+     "start": 49.36,
+     "end": 49.52,
+     "word": " If",
+     "prob": 0.184
+    },
+    {
+     "start": 49.52,
+     "end": 49.62,
+     "word": " we",
+     "prob": 0.815
+    },
+    {
+     "start": 49.62,
+     "end": 49.64,
+     "word": " go",
+     "prob": 0.201
+    },
+    {
+     "start": 49.64,
+     "end": 49.72,
+     "word": " in",
+     "prob": 0.111
+    },
+    {
+     "start": 49.72,
+     "end": 50.86,
+     "word": " hostels...",
+     "prob": 0.519
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 50.86,
+   "end": 51.48,
+   "text": "Is this a night club?",
+   "avg_logprob": -0.934,
+   "no_speech_prob": 0.401,
+   "words": [
+    {
+     "start": 50.86,
+     "end": 50.88,
+     "word": " Is",
+     "prob": 0.17
+    },
+    {
+     "start": 50.88,
+     "end": 51.22,
+     "word": " this",
+     "prob": 0.656
+    },
+    {
+     "start": 51.22,
+     "end": 51.22,
+     "word": " a",
+     "prob": 0.312
+    },
+    {
+     "start": 51.22,
+     "end": 51.32,
+     "word": " night",
+     "prob": 0.241
+    },
+    {
+     "start": 51.32,
+     "end": 51.48,
+     "word": " club?",
+     "prob": 0.053
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 54.0,
+   "end": 55.02,
+   "text": "One second please.",
+   "avg_logprob": -0.934,
+   "no_speech_prob": 0.401,
+   "words": [
+    {
+     "start": 54.0,
+     "end": 54.58,
+     "word": " One",
+     "prob": 0.02
+    },
+    {
+     "start": 54.58,
+     "end": 54.82,
+     "word": " second",
+     "prob": 0.859
+    },
+    {
+     "start": 54.82,
+     "end": 55.02,
+     "word": " please.",
+     "prob": 0.118
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 55.16,
+   "end": 56.28,
+   "text": "They have given us a plan or not?",
+   "avg_logprob": -0.934,
+   "no_speech_prob": 0.401,
+   "words": [
+    {
+     "start": 55.16,
+     "end": 55.16,
+     "word": " They",
+     "prob": 0.081
+    },
+    {
+     "start": 55.16,
+     "end": 55.16,
+     "word": " have",
+     "prob": 0.315
+    },
+    {
+     "start": 55.16,
+     "end": 55.16,
+     "word": " given",
+     "prob": 0.476
+    },
+    {
+     "start": 55.16,
+     "end": 55.26,
+     "word": " us",
+     "prob": 0.142
+    },
+    {
+     "start": 55.26,
+     "end": 55.42,
+     "word": " a",
+     "prob": 0.518
+    },
+    {
+     "start": 55.42,
+     "end": 55.62,
+     "word": " plan",
+     "prob": 0.249
+    },
+    {
+     "start": 55.62,
+     "end": 56.04,
+     "word": " or",
+     "prob": 0.092
+    },
+    {
+     "start": 56.04,
+     "end": 56.28,
+     "word": " not?",
+     "prob": 0.264
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 56.94,
+   "end": 59.8,
+   "text": "If you keep dogs inside the hostel, then you will get guests in your room.",
+   "avg_logprob": -0.934,
+   "no_speech_prob": 0.401,
+   "words": [
+    {
+     "start": 56.94,
+     "end": 57.4,
+     "word": " If",
+     "prob": 0.352
+    },
+    {
+     "start": 57.4,
+     "end": 57.4,
+     "word": " you",
+     "prob": 0.334
+    },
+    {
+     "start": 57.4,
+     "end": 58.4,
+     "word": " keep",
+     "prob": 0.175
+    },
+    {
+     "start": 58.4,
+     "end": 58.4,
+     "word": " dogs",
+     "prob": 0.629
+    },
+    {
+     "start": 58.4,
+     "end": 58.4,
+     "word": " inside",
+     "prob": 0.122
+    },
+    {
+     "start": 58.4,
+     "end": 58.4,
+     "word": " the",
+     "prob": 0.416
+    },
+    {
+     "start": 58.4,
+     "end": 58.4,
+     "word": " hostel,",
+     "prob": 0.517
+    },
+    {
+     "start": 58.62,
+     "end": 58.88,
+     "word": " then",
+     "prob": 0.18
+    },
+    {
+     "start": 58.88,
+     "end": 59.08,
+     "word": " you",
+     "prob": 0.218
+    },
+    {
+     "start": 59.08,
+     "end": 59.08,
+     "word": " will",
+     "prob": 0.196
+    },
+    {
+     "start": 59.08,
+     "end": 59.08,
+     "word": " get",
+     "prob": 0.361
+    },
+    {
+     "start": 59.08,
+     "end": 59.08,
+     "word": " guests",
+     "prob": 0.061
+    },
+    {
+     "start": 59.08,
+     "end": 59.2,
+     "word": " in",
+     "prob": 0.336
+    },
+    {
+     "start": 59.2,
+     "end": 59.52,
+     "word": " your",
+     "prob": 0.162
+    },
+    {
+     "start": 59.52,
+     "end": 59.8,
+     "word": " room.",
+     "prob": 0.778
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 60.86,
+   "end": 63.16,
+   "text": "Do you think it's a solution for this problem?",
+   "avg_logprob": -0.934,
+   "no_speech_prob": 0.401,
+   "words": [
+    {
+     "start": 60.86,
+     "end": 61.44,
+     "word": " Do",
+     "prob": 0.61
+    },
+    {
+     "start": 61.44,
+     "end": 61.44,
+     "word": " you",
+     "prob": 0.995
+    },
+    {
+     "start": 61.44,
+     "end": 61.44,
+     "word": " think",
+     "prob": 0.624
+    },
+    {
+     "start": 61.44,
+     "end": 61.7,
+     "word": " it's",
+     "prob": 0.183
+    },
+    {
+     "start": 61.7,
+     "end": 61.84,
+     "word": " a",
+     "prob": 0.785
+    },
+    {
+     "start": 61.84,
+     "end": 62.32,
+     "word": " solution",
+     "prob": 0.795
+    },
+    {
+     "start": 62.32,
+     "end": 63.16,
+     "word": " for",
+     "prob": 0.146
+    },
+    {
+     "start": 63.16,
+     "end": 63.16,
+     "word": " this",
+     "prob": 0.577
+    },
+    {
+     "start": 63.16,
+     "end": 63.16,
+     "word": " problem?",
+     "prob": 0.164
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 63.16,
+   "end": 70.18,
+   "text": "Personally, I feel that we can set up a club or community by the IIT CMT",
+   "avg_logprob": -0.683,
+   "no_speech_prob": 0.088,
+   "words": [
+    {
+     "start": 63.16,
+     "end": 63.94,
+     "word": " Personally,",
+     "prob": 0.347
+    },
+    {
+     "start": 64.26,
+     "end": 64.7,
+     "word": " I",
+     "prob": 0.706
+    },
+    {
+     "start": 64.7,
+     "end": 65.26,
+     "word": " feel",
+     "prob": 0.457
+    },
+    {
+     "start": 65.26,
+     "end": 66.14,
+     "word": " that",
+     "prob": 0.473
+    },
+    {
+     "start": 66.14,
+     "end": 67.1,
+     "word": " we",
+     "prob": 0.602
+    },
+    {
+     "start": 67.1,
+     "end": 67.32,
+     "word": " can",
+     "prob": 0.822
+    },
+    {
+     "start": 67.32,
+     "end": 67.56,
+     "word": " set",
+     "prob": 0.815
+    },
+    {
+     "start": 67.56,
+     "end": 67.64,
+     "word": " up",
+     "prob": 0.776
+    },
+    {
+     "start": 67.64,
+     "end": 67.68,
+     "word": " a",
+     "prob": 0.939
+    },
+    {
+     "start": 67.68,
+     "end": 67.94,
+     "word": " club",
+     "prob": 0.78
+    },
+    {
+     "start": 67.94,
+     "end": 68.28,
+     "word": " or",
+     "prob": 0.763
+    },
+    {
+     "start": 68.28,
+     "end": 68.76,
+     "word": " community",
+     "prob": 0.175
+    },
+    {
+     "start": 68.76,
+     "end": 69.06,
+     "word": " by",
+     "prob": 0.585
+    },
+    {
+     "start": 69.06,
+     "end": 69.4,
+     "word": " the",
+     "prob": 0.735
+    },
+    {
+     "start": 69.4,
+     "end": 69.74,
+     "word": " IIT",
+     "prob": 0.267
+    },
+    {
+     "start": 69.74,
+     "end": 70.18,
+     "word": " CMT",
+     "prob": 0.341
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 70.72,
+   "end": 77.34,
+   "text": "which sets up tents for them so they get shelter and feel like they can come here",
+   "avg_logprob": -0.683,
+   "no_speech_prob": 0.088,
+   "words": [
+    {
+     "start": 70.72,
+     "end": 71.26,
+     "word": " which",
+     "prob": 0.242
+    },
+    {
+     "start": 71.26,
+     "end": 72.08,
+     "word": " sets",
+     "prob": 0.141
+    },
+    {
+     "start": 72.08,
+     "end": 72.08,
+     "word": " up",
+     "prob": 0.868
+    },
+    {
+     "start": 72.08,
+     "end": 73.0,
+     "word": " tents",
+     "prob": 0.898
+    },
+    {
+     "start": 73.0,
+     "end": 73.3,
+     "word": " for",
+     "prob": 0.748
+    },
+    {
+     "start": 73.3,
+     "end": 73.3,
+     "word": " them",
+     "prob": 0.639
+    },
+    {
+     "start": 73.3,
+     "end": 73.84,
+     "word": " so",
+     "prob": 0.382
+    },
+    {
+     "start": 73.84,
+     "end": 74.78,
+     "word": " they",
+     "prob": 0.162
+    },
+    {
+     "start": 74.78,
+     "end": 74.82,
+     "word": " get",
+     "prob": 0.115
+    },
+    {
+     "start": 74.82,
+     "end": 75.36,
+     "word": " shelter",
+     "prob": 0.743
+    },
+    {
+     "start": 75.36,
+     "end": 75.9,
+     "word": " and",
+     "prob": 0.49
+    },
+    {
+     "start": 75.9,
+     "end": 76.28,
+     "word": " feel",
+     "prob": 0.574
+    },
+    {
+     "start": 76.28,
+     "end": 76.54,
+     "word": " like",
+     "prob": 0.158
+    },
+    {
+     "start": 76.54,
+     "end": 77.04,
+     "word": " they",
+     "prob": 0.695
+    },
+    {
+     "start": 77.04,
+     "end": 77.04,
+     "word": " can",
+     "prob": 0.88
+    },
+    {
+     "start": 77.04,
+     "end": 77.28,
+     "word": " come",
+     "prob": 0.304
+    },
+    {
+     "start": 77.28,
+     "end": 77.34,
+     "word": " here",
+     "prob": 0.309
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 77.34,
+   "end": 78.58,
+   "text": "and no one will kick us out.",
+   "avg_logprob": -0.683,
+   "no_speech_prob": 0.088,
+   "words": [
+    {
+     "start": 77.34,
+     "end": 77.78,
+     "word": " and",
+     "prob": 0.765
+    },
+    {
+     "start": 77.78,
+     "end": 77.78,
+     "word": " no",
+     "prob": 0.017
+    },
+    {
+     "start": 77.78,
+     "end": 77.94,
+     "word": " one",
+     "prob": 0.957
+    },
+    {
+     "start": 77.94,
+     "end": 77.94,
+     "word": " will",
+     "prob": 0.615
+    },
+    {
+     "start": 77.94,
+     "end": 78.44,
+     "word": " kick",
+     "prob": 0.137
+    },
+    {
+     "start": 78.44,
+     "end": 78.58,
+     "word": " us",
+     "prob": 0.082
+    },
+    {
+     "start": 78.58,
+     "end": 78.58,
+     "word": " out.",
+     "prob": 0.971
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 80.0,
+   "end": 85.3,
+   "text": "And secondly, not students but the community should feed them.",
+   "avg_logprob": -0.683,
+   "no_speech_prob": 0.088,
+   "words": [
+    {
+     "start": 80.0,
+     "end": 80.0,
+     "word": " And",
+     "prob": 0.256
+    },
+    {
+     "start": 80.0,
+     "end": 80.94,
+     "word": " secondly,",
+     "prob": 0.725
+    },
+    {
+     "start": 81.26,
+     "end": 81.26,
+     "word": " not",
+     "prob": 0.386
+    },
+    {
+     "start": 81.26,
+     "end": 82.1,
+     "word": " students",
+     "prob": 0.222
+    },
+    {
+     "start": 82.1,
+     "end": 82.62,
+     "word": " but",
+     "prob": 0.643
+    },
+    {
+     "start": 82.62,
+     "end": 82.74,
+     "word": " the",
+     "prob": 0.431
+    },
+    {
+     "start": 82.74,
+     "end": 83.14,
+     "word": " community",
+     "prob": 0.873
+    },
+    {
+     "start": 83.14,
+     "end": 83.92,
+     "word": " should",
+     "prob": 0.575
+    },
+    {
+     "start": 83.92,
+     "end": 84.74,
+     "word": " feed",
+     "prob": 0.762
+    },
+    {
+     "start": 84.74,
+     "end": 85.3,
+     "word": " them.",
+     "prob": 0.838
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 85.52,
+   "end": 87.66,
+   "text": "They should keep some food where there are designated spots.",
+   "avg_logprob": -0.683,
+   "no_speech_prob": 0.088,
+   "words": [
+    {
+     "start": 85.52,
+     "end": 85.6,
+     "word": " They",
+     "prob": 0.29
+    },
+    {
+     "start": 85.6,
+     "end": 85.6,
+     "word": " should",
+     "prob": 0.927
+    },
+    {
+     "start": 85.6,
+     "end": 85.6,
+     "word": " keep",
+     "prob": 0.35
+    },
+    {
+     "start": 85.6,
+     "end": 85.6,
+     "word": " some",
+     "prob": 0.503
+    },
+    {
+     "start": 85.6,
+     "end": 85.6,
+     "word": " food",
+     "prob": 0.98
+    },
+    {
+     "start": 85.6,
+     "end": 85.6,
+     "word": " where",
+     "prob": 0.41
+    },
+    {
+     "start": 85.6,
+     "end": 85.72,
+     "word": " there",
+     "prob": 0.704
+    },
+    {
+     "start": 85.72,
+     "end": 85.72,
+     "word": " are",
+     "prob": 0.912
+    },
+    {
+     "start": 85.72,
+     "end": 86.34,
+     "word": " designated",
+     "prob": 0.985
+    },
+    {
+     "start": 86.34,
+     "end": 87.66,
+     "word": " spots.",
+     "prob": 0.94
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 88.66,
+   "end": 94.7,
+   "text": "They are never feeling so hungry that they have to attack people personally.",
+   "avg_logprob": -0.714,
+   "no_speech_prob": 0.646,
+   "words": [
+    {
+     "start": 88.66,
+     "end": 88.98,
+     "word": " They",
+     "prob": 0.205
+    },
+    {
+     "start": 88.98,
+     "end": 90.1,
+     "word": " are",
+     "prob": 0.503
+    },
+    {
+     "start": 90.1,
+     "end": 90.36,
+     "word": " never",
+     "prob": 0.687
+    },
+    {
+     "start": 90.36,
+     "end": 90.9,
+     "word": " feeling",
+     "prob": 0.272
+    },
+    {
+     "start": 90.9,
+     "end": 91.16,
+     "word": " so",
+     "prob": 0.815
+    },
+    {
+     "start": 91.16,
+     "end": 91.44,
+     "word": " hungry",
+     "prob": 0.991
+    },
+    {
+     "start": 91.44,
+     "end": 91.64,
+     "word": " that",
+     "prob": 0.781
+    },
+    {
+     "start": 91.64,
+     "end": 92.4,
+     "word": " they",
+     "prob": 0.946
+    },
+    {
+     "start": 92.4,
+     "end": 92.4,
+     "word": " have",
+     "prob": 0.31
+    },
+    {
+     "start": 92.4,
+     "end": 92.48,
+     "word": " to",
+     "prob": 0.949
+    },
+    {
+     "start": 92.48,
+     "end": 93.08,
+     "word": " attack",
+     "prob": 0.931
+    },
+    {
+     "start": 93.08,
+     "end": 93.52,
+     "word": " people",
+     "prob": 0.904
+    },
+    {
+     "start": 93.52,
+     "end": 94.7,
+     "word": " personally.",
+     "prob": 0.228
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 95.36,
+   "end": 99.5,
+   "text": "So like you said about organizations, there is already an organization on campus.",
+   "avg_logprob": -0.714,
+   "no_speech_prob": 0.646,
+   "words": [
+    {
+     "start": 95.36,
+     "end": 95.54,
+     "word": " So",
+     "prob": 0.25
+    },
+    {
+     "start": 95.54,
+     "end": 95.96,
+     "word": " like",
+     "prob": 0.359
+    },
+    {
+     "start": 95.96,
+     "end": 96.66,
+     "word": " you",
+     "prob": 0.415
+    },
+    {
+     "start": 96.66,
+     "end": 96.66,
+     "word": " said",
+     "prob": 0.583
+    },
+    {
+     "start": 96.66,
+     "end": 96.68,
+     "word": " about",
+     "prob": 0.764
+    },
+    {
+     "start": 96.68,
+     "end": 97.32,
+     "word": " organizations,",
+     "prob": 0.336
+    },
+    {
+     "start": 98.4,
+     "end": 98.82,
+     "word": " there",
+     "prob": 0.293
+    },
+    {
+     "start": 98.82,
+     "end": 99.04,
+     "word": " is",
+     "prob": 0.635
+    },
+    {
+     "start": 99.04,
+     "end": 99.04,
+     "word": " already",
+     "prob": 0.554
+    },
+    {
+     "start": 99.04,
+     "end": 99.1,
+     "word": " an",
+     "prob": 0.748
+    },
+    {
+     "start": 99.1,
+     "end": 99.5,
+     "word": " organization",
+     "prob": 0.944
+    },
+    {
+     "start": 99.5,
+     "end": 99.5,
+     "word": " on",
+     "prob": 0.38
+    },
+    {
+     "start": 99.5,
+     "end": 99.5,
+     "word": " campus.",
+     "prob": 0.699
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 100.22,
+   "end": 101.22,
+   "text": "Did you know anything about it?",
+   "avg_logprob": -0.714,
+   "no_speech_prob": 0.646,
+   "words": [
+    {
+     "start": 100.22,
+     "end": 100.3,
+     "word": " Did",
+     "prob": 0.7
+    },
+    {
+     "start": 100.3,
+     "end": 100.56,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 100.56,
+     "end": 100.88,
+     "word": " know",
+     "prob": 0.961
+    },
+    {
+     "start": 100.88,
+     "end": 101.22,
+     "word": " anything",
+     "prob": 0.074
+    },
+    {
+     "start": 101.22,
+     "end": 101.22,
+     "word": " about",
+     "prob": 0.966
+    },
+    {
+     "start": 101.22,
+     "end": 101.22,
+     "word": " it?",
+     "prob": 0.662
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 101.58,
+   "end": 103.48,
+   "text": "I didn't get any information about this till now.",
+   "avg_logprob": -0.714,
+   "no_speech_prob": 0.646,
+   "words": [
+    {
+     "start": 101.58,
+     "end": 102.4,
+     "word": " I",
+     "prob": 0.345
+    },
+    {
+     "start": 102.4,
+     "end": 102.46,
+     "word": " didn't",
+     "prob": 0.67
+    },
+    {
+     "start": 102.46,
+     "end": 102.86,
+     "word": " get",
+     "prob": 0.094
+    },
+    {
+     "start": 102.86,
+     "end": 103.02,
+     "word": " any",
+     "prob": 0.897
+    },
+    {
+     "start": 103.02,
+     "end": 103.48,
+     "word": " information",
+     "prob": 0.741
+    },
+    {
+     "start": 103.48,
+     "end": 103.48,
+     "word": " about",
+     "prob": 0.793
+    },
+    {
+     "start": 103.48,
+     "end": 103.48,
+     "word": " this",
+     "prob": 0.099
+    },
+    {
+     "start": 103.48,
+     "end": 103.48,
+     "word": " till",
+     "prob": 0.258
+    },
+    {
+     "start": 103.48,
+     "end": 103.48,
+     "word": " now.",
+     "prob": 0.93
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 103.78,
+   "end": 107.26,
+   "text": "Yes, when someone talked about some males then only through them would I know.",
+   "avg_logprob": -0.714,
+   "no_speech_prob": 0.646,
+   "words": [
+    {
+     "start": 103.78,
+     "end": 104.04,
+     "word": " Yes,",
+     "prob": 0.381
+    },
+    {
+     "start": 104.22,
+     "end": 104.22,
+     "word": " when",
+     "prob": 0.2
+    },
+    {
+     "start": 104.22,
+     "end": 104.22,
+     "word": " someone",
+     "prob": 0.101
+    },
+    {
+     "start": 104.22,
+     "end": 104.22,
+     "word": " talked",
+     "prob": 0.308
+    },
+    {
+     "start": 104.22,
+     "end": 104.22,
+     "word": " about",
+     "prob": 0.572
+    },
+    {
+     "start": 104.22,
+     "end": 104.24,
+     "word": " some",
+     "prob": 0.112
+    },
+    {
+     "start": 104.24,
+     "end": 105.0,
+     "word": " males",
+     "prob": 0.296
+    },
+    {
+     "start": 105.0,
+     "end": 105.84,
+     "word": " then",
+     "prob": 0.151
+    },
+    {
+     "start": 105.84,
+     "end": 106.32,
+     "word": " only",
+     "prob": 0.083
+    },
+    {
+     "start": 106.32,
+     "end": 106.7,
+     "word": " through",
+     "prob": 0.161
+    },
+    {
+     "start": 106.7,
+     "end": 106.7,
+     "word": " them",
+     "prob": 0.378
+    },
+    {
+     "start": 106.7,
+     "end": 106.78,
+     "word": " would",
+     "prob": 0.056
+    },
+    {
+     "start": 106.78,
+     "end": 106.78,
+     "word": " I",
+     "prob": 0.907
+    },
+    {
+     "start": 106.78,
+     "end": 107.26,
+     "word": " know.",
+     "prob": 0.542
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 110.21,
+   "end": 113.05,
+   "text": "Your personal opinion or...",
+   "avg_logprob": -0.714,
+   "no_speech_prob": 0.646,
+   "words": [
+    {
+     "start": 110.21,
+     "end": 111.03,
+     "word": " Your",
+     "prob": 0.144
+    },
+    {
+     "start": 111.03,
+     "end": 111.47,
+     "word": " personal",
+     "prob": 0.981
+    },
+    {
+     "start": 111.47,
+     "end": 111.91,
+     "word": " opinion",
+     "prob": 0.975
+    },
+    {
+     "start": 111.91,
+     "end": 113.05,
+     "word": " or...",
+     "prob": 0.212
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 113.05,
+   "end": 114.87,
+   "text": "What do you think?",
+   "avg_logprob": -0.714,
+   "no_speech_prob": 0.646,
+   "words": [
+    {
+     "start": 113.05,
+     "end": 113.73,
+     "word": " What",
+     "prob": 0.272
+    },
+    {
+     "start": 113.73,
+     "end": 113.73,
+     "word": " do",
+     "prob": 0.878
+    },
+    {
+     "start": 113.73,
+     "end": 114.55,
+     "word": " you",
+     "prob": 0.995
+    },
+    {
+     "start": 114.55,
+     "end": 114.87,
+     "word": " think?",
+     "prob": 0.862
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 115.83,
+   "end": 117.25,
+   "text": "Should we keep all of us out from the hostel?",
+   "avg_logprob": -0.714,
+   "no_speech_prob": 0.646,
+   "words": [
+    {
+     "start": 115.83,
+     "end": 116.53,
+     "word": " Should",
+     "prob": 0.454
+    },
+    {
+     "start": 116.53,
+     "end": 116.67,
+     "word": " we",
+     "prob": 0.943
+    },
+    {
+     "start": 116.67,
+     "end": 116.67,
+     "word": " keep",
+     "prob": 0.764
+    },
+    {
+     "start": 116.67,
+     "end": 116.67,
+     "word": " all",
+     "prob": 0.257
+    },
+    {
+     "start": 116.67,
+     "end": 116.67,
+     "word": " of",
+     "prob": 0.301
+    },
+    {
+     "start": 116.67,
+     "end": 116.67,
+     "word": " us",
+     "prob": 0.231
+    },
+    {
+     "start": 116.67,
+     "end": 116.67,
+     "word": " out",
+     "prob": 0.54
+    },
+    {
+     "start": 116.67,
+     "end": 116.67,
+     "word": " from",
+     "prob": 0.038
+    },
+    {
+     "start": 116.67,
+     "end": 116.85,
+     "word": " the",
+     "prob": 0.814
+    },
+    {
+     "start": 116.85,
+     "end": 117.25,
+     "word": " hostel?",
+     "prob": 0.983
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 119.71,
+   "end": 120.51,
+   "text": "I am very scared of dogs.",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 119.71,
+     "end": 119.81,
+     "word": " I",
+     "prob": 0.112
+    },
+    {
+     "start": 119.81,
+     "end": 119.81,
+     "word": " am",
+     "prob": 0.475
+    },
+    {
+     "start": 119.81,
+     "end": 119.81,
+     "word": " very",
+     "prob": 0.312
+    },
+    {
+     "start": 119.81,
+     "end": 119.81,
+     "word": " scared",
+     "prob": 0.961
+    },
+    {
+     "start": 119.81,
+     "end": 119.81,
+     "word": " of",
+     "prob": 0.935
+    },
+    {
+     "start": 119.81,
+     "end": 120.51,
+     "word": " dogs.",
+     "prob": 0.826
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 121.79,
+   "end": 122.99,
+   "text": "Yes, I'm very scared of them.",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 121.79,
+     "end": 121.79,
+     "word": " Yes,",
+     "prob": 0.062
+    },
+    {
+     "start": 121.93,
+     "end": 122.07,
+     "word": " I'm",
+     "prob": 0.438
+    },
+    {
+     "start": 122.07,
+     "end": 122.35,
+     "word": " very",
+     "prob": 0.903
+    },
+    {
+     "start": 122.35,
+     "end": 122.63,
+     "word": " scared",
+     "prob": 0.995
+    },
+    {
+     "start": 122.63,
+     "end": 122.85,
+     "word": " of",
+     "prob": 0.913
+    },
+    {
+     "start": 122.85,
+     "end": 122.99,
+     "word": " them.",
+     "prob": 0.755
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 123.39,
+   "end": 125.13,
+   "text": "But yes they are also living beings",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 123.39,
+     "end": 123.53,
+     "word": " But",
+     "prob": 0.886
+    },
+    {
+     "start": 123.53,
+     "end": 123.85,
+     "word": " yes",
+     "prob": 0.457
+    },
+    {
+     "start": 123.85,
+     "end": 123.95,
+     "word": " they",
+     "prob": 0.1
+    },
+    {
+     "start": 123.95,
+     "end": 124.23,
+     "word": " are",
+     "prob": 0.946
+    },
+    {
+     "start": 124.23,
+     "end": 124.39,
+     "word": " also",
+     "prob": 0.936
+    },
+    {
+     "start": 124.39,
+     "end": 124.63,
+     "word": " living",
+     "prob": 0.98
+    },
+    {
+     "start": 124.63,
+     "end": 125.13,
+     "word": " beings",
+     "prob": 0.731
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 125.83,
+   "end": 128.53,
+   "text": "They say that dogs are the best companions for human beings",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 125.83,
+     "end": 126.39,
+     "word": " They",
+     "prob": 0.026
+    },
+    {
+     "start": 126.39,
+     "end": 126.53,
+     "word": " say",
+     "prob": 0.863
+    },
+    {
+     "start": 126.53,
+     "end": 126.73,
+     "word": " that",
+     "prob": 0.348
+    },
+    {
+     "start": 126.73,
+     "end": 126.81,
+     "word": " dogs",
+     "prob": 0.905
+    },
+    {
+     "start": 126.81,
+     "end": 126.99,
+     "word": " are",
+     "prob": 0.993
+    },
+    {
+     "start": 126.99,
+     "end": 127.11,
+     "word": " the",
+     "prob": 0.936
+    },
+    {
+     "start": 127.11,
+     "end": 127.35,
+     "word": " best",
+     "prob": 0.991
+    },
+    {
+     "start": 127.35,
+     "end": 127.77,
+     "word": " companions",
+     "prob": 0.746
+    },
+    {
+     "start": 127.77,
+     "end": 127.97,
+     "word": " for",
+     "prob": 0.847
+    },
+    {
+     "start": 127.97,
+     "end": 128.29,
+     "word": " human",
+     "prob": 0.771
+    },
+    {
+     "start": 128.29,
+     "end": 128.53,
+     "word": " beings",
+     "prob": 0.971
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 128.53,
+   "end": 129.47,
+   "text": "and they leave everyone",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 128.53,
+     "end": 128.85,
+     "word": " and",
+     "prob": 0.259
+    },
+    {
+     "start": 128.85,
+     "end": 128.85,
+     "word": " they",
+     "prob": 0.812
+    },
+    {
+     "start": 128.85,
+     "end": 128.85,
+     "word": " leave",
+     "prob": 0.342
+    },
+    {
+     "start": 128.85,
+     "end": 129.47,
+     "word": " everyone",
+     "prob": 0.47
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "start": 129.47,
+   "end": 131.79,
+   "text": "and all of us live with them",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 129.47,
+     "end": 130.05,
+     "word": " and",
+     "prob": 0.306
+    },
+    {
+     "start": 130.05,
+     "end": 130.31,
+     "word": " all",
+     "prob": 0.149
+    },
+    {
+     "start": 130.31,
+     "end": 130.47,
+     "word": " of",
+     "prob": 0.394
+    },
+    {
+     "start": 130.47,
+     "end": 131.25,
+     "word": " us",
+     "prob": 0.346
+    },
+    {
+     "start": 131.25,
+     "end": 131.45,
+     "word": " live",
+     "prob": 0.021
+    },
+    {
+     "start": 131.45,
+     "end": 131.51,
+     "word": " with",
+     "prob": 0.384
+    },
+    {
+     "start": 131.51,
+     "end": 131.79,
+     "word": " them",
+     "prob": 0.558
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "start": 132.45,
+   "end": 133.81,
+   "text": "So we should take care",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 132.45,
+     "end": 132.79,
+     "word": " So",
+     "prob": 0.086
+    },
+    {
+     "start": 132.79,
+     "end": 133.15,
+     "word": " we",
+     "prob": 0.864
+    },
+    {
+     "start": 133.15,
+     "end": 133.37,
+     "word": " should",
+     "prob": 0.988
+    },
+    {
+     "start": 133.37,
+     "end": 133.63,
+     "word": " take",
+     "prob": 0.983
+    },
+    {
+     "start": 133.63,
+     "end": 133.81,
+     "word": " care",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "start": 133.81,
+   "end": 135.87,
+   "text": "as they take care of us throughout",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 133.81,
+     "end": 134.33,
+     "word": " as",
+     "prob": 0.006
+    },
+    {
+     "start": 134.33,
+     "end": 134.55,
+     "word": " they",
+     "prob": 0.923
+    },
+    {
+     "start": 134.55,
+     "end": 134.81,
+     "word": " take",
+     "prob": 0.943
+    },
+    {
+     "start": 134.81,
+     "end": 134.99,
+     "word": " care",
+     "prob": 0.971
+    },
+    {
+     "start": 134.99,
+     "end": 135.01,
+     "word": " of",
+     "prob": 0.972
+    },
+    {
+     "start": 135.01,
+     "end": 135.55,
+     "word": " us",
+     "prob": 0.993
+    },
+    {
+     "start": 135.55,
+     "end": 135.87,
+     "word": " throughout",
+     "prob": 0.886
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "start": 135.87,
+   "end": 136.57,
+   "text": "the night",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 135.87,
+     "end": 136.05,
+     "word": " the",
+     "prob": 0.981
+    },
+    {
+     "start": 136.05,
+     "end": 136.57,
+     "word": " night",
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "start": 136.57,
+   "end": 138.93,
+   "text": "There are many stories where",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 136.57,
+     "end": 137.21,
+     "word": " There",
+     "prob": 0.132
+    },
+    {
+     "start": 137.21,
+     "end": 137.49,
+     "word": " are",
+     "prob": 0.947
+    },
+    {
+     "start": 137.49,
+     "end": 137.61,
+     "word": " many",
+     "prob": 0.529
+    },
+    {
+     "start": 137.61,
+     "end": 137.99,
+     "word": " stories",
+     "prob": 0.426
+    },
+    {
+     "start": 137.99,
+     "end": 138.93,
+     "word": " where",
+     "prob": 0.7
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "start": 138.93,
+   "end": 141.31,
+   "text": "dogs help people out",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 138.93,
+     "end": 139.37,
+     "word": " dogs",
+     "prob": 0.545
+    },
+    {
+     "start": 139.37,
+     "end": 140.21,
+     "word": " help",
+     "prob": 0.212
+    },
+    {
+     "start": 140.21,
+     "end": 140.59,
+     "word": " people",
+     "prob": 0.957
+    },
+    {
+     "start": 140.59,
+     "end": 141.31,
+     "word": " out",
+     "prob": 0.862
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "start": 141.31,
+   "end": 143.53,
+   "text": "by preventing robberies",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 141.31,
+     "end": 142.09,
+     "word": " by",
+     "prob": 0.768
+    },
+    {
+     "start": 142.09,
+     "end": 142.53,
+     "word": " preventing",
+     "prob": 0.978
+    },
+    {
+     "start": 142.53,
+     "end": 143.53,
+     "word": " robberies",
+     "prob": 0.943
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "start": 143.53,
+   "end": 145.77,
+   "text": "or any wrong practices going on",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 143.53,
+     "end": 144.03,
+     "word": " or",
+     "prob": 0.714
+    },
+    {
+     "start": 144.03,
+     "end": 144.55,
+     "word": " any",
+     "prob": 0.911
+    },
+    {
+     "start": 144.55,
+     "end": 144.71,
+     "word": " wrong",
+     "prob": 0.965
+    },
+    {
+     "start": 144.71,
+     "end": 145.17,
+     "word": " practices",
+     "prob": 0.838
+    },
+    {
+     "start": 145.17,
+     "end": 145.53,
+     "word": " going",
+     "prob": 0.778
+    },
+    {
+     "start": 145.53,
+     "end": 145.77,
+     "word": " on",
+     "prob": 0.883
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "start": 145.77,
+   "end": 147.49,
+   "text": "We should try",
+   "avg_logprob": -0.435,
+   "no_speech_prob": 0.411,
+   "words": [
+    {
+     "start": 145.77,
+     "end": 146.81,
+     "word": " We",
+     "prob": 0.344
+    },
+    {
+     "start": 146.81,
+     "end": 146.95,
+     "word": " should",
+     "prob": 0.888
+    },
+    {
+     "start": 146.95,
+     "end": 147.49,
+     "word": " try",
+     "prob": 0.923
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "start": 147.49,
+   "end": 150.77,
+   "text": "We treat dogs as living beings and not as trash.",
+   "avg_logprob": -0.5,
+   "no_speech_prob": 0.669,
+   "words": [
+    {
+     "start": 147.49,
+     "end": 147.63,
+     "word": " We",
+     "prob": 0.143
+    },
+    {
+     "start": 147.63,
+     "end": 148.59,
+     "word": " treat",
+     "prob": 0.545
+    },
+    {
+     "start": 148.59,
+     "end": 148.59,
+     "word": " dogs",
+     "prob": 0.43
+    },
+    {
+     "start": 148.59,
+     "end": 149.15,
+     "word": " as",
+     "prob": 0.846
+    },
+    {
+     "start": 149.15,
+     "end": 149.45,
+     "word": " living",
+     "prob": 0.979
+    },
+    {
+     "start": 149.45,
+     "end": 149.65,
+     "word": " beings",
+     "prob": 0.612
+    },
+    {
+     "start": 149.65,
+     "end": 149.79,
+     "word": " and",
+     "prob": 0.621
+    },
+    {
+     "start": 149.79,
+     "end": 150.09,
+     "word": " not",
+     "prob": 0.98
+    },
+    {
+     "start": 150.09,
+     "end": 150.39,
+     "word": " as",
+     "prob": 0.886
+    },
+    {
+     "start": 150.39,
+     "end": 150.77,
+     "word": " trash.",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "start": 151.01,
+   "end": 153.37,
+   "text": "They are not trash, they're not dead bodies.",
+   "avg_logprob": -0.5,
+   "no_speech_prob": 0.669,
+   "words": [
+    {
+     "start": 151.01,
+     "end": 151.19,
+     "word": " They",
+     "prob": 0.904
+    },
+    {
+     "start": 151.19,
+     "end": 151.27,
+     "word": " are",
+     "prob": 0.844
+    },
+    {
+     "start": 151.27,
+     "end": 151.39,
+     "word": " not",
+     "prob": 0.936
+    },
+    {
+     "start": 151.39,
+     "end": 151.71,
+     "word": " trash,",
+     "prob": 0.914
+    },
+    {
+     "start": 151.97,
+     "end": 152.59,
+     "word": " they're",
+     "prob": 0.456
+    },
+    {
+     "start": 152.59,
+     "end": 152.71,
+     "word": " not",
+     "prob": 0.994
+    },
+    {
+     "start": 152.71,
+     "end": 152.97,
+     "word": " dead",
+     "prob": 0.987
+    },
+    {
+     "start": 152.97,
+     "end": 153.37,
+     "word": " bodies.",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "start": 153.79,
+   "end": 157.49,
+   "text": "They are human living beings who actually need care from us.",
+   "avg_logprob": -0.5,
+   "no_speech_prob": 0.669,
+   "words": [
+    {
+     "start": 153.79,
+     "end": 153.79,
+     "word": " They",
+     "prob": 0.967
+    },
+    {
+     "start": 153.79,
+     "end": 154.01,
+     "word": " are",
+     "prob": 0.734
+    },
+    {
+     "start": 154.01,
+     "end": 154.35,
+     "word": " human",
+     "prob": 0.448
+    },
+    {
+     "start": 154.35,
+     "end": 154.77,
+     "word": " living",
+     "prob": 0.524
+    },
+    {
+     "start": 154.77,
+     "end": 155.15,
+     "word": " beings",
+     "prob": 0.938
+    },
+    {
+     "start": 155.15,
+     "end": 155.53,
+     "word": " who",
+     "prob": 0.778
+    },
+    {
+     "start": 155.53,
+     "end": 155.89,
+     "word": " actually",
+     "prob": 0.826
+    },
+    {
+     "start": 155.89,
+     "end": 156.13,
+     "word": " need",
+     "prob": 0.968
+    },
+    {
+     "start": 156.13,
+     "end": 156.37,
+     "word": " care",
+     "prob": 0.974
+    },
+    {
+     "start": 156.37,
+     "end": 156.71,
+     "word": " from",
+     "prob": 0.838
+    },
+    {
+     "start": 156.71,
+     "end": 157.49,
+     "word": " us.",
+     "prob": 0.415
+    }
+   ]
+  }
+ ]
+}
