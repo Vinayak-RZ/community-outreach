@@ -11,6 +11,7 @@ MSG="${1:-docs(transcripts): add the next batch of interview transcripts}"
   while IFS= read -r -d '' f; do mkdir -p "$REPO/transcripts/$(dirname "$f")"; cp -p "$f" "$REPO/transcripts/$f"; done )
 cd "$REPO"
 git fetch -q origin && git rebase -q origin/main
+"$WHISPER_VENV/bin/python" "$DIR/make_index.py" "$REPO/transcripts/INDEX.md" >/dev/null || echo "make_index failed"
 git add transcripts
 if git diff --cached --quiet; then echo "nothing new to commit"; exit 0; fi
 if ! [[ "$MSG" =~ ^[a-z]+\([a-z-]+\):\ [a-z] ]]; then
