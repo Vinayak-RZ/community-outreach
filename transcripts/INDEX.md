@@ -41,7 +41,7 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | Mac guard.m4a | 14/10/2026 23:51 | 3:22 | hi (detector: hi 0.93) | MAC guard: a dog once bit him; says most people are dog lovers; dogs get medical care/injections; hospital reports more bite cases in 1-2 years, blamed on outside dogs; one or two dogs per bhawan are fine, extras should be removed; child safety comes first | Fair; readable gist; fair (mean logprob -0.47) | [txt](Mac%20guard/Mac%20guard.txt) |
 | Malishka pt1.m4a | 25/09/2026 01:15 (from WhatsApp copy) | 2:57 | hi (detector: en 0.78) | Opening of a conversation recorded 25/9 (same audio as the WhatsApp attachment of 25/9 01:15 IST); content largely unintelligible in the transcript | Poor: mostly garbled, long silent gap (0:49-2:41); English re-run queued; poor (mean logprob -1.18) | [txt](Malishka%20pt1/Malishka%20pt1.txt) |
 | Malishka pt2.m4a | 25/09/2026 01:15 (from WhatsApp copy) | 5:34 | hi (detector: en 0.59) | Second part of the 25/9 conversation (same audio as the WhatsApp copy of 25/9 01:15 IST): mentions vaccination, people not knowing how to handle aggressive dogs, agrees awareness campaigns would help, asked about other bad experiences with dogs on campus | Poor: Hindi parts garbled, repetition loop 4:24-4:43; English lines (1:42-2:07) good. Re-run in English pending; poor (mean logprob -0.63, 6 repeated lines) | [txt](Malishka%20pt2/Malishka%20pt2.txt) |
-| Mnc guard.m4a | 19/10/2026 07:15 (export time) | 21:46 | hi (detector: hi 0.90) | not yet reviewed | fair (mean logprob -0.41, 2 repeated lines) | [txt](Mnc%20guard/Mnc%20guard.txt) |
+| Mnc guard.m4a | 25/09/2026 01:15 (from WhatsApp copy) | 21:46 | hi (detector: hi 0.90) | Guard near MNC (on the road to Aravali), long Hindi interview: hungry dogs bark and chase, so people should feed them; desi dogs are loyal and understand their owners; a female has 8-10 pups every 6-8 months, so numbers keep rising; feeding zones exist but 10-12 rotis are too little; mentions a sterilisation drive and guard duties being cut; wants a permanent arrangement from the administration; the interviewers (staying in Govind and Himalaya) mention night barking and packs of 8-10 dogs; includes a digression on God and good deeds | Fair: gist readable, many misspelt words; 21:46 long; same audio as one WhatsApp attachment; fair (mean logprob -0.41, 2 repeated lines) | [txt](Mnc%20guard/Mnc%20guard.txt) |
 | Neh Road 2.m4a | 19/10/2026 02:38 (export time) | 0:40 | hi (detector: hi 0.51) | Interviewer asks a gate guard (Nehru Road) what problems dogs cause at the gate and whether they are told to keep outside dogs out | Short; readable gist, some garbled words; fair (mean logprob -0.44) | [txt](Neh%20Road%202/Neh%20Road%202.txt) |
 | Neh Road 3.m4a | 19/10/2026 02:38 (export time) | 0:26 | hi (detector: hi 0.57) | Continuation at the gate: whether dogs from outside are let in; guard says they are not let in at the gate | Noisy; several garbled lines at the end; poor (mean logprob -0.62) | [txt](Neh%20Road%203/Neh%20Road%203.txt) |
 | Neh Road 4.m4a | 19/10/2026 02:38 (export time) | 5:53 | hi (detector: hi 0.64) | Conversation (Nehru Road area) about dogs; mentions Vivekananda (Bhawan), dogs coming in daily, hygiene issues, and asks whether students or dogs should be prioritised and what the solution is | Poor: long gaps (0:07-0:32, 1:13-3:30), little reliable text; poor (mean logprob -0.70) | [txt](Neh%20Road%204/Neh%20Road%204.txt) |
@@ -79,6 +79,18 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | WhatsApp Video 2026-10-19 at 3.46.12 PM (2).mp4 |  | 9:27 |  | not transcribed yet |  |  |
 | WhatsApp Video 2026-10-19 at 3.46.14 PM (1).mp4 |  | 0:14 |  | not transcribed yet |  |  |
 | WhatsApp Video 2026-10-19 at 3.46.14 PM.mp4 |  | 0:22 |  | not transcribed yet |  |  |
+| 20261013_120723.mp4 | 13/10/2026 12:09 | 1:42 |  | not transcribed yet |  |  |
+| IMG_0576.MOV | 23/08/2026 19:33 | 3:44 |  | not transcribed yet |  |  |
+| IMG_5268.MOV | 23/08/2026 19:37 | 9:45 |  | not transcribed yet |  |  |
+| IMG_9395.MOV | 14/10/2026 21:53 | 3:20 |  | not transcribed yet |  |  |
+| IMG_9401.MOV | 14/10/2026 22:12 | 3:13 |  | not transcribed yet |  |  |
+| IMG_9402.MOV | 14/10/2026 22:25 | 3:45 |  | not transcribed yet |  |  |
+| IMG_9404.MOV | 14/10/2026 22:57 | 2:41 |  | not transcribed yet |  |  |
+| IMG_9405.MOV | 14/10/2026 23:04 | 2:33 |  | not transcribed yet |  |  |
+| IMG_9408.MOV | 15/10/2026 00:16 | 4:18 |  | not transcribed yet |  |  |
+| IMG_9409.MOV | 15/10/2026 00:22 | 4:50 |  | not transcribed yet |  |  |
+| Recording 2026-09-25 163540.mp4 | 24/09/2026 21:47 | 36:26 |  | not transcribed yet |  |  |
+| VID-20261016-WA0018.mp4 |  | 9:39 |  | not transcribed yet |  |  |
 
 Transcribed so far: 29 recordings, 2.07 h (duplicates not counted).
-Generated 19/10/2026 20:33 IST by `pipeline/make_index.py`.
+Generated 19/10/2026 20:34 IST by `pipeline/make_index.py`.
