@@ -32,6 +32,8 @@ def run_pass(model, wav, task, args):
         # Limited temperature fallback + mild repetition penalty: full fallback (6 temps) made
         # noisy field audio 3-5x slower, and temp 0 alone looped ("क्या किस लिए?" x14).
         temperature=[0.0, 0.4], best_of=2, repetition_penalty=1.1,
+        # Skip text "heard" in long silent stretches (the repeated-line loops in quiet field audio).
+        hallucination_silence_threshold=2.0,
         vad_filter=not args.no_vad, word_timestamps=True,
         # The vocabulary prompt helps transcription but gets echoed verbatim by the translate task.
         initial_prompt=args.initial_prompt if task == "transcribe" else None,
