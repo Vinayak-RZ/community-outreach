@@ -89,8 +89,8 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | IMG_9405.MOV | 14/10/2026 23:04 | 2:33 |  | not transcribed yet |  |  |
 | IMG_9408.MOV | 15/10/2026 00:16 | 4:18 |  | not transcribed yet |  |  |
 | IMG_9409.MOV | 15/10/2026 00:22 | 4:50 |  | not transcribed yet |  |  |
-| Recording 2026-09-25 163540.mp4 | 24/09/2026 21:47 | 36:26 |  | not transcribed yet |  |  |
+| Recording 2026-09-25 163540.mp4 | 24/09/2026 21:47 | 36:26 | en (detector: en 0.99) | not yet reviewed | fair (mean logprob -0.46) | [txt](Recording%202026-09-25%20163540/Recording%202026-09-25%20163540.txt) · [en](Recording%202026-09-25%20163540/Recording%202026-09-25%20163540.en.txt) |
 | VID-20261016-WA0018.mp4 |  | 9:39 |  | not transcribed yet |  |  |
 
-Transcribed so far: 29 recordings, 2.07 h (duplicates not counted).
-Generated 19/10/2026 20:34 IST by `pipeline/make_index.py`.
+Transcribed so far: 30 recordings, 2.68 h (duplicates not counted).
+Generated 19/10/2026 20:56 IST by `pipeline/make_index.py`.
