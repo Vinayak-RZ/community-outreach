@@ -1,0 +1,495 @@
+{
+ "source_file": "IMG_9405.MOV",
+ "created": "2026-10-19T22:46:00.155435+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.584,
+  "top": [
+   [
+    "hi",
+    0.584
+   ],
+   [
+    "ur",
+    0.37
+   ],
+   [
+    "en",
+    0.021
+   ]
+  ]
+ },
+ "duration_s": 153.19,
+ "processing_s": 84.8,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 63.42,
+   "end": 67.02,
+   "text": "Hostels are restricted because they are all inside.",
+   "avg_logprob": -0.927,
+   "no_speech_prob": 0.5,
+   "words": [
+    {
+     "start": 63.42,
+     "end": 64.08,
+     "word": " Hostels",
+     "prob": 0.505
+    },
+    {
+     "start": 64.08,
+     "end": 64.24,
+     "word": " are",
+     "prob": 0.644
+    },
+    {
+     "start": 64.24,
+     "end": 64.66,
+     "word": " restricted",
+     "prob": 0.226
+    },
+    {
+     "start": 64.66,
+     "end": 65.52,
+     "word": " because",
+     "prob": 0.188
+    },
+    {
+     "start": 65.52,
+     "end": 66.36,
+     "word": " they",
+     "prob": 0.382
+    },
+    {
+     "start": 66.36,
+     "end": 66.36,
+     "word": " are",
+     "prob": 0.579
+    },
+    {
+     "start": 66.36,
+     "end": 66.58,
+     "word": " all",
+     "prob": 0.455
+    },
+    {
+     "start": 66.58,
+     "end": 67.02,
+     "word": " inside.",
+     "prob": 0.516
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 67.48,
+   "end": 70.54,
+   "text": "I have no idea how many people live here.",
+   "avg_logprob": -0.927,
+   "no_speech_prob": 0.5,
+   "words": [
+    {
+     "start": 67.48,
+     "end": 68.22,
+     "word": " I",
+     "prob": 0.26
+    },
+    {
+     "start": 68.22,
+     "end": 68.7,
+     "word": " have",
+     "prob": 0.296
+    },
+    {
+     "start": 68.7,
+     "end": 68.7,
+     "word": " no",
+     "prob": 0.856
+    },
+    {
+     "start": 68.7,
+     "end": 69.86,
+     "word": " idea",
+     "prob": 0.952
+    },
+    {
+     "start": 69.86,
+     "end": 69.98,
+     "word": " how",
+     "prob": 0.402
+    },
+    {
+     "start": 69.98,
+     "end": 70.24,
+     "word": " many",
+     "prob": 0.714
+    },
+    {
+     "start": 70.24,
+     "end": 70.52,
+     "word": " people",
+     "prob": 0.111
+    },
+    {
+     "start": 70.52,
+     "end": 70.54,
+     "word": " live",
+     "prob": 0.169
+    },
+    {
+     "start": 70.54,
+     "end": 70.54,
+     "word": " here.",
+     "prob": 0.372
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 70.98,
+   "end": 77.62,
+   "text": "At least people should stay outside the hostel but even in general areas, they are allowed to see it.",
+   "avg_logprob": -0.927,
+   "no_speech_prob": 0.5,
+   "words": [
+    {
+     "start": 70.98,
+     "end": 71.42,
+     "word": " At",
+     "prob": 0.097
+    },
+    {
+     "start": 71.42,
+     "end": 71.76,
+     "word": " least",
+     "prob": 0.673
+    },
+    {
+     "start": 71.76,
+     "end": 72.0,
+     "word": " people",
+     "prob": 0.358
+    },
+    {
+     "start": 72.0,
+     "end": 72.66,
+     "word": " should",
+     "prob": 0.662
+    },
+    {
+     "start": 72.66,
+     "end": 72.66,
+     "word": " stay",
+     "prob": 0.516
+    },
+    {
+     "start": 72.66,
+     "end": 72.66,
+     "word": " outside",
+     "prob": 0.489
+    },
+    {
+     "start": 72.66,
+     "end": 72.76,
+     "word": " the",
+     "prob": 0.611
+    },
+    {
+     "start": 72.76,
+     "end": 73.08,
+     "word": " hostel",
+     "prob": 0.89
+    },
+    {
+     "start": 73.08,
+     "end": 74.82,
+     "word": " but",
+     "prob": 0.062
+    },
+    {
+     "start": 74.82,
+     "end": 75.3,
+     "word": " even",
+     "prob": 0.269
+    },
+    {
+     "start": 75.3,
+     "end": 75.52,
+     "word": " in",
+     "prob": 0.732
+    },
+    {
+     "start": 75.52,
+     "end": 75.94,
+     "word": " general",
+     "prob": 0.79
+    },
+    {
+     "start": 75.94,
+     "end": 76.42,
+     "word": " areas,",
+     "prob": 0.816
+    },
+    {
+     "start": 76.68,
+     "end": 76.96,
+     "word": " they",
+     "prob": 0.386
+    },
+    {
+     "start": 76.96,
+     "end": 77.34,
+     "word": " are",
+     "prob": 0.411
+    },
+    {
+     "start": 77.34,
+     "end": 77.34,
+     "word": " allowed",
+     "prob": 0.176
+    },
+    {
+     "start": 77.34,
+     "end": 77.62,
+     "word": " to",
+     "prob": 0.628
+    },
+    {
+     "start": 77.62,
+     "end": 77.62,
+     "word": " see",
+     "prob": 0.102
+    },
+    {
+     "start": 77.62,
+     "end": 77.62,
+     "word": " it.",
+     "prob": 0.106
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 78.8,
+   "end": 86.16,
+   "text": "I guess it's because there is a dog lovers' centre near the hostel so dogs stay around them and not inside the hostel.",
+   "avg_logprob": -0.927,
+   "no_speech_prob": 0.5,
+   "words": [
+    {
+     "start": 78.8,
+     "end": 79.18,
+     "word": " I",
+     "prob": 0.326
+    },
+    {
+     "start": 79.18,
+     "end": 79.56,
+     "word": " guess",
+     "prob": 0.26
+    },
+    {
+     "start": 79.56,
+     "end": 79.74,
+     "word": " it's",
+     "prob": 0.253
+    },
+    {
+     "start": 79.74,
+     "end": 80.04,
+     "word": " because",
+     "prob": 0.329
+    },
+    {
+     "start": 80.04,
+     "end": 80.5,
+     "word": " there",
+     "prob": 0.124
+    },
+    {
+     "start": 80.5,
+     "end": 80.76,
+     "word": " is",
+     "prob": 0.097
+    },
+    {
+     "start": 80.76,
+     "end": 80.96,
+     "word": " a",
+     "prob": 0.498
+    },
+    {
+     "start": 80.96,
+     "end": 81.02,
+     "word": " dog",
+     "prob": 0.653
+    },
+    {
+     "start": 81.02,
+     "end": 81.4,
+     "word": " lovers'",
+     "prob": 0.423
+    },
+    {
+     "start": 81.4,
+     "end": 82.02,
+     "word": " centre",
+     "prob": 0.572
+    },
+    {
+     "start": 82.02,
+     "end": 82.44,
+     "word": " near",
+     "prob": 0.104
+    },
+    {
+     "start": 82.44,
+     "end": 82.44,
+     "word": " the",
+     "prob": 0.914
+    },
+    {
+     "start": 82.44,
+     "end": 82.44,
+     "word": " hostel",
+     "prob": 0.877
+    },
+    {
+     "start": 82.44,
+     "end": 83.22,
+     "word": " so",
+     "prob": 0.178
+    },
+    {
+     "start": 83.22,
+     "end": 83.56,
+     "word": " dogs",
+     "prob": 0.643
+    },
+    {
+     "start": 83.56,
+     "end": 83.86,
+     "word": " stay",
+     "prob": 0.246
+    },
+    {
+     "start": 83.86,
+     "end": 84.34,
+     "word": " around",
+     "prob": 0.118
+    },
+    {
+     "start": 84.34,
+     "end": 84.34,
+     "word": " them",
+     "prob": 0.196
+    },
+    {
+     "start": 84.34,
+     "end": 85.38,
+     "word": " and",
+     "prob": 0.374
+    },
+    {
+     "start": 85.38,
+     "end": 85.44,
+     "word": " not",
+     "prob": 0.352
+    },
+    {
+     "start": 85.44,
+     "end": 85.44,
+     "word": " inside",
+     "prob": 0.693
+    },
+    {
+     "start": 85.44,
+     "end": 85.5,
+     "word": " the",
+     "prob": 0.846
+    },
+    {
+     "start": 85.5,
+     "end": 86.16,
+     "word": " hostel.",
+     "prob": 0.984
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 87.62,
+   "end": 89.06,
+   "text": "They get fed from the canteens inside the hostel.",
+   "avg_logprob": -0.927,
+   "no_speech_prob": 0.5,
+   "words": [
+    {
+     "start": 87.62,
+     "end": 88.0,
+     "word": " They",
+     "prob": 0.333
+    },
+    {
+     "start": 88.0,
+     "end": 88.0,
+     "word": " get",
+     "prob": 0.078
+    },
+    {
+     "start": 88.0,
+     "end": 88.0,
+     "word": " fed",
+     "prob": 0.215
+    },
+    {
+     "start": 88.0,
+     "end": 88.0,
+     "word": " from",
+     "prob": 0.493
+    },
+    {
+     "start": 88.0,
+     "end": 88.0,
+     "word": " the",
+     "prob": 0.479
+    },
+    {
+     "start": 88.0,
+     "end": 88.36,
+     "word": " canteens",
+     "prob": 0.617
+    },
+    {
+     "start": 88.36,
+     "end": 88.5,
+     "word": " inside",
+     "prob": 0.239
+    },
+    {
+     "start": 88.5,
+     "end": 88.58,
+     "word": " the",
+     "prob": 0.921
+    },
+    {
+     "start": 88.58,
+     "end": 89.06,
+     "word": " hostel.",
+     "prob": 0.974
+    }
+   ]
+  }
+ ]
+}
