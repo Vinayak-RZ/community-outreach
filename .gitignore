@@ -1,0 +1,33 @@
+# Media never goes in git: raw/blurred audio, video and photo bundles go to GitHub Releases.
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.m4v
+*.3gp
+*.mts
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.oga
+*.opus
+*.aac
+*.flac
+*.amr
+*.wma
+*.heic
+*.zip
+*.tar
+*.tar.gz
+*.7z
+# Pipeline working dirs, if ever created inside the repo
+media/
+inbox/
+raw/
+blurred/
+*.part.mp4
+__pycache__/
+*.pyc
+.venv/

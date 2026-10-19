@@ -10,7 +10,9 @@ This repository holds course materials, source records, interview notes, evidenc
 |------|----------|
 | `course/` | Course deck (`.pptx`), extracted text, and overview notes |
 | `source/` | Raw group chat exports and shared files from the team |
-| `interviews/` | Interview notes and transcripts |
+| `interviews/` | Interview notes |
+| `transcripts/` | Machine transcripts (Whisper) of interview audio/video, one folder per recording |
+| `pipeline/` | Media pipeline scripts: transcription (faster-whisper) and face blurring (EgoBlur / YuNet) |
 | `evidence/` | Photos, videos, consent sheets, field diary |
 | `analysis/` | Analysis notebooks, dataset summaries, inference artefacts |
 | `deliverables/` | Poster, KPI table, and other final submissions |
@@ -22,4 +24,4 @@ Binary media and other large files (roughly over 20 MB, or bundled photo/video a
 
 ## Privacy
 
-This repo is **public**. Prefer anonymised notes over named interviewees unless consent clearly covers publication. See `AGENTS.md`.
+This repo is **private** (since 19 Oct 2026). Raw material and transcripts can be kept here as they are, with real names. Privacy still matters: keep it inside the team, and use roles or codes instead of interviewee names in anything that leaves the team (poster, deliverables) unless consent covers publishing. See `AGENTS.md`.
