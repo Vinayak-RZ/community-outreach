@@ -1,16 +1,19 @@
 #!/usr/bin/env bash
 # Copy finished transcripts into the Illusion repo, commit and push to main (rebasing on origin/main first).
 # Uses the repo's own git identity; never overrides user.name / user.email.
-# Never force-pushes. While $TOOLS_ROOT/.sync-hold exists (or SYNC_HOLD=1) it does nothing.
+# Network steps time out after 5 min so a dead connection can't stall the batch. Never force-pushes. While $TOOLS_ROOT/.sync-hold exists (or SYNC_HOLD=1) it does nothing.
 set -euo pipefail
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; source "$DIR/config.sh"
 REPO="${ILLUSION_REPO:-/workspace/repos/Illusion}"
 if [ "${SYNC_HOLD:-0}" = 1 ] || [ -e "$TOOLS_ROOT/.sync-hold" ]; then echo "$(date '+%F %T') sync-transcripts: on hold, skipped"; exit 0; fi
+# One sync at a time: the 30-minute loop and the per-file sync used to race each other.
+exec 8>"$MEDIA_ROOT/logs/.sync-transcripts.lock"
+flock -w 900 8 || { echo "$(date '+%F %T') sync-transcripts: another sync still running, skipped"; exit 0; }
 MSG="${1:-}"
 ( cd "$MEDIA_ROOT/transcripts" && find . -type f \( -name '*.txt' -o -name '*.srt' -o -name '*.json' \) -print0 |
   while IFS= read -r -d '' f; do mkdir -p "$REPO/transcripts/$(dirname "$f")"; cp -p "$f" "$REPO/transcripts/$f"; done )
 cd "$REPO"
-git fetch -q origin && git rebase -q --autostash origin/main
+timeout 300 git fetch -q origin && git rebase -q --autostash origin/main
 "$WHISPER_VENV/bin/python" "$DIR/make_index.py" "$REPO/transcripts/INDEX.md" >/dev/null || echo "make_index failed"
 git add transcripts
 if git diff --cached --quiet; then git reset -q; echo "nothing new to commit"; exit 0; fi
@@ -24,5 +27,5 @@ if ! [[ "$MSG" =~ ^[a-z]+\([a-z-]+\):\ [a-z] ]]; then
   else MSG="docs(transcripts): update interview transcripts"; fi
 fi
 git commit -qm "$MSG"
-for i in 1 2 3; do git push -q origin main && break; git fetch -q origin && git rebase -q --autostash origin/main; done
+for i in 1 2 3; do timeout 300 git push -q origin main && break; timeout 300 git fetch -q origin && git rebase -q --autostash origin/main; done
 git rev-parse HEAD
