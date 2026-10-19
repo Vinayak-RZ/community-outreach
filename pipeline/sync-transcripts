@@ -22,5 +22,8 @@ if ! [[ "$MSG" =~ ^[a-z]+\([a-z-]+\):\ [a-z] ]]; then
   else MSG="docs(transcripts): update interview transcripts"; fi
 fi
 git commit -qm "$MSG"
+"$WHISPER_VENV/bin/python" "$DIR/make_status.py" "$REPO/README.md" >/dev/null || echo "make_status failed"
+git add README.md
+git diff --cached --quiet || git commit -qm "docs(readme): refresh project status"
 for i in 1 2 3; do git push -q origin main && break; git fetch -q origin && git rebase -q origin/main; done
 git rev-parse HEAD
