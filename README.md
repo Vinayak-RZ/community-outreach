@@ -8,6 +8,29 @@ This repo is where the group's fieldwork on campus dogs at IIT Roorkee is compil
 ## Team
 Vansh Gautam (team lead, group admin), Vinayak Raizada, Jay D, Vrinda Gupta, Jiya Dubey, Khushi, nandini. Roles and contributions are in `project-brief.md` → "Team and roles".
 
+<!-- status:start -->
+## Status
+_Last updated: 19 Oct 2026, 18:30 IST. Numbers are refreshed from the pipeline's `manifest.csv` each time transcripts are pushed._
+
+**Collected**
+- Survey: 211 responses (13–17/10), de-identified copy in `source/survey/`.
+- Interview audio: 29 recordings, 2.07 h (the 28 Drive audio files plus the CCF interview, an audio-only `.mp4`). Two Drive files ("Indian Institute of Technology" and "… 2") have identical audio, so that recording is counted twice here.
+- Videos: 51 files, 1.87 h (Drive videos, the Comm Kaam WhatsApp videos, and the 12 large Drive videos including the 36-minute recording of 25/9).
+- 3 more files were exact re-sends of recordings already held (same decoded audio) and aren't counted.
+- Releases: [`source-media-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/source-media-v1), [`comm-kaam-media-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/comm-kaam-media-v1), [`raw-drive-videos-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/raw-drive-videos-v1).
+
+**Transcribed**: 19 of 80 recordings (0.71 of 3.95 h); interview audio 19 of 29. English translations: 0. See [`transcripts/INDEX.md`](transcripts/INDEX.md). Machine transcripts: check against the audio before quoting.
+
+**Analysis**: the survey analysis is in [`analysis/survey-analysis.md`](analysis/survey-analysis.md) (headline results below). Interview coding hasn't started: `interviews/` holds only its README so far.
+
+**In progress**: transcription (with English translations) of the remaining interview audio, then the large Drive videos, then the Comm Kaam and other Drive videos. Face blurring (YuNet) comes after that: 11 of 51 videos blurred so far; the blurred-media release isn't published yet.
+
+**Open KPI and evidence gaps**
+- No consent sheets, no contact log, and no dated field diary yet (Reach and Depth evidence).
+- No hospital or admin data on bites, vaccination or sterilisation (requests sent, no reply).
+- Output and Change have no written acknowledgement yet.
+<!-- status:end -->
+
 ## Aim and research questions
 The course frames this as *enquiry, not charity*: go into a community on or beside campus, understand the real problem with the people living it, and ask honestly whether technology helps (`course/course-overview.md`, slides 1–2).
 
