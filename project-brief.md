@@ -1,7 +1,7 @@
 # Project brief: EEC 399 Community Outreach, "Campus dogs: two sides of one street" (group 23)
 
-INTERNAL ONLY — classmates' and interviewees' material. Lives in the PRIVATE repo Vinayak-RZ/Illusion (made private 19/10/2026). Don't publish it or put interviewee names on the poster.
-Updated 19/10/2026 by Acads.
+INTERNAL ONLY — classmates' and interviewees' material. Lives in the PRIVATE repo Vinayak-RZ/community-outreach (formerly "Illusion"; private since 19/10/2026). Don't publish it or put interviewee names on the poster.
+Updated 19/10/2026 by Acads (survey added 19/10 afternoon).
 
 **Source keys**
 - Paths are relative to the repo root. Audio/video live in GitHub release `source-media-v1` (see source/README.md).
@@ -9,6 +9,7 @@ Updated 19/10/2026 by Acads.
 - [PPTX s#] = course deck, slide number (source/whatsapp/extracted/)
 - [CCF-Meet] = source/ccf-gmeet-transcript.txt (Tactiq auto-transcript of the 24/9 CCF Google Meet; nandini interviewing Aryan Raj, CCF Joint Secretary Operations). Machine transcript, often garbled: treat numbers as unconfirmed.
 - [Gandagi] = source/gandagi.md (Vinayak's Google Doc, 24/9)
+- [Survey] = source/survey/survey-responses.csv + analysis/survey-analysis.md (211 responses, read 19/10)
 - [Drive-inv] = source/drive-inventory.csv; [Media-meta] = source/media-metadata.csv (ffprobe/EXIF of the downloaded files)
 
 Sections below marked "(from the chat brief)" are carried over unchanged from source/whatsapp/project-brief.md. New material is under "New from Drive" and "KPI table draft".
@@ -30,7 +31,7 @@ Sections below marked "(from the chat brief)" are carried over unchanged from so
 - **Vrinda Gupta:** built the Google Form (27/8, revised 22/9), owns the responses sheet, shared the hospital questionnaire PDF (22/9), and pushes the schedule and interview targets.
 - **nandini:** CCF liaison. Did the CCF interview with Bhavagna (3rd year) on 17/9, arranged the CCF Google Meet (24/9) and shared its transcript, and created the Drive folder (30/9).
 - **Jay D:** recorded the MNC guard and Malishka interviews (shared 25/9), suggested the 3-option survey question, posted the form on the "energy" group, and uploaded to Drive.
-- **Vinayak Raizada:** has had dog incidents himself ("victim"; "first interview", 17/8). Drafted the survey questions (21/9) and the survey blurb (12/10), recorded the dog-bite interview (24/9), noted CMO and gate-5 guard findings, made an awareness poster (15/10), and is running the compilation with agents. Repo: github.com/Vinayak-RZ/Illusion, which is public (18/10).
+- **Vinayak Raizada:** has had dog incidents himself ("victim"; "first interview", 17/8). Drafted the survey questions (21/9) and the survey blurb (12/10), recorded the dog-bite interview (24/9), noted CMO and gate-5 guard findings, made an awareness poster (15/10), and is running the compilation with agents. Repo: github.com/Vinayak-RZ/community-outreach (created as "Illusion" on 18/10; made private and renamed 19/10).
 - **Jiya Dubey:** suggested research on Supreme Court guidelines for managing dogs on campus (14/10) and how other institutes handle dogs (15/10). Uploaded recordings on 19/10.
 - **Khushi:** no messages in the capture. Vrinda mentioned "Khushi aur Vinayak ke experiences" as in-house cases (17/8).
 
@@ -95,7 +96,7 @@ Count: on 13/10 Vrinda said they needed **at least 30 interviews** and had "5 ya
 | Photos (jpg/HEIC) | 8 | 0.008 GB |
 | Documents (PDF) | 1 | 0.09 MB |
 | Sheets | 0 | — |
-No Google Docs or Sheets are in the folder. The survey responses sheet is not there and is not readable from Vinayak's account (Drive returned "not found" = no access).
+No Google Docs or Sheets are in the folder. The survey responses sheet isn't in it either. Vrinda shared that sheet with Vinayak on 19/10, and it has been exported (see the survey section below).
 
 Recorded length of what's downloaded [Media-meta]: about **113 min of audio** (28 files) plus about **20 min of video** (excluding the 12 large videos not yet downloaded, which include the 3.05 GB 25/9 recording).
 
@@ -132,6 +133,22 @@ Paraphrased; the transcript is machine-generated and garbled in places.
 - "About a few days back some people complained about over 15 dogs near ICC", making it hard to move; guards have to go in and remove dogs.
 - "Extra guards have been placed across campus mainly near chem phy and govind as many cases of attacks from dogs were registered."
 
+### Survey results, 211 responses (13–17/10) [Survey]
+Full write-up: analysis/survey-analysis.md. Charts: analysis/figures/.
+- Respondents: 209 students, 1 faculty member, 1 non-teaching staff member. 199 responses came on 13/10. Bhawan, gender and year weren't asked.
+- Experience with dogs: mostly negative 110 (52.1%), mostly positive 46 (21.8%), both 33 (15.6%), neutral 22 (10.4%).
+- Problems personally experienced: dogs entering hostels/buildings 143 (67.8%), unsafe or chased 129 (61.1%), noise or fights 125 (59.2%), hygiene 114 (54.0%), none 31 (14.7%).
+- Problem rating (1 = no problem, 5 = serious): mean 3.53. 130 people (61.6%) rated 4–5. Among those who felt unsafe or chased, 112/129 (86.8%) rated 4–5, against 18/82 (22.0%) of the rest.
+- Boundary: 181 (85.8%) chose managed coexistence (75 out of hostels, 54 designated areas, 52 vaccinated/sterilised only), and 17 (8.1%) chose free movement. Removal wasn't an option on the form: 7 typed it into Other, and 26 of 98 free-text answers propose removing all or most dogs.
+- 149 (70.6%) didn't know about organised sterilisation or the CCF.
+- The survey didn't ask about bites, feeding zones, support for sterilisation, or problems dogs face. Those have to come from interviews and records.
+
+### How the survey feeds the KPI table's Record row
+- **Artefact that didn't exist before:** the 211-response dataset (source/survey/), with a data dictionary and coded columns. Every chart is reproducible from analysis/scripts/.
+- **Method note** (to write, ~1 page): form link and wording (data dictionary); circulation through WhatsApp groups on 12–13/10 [chat 12–13/10]; dates; n by role and department; known biases (self-selected, 99% students, no removal option, a forced "reason dogs belong" item); the coding rules for the free text.
+- **Proposed Record KPI wording (for the team to agree):** "1 survey dataset (211 respondents) + 1 hotspot map, each with a method note." The achieved figure for the survey part is 211. Don't add a target number retroactively without team agreement.
+- The survey's place mentions (MNC, Govind, Rajiv/RJB, Kasturba, MAC, Himalaya, Thomson lane, LBS, LHC) [Survey §6] plus the GPS-tagged videos can seed the hotspot map, the second Record artefact.
+
 ---
 
 ## KPI table draft (targets to be agreed by the team)
@@ -139,16 +156,16 @@ The deck asks for five rows with targets set by the team, achieved figures and e
 
 | KPI | What the course wants [PPTX s16-17] | Evidence we have now | Missing / to do |
 |---|---|---|---|
-| **Reach** (people engaged) | Count of people engaged; evidence: consent sheet + contact log | ~21 person/place-labelled recordings + CCF interview (17/9) + CCF Meet (24/9) + CMO interview (13/10, notes only) [Drive-inv; CCF-Meet; chat 13/10]. 200+ survey responses claimed [chat 16/10]. | **No consent sheets** found anywhere (chat or Drive). No contact log. Survey count unverified (sheet restricted to Vrinda). De-duplicate recordings (IIT 1 vs 2; Malishka pt1/2 = 1 person; Cautley ×2, Neh Road ×3 may be 1-3 people). Target 30+ interviews [chat 13/10]. |
+| **Reach** (people engaged) | Count of people engaged; evidence: consent sheet + contact log | ~21 person/place-labelled recordings + CCF interview (17/9) + CCF Meet (24/9) + CMO interview (13/10, notes only) [Drive-inv; CCF-Meet; chat 13/10]. **211 survey responses** (209 students), verified from the sheet [Survey]. | **No consent sheets** found anywhere (chat or Drive). No contact log. De-duplicate recordings (IIT 1 vs 2; Malishka pt1/2 = 1 person; Cautley ×2, Neh Road ×3 may be 1-3 people). Target 30+ interviews [chat 13/10]. |
 | **Depth** (person-hours) | Person-hours; evidence: dated field diary | ~113 min audio + ~20 min video downloaded; the 12 large videos (7.6 GB, not downloaded) are not yet measured [Media-meta]. Dated sessions: 23/8 meetup, 17/9 CCF, 24/9 hospital + CCF Meet, 13/10 CMO, 14/10 fieldwork night, 16/10 interviews [chat]. | **No field diary.** Vrinda flagged hours proof on 12/10 [chat 12/10]. Need a dated diary (date, place, who went, hours) reconstructed from chat + file timestamps, and a person-hours total. |
-| **Record** (new dataset + method note) | A new dataset with a method note | Survey (200+ responses, anonymous form, respondent type) [chat 16/10, 22/9]; geotagged videos of dog locations (23/8, 14/10) [Media-meta]; hotspot mentions from CCF, Gandagi and chat [CCF-Meet; Gandagi; chat]. | Survey data not accessible to Vinayak's account; no method note; no pie charts shared yet [chat 18/10]. **Hotspot map not built** (could combine GPS from videos + named hotspots). Interviews not transcribed or coded. |
+| **Record** (new dataset + method note) | A new dataset with a method note | **Survey dataset: 211 responses × 8 questions**, de-identified CSV/XLSX, a data dictionary (exact wording, options, required flags, scale labels), coded columns, reproducible scripts and 6 charts [Survey; source/survey/data-dictionary.md; analysis/figures/]. Geotagged videos of dog locations (23/8, 14/10) [Media-meta]. Hotspots named by CCF, Gandagi, the chat and 14 survey answers [CCF-Meet; Gandagi; chat; Survey §6]. | A **method note** for the survey: how it was circulated, dates, sampling caveats, the missing removal option (draft material in analysis/survey-analysis.md §1, §7). A second coder to check the free-text coding. **Hotspot map not built.** Interviews not transcribed or coded. |
 | **Output** (something handed back, acknowledged) | e.g. written submission to an office, with acknowledgement | Vinayak's awareness poster draft (15/10) [chat 15-16/10]; emails to director/CMO and hospital chairperson (15-16/10) [chat]. | Nothing handed back yet. No acknowledgement. Candidate: a written findings note + awareness poster submitted to CCF / Chief Warden / hospital, with a signed or emailed acknowledgement. |
 | **Change** (one concrete shift, in writing) | One concrete shift confirmed in writing | None. (Extra guards near Chem/Phy/Govind [Gandagi] predate and aren't caused by the project.) | Need one small, confirmable change, e.g. the awareness poster put up at MAC/one bhawan with CCF permission [chat 15-16/10], confirmed in writing by CCF or the bhawan. |
 
 ## Top gaps (for KPI table and poster)
 1. **Consent sheets and contact log**: none exist on record. Without them, Reach evidence is weak, and bulk-signed sheets at the end lose marks [PPTX s21].
 2. **Field diary / person-hours**: not started.
-3. **Survey data**: 200+ responses locked in Vrinda's sheet; need an export (or her pie charts) plus a method note.
+3. **Survey**: data in hand and analysed (211 responses). Still needed: a one-page method note, a second-coder check, and team agreement on which charts go on the poster.
 4. **Facts on record**: no hospital/admin figures for bites, vaccination, sterilisation. Only CCF's verbal claims and the CMO notes [CCF-Meet; chat 13/10].
 5. **Transcripts**: none yet; 12 videos (7.6 GB) still not downloaded, including the 3.05 GB 25/9 recording.
 6. **Hotspot map**: raw material exists (GPS videos + named hotspots), map not made.
