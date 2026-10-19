@@ -141,6 +141,34 @@ def ingest(rows, dry):
         save_manifest(rows)
 
 
+def requeued(rows):
+    """Rows listed in logs/requeue.tsv (file<TAB>language) whose transcript was not yet made with that
+    forced language. Only a catch-all run (no --files-from/--only) redoes them, so they go after the queue."""
+    path = D("logs", "requeue.tsv")
+    if not os.path.exists(path):
+        return []
+    by_file = {r["file"]: r for r in rows}
+    out = []
+    for line in open(path, encoding="utf-8"):
+        parts = line.rstrip("\n").split("\t")
+        if not line.strip() or line.startswith("#") or len(parts) < 2 or parts[0] not in by_file:
+            continue
+        r, lang = by_file[parts[0]], parts[1].strip()
+        stem = os.path.splitext(r["file"])[0]; tjson = D("transcripts", stem, stem + ".json")
+        meta = json.load(open(tjson, encoding="utf-8")) if os.path.exists(tjson) else {}
+        if not (meta.get("language") == lang and meta.get("language_forced")):
+            out.append((r, lang))
+    return out
+
+
+def backup_transcripts(stem):
+    """Keep the previous transcript files outside transcripts/ (so they are not synced) before a redo."""
+    src = D("transcripts", stem)
+    if os.path.isdir(src):
+        dst = D("logs", "requeue-backup", f"{stem}__{datetime.now():%Y%m%d-%H%M%S}")
+        shutil.copytree(src, dst)
+
+
 def process(r, args):
     raw = D("raw", r["file"]); stem = os.path.splitext(r["file"])[0]
     notes, errors = [], []
@@ -223,10 +251,16 @@ def main():
         order = [l.strip() for l in open(args.files_from, encoding="utf-8") if l.strip()]
         rank = {n: i for i, n in enumerate(order)}
         todo = sorted([r for r in todo if r["file"] in rank], key=lambda r: rank[r["file"]])
-    if not todo:
+    redo = [] if (args.files_from or args.only or args.no_transcribe) else requeued(rows)
+    if not todo and not redo:
         log("nothing to do"); return
     for r in todo:
         process(r, args)
+        save_manifest(rows)
+    for r, lang in redo:  # requeued re-runs with a forced language, after the normal queue
+        log(f"requeue {r['file']}: redo transcript with -l {lang}")
+        backup_transcripts(os.path.splitext(r["file"])[0])
+        process(r, argparse.Namespace(**{**vars(args), "language": lang, "force": True, "no_blur": True}))
         save_manifest(rows)
 
 

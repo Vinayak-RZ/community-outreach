@@ -32,6 +32,11 @@ cd /workspace/library/acads/community-outreach/pipeline
 ./process-inbox --only FILE.mp4 --force   # redo one file
 ./process-inbox --no-blur / --no-transcribe
 
+# Queue a redo with a forced language, picked up after the current queue (no new process needed):
+# add "FILE<TAB>LANG" lines to media/logs/requeue.tsv. Only a catch-all run (no --files-from/--only,
+# not --no-transcribe) redoes them; old outputs are copied to logs/requeue-backup/ first, and a file
+# is skipped once its transcript was made with that forced language.
+
 # Single files
 ./transcribe interview.m4a -o /tmp/out [-l hi] [--translate] [-m medium] [-v]
 ./blur in.mp4 out.mp4 [--backend auto|egoblur|yunet] [--threshold 0.5] [--scale 1.4]
