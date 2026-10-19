@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Copy finished transcripts into the Illusion repo, commit and push to main (rebasing on origin/main first).
+# Uses the repo's own git identity; never overrides user.name / user.email.
+# Never force-pushes. While $TOOLS_ROOT/.sync-hold exists (or SYNC_HOLD=1) it does nothing.
+set -euo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; source "$DIR/config.sh"
+REPO="${ILLUSION_REPO:-/workspace/repos/Illusion}"
+if [ "${SYNC_HOLD:-0}" = 1 ] || [ -e "$TOOLS_ROOT/.sync-hold" ]; then echo "$(date '+%F %T') sync-transcripts: on hold, skipped"; exit 0; fi
+MSG="${1:-docs(transcripts): add the next batch of interview transcripts}"
+( cd "$MEDIA_ROOT/transcripts" && find . -type f \( -name '*.txt' -o -name '*.srt' -o -name '*.json' \) -print0 |
+  while IFS= read -r -d '' f; do mkdir -p "$REPO/transcripts/$(dirname "$f")"; cp -p "$f" "$REPO/transcripts/$f"; done )
+cd "$REPO"
+git fetch -q origin && git rebase -q origin/main
+git add transcripts
+if git diff --cached --quiet; then echo "nothing new to commit"; exit 0; fi
+if ! [[ "$MSG" =~ ^[a-z]+\([a-z-]+\):\ [a-z] ]]; then
+  # Conventional Commits, lowercase: name the recordings this commit adds
+  NEW=$(git diff --cached --name-only --diff-filter=A | awk -F/ '{print $2}' | sort -u | tr 'A-Z' 'a-z' | paste -sd, - | sed 's/,/, /g')
+  if [ -n "$NEW" ] && [ "$(echo "$NEW" | tr ',' '\n' | wc -l)" -le 4 ]; then MSG="docs(transcripts): add $NEW"
+  elif [ -n "$NEW" ]; then MSG="docs(transcripts): add $(echo "$NEW" | tr ',' '\n' | wc -l) more interview transcripts"
+  else MSG="docs(transcripts): update interview transcripts"; fi
+fi
+git commit -qm "$MSG"
+for i in 1 2 3; do git push -q origin main && break; git fetch -q origin && git rebase -q origin/main; done
+git rev-parse HEAD
