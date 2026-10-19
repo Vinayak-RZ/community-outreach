@@ -55,7 +55,7 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | Voice 261014_223912.m4a | 14/10/2026 22:39 | 0:17 | hi (detector: hi 0.38) | Very short casual clip (~17 s), mostly unintelligible; no clear interview content | Mostly garbled; poor (mean logprob -0.88) | [txt](Voice%20261014_223912/Voice%20261014_223912.txt) |
 | Voice 261014_230515.m4a | 14/10/2026 23:05 | 0:03 | hi (detector: hi 0.50) | 3-second fragment; one unclear line | Too short to be useful; poor (mean logprob -0.65) | [txt](Voice%20261014_230515/Voice%20261014_230515.txt) |
 | Wasif.m4a | 14/10/2026 23:11 | 3:23 | hi (detector: hi 0.88) | Student: a friend's recent incident turned his view negative; wants the managing community to ensure feeding times, vaccination and a shelter, or remove dogs; dogs come onto hostel floors and into rooms; suggests collar tags showing vaccination; not aware of CCF | Fair; Hindi with some English lines in Latin script; fair (mean logprob -0.47) | [txt](Wasif/Wasif.txt) |
-| ccf bhavagna interview.mp4 | 17/09/2026 19:10 | 11:32 |  | not transcribed yet |  |  |
+| ccf bhavagna interview.mp4 | 17/09/2026 19:10 | 11:32 | hi (detector: en 0.66) | CCF interview; speaker gives their name; mentions dogs and vaccination (Hindi-pass text is mostly garbled) | auto-hi forced hi (en 0.66); garbled with repeated lines; queued for -l en re-run; poor (mean logprob -0.74, 6 repeated lines) | [txt](ccf%20bhavagna%20interview/ccf%20bhavagna%20interview.txt) |
 | comm.mp4 |  | 0:06 |  | not transcribed yet |  |  |
 | comm3.mp4 |  | 0:06 |  | not transcribed yet |  |  |
 | comm4.mp4 |  | 0:21 |  | not transcribed yet |  |  |
@@ -80,5 +80,5 @@ Date is the file's embedded creation time in IST. Many Drive copies only carry t
 | WhatsApp Video 2026-10-19 at 3.46.14 PM (1).mp4 |  | 0:14 |  | not transcribed yet |  |  |
 | WhatsApp Video 2026-10-19 at 3.46.14 PM.mp4 |  | 0:22 |  | not transcribed yet |  |  |
 
-Transcribed so far: 27 recordings, 1.52 h (duplicates not counted).
-Generated 19/10/2026 19:48 IST by `pipeline/make_index.py`.
+Transcribed so far: 28 recordings, 1.71 h (duplicates not counted).
+Generated 19/10/2026 20:03 IST by `pipeline/make_index.py`.
