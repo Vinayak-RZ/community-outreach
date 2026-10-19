@@ -1,0 +1,26 @@
+# Timeline: EEC 399 campus dogs (from the WhatsApp chat; all dates 2026)
+
+- **16/8** Group created by Vansh, named team lead.
+- **17/8** Group 23 assigned the topic "Campus dogs: two sides of one street". First ideas: talk to guards and dog catchers, in-house experiences (Khushi, Vinayak), hospital rabies cases, feeding rules, CCF (nandini), and split the work to show both sides.
+- **23/8** Vansh shared the course PPTX, the Topic Allocation PDF and the Team Composition XLSX. A "topic 4" mix-up was resolved: it's campus dogs. Vrinda proposed a Google Form (want or don't want dogs, experiences, suggestions) to feed the poster. Team met at ICC around 6:15 pm, and members shared dog photos and videos from the hostels.
+- **24/8** Vansh split the work: hospital data, CCF, and guards and people around MAC. The form was to go out the next day.
+- **26-27/8** Vrinda built the form and shared it on 27/8. Jay suggested the 3-option removal question.
+- **3/9** nandini forwarded 105.9_CORE_PPD.pdf ("3k per person…"). Vrinda pushed to send out the form over the long weekend.
+- **16/9** Vansh restarted the work: hospital and CCF data. nandini drafted the CCF questions. Decision: interview "dog haters" too (Jawahar suggested), and record on video.
+- **17/9** CCF interview with Bhavagna (nandini, 11:33). It surfaced last year's rabies-vaccine shortage.
+- **19-21/9** Hospital trip planning slipped (convocation, timings). Vinayak asked for the form to be reworked into 5 critical questions and drafted them on 21/9.
+- **22/9** Form revised, made anonymous, final link forms.gle/njHLxCJCfrVBztiw8. Vrinda shared the hospital questionnaire PDF. nandini listed the data to ask CCF for. The CCF meeting was postponed so another team (Sresth) wouldn't copy ideas.
+- **24/9** Hospital visit and dog-bite interview (Jay voice notes). CCF Google Meet at 9:30 pm, with the transcript PDF shared.
+- **25/9** Jay shared the MNC guard and Malishka audio. The interview video was about 3 GB, so the team decided to use Drive.
+- **28/9** CCF reply: datasheet held by admin, about 90-100 dogs, density up near HSS from gate 7, budget not disclosed. Faculty advisor: Devesh Bhimsariya.
+- **30/9** Hospital gave nothing and required an email from Pareekshit for a CMO interview. Vansh to email Pareekshit and Satish sir. nandini created the Drive folder.
+- **3-4/10** Drive still empty. nandini: start the poster and video. Vrinda asked for the MNC guard audio, phone videos, mech-dept videos, CCF material and the form to go on Drive.
+- **5/10** CMO permission granted after Vansh's email. CMO hours: until 12:30, then 2:30-5:30.
+- **12/10** "Lock in": another team had about 20 interviews. Form blurb drafted and debated. Vrinda flagged the hours and evidence needed for the KPIs.
+- **13/10** Vrinda: at least 30 interviews needed, about 5-8 done. Form circulated to all groups. **CMO interview done** (no recording). Evening fieldwork postponed.
+- **14/10** Fieldwork night: JB guard and canteen, gate 5 guards (rural-versus-urban view), about 15-17 recordings. Jiya: research the Supreme Court guidelines.
+- **15/10** Jiya: research other institutes. Short movie dropped. Vinayak proposed a small implementation (awareness poster with CCF). Vansh emailed the director with the CMO cc'd.
+- **16/10** 200+ form responses. Hospital chairperson emailed, with no reply expected, so the plan is to just go. 3 more interviews. Vinayak explained the poster: how to react to a pack of dogs, around MAC.
+- **18/10** Vinayak asked everyone to put all material in the chat or on Drive for agent compilation, and set up the GitHub repo "Illusion". Responses sheet shared on request. Next step: a team meeting on the poster (hotspot map, solutions).
+- **19/10** Vansh (3:11 am) and Jiya (2:33 pm) finished uploading. nandini gave vinayakraizada@gmail.com access to Drive (confirmed 3:15 pm).
+- **Pending:** final review, "October", date not announced.
