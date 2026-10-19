@@ -5,8 +5,8 @@
 : "${EGOBLUR_VENV:=$TOOLS_ROOT/egoblur-venv}"
 : "${EGOBLUR_REPO:=$TOOLS_ROOT/EgoBlur}"
 : "${HF_HOME:=$TOOLS_ROOT/hf-cache}"                       # faster-whisper model cache
-: "${WHISPER_MODEL:=large-v3-turbo}"                        # best Hindi/English quality that fits RAM on CPU
-: "${WHISPER_TRANSLATE_MODEL:=medium}"                       # for --translate (turbo cannot translate)
+: "${WHISPER_MODEL:=medium}"                                # medium beat turbo on noisy Hindi field audio; one model for both passes
+: "${WHISPER_TRANSLATE_MODEL:=medium}"                       # English pass via translate task (accurate); "large-v3-turbo" = fast English-forced decoding (rough)
 : "${WHISPER_COMPUTE:=float32}"                              # int8 is garbled on this CPU; float16 on GPU
 : "${EGOBLUR_FACE_MODEL:=$TOOLS_ROOT/models/egoblur/ego_blur_face_gen2.jit}"
 : "${YUNET_MODEL:=$TOOLS_ROOT/models/face_detection_yunet_2023mar.onnx}"

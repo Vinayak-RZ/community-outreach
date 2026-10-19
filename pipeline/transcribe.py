@@ -22,10 +22,19 @@ def extract_audio(src, dst):
 
 def run_pass(model, wav, task, args):
     t0 = time.time()
+    # "en-decode" = transcribe with language forced to English. On Hindi/Hinglish speech
+    # whisper-turbo then writes English, i.e. a rough translation (turbo has no translate task).
+    lang = "en" if task == "en-decode" else args.language
+    task = "transcribe" if task == "en-decode" else task
     segments, info = model.transcribe(
-        wav, task=task, language=args.language, beam_size=args.beam_size,
+        wav, task=task, language=lang, beam_size=args.beam_size,
+        # Limited temperature fallback + mild repetition penalty: full fallback (6 temps) made
+        # noisy field audio 3-5x slower, and temp 0 alone looped ("क्या किस लिए?" x14).
+        temperature=[0.0, 0.4], repetition_penalty=1.1,
         vad_filter=not args.no_vad, word_timestamps=True,
-        initial_prompt=args.initial_prompt, condition_on_previous_text=False)
+        # The vocabulary prompt helps transcription but gets echoed verbatim by the translate task.
+        initial_prompt=args.initial_prompt if task == "transcribe" else None,
+        condition_on_previous_text=False)
     segs = []
     for s in segments:
         segs.append({"id": s.id, "start": round(s.start, 3), "end": round(s.end, 3), "text": s.text.strip(),
@@ -48,17 +57,39 @@ def write_outputs(base, segs, meta):
         json.dump({**meta, "segments": segs}, f, ensure_ascii=False, indent=1)
 
 
+def translate(model, wav, segs, meta, base, args, device, compute, WhisperModel, result):
+    # Keep the source language from pass 1 so the translate pass doesn't re-detect it.
+    args.language = args.language or meta["language"]
+    if args.language == "en":
+        # Whisper's translate task garbles speech that is already English; reuse pass 1.
+        tsegs, tel = segs, 0.0
+    else:
+        if args.translate_model != args.model:
+            del model; import gc; gc.collect()  # one model in RAM at a time (shared box)
+            model = WhisperModel(args.translate_model, device=device, compute_type=compute, cpu_threads=args.threads)
+        tsegs, _, tel = run_pass(model, wav, "en-decode" if args.translate_model.endswith("turbo") else "translate", args)
+    write_outputs(base + ".en", tsegs, {**meta, "task": "translate", "target_language": "en",
+                                        "processing_s": round(tel, 1),
+                                        "model": args.model if args.language == "en" else args.translate_model,
+                                        "method": "copy of English transcript" if args.language == "en" else
+                                        ("English-forced decoding (rough translation)" if args.translate_model.endswith("turbo")
+                                         else "whisper translate task")})
+    result["translation"] = base + ".en.json"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("input")
     ap.add_argument("-o", "--out-dir", help="default: alongside input")
     ap.add_argument("--stem", help="output basename (default: input filename without extension)")
     ap.add_argument("-l", "--language", default=None,
-                    help="force language code (hi, en, ...). Default: auto-detect")
+                    help="force language code (hi, en, ...). 'auto-hi' = treat as Hindi unless the model is "
+                         ">=0.97 sure it's English (Whisper often mislabels Hinglish as English). Default: plain auto")
     ap.add_argument("--translate", action="store_true", help="also produce an English translation (.en.*)")
-    ap.add_argument("-m", "--model", default=os.environ.get("WHISPER_MODEL", "large-v3-turbo"))
+    ap.add_argument("-m", "--model", default=os.environ.get("WHISPER_MODEL", "medium"))
     ap.add_argument("--translate-model", default=os.environ.get("WHISPER_TRANSLATE_MODEL", "medium"),
-                    help="model for the English translation pass (turbo models can't translate well)")
+                    help="model for the English pass. turbo: English-forced decoding (fast, one model); "
+                         "others (e.g. medium): Whisper's translate task")
     ap.add_argument("--device", default="auto", help="auto | cpu | cuda")
     ap.add_argument("--compute-type", default=os.environ.get("WHISPER_COMPUTE", "float32"),
                     help="float32 on this CPU box: int8 output is garbled here (CTranslate2 4.8 + AMX CPU)")
@@ -67,6 +98,8 @@ def main():
     ap.add_argument("--initial-prompt", default=None,
                     help="optional context/vocab hint, e.g. 'IIT Roorkee campus dogs, Hinglish interview'")
     ap.add_argument("--no-vad", action="store_true", help="disable silence filtering")
+    ap.add_argument("--reuse-transcript", action="store_true",
+                    help="if <stem>.json exists, don't redo pass 1 (only add the translation)")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args()
 
@@ -85,34 +118,36 @@ def main():
     model = WhisperModel(args.model, device=device, compute_type=compute, cpu_threads=args.threads)
     with tempfile.TemporaryDirectory() as td:
         wav = os.path.join(td, "audio.wav"); extract_audio(src, wav)
+        if args.reuse_transcript and os.path.exists(base + ".json"):
+            with open(base + ".json", encoding="utf-8") as f:
+                meta = json.load(f)
+            segs = meta.pop("segments")
+            args.language = meta["language"]
+            result = {"language": meta["language"], "language_probability": meta["language_probability"],
+                      "duration_s": meta["duration_s"], "processing_s": 0.0, "transcript": base + ".json"}
+            if args.translate:
+                translate(model, wav, segs, meta, base, args, device, compute, WhisperModel, result)
+            print(json.dumps(result)); return
+        detection = None
+        if args.language == "auto-hi":
+            from faster_whisper.audio import decode_audio
+            lg, pr, allp = model.detect_language(decode_audio(wav), language_detection_segments=4)
+            detection = {"detected": lg, "probability": round(pr, 3),
+                         "top": [[l, round(p, 3)] for l, p in allp[:3]]}
+            args.language = "en" if (lg == "en" and pr >= 0.97) else "hi"
         segs, info, el = run_pass(model, wav, "transcribe", args)
         meta = {"source_file": os.path.basename(src), "created": datetime.now(timezone.utc).isoformat(),
                 "model": args.model, "device": device, "compute_type": compute,
                 "faster_whisper": faster_whisper.__version__, "task": "transcribe",
                 "language": info.language, "language_probability": round(info.language_probability, 3),
-                "language_forced": args.language is not None, "duration_s": round(info.duration, 2),
+                "language_forced": args.language is not None, "language_policy_detection": detection, "duration_s": round(info.duration, 2),
                 "processing_s": round(el, 1), "initial_prompt": args.initial_prompt}
         write_outputs(base, segs, meta)
         result = {"language": info.language, "language_probability": meta["language_probability"],
                   "duration_s": meta["duration_s"], "processing_s": meta["processing_s"],
                   "transcript": base + ".json"}
         if args.translate:
-            # Keep the source language from pass 1 so the translate pass doesn't re-detect it.
-            args.language = args.language or info.language
-            if args.language == "en":
-                # Whisper's translate task garbles speech that is already English; reuse pass 1.
-                tsegs, tel = segs, 0.0
-            else:
-                if args.translate_model != args.model:
-                    del model; import gc; gc.collect()  # one model in RAM at a time (shared box)
-                    model = WhisperModel(args.translate_model, device=device, compute_type=compute, cpu_threads=args.threads)
-                if args.translate_model.endswith("turbo"):
-                    print("warning: turbo models are not trained for translation; output may be poor", file=sys.stderr)
-                tsegs, _, tel = run_pass(model, wav, "translate", args)
-            write_outputs(base + ".en", tsegs, {**meta, "task": "translate", "target_language": "en",
-                                                "processing_s": round(tel, 1),
-                                                "model": args.model if args.language == "en" else args.translate_model})
-            result["translation"] = base + ".en.json"
+            translate(model, wav, segs, meta, base, args, device, compute, WhisperModel, result)
     print(json.dumps(result))
 
 
