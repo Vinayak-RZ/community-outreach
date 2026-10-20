@@ -1,0 +1,36 @@
+{
+ "source_file": "Voice 261014_223912.m4a",
+ "created": "2026-10-19T11:12:53.853081+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.382,
+  "top": [
+   [
+    "hi",
+    0.382
+   ],
+   [
+    "en",
+    0.185
+   ],
+   [
+    "ur",
+    0.144
+   ]
+  ]
+ },
+ "duration_s": 17.02,
+ "processing_s": 7.3,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": []
+}

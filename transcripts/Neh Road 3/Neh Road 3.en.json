@@ -1,0 +1,343 @@
+{
+ "source_file": "Neh Road 3.m4a",
+ "created": "2026-10-19T11:15:00.396941+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.574,
+  "top": [
+   [
+    "hi",
+    0.574
+   ],
+   [
+    "ur",
+    0.33
+   ],
+   [
+    "en",
+    0.044
+   ]
+  ]
+ },
+ "duration_s": 26.56,
+ "processing_s": 60.4,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 8.68,
+   "end": 10.02,
+   "text": "or the dogs inside",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 8.68,
+     "end": 8.82,
+     "word": " or",
+     "prob": 0.014
+    },
+    {
+     "start": 8.82,
+     "end": 8.9,
+     "word": " the",
+     "prob": 0.119
+    },
+    {
+     "start": 8.9,
+     "end": 9.1,
+     "word": " dogs",
+     "prob": 0.502
+    },
+    {
+     "start": 9.1,
+     "end": 10.02,
+     "word": " inside",
+     "prob": 0.349
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 10.68,
+   "end": 12.22,
+   "text": "No, Ma'am, they don't come",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 10.68,
+     "end": 11.06,
+     "word": " No,",
+     "prob": 0.005
+    },
+    {
+     "start": 11.08,
+     "end": 11.16,
+     "word": " Ma",
+     "prob": 0.126
+    },
+    {
+     "start": 11.16,
+     "end": 11.32,
+     "word": "'am,",
+     "prob": 0.97
+    },
+    {
+     "start": 11.7,
+     "end": 11.8,
+     "word": " they",
+     "prob": 0.277
+    },
+    {
+     "start": 11.8,
+     "end": 12.22,
+     "word": " don't",
+     "prob": 0.767
+    },
+    {
+     "start": 12.22,
+     "end": 12.22,
+     "word": " come",
+     "prob": 0.668
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 12.22,
+   "end": 13.32,
+   "text": "They don't come?",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 12.22,
+     "end": 12.8,
+     "word": " They",
+     "prob": 0.062
+    },
+    {
+     "start": 12.8,
+     "end": 13.22,
+     "word": " don't",
+     "prob": 0.863
+    },
+    {
+     "start": 13.22,
+     "end": 13.32,
+     "word": " come?",
+     "prob": 0.693
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 13.32,
+   "end": 14.64,
+   "text": "No, they don't",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 13.32,
+     "end": 13.46,
+     "word": " No,",
+     "prob": 0.699
+    },
+    {
+     "start": 13.46,
+     "end": 13.74,
+     "word": " they",
+     "prob": 0.883
+    },
+    {
+     "start": 13.74,
+     "end": 14.64,
+     "word": " don't",
+     "prob": 0.978
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 14.64,
+   "end": 16.08,
+   "text": "You can ask me",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 14.64,
+     "end": 14.84,
+     "word": " You",
+     "prob": 0.034
+    },
+    {
+     "start": 14.84,
+     "end": 15.3,
+     "word": " can",
+     "prob": 0.929
+    },
+    {
+     "start": 15.3,
+     "end": 15.98,
+     "word": " ask",
+     "prob": 0.869
+    },
+    {
+     "start": 15.98,
+     "end": 16.08,
+     "word": " me",
+     "prob": 0.88
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 16.08,
+   "end": 19.16,
+   "text": "I will tell you everything",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 16.08,
+     "end": 16.96,
+     "word": " I",
+     "prob": 0.005
+    },
+    {
+     "start": 16.96,
+     "end": 16.98,
+     "word": " will",
+     "prob": 0.379
+    },
+    {
+     "start": 16.98,
+     "end": 17.04,
+     "word": " tell",
+     "prob": 0.569
+    },
+    {
+     "start": 17.04,
+     "end": 18.9,
+     "word": " you",
+     "prob": 0.953
+    },
+    {
+     "start": 18.9,
+     "end": 19.16,
+     "word": " everything",
+     "prob": 0.357
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 19.16,
+   "end": 20.62,
+   "text": "But we will not go",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 19.16,
+     "end": 19.38,
+     "word": " But",
+     "prob": 0.01
+    },
+    {
+     "start": 19.38,
+     "end": 19.9,
+     "word": " we",
+     "prob": 0.04
+    },
+    {
+     "start": 19.9,
+     "end": 19.9,
+     "word": " will",
+     "prob": 0.369
+    },
+    {
+     "start": 19.9,
+     "end": 20.22,
+     "word": " not",
+     "prob": 0.242
+    },
+    {
+     "start": 20.22,
+     "end": 20.62,
+     "word": " go",
+     "prob": 0.1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 21.7,
+   "end": 23.16,
+   "text": "We will never go",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 21.7,
+     "end": 22.26,
+     "word": " We",
+     "prob": 0.006
+    },
+    {
+     "start": 22.26,
+     "end": 22.4,
+     "word": " will",
+     "prob": 0.664
+    },
+    {
+     "start": 22.4,
+     "end": 22.7,
+     "word": " never",
+     "prob": 0.731
+    },
+    {
+     "start": 22.7,
+     "end": 23.16,
+     "word": " go",
+     "prob": 0.74
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 23.68,
+   "end": 24.46,
+   "text": "Ok, ok",
+   "avg_logprob": -0.816,
+   "no_speech_prob": 0.706,
+   "words": [
+    {
+     "start": 23.68,
+     "end": 24.06,
+     "word": " Ok,",
+     "prob": 0.143
+    },
+    {
+     "start": 24.18,
+     "end": 24.46,
+     "word": " ok",
+     "prob": 0.164
+    }
+   ]
+  }
+ ]
+}

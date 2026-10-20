@@ -1,0 +1,429 @@
+{
+ "source_file": "Neh Road 2.m4a",
+ "created": "2026-10-19T11:16:25.250793+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.512,
+  "top": [
+   [
+    "hi",
+    0.512
+   ],
+   [
+    "ur",
+    0.43
+   ],
+   [
+    "en",
+    0.025
+   ]
+  ]
+ },
+ "duration_s": 40.13,
+ "processing_s": 34.4,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 3.0,
+   "end": 6.98,
+   "text": "If someone is bitten by a dog, what problems do you see?",
+   "avg_logprob": -0.835,
+   "no_speech_prob": 0.496,
+   "words": [
+    {
+     "start": 3.0,
+     "end": 3.0,
+     "word": " If",
+     "prob": 0.132
+    },
+    {
+     "start": 3.0,
+     "end": 3.0,
+     "word": " someone",
+     "prob": 0.257
+    },
+    {
+     "start": 3.0,
+     "end": 4.52,
+     "word": " is",
+     "prob": 0.297
+    },
+    {
+     "start": 4.52,
+     "end": 4.52,
+     "word": " bitten",
+     "prob": 0.11
+    },
+    {
+     "start": 4.52,
+     "end": 4.68,
+     "word": " by",
+     "prob": 0.227
+    },
+    {
+     "start": 4.68,
+     "end": 4.68,
+     "word": " a",
+     "prob": 0.44
+    },
+    {
+     "start": 4.68,
+     "end": 4.68,
+     "word": " dog,",
+     "prob": 0.903
+    },
+    {
+     "start": 4.8,
+     "end": 6.18,
+     "word": " what",
+     "prob": 0.279
+    },
+    {
+     "start": 6.18,
+     "end": 6.64,
+     "word": " problems",
+     "prob": 0.173
+    },
+    {
+     "start": 6.64,
+     "end": 6.7,
+     "word": " do",
+     "prob": 0.387
+    },
+    {
+     "start": 6.7,
+     "end": 6.98,
+     "word": " you",
+     "prob": 0.965
+    },
+    {
+     "start": 6.98,
+     "end": 6.98,
+     "word": " see?",
+     "prob": 0.475
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 7.84,
+   "end": 12.26,
+   "text": "Some children complain about it.",
+   "avg_logprob": -0.835,
+   "no_speech_prob": 0.496,
+   "words": [
+    {
+     "start": 7.84,
+     "end": 8.24,
+     "word": " Some",
+     "prob": 0.053
+    },
+    {
+     "start": 8.24,
+     "end": 10.16,
+     "word": " children",
+     "prob": 0.192
+    },
+    {
+     "start": 10.16,
+     "end": 10.32,
+     "word": " complain",
+     "prob": 0.218
+    },
+    {
+     "start": 10.32,
+     "end": 10.96,
+     "word": " about",
+     "prob": 0.361
+    },
+    {
+     "start": 10.96,
+     "end": 12.26,
+     "word": " it.",
+     "prob": 0.25
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 12.74,
+   "end": 13.56,
+   "text": "I am a duty first.",
+   "avg_logprob": -0.835,
+   "no_speech_prob": 0.496,
+   "words": [
+    {
+     "start": 12.74,
+     "end": 12.74,
+     "word": " I",
+     "prob": 0.213
+    },
+    {
+     "start": 12.74,
+     "end": 12.74,
+     "word": " am",
+     "prob": 0.255
+    },
+    {
+     "start": 12.74,
+     "end": 12.74,
+     "word": " a",
+     "prob": 0.292
+    },
+    {
+     "start": 12.74,
+     "end": 13.04,
+     "word": " duty",
+     "prob": 0.502
+    },
+    {
+     "start": 13.04,
+     "end": 13.56,
+     "word": " first.",
+     "prob": 0.343
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 15.68,
+   "end": 18.46,
+   "text": "Where did you work before?",
+   "avg_logprob": -0.835,
+   "no_speech_prob": 0.496,
+   "words": [
+    {
+     "start": 15.68,
+     "end": 16.64,
+     "word": " Where",
+     "prob": 0.19
+    },
+    {
+     "start": 16.64,
+     "end": 16.64,
+     "word": " did",
+     "prob": 0.599
+    },
+    {
+     "start": 16.64,
+     "end": 18.36,
+     "word": " you",
+     "prob": 0.939
+    },
+    {
+     "start": 18.36,
+     "end": 18.36,
+     "word": " work",
+     "prob": 0.403
+    },
+    {
+     "start": 18.36,
+     "end": 18.46,
+     "word": " before?",
+     "prob": 0.338
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 18.58,
+   "end": 19.78,
+   "text": "At the main gate.",
+   "avg_logprob": -0.835,
+   "no_speech_prob": 0.496,
+   "words": [
+    {
+     "start": 18.58,
+     "end": 19.32,
+     "word": " At",
+     "prob": 0.184
+    },
+    {
+     "start": 19.32,
+     "end": 19.46,
+     "word": " the",
+     "prob": 0.536
+    },
+    {
+     "start": 19.46,
+     "end": 19.48,
+     "word": " main",
+     "prob": 0.848
+    },
+    {
+     "start": 19.48,
+     "end": 19.78,
+     "word": " gate.",
+     "prob": 0.97
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 20.74,
+   "end": 22.28,
+   "text": "What are the problems at the main gate?",
+   "avg_logprob": -0.835,
+   "no_speech_prob": 0.496,
+   "words": [
+    {
+     "start": 20.74,
+     "end": 20.84,
+     "word": " What",
+     "prob": 0.484
+    },
+    {
+     "start": 20.84,
+     "end": 21.34,
+     "word": " are",
+     "prob": 0.162
+    },
+    {
+     "start": 21.34,
+     "end": 21.34,
+     "word": " the",
+     "prob": 0.864
+    },
+    {
+     "start": 21.34,
+     "end": 21.34,
+     "word": " problems",
+     "prob": 0.825
+    },
+    {
+     "start": 21.34,
+     "end": 21.56,
+     "word": " at",
+     "prob": 0.507
+    },
+    {
+     "start": 21.56,
+     "end": 22.06,
+     "word": " the",
+     "prob": 0.957
+    },
+    {
+     "start": 22.06,
+     "end": 22.06,
+     "word": " main",
+     "prob": 0.974
+    },
+    {
+     "start": 22.06,
+     "end": 22.28,
+     "word": " gate?",
+     "prob": 0.986
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 22.96,
+   "end": 25.6,
+   "text": "There's no problem with dogs.",
+   "avg_logprob": -0.835,
+   "no_speech_prob": 0.496,
+   "words": [
+    {
+     "start": 22.96,
+     "end": 23.92,
+     "word": " There's",
+     "prob": 0.062
+    },
+    {
+     "start": 23.92,
+     "end": 23.92,
+     "word": " no",
+     "prob": 0.514
+    },
+    {
+     "start": 23.92,
+     "end": 23.92,
+     "word": " problem",
+     "prob": 0.766
+    },
+    {
+     "start": 23.92,
+     "end": 25.6,
+     "word": " with",
+     "prob": 0.199
+    },
+    {
+     "start": 25.6,
+     "end": 25.6,
+     "word": " dogs.",
+     "prob": 0.282
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 25.6,
+   "end": 30.28,
+   "text": "Did they tell you to keep them outside?",
+   "avg_logprob": -0.835,
+   "no_speech_prob": 0.496,
+   "words": [
+    {
+     "start": 25.6,
+     "end": 26.5,
+     "word": " Did",
+     "prob": 0.121
+    },
+    {
+     "start": 26.5,
+     "end": 27.26,
+     "word": " they",
+     "prob": 0.145
+    },
+    {
+     "start": 27.26,
+     "end": 27.52,
+     "word": " tell",
+     "prob": 0.148
+    },
+    {
+     "start": 27.52,
+     "end": 27.98,
+     "word": " you",
+     "prob": 0.988
+    },
+    {
+     "start": 27.98,
+     "end": 28.46,
+     "word": " to",
+     "prob": 0.428
+    },
+    {
+     "start": 28.46,
+     "end": 28.46,
+     "word": " keep",
+     "prob": 0.773
+    },
+    {
+     "start": 28.46,
+     "end": 29.7,
+     "word": " them",
+     "prob": 0.55
+    },
+    {
+     "start": 29.7,
+     "end": 30.28,
+     "word": " outside?",
+     "prob": 0.741
+    }
+   ]
+  }
+ ]
+}

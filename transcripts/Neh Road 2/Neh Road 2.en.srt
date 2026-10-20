@@ -1,0 +1,32 @@
+1
+00:00:03,000 --> 00:00:06,980
+If someone is bitten by a dog, what problems do you see?
+
+2
+00:00:07,840 --> 00:00:12,260
+Some children complain about it.
+
+3
+00:00:12,740 --> 00:00:13,560
+I am a duty first.
+
+4
+00:00:15,680 --> 00:00:18,460
+Where did you work before?
+
+5
+00:00:18,580 --> 00:00:19,780
+At the main gate.
+
+6
+00:00:20,740 --> 00:00:22,280
+What are the problems at the main gate?
+
+7
+00:00:22,960 --> 00:00:25,600
+There's no problem with dogs.
+
+8
+00:00:25,600 --> 00:00:30,280
+Did they tell you to keep them outside?
+
