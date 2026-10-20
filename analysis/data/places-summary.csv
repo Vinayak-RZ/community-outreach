@@ -1,15 +1,15 @@
 place,mentions,distinct_sources,uncertain_mentions,night_mentions,interviewed_here,top_types
 Feeding zone (unnamed),42,14,0,0,,feeding zone 42; dogs in hostel 7; shelter or care 6
 Mess / canteen,38,18,0,0,Sarojni Canteen; VK canteen bhaiya,dogs in hostel 13; feeding zone 11; garbage 5
+MAC,33,14,2,2,"Mac guard; Mac balu; IMG_9408 (Robocon lab, MAC 4th floor)",dogs in hostel 3; interview location 3; feeding zone 2
 Hospital,32,13,0,2,13/10 hospital-day clips; CMO (notes),bite 9; shelter or care 3; puppies 2
-MAC,32,13,2,2,"Mac guard; Mac balu; IMG_9408 (Robocon lab, MAC 4th floor)",dogs in hostel 3; interview location 3; feeding zone 2
 MNC,29,9,0,2,Mnc guard,chasing 2; dogs in hostel 2; noise 1
-Himalaya Bhawan,18,8,1,0,"IMG_5268 (caretaker, Himalaya side; inferred)",boundary gap 3; dogs in hostel 2; garbage 1
+Himalaya Bhawan,19,9,1,0,"IMG_5268 (caretaker, Himalaya side; inferred)",boundary gap 3; dogs in hostel 2; garbage 1
 Govind Bhawan,14,7,0,2,,shelter or care 3; dogs in hostel 1; feeding zone 1
 Kasturba Bhawan,12,6,4,2,,shelter or care 3; noise 2; boundary gap 1
+Jawahar Bhawan,12,7,0,0,Jawahar bhawan guard; Jawahar rishit,dogs in hostel 4; interview location 2; feeding zone 1
 SAC,11,8,5,0,,chasing 3; dogs in hostel 3; feeding zone 1
 Boundary wall/railing,11,5,0,0,,boundary gap 11; dogs in hostel 1
-Jawahar Bhawan,11,6,0,0,Jawahar bhawan guard; Jawahar rishit,dogs in hostel 4; interview location 2; feeding zone 1
 Rajiv Bhawan,9,4,0,3,,chasing 2; feeding zone 2; bite 1
 Sarojini Bhawan,7,3,1,0,Sarojini bhawan guard; Sarojni Canteen,feeding zone 2; shelter or care 1; garbage 1
 Mandir,6,5,0,0,,dogs in hostel 1
@@ -28,9 +28,10 @@ Thomson lane/road,2,2,1,1,,boundary gap 1
 Aravali,2,2,0,2,,
 Gate 5,2,2,0,0,,
 Cautley Bhawan,2,2,0,0,Cautley Bhawan; Cautley Bhawan 2,interview location 2
+Architecture dept,2,2,0,0,Archi dept ma'am,interview location 1; hotspot (team) 1
 Rajendra Bhawan,1,1,0,0,,
 Physics / Chemistry dept,1,1,0,0,,
 Gate 6,1,1,0,0,,feeding zone 1
 Saraswati Mandir,1,1,0,0,,
 LHC,1,1,0,0,,dogs in hostel 1; feeding zone 1
-Architecture dept,1,1,0,0,Archi dept ma'am,interview location 1
+Govind Bhawan (towards Chemistry),1,1,0,0,,hotspot (team) 1

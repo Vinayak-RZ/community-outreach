@@ -1,0 +1,32 @@
+place,lat,lon,position_from,issue_mentions_excl_chat,dominant_issue,night_mentions,team_hotspot,interviewed_here
+Himalaya Bhawan,29.86113,77.8961,OSM (Nominatim),17,boundary gap,0,yes,yes
+Architecture dept,29.86354,77.89922,OSM,0,,0,yes,yes
+Govind Bhawan (towards Chemistry),29.8624,77.89515,midpoint Govind Bhawan–Chemistry (OSM),12,,0,yes,
+Jawahar Bhawan,29.86397,77.90042,OSM,8,dogs in hostel,0,yes,yes
+Kasturba Bhawan,29.86728,77.90077,OSM,12,shelter or care,2,,
+Sarojini Bhawan,29.86496,77.90019,OSM,6,feeding zone,0,,yes
+Hospital,29.86182,77.893,OSM (Institute Hospital),11,bite,1,,yes
+SAC,29.8665,77.89969,OSM,10,chasing,0,,
+Library,29.86532,77.89486,OSM,6,bite,2,,
+Main gate,29.86543,77.88935,OSM,4,shelter or care,0,,
+Rajiv Bhawan,29.86979,77.89502,OSM (Nominatim),9,chasing,3,,
+Radhakrishnan Bhawan,29.87127,77.89595,OSM (Nominatim),4,,0,,
+Ravindra Bhawan,29.86538,77.89247,OSM (canteen node),4,dogs in hostel,0,,
+Cautley Bhawan,29.87057,77.89681,OSM,0,,0,,yes
+Rajendra Bhawan,29.87101,77.89411,OSM,1,,0,,
+Ganga Bhawan,29.87169,77.89437,OSM,0,,0,,
+Mandir,29.86835,77.8978,"OSM (Saraswati Mandir, uncertain which mandir)",6,dogs in hostel,0,,
+LBS ground,29.86714,77.89552,OSM,3,chasing,1,,
+ICC,,,not in OSM,2,,0,,
+MAC,,,not in OSM,24,dogs in hostel,2,yes,yes
+MNC,,,not in OSM,26,chasing,2,,yes
+Vivekananda Bhawan,,,not in OSM,3,,0,,
+Badminton hall,,,not in OSM,5,shelter or care,0,,
+Robocon lab,,,not in OSM,3,dogs in hostel,1,,yes
+Gate 7,,,not in OSM,2,boundary gap,0,,
+Gate 5,,,not in OSM,2,,0,,
+Boundary wall/railing,,,not in OSM,11,boundary gap,0,,
+Mess / canteen,,,not in OSM,32,dogs in hostel,0,,yes
+Feeding zone (unnamed),,,not in OSM,40,feeding zone,0,,
+Thomson,,,not in OSM,0,,0,,
+Aravali,,,not in OSM,1,,1,,

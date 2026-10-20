@@ -83,6 +83,10 @@ LOC = [("Jawahar Bhawan","Jawahar bhawan guard"),("Jawahar Bhawan","Jawahar rish
 for place, fn in LOC:
     rows.append(dict(place=place, source="transcripts/"+fn, where="file (interview location from file name or transcript)", mention_type="interview location", time_of_day="",
                      interviewed_here="yes", match="uncertain" if fn in ("IMG_5268","Mac balu") else "exact", text=""))
+# Team field observations confirmed by Vinayak on 20 Oct 2026 (hotspots, not counted as interview mentions)
+for place in ["Himalaya Bhawan","MAC","Architecture dept","Govind Bhawan (towards Chemistry)","Jawahar Bhawan"]:
+    rows.append(dict(place=place, source="team field observation", where="20 Oct 2026", mention_type="hotspot (team)", time_of_day="",
+                     interviewed_here="", match="exact", text="Confirmed hotspot from our own fieldwork"))
 # drop noise: the CCF GMeet is the same meeting as transcripts/Recording 2026-09-25 163540 (kept both, flagged)
 with open(R/"analysis/data/places.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
