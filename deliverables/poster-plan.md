@@ -48,3 +48,8 @@ The figures fig7–fig11 already follow this; fig1–fig6 (survey) use the older
 - No faces, names, room numbers or emails. Blur any photo with a person in it (blurring was dropped from the pipeline, so do it by hand for the few poster images).
 - Any quote on the poster has been checked by ear and is covered by consent.
 - Check font sizes at A3: body ≥ 14 pt, headings ≥ 28 pt.
+
+## Figma draft (20/10/2026)
+- File: [EEC 399 Group 23 – Campus Dogs Poster](https://www.figma.com/design/17JnrRFCdZtaPkjD30PSb5) (Vinayak's team drafts), frame "A3 Poster – 297×420 mm @300dpi" (3508 × 4961 px, node 1:410).
+- Preview: [`poster-preview.png`](poster-preview.png). Draft PDF: [`poster-draft.pdf`](poster-draft.pdf) is a 300 dpi raster made from the preview, because the Figma tools here can't export PDF. For printing, export a vector PDF from Figma (File → Export frames to PDF).
+- To check before printing: the text inside fig9 and fig11 is small at A3, so re-render those with larger labels. Body text is 40 px (about 10 pt), smaller than the 14 pt in the spec, because of how much content there is.
