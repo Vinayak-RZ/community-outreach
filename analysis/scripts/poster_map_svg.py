@@ -3,8 +3,8 @@ import json, csv, math
 from pathlib import Path
 R = Path(__file__).resolve().parents[1].parent
 L = json.load(open(R/"analysis/data/osm/layers.json"))
-X0, X1, Y0, Y1 = 77.8880, 77.9030, 29.8606, 29.8702
-W = 1526; H = round(W * (Y1 - Y0) / ((X1 - X0) * math.cos(math.radians(29.866))))
+X0, X1, Y0, Y1 = 77.8886, 77.9021, 29.8604, 29.8717
+W = 1340; H = round(W * (Y1 - Y0) / ((X1 - X0) * math.cos(math.radians(29.866))))
 px = lambda lo, la: (round((lo - X0) / (X1 - X0) * W), round((Y1 - la) / (Y1 - Y0) * H))
 inside = lambda pts: any(X0 <= x <= X1 and Y0 <= y <= Y1 for x, y in pts)
 d = lambda pts, z="": "M" + "L".join(f"{a},{b}" for a, b in (px(*p) for p in pts)) + z
@@ -24,6 +24,6 @@ pts = []
 for r in csv.DictReader(open(R/"analysis/data/places-osm-match.csv")):
     if not r["lat"]: continue
     x, y = px(float(r["lon"]), float(r["lat"]))
-    if 0 <= x <= W and 0 <= y <= H: pts.append(dict(p=r["place"], x=x, y=y, n=int(r["issue_mentions_excl_chat"]), dom=r["dominant_issue"], night=int(r["night_mentions"]), team=r["team_hotspot"], iv=r["interviewed_here"]))
+    if 0 <= x <= W and 0 <= y <= H: pts.append(dict(p=r["place"], x=x, y=y, n=int(r["issue_mentions_excl_chat"]), dom=r["dominant_issue"], night=int(r["night_mentions"]), team=r["team_hotspot"], iv=r["interviewed_here"], approx="approx" in r["position_from"]))
 json.dump(dict(W=W, H=H, pts=pts), open("/tmp/mapx_pts.json", "w"))
 print(W, H, len(svg), len(pts))

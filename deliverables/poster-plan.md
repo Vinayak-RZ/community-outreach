@@ -57,3 +57,11 @@ The figures fig7–fig11 already follow this; fig1–fig6 (survey) use the older
 
 ## Map in the centre (20 Oct)
 The centre band is now a campus map ("Where it happens"): an OpenStreetMap base imported into Figma as a vector, with native circles for mention counts, rings for the five spots we saw ourselves, and night counts as small notes. To make room we took out the timeline (the dates are still in [`work-log.md`](work-log.md)), the source matrix, the "Who brought up what" table and the one-line caveat under each finding. Details in [`map-plan.md`](map-plan.md).
+
+## Visual-first rebuild (20 Oct, later)
+Vinayak asked for less text and more graphics. The frame is rebuilt from `analysis/scripts/figma/poster_build.js` (the map base is a separate vector import). In order:
+- Fieldwork: 9 big numbers, plus the timeline back in (teal dots are field days).
+- Survey: a 100-square waffle (86% stay with limits, 8% free movement), 68% with a bar (dogs in hostels), chased vs not chased as two bars (87% vs 22%), and 71% with a bar (had not heard of CCF).
+- Map: circles sized by mentions, rings for our five spots, squares for the two approx. feeding spots, night counts as small notes. Beside it, "Who brought up what" as small-multiple bars (6 topics by 4 groups).
+- Findings: a dot matrix (F1–F7 by 7 kinds of source) with the "n of 7" count.
+- Disagreements as short paired lines, KPIs as progress bars, recommendations as one line each with the owner.
