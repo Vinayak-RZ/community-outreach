@@ -1,0 +1,377 @@
+{
+ "source_file": "20261013_120723.mp4",
+ "created": "2026-10-20T00:36:02.944184+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.661,
+  "top": [
+   [
+    "hi",
+    0.661
+   ],
+   [
+    "ur",
+    0.262
+   ],
+   [
+    "en",
+    0.035
+   ]
+  ]
+ },
+ "duration_s": 102.34,
+ "processing_s": 68.0,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 32.11,
+   "end": 36.05,
+   "text": "Yes, but one came but he was treated.",
+   "avg_logprob": -0.967,
+   "no_speech_prob": 0.243,
+   "words": [
+    {
+     "start": 32.11,
+     "end": 32.47,
+     "word": " Yes,",
+     "prob": 0.163
+    },
+    {
+     "start": 33.29,
+     "end": 33.99,
+     "word": " but",
+     "prob": 0.13
+    },
+    {
+     "start": 33.99,
+     "end": 34.29,
+     "word": " one",
+     "prob": 0.173
+    },
+    {
+     "start": 34.29,
+     "end": 34.63,
+     "word": " came",
+     "prob": 0.342
+    },
+    {
+     "start": 34.63,
+     "end": 34.97,
+     "word": " but",
+     "prob": 0.475
+    },
+    {
+     "start": 34.97,
+     "end": 35.47,
+     "word": " he",
+     "prob": 0.42
+    },
+    {
+     "start": 35.47,
+     "end": 35.49,
+     "word": " was",
+     "prob": 0.318
+    },
+    {
+     "start": 35.49,
+     "end": 36.05,
+     "word": " treated.",
+     "prob": 0.17
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 36.85,
+   "end": 39.09,
+   "text": "He was retired.",
+   "avg_logprob": -0.967,
+   "no_speech_prob": 0.243,
+   "words": [
+    {
+     "start": 36.85,
+     "end": 37.95,
+     "word": " He",
+     "prob": 0.314
+    },
+    {
+     "start": 37.95,
+     "end": 37.95,
+     "word": " was",
+     "prob": 0.645
+    },
+    {
+     "start": 37.95,
+     "end": 39.09,
+     "word": " retired.",
+     "prob": 0.227
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 41.15,
+   "end": 43.49,
+   "text": "He had heart attack.",
+   "avg_logprob": -0.967,
+   "no_speech_prob": 0.243,
+   "words": [
+    {
+     "start": 41.15,
+     "end": 42.25,
+     "word": " He",
+     "prob": 0.233
+    },
+    {
+     "start": 42.25,
+     "end": 42.93,
+     "word": " had",
+     "prob": 0.247
+    },
+    {
+     "start": 42.93,
+     "end": 43.13,
+     "word": " heart",
+     "prob": 0.478
+    },
+    {
+     "start": 43.13,
+     "end": 43.49,
+     "word": " attack.",
+     "prob": 0.108
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 44.85,
+   "end": 47.79,
+   "text": "It happens here also but not much.",
+   "avg_logprob": -0.967,
+   "no_speech_prob": 0.243,
+   "words": [
+    {
+     "start": 44.85,
+     "end": 44.85,
+     "word": " It",
+     "prob": 0.303
+    },
+    {
+     "start": 44.85,
+     "end": 44.85,
+     "word": " happens",
+     "prob": 0.703
+    },
+    {
+     "start": 44.85,
+     "end": 46.43,
+     "word": " here",
+     "prob": 0.713
+    },
+    {
+     "start": 46.43,
+     "end": 47.11,
+     "word": " also",
+     "prob": 0.297
+    },
+    {
+     "start": 47.11,
+     "end": 47.23,
+     "word": " but",
+     "prob": 0.696
+    },
+    {
+     "start": 47.23,
+     "end": 47.79,
+     "word": " not",
+     "prob": 0.786
+    },
+    {
+     "start": 47.79,
+     "end": 47.79,
+     "word": " much.",
+     "prob": 0.347
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 49.21,
+   "end": 55.85,
+   "text": "Is there any area near the hospital where you have seen or seen?",
+   "avg_logprob": -0.967,
+   "no_speech_prob": 0.243,
+   "words": [
+    {
+     "start": 49.21,
+     "end": 50.31,
+     "word": " Is",
+     "prob": 0.238
+    },
+    {
+     "start": 50.31,
+     "end": 50.31,
+     "word": " there",
+     "prob": 0.952
+    },
+    {
+     "start": 50.31,
+     "end": 50.31,
+     "word": " any",
+     "prob": 0.839
+    },
+    {
+     "start": 50.31,
+     "end": 50.31,
+     "word": " area",
+     "prob": 0.285
+    },
+    {
+     "start": 50.31,
+     "end": 50.31,
+     "word": " near",
+     "prob": 0.591
+    },
+    {
+     "start": 50.31,
+     "end": 50.43,
+     "word": " the",
+     "prob": 0.757
+    },
+    {
+     "start": 50.43,
+     "end": 51.41,
+     "word": " hospital",
+     "prob": 0.935
+    },
+    {
+     "start": 51.41,
+     "end": 53.17,
+     "word": " where",
+     "prob": 0.207
+    },
+    {
+     "start": 53.17,
+     "end": 54.13,
+     "word": " you",
+     "prob": 0.9
+    },
+    {
+     "start": 54.13,
+     "end": 54.25,
+     "word": " have",
+     "prob": 0.672
+    },
+    {
+     "start": 54.25,
+     "end": 54.61,
+     "word": " seen",
+     "prob": 0.826
+    },
+    {
+     "start": 54.61,
+     "end": 55.01,
+     "word": " or",
+     "prob": 0.205
+    },
+    {
+     "start": 55.01,
+     "end": 55.85,
+     "word": " seen?",
+     "prob": 0.33
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 55.89,
+   "end": 57.47,
+   "text": "You are also facing problems outside.",
+   "avg_logprob": -0.967,
+   "no_speech_prob": 0.243,
+   "words": [
+    {
+     "start": 55.89,
+     "end": 56.45,
+     "word": " You",
+     "prob": 0.392
+    },
+    {
+     "start": 56.45,
+     "end": 56.59,
+     "word": " are",
+     "prob": 0.217
+    },
+    {
+     "start": 56.59,
+     "end": 56.65,
+     "word": " also",
+     "prob": 0.67
+    },
+    {
+     "start": 56.65,
+     "end": 56.65,
+     "word": " facing",
+     "prob": 0.508
+    },
+    {
+     "start": 56.65,
+     "end": 57.19,
+     "word": " problems",
+     "prob": 0.226
+    },
+    {
+     "start": 57.19,
+     "end": 57.47,
+     "word": " outside.",
+     "prob": 0.348
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 58.95,
+   "end": 60.71,
+   "text": "Yes, everyone is coming.",
+   "avg_logprob": -0.967,
+   "no_speech_prob": 0.243,
+   "words": [
+    {
+     "start": 58.95,
+     "end": 59.29,
+     "word": " Yes,",
+     "prob": 0.799
+    },
+    {
+     "start": 59.29,
+     "end": 60.37,
+     "word": " everyone",
+     "prob": 0.344
+    },
+    {
+     "start": 60.37,
+     "end": 60.69,
+     "word": " is",
+     "prob": 0.2
+    },
+    {
+     "start": 60.69,
+     "end": 60.71,
+     "word": " coming.",
+     "prob": 0.185
+    }
+   ]
+  }
+ ]
+}
