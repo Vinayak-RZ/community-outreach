@@ -10,7 +10,7 @@ Vansh Gautam (team lead, group admin), Vinayak Raizada, Jay D, Vrinda Gupta, Jiy
 
 <!-- status:start -->
 ## Status
-_Last updated: 20 Oct 2026, 16:01 IST. Numbers are refreshed from the pipeline's `manifest.csv` each time transcripts are pushed._
+_Last updated: 20 Oct 2026, 16:17 IST. Numbers are refreshed from the pipeline's `manifest.csv` each time transcripts are pushed._
 
 **Collected**
 - Survey: 211 responses (13–17/10), de-identified copy in `source/survey/`.
@@ -23,7 +23,7 @@ _Last updated: 20 Oct 2026, 16:01 IST. Numbers are refreshed from the pipeline's
 
 **Analysis**: the survey analysis is in [`analysis/survey-analysis.md`](analysis/survey-analysis.md) (headline results below). Interview coding hasn't started: `interviews/` holds only its README so far.
 
-**In progress**: transcription (with English translations) of the remaining interview audio, then the large Drive videos, then the Comm Kaam and other Drive videos. Face blurring (YuNet) comes after that: 17 of 51 videos blurred so far; the blurred-media release isn't published yet.
+**In progress**: transcription (with English translations) of the remaining interview audio, then the large Drive videos, then the Comm Kaam and other Drive videos. Face blurring (YuNet) comes after that: 20 of 51 videos blurred so far; the blurred-media release isn't published yet.
 
 **Open KPI and evidence gaps**
 - No consent sheets, no contact log, and no dated field diary yet (Reach and Depth evidence).
