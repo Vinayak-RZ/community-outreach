@@ -1,0 +1,123 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.39 PM.mp4",
+ "created": "2026-10-20T00:38:12.479510+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "ur",
+  "probability": 0.518,
+  "top": [
+   [
+    "ur",
+    0.518
+   ],
+   [
+    "hi",
+    0.4
+   ],
+   [
+    "en",
+    0.02
+   ]
+  ]
+ },
+ "duration_s": 8.98,
+ "processing_s": 22.7,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 4.0,
+   "end": 6.52,
+   "text": "He gets on the air, he is troubling people",
+   "avg_logprob": -1.168,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 4.0,
+     "end": 4.02,
+     "word": " He",
+     "prob": 0.106
+    },
+    {
+     "start": 4.02,
+     "end": 4.58,
+     "word": " gets",
+     "prob": 0.217
+    },
+    {
+     "start": 4.58,
+     "end": 4.58,
+     "word": " on",
+     "prob": 0.367
+    },
+    {
+     "start": 4.58,
+     "end": 4.58,
+     "word": " the",
+     "prob": 0.488
+    },
+    {
+     "start": 4.58,
+     "end": 4.58,
+     "word": " air,",
+     "prob": 0.151
+    },
+    {
+     "start": 5.38,
+     "end": 5.52,
+     "word": " he",
+     "prob": 0.296
+    },
+    {
+     "start": 5.52,
+     "end": 5.52,
+     "word": " is",
+     "prob": 0.573
+    },
+    {
+     "start": 5.52,
+     "end": 6.26,
+     "word": " troubling",
+     "prob": 0.426
+    },
+    {
+     "start": 6.26,
+     "end": 6.52,
+     "word": " people",
+     "prob": 0.725
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 6.52,
+   "end": 7.0,
+   "text": "Move back",
+   "avg_logprob": -1.168,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 6.52,
+     "end": 6.72,
+     "word": " Move",
+     "prob": 0.054
+    },
+    {
+     "start": 6.72,
+     "end": 7.0,
+     "word": " back",
+     "prob": 0.356
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.40 PM.mp4",
+ "created": "2026-10-20T00:38:51.442444+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "ru",
+  "probability": 0.4,
+  "top": [
+   [
+    "ru",
+    0.4
+   ],
+   [
+    "nn",
+    0.288
+   ],
+   [
+    "en",
+    0.143
+   ]
+  ]
+ },
+ "duration_s": 5.44,
+ "processing_s": 3.9,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.29,
+   "end": 4.29,
+   "text": "Thank you.",
+   "avg_logprob": -0.964,
+   "no_speech_prob": 0.863,
+   "words": [
+    {
+     "start": 2.29,
+     "end": 2.87,
+     "word": " Thank",
+     "prob": 0.037
+    },
+    {
+     "start": 2.87,
+     "end": 4.29,
+     "word": " you.",
+     "prob": 0.854
+    }
+   ]
+  }
+ ]
+}

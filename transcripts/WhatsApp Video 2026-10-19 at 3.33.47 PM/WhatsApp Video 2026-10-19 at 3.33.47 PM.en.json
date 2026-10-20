@@ -1,0 +1,36 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.47 PM.mp4",
+ "created": "2026-10-20T01:56:56.250342+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "bn",
+  "probability": 0.181,
+  "top": [
+   [
+    "bn",
+    0.181
+   ],
+   [
+    "nn",
+    0.15
+   ],
+   [
+    "en",
+    0.145
+   ]
+  ]
+ },
+ "duration_s": 9.68,
+ "processing_s": 3.9,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": []
+}

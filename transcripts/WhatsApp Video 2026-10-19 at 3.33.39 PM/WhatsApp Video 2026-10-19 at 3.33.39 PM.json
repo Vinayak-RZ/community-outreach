@@ -1,0 +1,267 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.39 PM.mp4",
+ "created": "2026-10-20T00:38:12.479510+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "ur",
+  "probability": 0.518,
+  "top": [
+   [
+    "ur",
+    0.518
+   ],
+   [
+    "hi",
+    0.4
+   ],
+   [
+    "en",
+    0.02
+   ]
+  ]
+ },
+ "duration_s": 8.98,
+ "processing_s": 15.5,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 3.38,
+   "text": "बैंकलौड़ा यहां आखे मैं शेडी रूम को चोट जाता है। यहीं हग देता है बैंकलौड़ा",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.264,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.36,
+     "word": " बैंकलौड़ा",
+     "prob": 0.565
+    },
+    {
+     "start": 0.36,
+     "end": 0.66,
+     "word": " यहां",
+     "prob": 0.778
+    },
+    {
+     "start": 0.66,
+     "end": 0.76,
+     "word": " आखे",
+     "prob": 0.494
+    },
+    {
+     "start": 0.76,
+     "end": 0.94,
+     "word": " मैं",
+     "prob": 0.873
+    },
+    {
+     "start": 0.94,
+     "end": 1.18,
+     "word": " शेडी",
+     "prob": 0.643
+    },
+    {
+     "start": 1.18,
+     "end": 1.28,
+     "word": " रूम",
+     "prob": 0.82
+    },
+    {
+     "start": 1.28,
+     "end": 1.4,
+     "word": " को",
+     "prob": 0.863
+    },
+    {
+     "start": 1.4,
+     "end": 1.6,
+     "word": " चोट",
+     "prob": 0.73
+    },
+    {
+     "start": 1.6,
+     "end": 1.82,
+     "word": " जाता",
+     "prob": 0.935
+    },
+    {
+     "start": 1.82,
+     "end": 1.9,
+     "word": " है।",
+     "prob": 0.69
+    },
+    {
+     "start": 1.9,
+     "end": 2.02,
+     "word": " यहीं",
+     "prob": 0.783
+    },
+    {
+     "start": 2.02,
+     "end": 2.2,
+     "word": " हग",
+     "prob": 0.632
+    },
+    {
+     "start": 2.2,
+     "end": 2.44,
+     "word": " देता",
+     "prob": 0.949
+    },
+    {
+     "start": 2.44,
+     "end": 2.48,
+     "word": " है",
+     "prob": 0.964
+    },
+    {
+     "start": 2.48,
+     "end": 3.38,
+     "word": " बैंकलौड़ा",
+     "prob": 0.947
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 3.38,
+   "end": 6.52,
+   "text": "तीकि यहीं चेर पे चार जाता है लोगो को परेशान कर रहा है",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.264,
+   "words": [
+    {
+     "start": 3.38,
+     "end": 3.72,
+     "word": " तीकि",
+     "prob": 0.469
+    },
+    {
+     "start": 3.72,
+     "end": 3.88,
+     "word": " यहीं",
+     "prob": 0.961
+    },
+    {
+     "start": 3.88,
+     "end": 4.1,
+     "word": " चेर",
+     "prob": 0.914
+    },
+    {
+     "start": 4.1,
+     "end": 4.22,
+     "word": " पे",
+     "prob": 0.791
+    },
+    {
+     "start": 4.22,
+     "end": 4.36,
+     "word": " चार",
+     "prob": 0.771
+    },
+    {
+     "start": 4.36,
+     "end": 4.68,
+     "word": " जाता",
+     "prob": 0.966
+    },
+    {
+     "start": 4.68,
+     "end": 4.74,
+     "word": " है",
+     "prob": 0.98
+    },
+    {
+     "start": 4.74,
+     "end": 5.06,
+     "word": " लोगो",
+     "prob": 0.804
+    },
+    {
+     "start": 5.06,
+     "end": 5.48,
+     "word": " को",
+     "prob": 0.723
+    },
+    {
+     "start": 5.48,
+     "end": 6.02,
+     "word": " परेशान",
+     "prob": 0.853
+    },
+    {
+     "start": 6.02,
+     "end": 6.2,
+     "word": " कर",
+     "prob": 0.947
+    },
+    {
+     "start": 6.2,
+     "end": 6.34,
+     "word": " रहा",
+     "prob": 0.971
+    },
+    {
+     "start": 6.34,
+     "end": 6.52,
+     "word": " है",
+     "prob": 0.974
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 6.52,
+   "end": 7.78,
+   "text": "हट बैंकलौड़ा यहीं",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.264,
+   "words": [
+    {
+     "start": 6.52,
+     "end": 6.72,
+     "word": " हट",
+     "prob": 0.587
+    },
+    {
+     "start": 6.72,
+     "end": 7.16,
+     "word": " बैंकलौड़ा",
+     "prob": 0.941
+    },
+    {
+     "start": 7.16,
+     "end": 7.78,
+     "word": " यहीं",
+     "prob": 0.725
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 7.78,
+   "end": 7.96,
+   "text": "हट",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.264,
+   "words": [
+    {
+     "start": 7.78,
+     "end": 7.96,
+     "word": " हट",
+     "prob": 0.605
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.40 PM.mp4",
+ "created": "2026-10-20T00:38:51.442444+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "ru",
+  "probability": 0.4,
+  "top": [
+   [
+    "ru",
+    0.4
+   ],
+   [
+    "nn",
+    0.288
+   ],
+   [
+    "en",
+    0.143
+   ]
+  ]
+ },
+ "duration_s": 5.44,
+ "processing_s": 9.0,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.29,
+   "end": 4.09,
+   "text": "अध्या से लिए आर्पोंजी के रहा है।",
+   "avg_logprob": -0.754,
+   "no_speech_prob": 0.863,
+   "words": [
+    {
+     "start": 2.29,
+     "end": 2.79,
+     "word": " अध्या",
+     "prob": 0.397
+    },
+    {
+     "start": 2.79,
+     "end": 3.11,
+     "word": " से",
+     "prob": 0.159
+    },
+    {
+     "start": 3.11,
+     "end": 3.29,
+     "word": " लिए",
+     "prob": 0.604
+    },
+    {
+     "start": 3.29,
+     "end": 3.77,
+     "word": " आर्पोंजी",
+     "prob": 0.343
+    },
+    {
+     "start": 3.77,
+     "end": 3.87,
+     "word": " के",
+     "prob": 0.323
+    },
+    {
+     "start": 3.87,
+     "end": 3.97,
+     "word": " रहा",
+     "prob": 0.527
+    },
+    {
+     "start": 3.97,
+     "end": 4.09,
+     "word": " है।",
+     "prob": 0.672
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.09,
+   "end": 5.41,
+   "text": "अच्छान के लिए आर्पोंजी के रहा है।",
+   "avg_logprob": -0.754,
+   "no_speech_prob": 0.863,
+   "words": [
+    {
+     "start": 4.09,
+     "end": 4.71,
+     "word": " अच्छान",
+     "prob": 0.524
+    },
+    {
+     "start": 4.71,
+     "end": 4.93,
+     "word": " के",
+     "prob": 0.161
+    },
+    {
+     "start": 4.93,
+     "end": 5.13,
+     "word": " लिए",
+     "prob": 0.804
+    },
+    {
+     "start": 5.13,
+     "end": 5.13,
+     "word": " आर्पोंजी",
+     "prob": 0.773
+    },
+    {
+     "start": 5.13,
+     "end": 5.13,
+     "word": " के",
+     "prob": 0.847
+    },
+    {
+     "start": 5.13,
+     "end": 5.21,
+     "word": " रहा",
+     "prob": 0.925
+    },
+    {
+     "start": 5.21,
+     "end": 5.41,
+     "word": " है।",
+     "prob": 0.918
+    }
+   ]
+  }
+ ]
+}

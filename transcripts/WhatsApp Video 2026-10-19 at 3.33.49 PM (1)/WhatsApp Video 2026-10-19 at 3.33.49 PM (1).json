@@ -1,0 +1,51 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.49 PM (1).mp4",
+ "created": "2026-10-20T01:57:30.117066+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "nn",
+  "probability": 0.329,
+  "top": [
+   [
+    "nn",
+    0.329
+   ],
+   [
+    "ko",
+    0.246
+   ],
+   [
+    "en",
+    0.106
+   ]
+  ]
+ },
+ "duration_s": 19.22,
+ "processing_s": 4.4,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.8,
+   "end": 3.52,
+   "text": "क्याँ",
+   "avg_logprob": -0.56,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 2.8,
+     "end": 3.52,
+     "word": " क्याँ",
+     "prob": 0.526
+    }
+   ]
+  }
+ ]
+}

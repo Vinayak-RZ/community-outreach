@@ -1,0 +1,103 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.42 PM.mp4",
+ "created": "2026-10-20T01:55:25.266932+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.649,
+  "top": [
+   [
+    "hi",
+    0.649
+   ],
+   [
+    "ur",
+    0.243
+   ],
+   [
+    "en",
+    0.033
+   ]
+  ]
+ },
+ "duration_s": 10.91,
+ "processing_s": 10.0,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 1.0,
+   "end": 3.82,
+   "text": "What is that noise?",
+   "avg_logprob": -0.677,
+   "no_speech_prob": 0.772,
+   "words": [
+    {
+     "start": 1.0,
+     "end": 1.0,
+     "word": " What",
+     "prob": 0.047
+    },
+    {
+     "start": 1.0,
+     "end": 1.36,
+     "word": " is",
+     "prob": 0.392
+    },
+    {
+     "start": 2.8,
+     "end": 3.76,
+     "word": " that",
+     "prob": 0.378
+    },
+    {
+     "start": 3.76,
+     "end": 3.82,
+     "word": " noise?",
+     "prob": 0.421
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 5.28,
+   "end": 6.14,
+   "text": "Aryan!",
+   "avg_logprob": -0.677,
+   "no_speech_prob": 0.772,
+   "words": [
+    {
+     "start": 5.28,
+     "end": 6.14,
+     "word": " Aryan!",
+     "prob": 0.731
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 7.64,
+   "end": 8.28,
+   "text": "Aryan!",
+   "avg_logprob": -0.677,
+   "no_speech_prob": 0.772,
+   "words": [
+    {
+     "start": 7.64,
+     "end": 8.28,
+     "word": " Aryan!",
+     "prob": 0.983
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.47 PM.mp4",
+ "created": "2026-10-20T01:56:56.250342+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "bn",
+  "probability": 0.181,
+  "top": [
+   [
+    "bn",
+    0.181
+   ],
+   [
+    "nn",
+    0.15
+   ],
+   [
+    "en",
+    0.145
+   ]
+  ]
+ },
+ "duration_s": 9.68,
+ "processing_s": 6.3,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 7.79,
+   "end": 9.41,
+   "text": "तोड़े एकिनाइ पर जाता है।",
+   "avg_logprob": -0.69,
+   "no_speech_prob": 0.888,
+   "words": [
+    {
+     "start": 7.79,
+     "end": 8.45,
+     "word": " तोड़े",
+     "prob": 0.653
+    },
+    {
+     "start": 8.45,
+     "end": 8.75,
+     "word": " एकिनाइ",
+     "prob": 0.522
+    },
+    {
+     "start": 8.75,
+     "end": 8.95,
+     "word": " पर",
+     "prob": 0.514
+    },
+    {
+     "start": 8.95,
+     "end": 9.31,
+     "word": " जाता",
+     "prob": 0.512
+    },
+    {
+     "start": 9.31,
+     "end": 9.41,
+     "word": " है।",
+     "prob": 0.708
+    }
+   ]
+  }
+ ]
+}

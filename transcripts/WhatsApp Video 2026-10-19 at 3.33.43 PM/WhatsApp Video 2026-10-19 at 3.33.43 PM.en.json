@@ -1,0 +1,239 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.43 PM.mp4",
+ "created": "2026-10-20T01:56:09.311483+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.514,
+  "top": [
+   [
+    "hi",
+    0.514
+   ],
+   [
+    "ur",
+    0.127
+   ],
+   [
+    "en",
+    0.058
+   ]
+  ]
+ },
+ "duration_s": 14.34,
+ "processing_s": 20.6,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 3.3,
+   "end": 5.86,
+   "text": "Tell me, it's 12.30, do you have time to come in the room?",
+   "avg_logprob": -0.674,
+   "no_speech_prob": 0.821,
+   "words": [
+    {
+     "start": 3.3,
+     "end": 3.74,
+     "word": " Tell",
+     "prob": 0.254
+    },
+    {
+     "start": 3.74,
+     "end": 4.18,
+     "word": " me,",
+     "prob": 0.915
+    },
+    {
+     "start": 4.22,
+     "end": 4.42,
+     "word": " it's",
+     "prob": 0.512
+    },
+    {
+     "start": 4.42,
+     "end": 4.5,
+     "word": " 12",
+     "prob": 0.706
+    },
+    {
+     "start": 4.5,
+     "end": 4.6,
+     "word": ".30,",
+     "prob": 0.92
+    },
+    {
+     "start": 4.88,
+     "end": 4.96,
+     "word": " do",
+     "prob": 0.153
+    },
+    {
+     "start": 4.96,
+     "end": 5.04,
+     "word": " you",
+     "prob": 0.92
+    },
+    {
+     "start": 5.04,
+     "end": 5.04,
+     "word": " have",
+     "prob": 0.833
+    },
+    {
+     "start": 5.04,
+     "end": 5.3,
+     "word": " time",
+     "prob": 0.605
+    },
+    {
+     "start": 5.3,
+     "end": 5.86,
+     "word": " to",
+     "prob": 0.823
+    },
+    {
+     "start": 5.86,
+     "end": 5.86,
+     "word": " come",
+     "prob": 0.804
+    },
+    {
+     "start": 5.86,
+     "end": 5.86,
+     "word": " in",
+     "prob": 0.204
+    },
+    {
+     "start": 5.86,
+     "end": 5.86,
+     "word": " the",
+     "prob": 0.694
+    },
+    {
+     "start": 5.86,
+     "end": 5.86,
+     "word": " room?",
+     "prob": 0.982
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 9.08,
+   "end": 11.12,
+   "text": "Hey! Hey! Hey!",
+   "avg_logprob": -0.674,
+   "no_speech_prob": 0.821,
+   "words": [
+    {
+     "start": 9.08,
+     "end": 9.52,
+     "word": " Hey!",
+     "prob": 0.524
+    },
+    {
+     "start": 9.86,
+     "end": 10.3,
+     "word": " Hey!",
+     "prob": 0.784
+    },
+    {
+     "start": 10.68,
+     "end": 11.12,
+     "word": " Hey!",
+     "prob": 0.743
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 11.16,
+   "end": 11.98,
+   "text": "Come on!",
+   "avg_logprob": -0.674,
+   "no_speech_prob": 0.821,
+   "words": [
+    {
+     "start": 11.16,
+     "end": 11.24,
+     "word": " Come",
+     "prob": 0.17
+    },
+    {
+     "start": 11.24,
+     "end": 11.98,
+     "word": " on!",
+     "prob": 0.686
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 12.62,
+   "end": 13.88,
+   "text": "Do you have time for a room? Go!",
+   "avg_logprob": -0.674,
+   "no_speech_prob": 0.821,
+   "words": [
+    {
+     "start": 12.62,
+     "end": 12.8,
+     "word": " Do",
+     "prob": 0.566
+    },
+    {
+     "start": 12.8,
+     "end": 12.8,
+     "word": " you",
+     "prob": 0.991
+    },
+    {
+     "start": 12.8,
+     "end": 12.86,
+     "word": " have",
+     "prob": 0.988
+    },
+    {
+     "start": 12.86,
+     "end": 13.08,
+     "word": " time",
+     "prob": 0.961
+    },
+    {
+     "start": 13.08,
+     "end": 13.08,
+     "word": " for",
+     "prob": 0.022
+    },
+    {
+     "start": 13.08,
+     "end": 13.12,
+     "word": " a",
+     "prob": 0.125
+    },
+    {
+     "start": 13.12,
+     "end": 13.26,
+     "word": " room?",
+     "prob": 0.929
+    },
+    {
+     "start": 13.54,
+     "end": 13.88,
+     "word": " Go!",
+     "prob": 0.301
+    }
+   ]
+  }
+ ]
+}

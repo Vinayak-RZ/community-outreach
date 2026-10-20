@@ -1,0 +1,109 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.42 PM.mp4",
+ "created": "2026-10-20T01:55:25.266932+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.649,
+  "top": [
+   [
+    "hi",
+    0.649
+   ],
+   [
+    "ur",
+    0.243
+   ],
+   [
+    "en",
+    0.033
+   ]
+  ]
+ },
+ "duration_s": 10.91,
+ "processing_s": 11.0,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 4.44,
+   "text": "आर्यन को भूट रूम खोलेगा। अवाज देग।",
+   "avg_logprob": -0.485,
+   "no_speech_prob": 0.167,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.22,
+     "word": " आर्यन",
+     "prob": 0.631
+    },
+    {
+     "start": 0.22,
+     "end": 0.36,
+     "word": " को",
+     "prob": 0.796
+    },
+    {
+     "start": 0.36,
+     "end": 0.5,
+     "word": " भूट",
+     "prob": 0.491
+    },
+    {
+     "start": 0.5,
+     "end": 0.72,
+     "word": " रूम",
+     "prob": 0.76
+    },
+    {
+     "start": 0.72,
+     "end": 2.0,
+     "word": " खोलेगा।",
+     "prob": 0.755
+    },
+    {
+     "start": 3.44,
+     "end": 3.84,
+     "word": " अवाज",
+     "prob": 0.874
+    },
+    {
+     "start": 3.84,
+     "end": 4.44,
+     "word": " देग।",
+     "prob": 0.664
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 5.16,
+   "end": 8.58,
+   "text": "आर्यन! आर्यन!",
+   "avg_logprob": -0.485,
+   "no_speech_prob": 0.167,
+   "words": [
+    {
+     "start": 5.16,
+     "end": 6.16,
+     "word": " आर्यन!",
+     "prob": 0.945
+    },
+    {
+     "start": 7.54,
+     "end": 8.58,
+     "word": " आर्यन!",
+     "prob": 0.971
+    }
+   ]
+  }
+ ]
+}

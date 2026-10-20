@@ -1,0 +1,239 @@
+{
+ "source_file": "WhatsApp Video 2026-10-19 at 3.33.43 PM.mp4",
+ "created": "2026-10-20T01:56:09.311483+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.514,
+  "top": [
+   [
+    "hi",
+    0.514
+   ],
+   [
+    "ur",
+    0.127
+   ],
+   [
+    "en",
+    0.058
+   ]
+  ]
+ },
+ "duration_s": 14.34,
+ "processing_s": 24.3,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 2.0,
+   "text": "पूरी यो कुई टाइम रूम में आने का।",
+   "avg_logprob": -0.367,
+   "no_speech_prob": 0.543,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.28,
+     "word": " पूरी",
+     "prob": 0.595
+    },
+    {
+     "start": 0.28,
+     "end": 0.36,
+     "word": " यो",
+     "prob": 0.522
+    },
+    {
+     "start": 0.36,
+     "end": 0.46,
+     "word": " कुई",
+     "prob": 0.555
+    },
+    {
+     "start": 0.46,
+     "end": 0.74,
+     "word": " टाइम",
+     "prob": 0.874
+    },
+    {
+     "start": 0.74,
+     "end": 0.92,
+     "word": " रूम",
+     "prob": 0.785
+    },
+    {
+     "start": 0.92,
+     "end": 1.04,
+     "word": " में",
+     "prob": 0.888
+    },
+    {
+     "start": 1.04,
+     "end": 1.24,
+     "word": " आने",
+     "prob": 0.894
+    },
+    {
+     "start": 1.24,
+     "end": 2.0,
+     "word": " का।",
+     "prob": 0.694
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 3.6,
+   "end": 6.0,
+   "text": "मताओ, सारे बार भदर है, यो कुई टाइम रूम में आने का।",
+   "avg_logprob": -0.367,
+   "no_speech_prob": 0.543,
+   "words": [
+    {
+     "start": 3.6,
+     "end": 3.96,
+     "word": " मताओ,",
+     "prob": 0.723
+    },
+    {
+     "start": 4.22,
+     "end": 4.44,
+     "word": " सारे",
+     "prob": 0.853
+    },
+    {
+     "start": 4.44,
+     "end": 4.58,
+     "word": " बार",
+     "prob": 0.871
+    },
+    {
+     "start": 4.58,
+     "end": 4.84,
+     "word": " भदर",
+     "prob": 0.524
+    },
+    {
+     "start": 4.84,
+     "end": 4.88,
+     "word": " है,",
+     "prob": 0.627
+    },
+    {
+     "start": 4.92,
+     "end": 5.0,
+     "word": " यो",
+     "prob": 0.887
+    },
+    {
+     "start": 5.0,
+     "end": 5.02,
+     "word": " कुई",
+     "prob": 0.875
+    },
+    {
+     "start": 5.02,
+     "end": 5.32,
+     "word": " टाइम",
+     "prob": 0.976
+    },
+    {
+     "start": 5.32,
+     "end": 5.5,
+     "word": " रूम",
+     "prob": 0.98
+    },
+    {
+     "start": 5.5,
+     "end": 5.58,
+     "word": " में",
+     "prob": 0.954
+    },
+    {
+     "start": 5.58,
+     "end": 5.78,
+     "word": " आने",
+     "prob": 0.988
+    },
+    {
+     "start": 5.78,
+     "end": 6.0,
+     "word": " का।",
+     "prob": 0.896
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 12.38,
+   "end": 14.32,
+   "text": "यो कुई टाइम रूम में आने का, चलो जाओ।",
+   "avg_logprob": -0.367,
+   "no_speech_prob": 0.543,
+   "words": [
+    {
+     "start": 12.38,
+     "end": 12.74,
+     "word": " यो",
+     "prob": 0.71
+    },
+    {
+     "start": 12.74,
+     "end": 12.84,
+     "word": " कुई",
+     "prob": 0.903
+    },
+    {
+     "start": 12.84,
+     "end": 13.1,
+     "word": " टाइम",
+     "prob": 0.984
+    },
+    {
+     "start": 13.1,
+     "end": 13.24,
+     "word": " रूम",
+     "prob": 0.981
+    },
+    {
+     "start": 13.24,
+     "end": 13.3,
+     "word": " में",
+     "prob": 0.978
+    },
+    {
+     "start": 13.3,
+     "end": 13.42,
+     "word": " आने",
+     "prob": 0.989
+    },
+    {
+     "start": 13.42,
+     "end": 13.54,
+     "word": " का,",
+     "prob": 0.968
+    },
+    {
+     "start": 13.56,
+     "end": 13.86,
+     "word": " चलो",
+     "prob": 0.903
+    },
+    {
+     "start": 13.86,
+     "end": 14.32,
+     "word": " जाओ।",
+     "prob": 0.725
+    }
+   ]
+  }
+ ]
+}
