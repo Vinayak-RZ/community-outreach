@@ -1,0 +1,651 @@
+{
+ "source_file": "20261013_120605.mp4",
+ "created": "2026-10-20T02:45:31.125380+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.626,
+  "top": [
+   [
+    "hi",
+    0.626
+   ],
+   [
+    "ur",
+    0.341
+   ],
+   [
+    "en",
+    0.018
+   ]
+  ]
+ },
+ "duration_s": 76.18,
+ "processing_s": 37.0,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 1.6,
+   "end": 2.32,
+   "text": "Daily",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 1.6,
+     "end": 2.32,
+     "word": " Daily",
+     "prob": 0.066
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 3.28,
+   "end": 4.38,
+   "text": "It's good",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 3.28,
+     "end": 4.0,
+     "word": " It's",
+     "prob": 0.184
+    },
+    {
+     "start": 4.0,
+     "end": 4.38,
+     "word": " good",
+     "prob": 0.363
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 5.0,
+   "end": 7.12,
+   "text": "And mostly what kind of region do you live in?",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 5.0,
+     "end": 5.36,
+     "word": " And",
+     "prob": 0.081
+    },
+    {
+     "start": 5.36,
+     "end": 5.98,
+     "word": " mostly",
+     "prob": 0.514
+    },
+    {
+     "start": 5.98,
+     "end": 6.34,
+     "word": " what",
+     "prob": 0.189
+    },
+    {
+     "start": 6.34,
+     "end": 6.46,
+     "word": " kind",
+     "prob": 0.178
+    },
+    {
+     "start": 6.46,
+     "end": 6.46,
+     "word": " of",
+     "prob": 0.991
+    },
+    {
+     "start": 6.46,
+     "end": 6.72,
+     "word": " region",
+     "prob": 0.077
+    },
+    {
+     "start": 6.72,
+     "end": 7.12,
+     "word": " do",
+     "prob": 0.168
+    },
+    {
+     "start": 7.12,
+     "end": 7.12,
+     "word": " you",
+     "prob": 0.661
+    },
+    {
+     "start": 7.12,
+     "end": 7.12,
+     "word": " live",
+     "prob": 0.215
+    },
+    {
+     "start": 7.12,
+     "end": 7.12,
+     "word": " in?",
+     "prob": 0.784
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 7.84,
+   "end": 8.1,
+   "text": "Where do you work?",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 7.84,
+     "end": 7.84,
+     "word": " Where",
+     "prob": 0.097
+    },
+    {
+     "start": 7.84,
+     "end": 8.04,
+     "word": " do",
+     "prob": 0.619
+    },
+    {
+     "start": 8.04,
+     "end": 8.04,
+     "word": " you",
+     "prob": 0.929
+    },
+    {
+     "start": 8.04,
+     "end": 8.1,
+     "word": " work?",
+     "prob": 0.625
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 8.8,
+   "end": 10.82,
+   "text": "What building or any other",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 8.8,
+     "end": 9.52,
+     "word": " What",
+     "prob": 0.527
+    },
+    {
+     "start": 9.52,
+     "end": 9.52,
+     "word": " building",
+     "prob": 0.014
+    },
+    {
+     "start": 9.52,
+     "end": 10.06,
+     "word": " or",
+     "prob": 0.43
+    },
+    {
+     "start": 10.06,
+     "end": 10.68,
+     "word": " any",
+     "prob": 0.34
+    },
+    {
+     "start": 10.68,
+     "end": 10.82,
+     "word": " other",
+     "prob": 0.248
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 13.18,
+   "end": 16.84,
+   "text": "Are there more B.Tech students?",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 13.18,
+     "end": 13.9,
+     "word": " Are",
+     "prob": 0.01
+    },
+    {
+     "start": 13.9,
+     "end": 14.62,
+     "word": " there",
+     "prob": 0.234
+    },
+    {
+     "start": 14.62,
+     "end": 16.08,
+     "word": " more",
+     "prob": 0.532
+    },
+    {
+     "start": 16.08,
+     "end": 16.18,
+     "word": " B",
+     "prob": 0.755
+    },
+    {
+     "start": 16.18,
+     "end": 16.36,
+     "word": ".Tech",
+     "prob": 0.773
+    },
+    {
+     "start": 16.36,
+     "end": 16.84,
+     "word": " students?",
+     "prob": 0.927
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 18.38,
+   "end": 18.66,
+   "text": "Or",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 18.38,
+     "end": 18.66,
+     "word": " Or",
+     "prob": 0.132
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 18.66,
+   "end": 20.1,
+   "text": "are there more students or",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 18.66,
+     "end": 18.66,
+     "word": " are",
+     "prob": 0.187
+    },
+    {
+     "start": 18.66,
+     "end": 18.86,
+     "word": " there",
+     "prob": 0.815
+    },
+    {
+     "start": 18.86,
+     "end": 18.9,
+     "word": " more",
+     "prob": 0.845
+    },
+    {
+     "start": 18.9,
+     "end": 19.26,
+     "word": " students",
+     "prob": 0.853
+    },
+    {
+     "start": 19.26,
+     "end": 20.1,
+     "word": " or",
+     "prob": 0.249
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 20.1,
+   "end": 21.52,
+   "text": "are they more agent?",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 20.1,
+     "end": 20.1,
+     "word": " are",
+     "prob": 0.108
+    },
+    {
+     "start": 20.1,
+     "end": 21.12,
+     "word": " they",
+     "prob": 0.139
+    },
+    {
+     "start": 21.12,
+     "end": 21.36,
+     "word": " more",
+     "prob": 0.511
+    },
+    {
+     "start": 21.36,
+     "end": 21.52,
+     "word": " agent?",
+     "prob": 0.383
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 25.6,
+   "end": 26.6,
+   "text": "How much tension is there",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 25.6,
+     "end": 25.6,
+     "word": " How",
+     "prob": 0.001
+    },
+    {
+     "start": 25.6,
+     "end": 26.12,
+     "word": " much",
+     "prob": 0.416
+    },
+    {
+     "start": 26.12,
+     "end": 26.32,
+     "word": " tension",
+     "prob": 0.146
+    },
+    {
+     "start": 26.32,
+     "end": 26.6,
+     "word": " is",
+     "prob": 0.197
+    },
+    {
+     "start": 26.6,
+     "end": 26.6,
+     "word": " there",
+     "prob": 0.93
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 26.6,
+   "end": 28.38,
+   "text": "that it's just a scratch",
+   "avg_logprob": -0.84,
+   "no_speech_prob": 0.593,
+   "words": [
+    {
+     "start": 26.6,
+     "end": 26.96,
+     "word": " that",
+     "prob": 0.412
+    },
+    {
+     "start": 26.96,
+     "end": 27.68,
+     "word": " it's",
+     "prob": 0.42
+    },
+    {
+     "start": 27.68,
+     "end": 27.94,
+     "word": " just",
+     "prob": 0.199
+    },
+    {
+     "start": 27.94,
+     "end": 28.22,
+     "word": " a",
+     "prob": 0.262
+    },
+    {
+     "start": 28.22,
+     "end": 28.38,
+     "word": " scratch",
+     "prob": 0.753
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 59.38,
+   "end": 65.54,
+   "text": "There are many campers and patrollers, so that's why other women suffer.",
+   "avg_logprob": -1.123,
+   "no_speech_prob": 0.469,
+   "words": [
+    {
+     "start": 59.38,
+     "end": 59.44,
+     "word": " There",
+     "prob": 0.058
+    },
+    {
+     "start": 59.44,
+     "end": 60.44,
+     "word": " are",
+     "prob": 0.849
+    },
+    {
+     "start": 60.44,
+     "end": 60.44,
+     "word": " many",
+     "prob": 0.45
+    },
+    {
+     "start": 60.44,
+     "end": 60.82,
+     "word": " campers",
+     "prob": 0.284
+    },
+    {
+     "start": 60.82,
+     "end": 60.96,
+     "word": " and",
+     "prob": 0.465
+    },
+    {
+     "start": 60.96,
+     "end": 61.96,
+     "word": " patrollers,",
+     "prob": 0.382
+    },
+    {
+     "start": 62.08,
+     "end": 63.1,
+     "word": " so",
+     "prob": 0.19
+    },
+    {
+     "start": 63.1,
+     "end": 63.1,
+     "word": " that's",
+     "prob": 0.347
+    },
+    {
+     "start": 63.1,
+     "end": 64.3,
+     "word": " why",
+     "prob": 0.873
+    },
+    {
+     "start": 64.3,
+     "end": 64.68,
+     "word": " other",
+     "prob": 0.272
+    },
+    {
+     "start": 64.68,
+     "end": 64.94,
+     "word": " women",
+     "prob": 0.734
+    },
+    {
+     "start": 64.94,
+     "end": 65.54,
+     "word": " suffer.",
+     "prob": 0.824
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 66.06,
+   "end": 68.74,
+   "text": "What is the procedure for dog bite?",
+   "avg_logprob": -1.123,
+   "no_speech_prob": 0.469,
+   "words": [
+    {
+     "start": 66.06,
+     "end": 66.42,
+     "word": " What",
+     "prob": 0.595
+    },
+    {
+     "start": 66.42,
+     "end": 66.42,
+     "word": " is",
+     "prob": 0.365
+    },
+    {
+     "start": 66.42,
+     "end": 67.0,
+     "word": " the",
+     "prob": 0.909
+    },
+    {
+     "start": 67.0,
+     "end": 67.38,
+     "word": " procedure",
+     "prob": 0.44
+    },
+    {
+     "start": 67.38,
+     "end": 67.96,
+     "word": " for",
+     "prob": 0.215
+    },
+    {
+     "start": 67.96,
+     "end": 68.34,
+     "word": " dog",
+     "prob": 0.156
+    },
+    {
+     "start": 68.34,
+     "end": 68.74,
+     "word": " bite?",
+     "prob": 0.489
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 69.84,
+   "end": 75.74,
+   "text": "We get first treatment for 5-10 minutes then we take it.",
+   "avg_logprob": -1.123,
+   "no_speech_prob": 0.469,
+   "words": [
+    {
+     "start": 69.84,
+     "end": 70.3,
+     "word": " We",
+     "prob": 0.545
+    },
+    {
+     "start": 70.3,
+     "end": 70.98,
+     "word": " get",
+     "prob": 0.294
+    },
+    {
+     "start": 70.98,
+     "end": 71.3,
+     "word": " first",
+     "prob": 0.135
+    },
+    {
+     "start": 71.3,
+     "end": 72.3,
+     "word": " treatment",
+     "prob": 0.077
+    },
+    {
+     "start": 72.3,
+     "end": 73.0,
+     "word": " for",
+     "prob": 0.557
+    },
+    {
+     "start": 73.0,
+     "end": 73.02,
+     "word": " 5",
+     "prob": 0.161
+    },
+    {
+     "start": 73.02,
+     "end": 73.6,
+     "word": "-10",
+     "prob": 0.592
+    },
+    {
+     "start": 73.6,
+     "end": 73.98,
+     "word": " minutes",
+     "prob": 0.861
+    },
+    {
+     "start": 73.98,
+     "end": 75.2,
+     "word": " then",
+     "prob": 0.129
+    },
+    {
+     "start": 75.2,
+     "end": 75.64,
+     "word": " we",
+     "prob": 0.366
+    },
+    {
+     "start": 75.64,
+     "end": 75.74,
+     "word": " take",
+     "prob": 0.074
+    },
+    {
+     "start": 75.74,
+     "end": 75.74,
+     "word": " it.",
+     "prob": 0.123
+    }
+   ]
+  }
+ ]
+}

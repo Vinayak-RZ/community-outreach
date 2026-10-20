@@ -1,0 +1,213 @@
+{
+ "source_file": "IMG_5259.MOV",
+ "created": "2026-10-20T04:19:40.091126+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.477,
+  "top": [
+   [
+    "hi",
+    0.477
+   ],
+   [
+    "ur",
+    0.253
+   ],
+   [
+    "nn",
+    0.077
+   ]
+  ]
+ },
+ "duration_s": 28.33,
+ "processing_s": 9.8,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 3.74,
+   "end": 10.0,
+   "text": "This is the way to the temple",
+   "avg_logprob": -0.939,
+   "no_speech_prob": 0.739,
+   "words": [
+    {
+     "start": 3.74,
+     "end": 3.74,
+     "word": " This",
+     "prob": 0.011
+    },
+    {
+     "start": 3.74,
+     "end": 4.58,
+     "word": " is",
+     "prob": 0.611
+    },
+    {
+     "start": 7.46,
+     "end": 7.86,
+     "word": " the",
+     "prob": 0.339
+    },
+    {
+     "start": 7.86,
+     "end": 8.2,
+     "word": " way",
+     "prob": 0.8
+    },
+    {
+     "start": 8.2,
+     "end": 9.64,
+     "word": " to",
+     "prob": 0.165
+    },
+    {
+     "start": 9.64,
+     "end": 9.64,
+     "word": " the",
+     "prob": 0.261
+    },
+    {
+     "start": 9.64,
+     "end": 10.0,
+     "word": " temple",
+     "prob": 0.11
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 10.0,
+   "end": 12.84,
+   "text": "This is the way",
+   "avg_logprob": -0.939,
+   "no_speech_prob": 0.739,
+   "words": [
+    {
+     "start": 10.0,
+     "end": 11.48,
+     "word": " This",
+     "prob": 0.005
+    },
+    {
+     "start": 11.48,
+     "end": 12.4,
+     "word": " is",
+     "prob": 0.644
+    },
+    {
+     "start": 12.4,
+     "end": 12.4,
+     "word": " the",
+     "prob": 0.612
+    },
+    {
+     "start": 12.4,
+     "end": 12.84,
+     "word": " way",
+     "prob": 0.731
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 16.52,
+   "end": 18.22,
+   "text": "Make a video",
+   "avg_logprob": -0.939,
+   "no_speech_prob": 0.739,
+   "words": [
+    {
+     "start": 16.52,
+     "end": 17.16,
+     "word": " Make",
+     "prob": 0.02
+    },
+    {
+     "start": 17.16,
+     "end": 17.58,
+     "word": " a",
+     "prob": 0.688
+    },
+    {
+     "start": 17.58,
+     "end": 18.22,
+     "word": " video",
+     "prob": 0.976
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 22.62,
+   "end": 24.54,
+   "text": "You go",
+   "avg_logprob": -0.939,
+   "no_speech_prob": 0.739,
+   "words": [
+    {
+     "start": 22.62,
+     "end": 23.26,
+     "word": " You",
+     "prob": 0.038
+    },
+    {
+     "start": 23.26,
+     "end": 24.54,
+     "word": " go",
+     "prob": 0.204
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 24.54,
+   "end": 26.2,
+   "text": "Ok, I will also go",
+   "avg_logprob": -0.939,
+   "no_speech_prob": 0.739,
+   "words": [
+    {
+     "start": 24.54,
+     "end": 25.58,
+     "word": " Ok,",
+     "prob": 0.022
+    },
+    {
+     "start": 25.8,
+     "end": 25.8,
+     "word": " I",
+     "prob": 0.54
+    },
+    {
+     "start": 25.8,
+     "end": 25.98,
+     "word": " will",
+     "prob": 0.296
+    },
+    {
+     "start": 25.98,
+     "end": 25.98,
+     "word": " also",
+     "prob": 0.51
+    },
+    {
+     "start": 25.98,
+     "end": 26.2,
+     "word": " go",
+     "prob": 0.931
+    }
+   ]
+  }
+ ]
+}

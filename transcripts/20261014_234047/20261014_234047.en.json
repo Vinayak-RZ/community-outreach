@@ -1,0 +1,59 @@
+{
+ "source_file": "20261014_234047.mp4",
+ "created": "2026-10-20T04:18:45.401694+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "en",
+  "probability": 0.435,
+  "top": [
+   [
+    "en",
+    0.435
+   ],
+   [
+    "ko",
+    0.195
+   ],
+   [
+    "ru",
+    0.079
+   ]
+  ]
+ },
+ "duration_s": 4.07,
+ "processing_s": 4.0,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 0.4,
+   "text": "Thank you.",
+   "avg_logprob": -0.819,
+   "no_speech_prob": 0.667,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.28,
+     "word": " Thank",
+     "prob": 0.168
+    },
+    {
+     "start": 0.28,
+     "end": 0.4,
+     "word": " you.",
+     "prob": 0.834
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,623 @@
+{
+ "source_file": "20261014_230442.mp4",
+ "created": "2026-10-20T04:18:13.443627+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.638,
+  "top": [
+   [
+    "hi",
+    0.638
+   ],
+   [
+    "en",
+    0.193
+   ],
+   [
+    "ur",
+    0.096
+   ]
+  ]
+ },
+ "duration_s": 26.88,
+ "processing_s": 8.4,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 2.38,
+   "text": "The problem is about the community.",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.74,
+     "word": " The",
+     "prob": 0.041
+    },
+    {
+     "start": 0.74,
+     "end": 1.12,
+     "word": " problem",
+     "prob": 0.195
+    },
+    {
+     "start": 1.12,
+     "end": 1.84,
+     "word": " is",
+     "prob": 0.666
+    },
+    {
+     "start": 1.84,
+     "end": 2.14,
+     "word": " about",
+     "prob": 0.513
+    },
+    {
+     "start": 2.14,
+     "end": 2.14,
+     "word": " the",
+     "prob": 0.508
+    },
+    {
+     "start": 2.14,
+     "end": 2.38,
+     "word": " community.",
+     "prob": 0.301
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 2.86,
+   "end": 4.18,
+   "text": "We are talking about capitalist groups.",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 2.86,
+     "end": 3.16,
+     "word": " We",
+     "prob": 0.191
+    },
+    {
+     "start": 3.16,
+     "end": 3.32,
+     "word": " are",
+     "prob": 0.281
+    },
+    {
+     "start": 3.32,
+     "end": 3.52,
+     "word": " talking",
+     "prob": 0.841
+    },
+    {
+     "start": 3.52,
+     "end": 3.98,
+     "word": " about",
+     "prob": 0.857
+    },
+    {
+     "start": 3.98,
+     "end": 3.98,
+     "word": " capitalist",
+     "prob": 0.264
+    },
+    {
+     "start": 3.98,
+     "end": 4.18,
+     "word": " groups.",
+     "prob": 0.212
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 4.9,
+   "end": 7.08,
+   "text": "What do you think of capitalist groups?",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 4.9,
+     "end": 5.5,
+     "word": " What",
+     "prob": 0.253
+    },
+    {
+     "start": 5.5,
+     "end": 5.68,
+     "word": " do",
+     "prob": 0.361
+    },
+    {
+     "start": 5.68,
+     "end": 5.68,
+     "word": " you",
+     "prob": 0.966
+    },
+    {
+     "start": 5.68,
+     "end": 5.96,
+     "word": " think",
+     "prob": 0.648
+    },
+    {
+     "start": 5.96,
+     "end": 6.38,
+     "word": " of",
+     "prob": 0.359
+    },
+    {
+     "start": 6.38,
+     "end": 6.86,
+     "word": " capitalist",
+     "prob": 0.853
+    },
+    {
+     "start": 6.86,
+     "end": 7.08,
+     "word": " groups?",
+     "prob": 0.972
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 7.76,
+   "end": 12.6,
+   "text": "Are they good, are they bad and have you had any bad or good experience with capitalist groups?",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 7.76,
+     "end": 8.02,
+     "word": " Are",
+     "prob": 0.826
+    },
+    {
+     "start": 8.02,
+     "end": 8.26,
+     "word": " they",
+     "prob": 0.992
+    },
+    {
+     "start": 8.26,
+     "end": 8.28,
+     "word": " good,",
+     "prob": 0.948
+    },
+    {
+     "start": 8.48,
+     "end": 8.76,
+     "word": " are",
+     "prob": 0.95
+    },
+    {
+     "start": 8.76,
+     "end": 8.84,
+     "word": " they",
+     "prob": 0.996
+    },
+    {
+     "start": 8.84,
+     "end": 9.12,
+     "word": " bad",
+     "prob": 0.999
+    },
+    {
+     "start": 9.12,
+     "end": 9.52,
+     "word": " and",
+     "prob": 0.285
+    },
+    {
+     "start": 9.52,
+     "end": 9.74,
+     "word": " have",
+     "prob": 0.924
+    },
+    {
+     "start": 9.74,
+     "end": 10.2,
+     "word": " you",
+     "prob": 0.957
+    },
+    {
+     "start": 10.2,
+     "end": 10.52,
+     "word": " had",
+     "prob": 0.808
+    },
+    {
+     "start": 10.52,
+     "end": 10.76,
+     "word": " any",
+     "prob": 0.76
+    },
+    {
+     "start": 10.76,
+     "end": 10.96,
+     "word": " bad",
+     "prob": 0.939
+    },
+    {
+     "start": 10.96,
+     "end": 11.04,
+     "word": " or",
+     "prob": 0.913
+    },
+    {
+     "start": 11.04,
+     "end": 11.32,
+     "word": " good",
+     "prob": 0.99
+    },
+    {
+     "start": 11.32,
+     "end": 11.7,
+     "word": " experience",
+     "prob": 0.776
+    },
+    {
+     "start": 11.7,
+     "end": 11.88,
+     "word": " with",
+     "prob": 0.911
+    },
+    {
+     "start": 11.88,
+     "end": 12.32,
+     "word": " capitalist",
+     "prob": 0.915
+    },
+    {
+     "start": 12.32,
+     "end": 12.6,
+     "word": " groups?",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 13.18,
+   "end": 16.86,
+   "text": "You know, if someone has attacked you outside your hostel",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 13.18,
+     "end": 13.18,
+     "word": " You",
+     "prob": 0.296
+    },
+    {
+     "start": 13.18,
+     "end": 13.18,
+     "word": " know,",
+     "prob": 0.767
+    },
+    {
+     "start": 13.48,
+     "end": 13.84,
+     "word": " if",
+     "prob": 0.091
+    },
+    {
+     "start": 13.84,
+     "end": 15.98,
+     "word": " someone",
+     "prob": 0.071
+    },
+    {
+     "start": 15.98,
+     "end": 16.08,
+     "word": " has",
+     "prob": 0.43
+    },
+    {
+     "start": 16.08,
+     "end": 16.78,
+     "word": " attacked",
+     "prob": 0.628
+    },
+    {
+     "start": 16.78,
+     "end": 16.86,
+     "word": " you",
+     "prob": 0.941
+    },
+    {
+     "start": 16.86,
+     "end": 16.86,
+     "word": " outside",
+     "prob": 0.51
+    },
+    {
+     "start": 16.86,
+     "end": 16.86,
+     "word": " your",
+     "prob": 0.431
+    },
+    {
+     "start": 16.86,
+     "end": 16.86,
+     "word": " hostel",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 16.86,
+   "end": 18.6,
+   "text": "If someone does something very good to you",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 16.86,
+     "end": 17.28,
+     "word": " If",
+     "prob": 0.002
+    },
+    {
+     "start": 17.28,
+     "end": 17.58,
+     "word": " someone",
+     "prob": 0.593
+    },
+    {
+     "start": 17.58,
+     "end": 17.58,
+     "word": " does",
+     "prob": 0.265
+    },
+    {
+     "start": 17.58,
+     "end": 17.72,
+     "word": " something",
+     "prob": 0.852
+    },
+    {
+     "start": 17.72,
+     "end": 18.14,
+     "word": " very",
+     "prob": 0.339
+    },
+    {
+     "start": 18.14,
+     "end": 18.5,
+     "word": " good",
+     "prob": 0.842
+    },
+    {
+     "start": 18.5,
+     "end": 18.6,
+     "word": " to",
+     "prob": 0.248
+    },
+    {
+     "start": 18.6,
+     "end": 18.6,
+     "word": " you",
+     "prob": 0.98
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 18.6,
+   "end": 20.38,
+   "text": "If you see anything wrong with a friend",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 18.6,
+     "end": 18.74,
+     "word": " If",
+     "prob": 0.015
+    },
+    {
+     "start": 18.74,
+     "end": 19.5,
+     "word": " you",
+     "prob": 0.912
+    },
+    {
+     "start": 19.5,
+     "end": 19.5,
+     "word": " see",
+     "prob": 0.227
+    },
+    {
+     "start": 19.5,
+     "end": 19.62,
+     "word": " anything",
+     "prob": 0.121
+    },
+    {
+     "start": 19.62,
+     "end": 20.24,
+     "word": " wrong",
+     "prob": 0.177
+    },
+    {
+     "start": 20.24,
+     "end": 20.38,
+     "word": " with",
+     "prob": 0.896
+    },
+    {
+     "start": 20.38,
+     "end": 20.38,
+     "word": " a",
+     "prob": 0.596
+    },
+    {
+     "start": 20.38,
+     "end": 20.38,
+     "word": " friend",
+     "prob": 0.966
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 20.38,
+   "end": 22.24,
+   "text": "So what would you like to say to them?",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 20.38,
+     "end": 20.68,
+     "word": " So",
+     "prob": 0.046
+    },
+    {
+     "start": 20.68,
+     "end": 21.02,
+     "word": " what",
+     "prob": 0.093
+    },
+    {
+     "start": 21.02,
+     "end": 21.34,
+     "word": " would",
+     "prob": 0.301
+    },
+    {
+     "start": 21.34,
+     "end": 21.54,
+     "word": " you",
+     "prob": 0.983
+    },
+    {
+     "start": 21.54,
+     "end": 21.78,
+     "word": " like",
+     "prob": 0.855
+    },
+    {
+     "start": 21.78,
+     "end": 21.78,
+     "word": " to",
+     "prob": 0.979
+    },
+    {
+     "start": 21.78,
+     "end": 21.78,
+     "word": " say",
+     "prob": 0.437
+    },
+    {
+     "start": 21.78,
+     "end": 21.78,
+     "word": " to",
+     "prob": 0.558
+    },
+    {
+     "start": 21.78,
+     "end": 22.24,
+     "word": " them?",
+     "prob": 0.331
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 22.7,
+   "end": 24.52,
+   "text": "Personally there's a lot of debate",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 22.7,
+     "end": 23.3,
+     "word": " Personally",
+     "prob": 0.253
+    },
+    {
+     "start": 23.3,
+     "end": 24.08,
+     "word": " there's",
+     "prob": 0.089
+    },
+    {
+     "start": 24.08,
+     "end": 24.08,
+     "word": " a",
+     "prob": 0.705
+    },
+    {
+     "start": 24.08,
+     "end": 24.08,
+     "word": " lot",
+     "prob": 0.953
+    },
+    {
+     "start": 24.08,
+     "end": 24.26,
+     "word": " of",
+     "prob": 0.934
+    },
+    {
+     "start": 24.26,
+     "end": 24.52,
+     "word": " debate",
+     "prob": 0.891
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 24.52,
+   "end": 26.42,
+   "text": "Like the communities",
+   "avg_logprob": -0.692,
+   "no_speech_prob": 0.329,
+   "words": [
+    {
+     "start": 24.52,
+     "end": 25.48,
+     "word": " Like",
+     "prob": 0.0
+    },
+    {
+     "start": 25.48,
+     "end": 25.96,
+     "word": " the",
+     "prob": 0.222
+    },
+    {
+     "start": 25.96,
+     "end": 26.42,
+     "word": " communities",
+     "prob": 0.305
+    }
+   ]
+  }
+ ]
+}

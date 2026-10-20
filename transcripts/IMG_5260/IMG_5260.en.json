@@ -1,0 +1,71 @@
+{
+ "source_file": "IMG_5260.MOV",
+ "created": "2026-10-20T04:20:05.468961+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "vi",
+  "probability": 0.588,
+  "top": [
+   [
+    "vi",
+    0.588
+   ],
+   [
+    "nn",
+    0.179
+   ],
+   [
+    "jw",
+    0.039
+   ]
+  ]
+ },
+ "duration_s": 36.54,
+ "processing_s": 6.1,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 8.02,
+   "end": 9.02,
+   "text": "Okay, see you later.",
+   "avg_logprob": -1.077,
+   "no_speech_prob": 0.159,
+   "words": [
+    {
+     "start": 8.02,
+     "end": 8.58,
+     "word": " Okay,",
+     "prob": 0.047
+    },
+    {
+     "start": 8.66,
+     "end": 8.72,
+     "word": " see",
+     "prob": 0.27
+    },
+    {
+     "start": 8.72,
+     "end": 8.9,
+     "word": " you",
+     "prob": 0.942
+    },
+    {
+     "start": 8.9,
+     "end": 9.02,
+     "word": " later.",
+     "prob": 0.262
+    }
+   ]
+  }
+ ]
+}

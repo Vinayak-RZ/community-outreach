@@ -1,0 +1,137 @@
+{
+ "source_file": "IMG_5261.MOV",
+ "created": "2026-10-20T04:20:29.271808+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.486,
+  "top": [
+   [
+    "hi",
+    0.486
+   ],
+   [
+    "ur",
+    0.197
+   ],
+   [
+    "jw",
+    0.077
+   ]
+  ]
+ },
+ "duration_s": 19.88,
+ "processing_s": 8.8,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.83,
+   "end": 4.63,
+   "text": "वोई है ना उनके बाज",
+   "avg_logprob": -0.494,
+   "no_speech_prob": 0.294,
+   "words": [
+    {
+     "start": 2.83,
+     "end": 3.49,
+     "word": " वोई",
+     "prob": 0.501
+    },
+    {
+     "start": 3.49,
+     "end": 3.77,
+     "word": " है",
+     "prob": 0.679
+    },
+    {
+     "start": 3.77,
+     "end": 3.87,
+     "word": " ना",
+     "prob": 0.659
+    },
+    {
+     "start": 3.87,
+     "end": 4.11,
+     "word": " उनके",
+     "prob": 0.825
+    },
+    {
+     "start": 4.11,
+     "end": 4.63,
+     "word": " बाज",
+     "prob": 0.599
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 11.0,
+   "end": 13.1,
+   "text": "से दूर वाला कुप्ता है",
+   "avg_logprob": -0.494,
+   "no_speech_prob": 0.294,
+   "words": [
+    {
+     "start": 11.0,
+     "end": 11.54,
+     "word": " से",
+     "prob": 0.507
+    },
+    {
+     "start": 11.54,
+     "end": 11.78,
+     "word": " दूर",
+     "prob": 0.833
+    },
+    {
+     "start": 11.78,
+     "end": 12.02,
+     "word": " वाला",
+     "prob": 0.663
+    },
+    {
+     "start": 12.02,
+     "end": 12.56,
+     "word": " कुप्ता",
+     "prob": 0.733
+    },
+    {
+     "start": 12.56,
+     "end": 13.1,
+     "word": " है",
+     "prob": 0.909
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 13.1,
+   "end": 15.2,
+   "text": "लिएफ में",
+   "avg_logprob": -0.494,
+   "no_speech_prob": 0.294,
+   "words": [
+    {
+     "start": 13.1,
+     "end": 14.1,
+     "word": " लिएफ",
+     "prob": 0.631
+    },
+    {
+     "start": 14.1,
+     "end": 15.2,
+     "word": " में",
+     "prob": 0.568
+    }
+   ]
+  }
+ ]
+}

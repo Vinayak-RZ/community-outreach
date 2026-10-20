@@ -1,0 +1,135 @@
+{
+ "source_file": "IMG_5261.MOV",
+ "created": "2026-10-20T04:20:29.271808+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.486,
+  "top": [
+   [
+    "hi",
+    0.486
+   ],
+   [
+    "ur",
+    0.197
+   ],
+   [
+    "jw",
+    0.077
+   ]
+  ]
+ },
+ "duration_s": 19.88,
+ "processing_s": 6.1,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.83,
+   "end": 11.26,
+   "text": "That's the dog behind them",
+   "avg_logprob": -1.068,
+   "no_speech_prob": 0.294,
+   "words": [
+    {
+     "start": 2.83,
+     "end": 3.61,
+     "word": " That's",
+     "prob": 0.273
+    },
+    {
+     "start": 3.61,
+     "end": 4.07,
+     "word": " the",
+     "prob": 0.507
+    },
+    {
+     "start": 4.07,
+     "end": 4.15,
+     "word": " dog",
+     "prob": 0.289
+    },
+    {
+     "start": 4.15,
+     "end": 4.77,
+     "word": " behind",
+     "prob": 0.089
+    },
+    {
+     "start": 11.14,
+     "end": 11.26,
+     "word": " them",
+     "prob": 0.613
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 11.26,
+   "end": 15.2,
+   "text": "The one far away is the left one",
+   "avg_logprob": -1.068,
+   "no_speech_prob": 0.294,
+   "words": [
+    {
+     "start": 11.26,
+     "end": 11.3,
+     "word": " The",
+     "prob": 0.104
+    },
+    {
+     "start": 11.3,
+     "end": 11.3,
+     "word": " one",
+     "prob": 0.528
+    },
+    {
+     "start": 11.3,
+     "end": 11.7,
+     "word": " far",
+     "prob": 0.322
+    },
+    {
+     "start": 11.7,
+     "end": 12.02,
+     "word": " away",
+     "prob": 0.364
+    },
+    {
+     "start": 12.02,
+     "end": 13.8,
+     "word": " is",
+     "prob": 0.496
+    },
+    {
+     "start": 13.8,
+     "end": 13.98,
+     "word": " the",
+     "prob": 0.393
+    },
+    {
+     "start": 13.98,
+     "end": 14.0,
+     "word": " left",
+     "prob": 0.352
+    },
+    {
+     "start": 14.0,
+     "end": 15.2,
+     "word": " one",
+     "prob": 0.702
+    }
+   ]
+  }
+ ]
+}

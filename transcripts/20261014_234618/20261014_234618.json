@@ -1,0 +1,63 @@
+{
+ "source_file": "20261014_234618.mp4",
+ "created": "2026-10-20T04:19:01.977478+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "en",
+  "probability": 0.474,
+  "top": [
+   [
+    "en",
+    0.474
+   ],
+   [
+    "hi",
+    0.32
+   ],
+   [
+    "nn",
+    0.034
+   ]
+  ]
+ },
+ "duration_s": 21.7,
+ "processing_s": 4.2,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.76,
+   "end": 1.72,
+   "text": "Clusters of Dog",
+   "avg_logprob": -0.541,
+   "no_speech_prob": 0.56,
+   "words": [
+    {
+     "start": 0.76,
+     "end": 1.24,
+     "word": " Clusters",
+     "prob": 0.547
+    },
+    {
+     "start": 1.24,
+     "end": 1.48,
+     "word": " of",
+     "prob": 0.757
+    },
+    {
+     "start": 1.48,
+     "end": 1.72,
+     "word": " Dog",
+     "prob": 0.441
+    }
+   ]
+  }
+ ]
+}

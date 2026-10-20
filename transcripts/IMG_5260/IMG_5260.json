@@ -1,0 +1,63 @@
+{
+ "source_file": "IMG_5260.MOV",
+ "created": "2026-10-20T04:20:05.468961+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "vi",
+  "probability": 0.588,
+  "top": [
+   [
+    "vi",
+    0.588
+   ],
+   [
+    "nn",
+    0.179
+   ],
+   [
+    "jw",
+    0.039
+   ]
+  ]
+ },
+ "duration_s": 36.54,
+ "processing_s": 6.2,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 8.02,
+   "end": 9.26,
+   "text": "क्यासे नहीं लिए।",
+   "avg_logprob": -0.698,
+   "no_speech_prob": 0.159,
+   "words": [
+    {
+     "start": 8.02,
+     "end": 8.7,
+     "word": " क्यासे",
+     "prob": 0.498
+    },
+    {
+     "start": 8.7,
+     "end": 8.94,
+     "word": " नहीं",
+     "prob": 0.65
+    },
+    {
+     "start": 8.94,
+     "end": 9.26,
+     "word": " लिए।",
+     "prob": 0.623
+    }
+   ]
+  }
+ ]
+}

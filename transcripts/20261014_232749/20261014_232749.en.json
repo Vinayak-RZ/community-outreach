@@ -1,0 +1,36 @@
+{
+ "source_file": "20261014_232749.mp4",
+ "created": "2026-10-20T04:18:30.770407+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "en",
+  "probability": 0.413,
+  "top": [
+   [
+    "en",
+    0.413
+   ],
+   [
+    "nn",
+    0.161
+   ],
+   [
+    "ko",
+    0.141
+   ]
+  ]
+ },
+ "duration_s": 9.17,
+ "processing_s": 0.0,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": []
+}

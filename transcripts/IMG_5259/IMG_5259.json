@@ -1,0 +1,69 @@
+{
+ "source_file": "IMG_5259.MOV",
+ "created": "2026-10-20T04:19:40.091126+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.477,
+  "top": [
+   [
+    "hi",
+    0.477
+   ],
+   [
+    "ur",
+    0.253
+   ],
+   [
+    "nn",
+    0.077
+   ]
+  ]
+ },
+ "duration_s": 28.33,
+ "processing_s": 5.7,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 25.1,
+   "end": 26.24,
+   "text": "अच्छा मैं भी जों।",
+   "avg_logprob": -0.576,
+   "no_speech_prob": 0.713,
+   "words": [
+    {
+     "start": 25.1,
+     "end": 25.62,
+     "word": " अच्छा",
+     "prob": 0.698
+    },
+    {
+     "start": 25.62,
+     "end": 25.76,
+     "word": " मैं",
+     "prob": 0.869
+    },
+    {
+     "start": 25.76,
+     "end": 25.86,
+     "word": " भी",
+     "prob": 0.804
+    },
+    {
+     "start": 25.86,
+     "end": 26.24,
+     "word": " जों।",
+     "prob": 0.639
+    }
+   ]
+  }
+ ]
+}

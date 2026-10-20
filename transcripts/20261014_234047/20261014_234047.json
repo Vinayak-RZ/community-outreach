@@ -1,0 +1,75 @@
+{
+ "source_file": "20261014_234047.mp4",
+ "created": "2026-10-20T04:18:45.401694+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "en",
+  "probability": 0.435,
+  "top": [
+   [
+    "en",
+    0.435
+   ],
+   [
+    "ko",
+    0.195
+   ],
+   [
+    "ru",
+    0.079
+   ]
+  ]
+ },
+ "duration_s": 4.07,
+ "processing_s": 6.1,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 0.72,
+   "text": "अच्छान आपके लिए करते हैं।",
+   "avg_logprob": -0.898,
+   "no_speech_prob": 0.667,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.34,
+     "word": " अच्छान",
+     "prob": 0.453
+    },
+    {
+     "start": 0.34,
+     "end": 0.34,
+     "word": " आपके",
+     "prob": 0.335
+    },
+    {
+     "start": 0.34,
+     "end": 0.36,
+     "word": " लिए",
+     "prob": 0.635
+    },
+    {
+     "start": 0.36,
+     "end": 0.36,
+     "word": " करते",
+     "prob": 0.232
+    },
+    {
+     "start": 0.36,
+     "end": 0.72,
+     "word": " हैं।",
+     "prob": 0.698
+    }
+   ]
+  }
+ ]
+}
