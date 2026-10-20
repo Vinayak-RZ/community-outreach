@@ -21,7 +21,7 @@ _Last updated: 20 Oct 2026, 18:59 IST._
 
 **Transcribed**: 80 of 80 recordings (3.95 of 3.95 h); interview audio 29 of 29. English translations: 80. See [`transcripts/INDEX.md`](transcripts/INDEX.md). Machine transcripts: check against the audio before quoting.
 
-**Analysis**: survey in [`analysis/survey-analysis.md`](analysis/survey-analysis.md). Interviews coded by theme in [`analysis/interview-coding.md`](analysis/interview-coding.md): 36 distinct interviews (18 students, 5 guards, 4 mess/shop/cleaning staff, 3 CCF, 2 feeders, 1 faculty, 3 unclear). Findings, conflicts and recommendations in [`analysis/synthesis.md`](analysis/synthesis.md). KPI table with achieved figures and gaps in [`deliverables/kpi-table.md`](deliverables/kpi-table.md). No quotes until checked by ear.
+**Analysis**: survey in [`analysis/survey-analysis.md`](analysis/survey-analysis.md). Interviews coded by theme in [`analysis/interview-coding.md`](analysis/interview-coding.md): 36 distinct interviews (18 students, 5 guards, 4 mess/shop/cleaning staff, 3 CCF, 2 feeders, 1 faculty, 3 unclear). Findings, conflicts and recommendations in [`analysis/synthesis.md`](analysis/synthesis.md). Deliverables: [`deliverables/kpi-table.md`](deliverables/kpi-table.md) (achieved figures and gaps) and [`deliverables/poster-plan.md`](deliverables/poster-plan.md) (A3 layout; Figma recommended). New charts: `analysis/figures/fig7_theme_by_stakeholder.png`, `fig8_stakeholder_reach.png`. No quotes until checked by ear.
 
 **Dropped (20/10)**: face blurring and the EgoBlur test, at Vinayak's call. Raw media stays private in the releases; blur any clip before outside use.
 

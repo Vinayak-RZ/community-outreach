@@ -1,0 +1,39 @@
+# A3 poster plan: "Campus dogs: two sides of one street" (group 23)
+
+_Draft of 20/10/2026 (Acads), for the team to edit. Every number on it has to trace back to `analysis/`. No team selfies, no faces, and no names of interviewees or officials [course ethics, slides 20–21]._
+
+## Headline message
+**"Not 'dogs or no dogs': out of our rooms, fed in the right places, kept inside a sealed boundary."**
+Sub-line: *211 survey respondents, 36 recorded interviews with students, guards, mess staff, CCF and feeders. 86% want managed coexistence, and only 8% want free movement.*
+
+## Layout (A3 portrait, 297 × 420 mm, 3 columns, 10 mm margins)
+| Zone | Holds | Figures / data |
+|---|---|---|
+| **Header** (full width, ~45 mm) | Title, headline, course, group, Topic 3. Small "how we know": 211 survey · 36 interviews · 3.45 h recorded · CMO · CCF | — |
+| **Col 1: The question and who we heard** | The course question "What happens when it's not safe to walk in a campus?", our two-sides framing, and the method in 4 lines | `fig8_stakeholder_reach.png` (new) |
+| **Col 1: The afraid side** | Dogs in hostels at 68%, chased or unsafe at 61%. Chased → 87% call it a serious problem. Night routes | `fig2_problems.png`, `fig4_rating_by_chased.png` |
+| **Col 2: Two sides, one street** (centre, biggest) | What each group raises: students (rooms, fear), guards (bites, chasing, outside dogs), staff (hygiene), CCF (feeding and the boundary) | `fig7_theme_by_stakeholder.png` (new), `fig1_experience.png` |
+| **Col 2: Where they agree** | The boundary question at 86% managed coexistence, alongside the interview solutions (zones, out of hostels, sterilise) | `fig3_boundary.png` |
+| **Col 2: Hotspot map** | Campus sketch with the named hotspots (MAC–Rajiv road, MNC–Govind, SAC, Mandir, gate 7 and the Himalaya-side gaps) | **New, needs the field walk** (KPI action 4). If it isn't done, use a schematic map labelled "places named by respondents" |
+| **Col 3: What we couldn't verify** | The sterilisation conflict (CCF says all ~90 females are neutered, guards say litters keep coming); no hospital data; survey limitations. Honesty about these scores marks (slide 15) | `fig5_awareness_by_experience.png` (71% unaware of CCF) |
+| **Col 3: The coexistence proposal** | R1–R7 from `analysis/synthesis.md`, each with the office that acts | Icon list, no chart |
+| **Col 3: KPI strip** | The 5-row KPI table, with achieved figures against targets | From `deliverables/kpi-table.md` |
+| **Footer** | Survey caveats (leading items; 94% on 13/10; students only), data and ethics note, QR code to the evidence folder (private link shown only to evaluators) | — |
+
+Charts already in `analysis/figures`: fig1–fig6 (survey), plus **fig7_theme_by_stakeholder** and **fig8_stakeholder_reach**, which are new and made by `analysis/scripts/interview_coding.py`. For print, re-export the charts at 300 dpi or as SVG with the same colours (set `dpi=300` in the scripts).
+
+## Software
+| Tool | A3 print + PDF | Pros | Cons |
+|---|---|---|---|
+| **Figma** (recommended) | A frame at 297 × 420 mm (1191 × 1684 px at 72 ppi; scale on export), vector PDF export | The whole team edits live. Precise grids and auto-layout. Charts drop in as PNG or SVG. Vinayak has the Figma plugin, so an agent can help lay it out | PDF export is RGB, so do one test print at the print shop. Fonts need care |
+| Canva | A3 preset, "PDF Print" export | Fastest for non-designers, with templates | Templates look generic, and the team-selfie poster style is a known way to lose marks. Fine control is limited, and some features are paid |
+| PowerPoint | Custom 29.7 × 42 cm slide, Save as PDF | Everyone has it and knows it. Works offline | Clumsy grids. Large images bloat the file. Easy to end up with a crowded slide |
+| LaTeX / tikzposter | `a3paper`, vector PDF | Reproducible, crisp text, figures included from `analysis/figures` | Slow to iterate, and only one or two people on the team can edit it. Hard to make look designed |
+
+**Recommendation: Figma.** It gives the best print-ready control, lets the team edit together, and the plugin means the layout can be drafted for you. **Fallback: PowerPoint** if the team wants something everyone can edit offline the night before. Export the final as PDF/X-quality at 100% scale, and print one A3 proof before the review.
+
+## Checklist before printing
+- Every number traces back to `analysis/` (mark each with its source in the Figma comments).
+- No faces, names, room numbers or emails. Blur any photo with a person in it (blurring was dropped from the pipeline, so do it by hand for the few poster images).
+- Any quote on the poster has been checked by ear and is covered by consent.
+- Check font sizes at A3: body ≥ 14 pt, headings ≥ 28 pt.
