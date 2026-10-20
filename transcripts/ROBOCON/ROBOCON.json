@@ -1,355 +1,592 @@
 {
  "source_file": "ROBOCON.m4a",
- "created": "2026-10-19T11:13:51.166314+00:00",
+ "created": "2026-10-20T09:09:12.927459+00:00",
  "model": "medium",
  "device": "cpu",
  "compute_type": "float32",
  "faster_whisper": "1.2.1",
  "task": "transcribe",
- "language": "hi",
+ "language": "en",
  "language_probability": 1,
  "language_forced": true,
- "language_policy_detection": {
-  "detected": "en",
-  "probability": 0.794,
-  "top": [
-   [
-    "en",
-    0.794
-   ],
-   [
-    "hi",
-    0.17
-   ],
-   [
-    "ur",
-    0.003
-   ]
-  ]
- },
+ "language_policy_detection": null,
  "duration_s": 26.37,
- "processing_s": 50.5,
+ "processing_s": 15.0,
  "initial_prompt": null,
  "segments": [
   {
    "id": 1,
    "start": 0.0,
-   "end": 3.86,
-   "text": "तो इसे हमारे प्रजेक के लिए अपने आपके लिए नहीं है।",
-   "avg_logprob": -0.53,
+   "end": 5.0,
+   "text": "So this is our community outreach project wherein our topic is campus dogs so we want to know your",
+   "avg_logprob": -0.34,
    "no_speech_prob": 0.151,
    "words": [
     {
      "start": 0.0,
-     "end": 0.5,
-     "word": " तो",
-     "prob": 0.506
+     "end": 0.34,
+     "word": " So",
+     "prob": 0.736
     },
     {
-     "start": 0.5,
-     "end": 0.76,
-     "word": " इसे",
-     "prob": 0.387
+     "start": 0.34,
+     "end": 0.66,
+     "word": " this",
+     "prob": 0.63
     },
     {
-     "start": 0.76,
-     "end": 0.88,
-     "word": " हमारे",
-     "prob": 0.421
+     "start": 0.66,
+     "end": 0.82,
+     "word": " is",
+     "prob": 0.963
     },
     {
-     "start": 0.88,
-     "end": 2.32,
-     "word": " प्रजेक",
-     "prob": 0.45
+     "start": 0.82,
+     "end": 0.92,
+     "word": " our",
+     "prob": 0.923
     },
     {
-     "start": 2.32,
-     "end": 2.32,
-     "word": " के",
-     "prob": 0.369
+     "start": 0.92,
+     "end": 1.3,
+     "word": " community",
+     "prob": 0.755
     },
     {
-     "start": 2.32,
-     "end": 2.56,
-     "word": " लिए",
-     "prob": 0.683
+     "start": 1.3,
+     "end": 1.66,
+     "word": " outreach",
+     "prob": 0.983
     },
     {
-     "start": 2.56,
-     "end": 2.56,
-     "word": " अपने",
-     "prob": 0.458
+     "start": 1.66,
+     "end": 2.2,
+     "word": " project",
+     "prob": 0.993
     },
     {
-     "start": 2.56,
-     "end": 2.82,
-     "word": " आपके",
-     "prob": 0.468
+     "start": 2.2,
+     "end": 2.54,
+     "word": " wherein",
+     "prob": 0.534
     },
     {
-     "start": 2.82,
-     "end": 3.04,
-     "word": " लिए",
-     "prob": 0.7
+     "start": 2.54,
+     "end": 2.76,
+     "word": " our",
+     "prob": 0.978
     },
     {
-     "start": 3.04,
-     "end": 3.5,
-     "word": " नहीं",
-     "prob": 0.528
+     "start": 2.76,
+     "end": 2.92,
+     "word": " topic",
+     "prob": 0.999
     },
     {
-     "start": 3.5,
-     "end": 3.86,
-     "word": " है।",
-     "prob": 0.563
+     "start": 2.92,
+     "end": 3.14,
+     "word": " is",
+     "prob": 0.995
+    },
+    {
+     "start": 3.14,
+     "end": 3.64,
+     "word": " campus",
+     "prob": 0.809
+    },
+    {
+     "start": 3.64,
+     "end": 3.78,
+     "word": " dogs",
+     "prob": 0.952
+    },
+    {
+     "start": 3.78,
+     "end": 4.08,
+     "word": " so",
+     "prob": 0.242
+    },
+    {
+     "start": 4.08,
+     "end": 4.32,
+     "word": " we",
+     "prob": 0.985
+    },
+    {
+     "start": 4.32,
+     "end": 4.44,
+     "word": " want",
+     "prob": 0.976
+    },
+    {
+     "start": 4.44,
+     "end": 4.66,
+     "word": " to",
+     "prob": 0.992
+    },
+    {
+     "start": 4.66,
+     "end": 4.76,
+     "word": " know",
+     "prob": 0.994
+    },
+    {
+     "start": 4.76,
+     "end": 5.0,
+     "word": " your",
+     "prob": 0.983
     }
    ]
   },
   {
    "id": 2,
-   "start": 3.86,
-   "end": 6.72,
-   "text": "तो आपके लिए नहीं होता हैं, और आपके लिए नहीं होता हैं,",
-   "avg_logprob": -0.53,
+   "start": 5.0,
+   "end": 8.76,
+   "text": "general take on campus dogs and what do you feel should be have dogs at campus,",
+   "avg_logprob": -0.34,
    "no_speech_prob": 0.151,
    "words": [
     {
-     "start": 3.86,
-     "end": 4.06,
-     "word": " तो",
-     "prob": 0.679
+     "start": 5.0,
+     "end": 5.4,
+     "word": " general",
+     "prob": 0.977
     },
     {
-     "start": 4.06,
-     "end": 4.36,
-     "word": " आपके",
-     "prob": 0.636
-    },
-    {
-     "start": 4.36,
-     "end": 4.36,
-     "word": " लिए",
-     "prob": 0.83
-    },
-    {
-     "start": 4.36,
-     "end": 5.36,
-     "word": " नहीं",
-     "prob": 0.797
-    },
-    {
-     "start": 5.36,
-     "end": 5.54,
-     "word": " होता",
-     "prob": 0.266
-    },
-    {
-     "start": 5.54,
-     "end": 5.54,
-     "word": " हैं,",
-     "prob": 0.653
-    },
-    {
-     "start": 5.54,
+     "start": 5.4,
      "end": 5.58,
-     "word": " और",
-     "prob": 0.614
+     "word": " take",
+     "prob": 0.994
     },
     {
      "start": 5.58,
-     "end": 6.4,
-     "word": " आपके",
-     "prob": 0.716
+     "end": 5.8,
+     "word": " on",
+     "prob": 0.994
     },
     {
-     "start": 6.4,
-     "end": 6.4,
-     "word": " लिए",
-     "prob": 0.864
+     "start": 5.8,
+     "end": 6.32,
+     "word": " campus",
+     "prob": 0.99
     },
     {
-     "start": 6.4,
-     "end": 6.4,
-     "word": " नहीं",
-     "prob": 0.876
-    },
-    {
-     "start": 6.4,
+     "start": 6.32,
      "end": 6.6,
-     "word": " होता",
-     "prob": 0.788
+     "word": " dogs",
+     "prob": 0.963
     },
     {
      "start": 6.6,
-     "end": 6.72,
-     "word": " हैं,",
-     "prob": 0.81
+     "end": 6.96,
+     "word": " and",
+     "prob": 0.893
+    },
+    {
+     "start": 6.96,
+     "end": 7.16,
+     "word": " what",
+     "prob": 0.991
+    },
+    {
+     "start": 7.16,
+     "end": 7.26,
+     "word": " do",
+     "prob": 0.786
+    },
+    {
+     "start": 7.26,
+     "end": 7.32,
+     "word": " you",
+     "prob": 0.989
+    },
+    {
+     "start": 7.32,
+     "end": 7.48,
+     "word": " feel",
+     "prob": 0.905
+    },
+    {
+     "start": 7.48,
+     "end": 7.7,
+     "word": " should",
+     "prob": 0.652
+    },
+    {
+     "start": 7.7,
+     "end": 7.9,
+     "word": " be",
+     "prob": 0.045
+    },
+    {
+     "start": 7.9,
+     "end": 8.12,
+     "word": " have",
+     "prob": 0.868
+    },
+    {
+     "start": 8.12,
+     "end": 8.3,
+     "word": " dogs",
+     "prob": 0.948
+    },
+    {
+     "start": 8.3,
+     "end": 8.46,
+     "word": " at",
+     "prob": 0.262
+    },
+    {
+     "start": 8.46,
+     "end": 8.76,
+     "word": " campus,",
+     "prob": 0.944
     }
    ]
   },
   {
    "id": 3,
-   "start": 6.72,
-   "end": 9.8,
-   "text": "और आपके लिए नहीं होता हैं, और आपके लिए नहीं होता हैं,",
-   "avg_logprob": -0.53,
+   "start": 8.86,
+   "end": 11.54,
+   "text": "should we not have? And any incident that you've faced.",
+   "avg_logprob": -0.34,
    "no_speech_prob": 0.151,
    "words": [
     {
-     "start": 6.72,
-     "end": 7.04,
-     "word": " और",
-     "prob": 0.812
-    },
-    {
-     "start": 7.04,
-     "end": 7.34,
-     "word": " आपके",
-     "prob": 0.788
-    },
-    {
-     "start": 7.34,
-     "end": 7.92,
-     "word": " लिए",
-     "prob": 0.881
-    },
-    {
-     "start": 7.92,
-     "end": 8.1,
-     "word": " नहीं",
-     "prob": 0.943
-    },
-    {
-     "start": 8.1,
-     "end": 8.74,
-     "word": " होता",
-     "prob": 0.903
-    },
-    {
-     "start": 8.74,
-     "end": 8.86,
-     "word": " हैं,",
-     "prob": 0.868
-    },
-    {
      "start": 8.86,
-     "end": 9.1,
-     "word": " और",
-     "prob": 0.901
+     "end": 9.04,
+     "word": " should",
+     "prob": 0.981
     },
     {
-     "start": 9.1,
-     "end": 9.14,
-     "word": " आपके",
-     "prob": 0.866
+     "start": 9.04,
+     "end": 9.3,
+     "word": " we",
+     "prob": 0.832
     },
     {
-     "start": 9.14,
-     "end": 9.4,
-     "word": " लिए",
-     "prob": 0.89
+     "start": 9.3,
+     "end": 9.54,
+     "word": " not",
+     "prob": 0.991
     },
     {
-     "start": 9.4,
-     "end": 9.4,
-     "word": " नहीं",
-     "prob": 0.965
+     "start": 9.54,
+     "end": 9.7,
+     "word": " have?",
+     "prob": 0.986
     },
     {
-     "start": 9.4,
-     "end": 9.6,
-     "word": " होता",
-     "prob": 0.94
+     "start": 9.76,
+     "end": 9.96,
+     "word": " And",
+     "prob": 0.45
     },
     {
-     "start": 9.6,
-     "end": 9.8,
-     "word": " हैं,",
-     "prob": 0.92
+     "start": 9.96,
+     "end": 10.18,
+     "word": " any",
+     "prob": 0.988
+    },
+    {
+     "start": 10.18,
+     "end": 10.52,
+     "word": " incident",
+     "prob": 0.785
+    },
+    {
+     "start": 10.52,
+     "end": 10.78,
+     "word": " that",
+     "prob": 0.966
+    },
+    {
+     "start": 10.78,
+     "end": 11.06,
+     "word": " you've",
+     "prob": 0.594
+    },
+    {
+     "start": 11.06,
+     "end": 11.54,
+     "word": " faced.",
+     "prob": 0.988
     }
    ]
   },
   {
    "id": 4,
-   "start": 9.8,
-   "end": 26.34,
-   "text": "और आपके लिए नहीं होता हैं, और आपके लिए नहीं होता हैं.",
-   "avg_logprob": -0.53,
+   "start": 12.1,
+   "end": 17.3,
+   "text": "The thing is I don't really have a very like polarizing opinion on this because",
+   "avg_logprob": -0.34,
    "no_speech_prob": 0.151,
    "words": [
     {
-     "start": 9.8,
-     "end": 9.86,
-     "word": " और",
-     "prob": 0.938
+     "start": 12.1,
+     "end": 12.42,
+     "word": " The",
+     "prob": 0.137
     },
     {
-     "start": 9.86,
-     "end": 9.98,
-     "word": " आपके",
-     "prob": 0.915
+     "start": 12.42,
+     "end": 13.3,
+     "word": " thing",
+     "prob": 0.991
     },
     {
-     "start": 9.98,
-     "end": 10.06,
-     "word": " लिए",
-     "prob": 0.922
+     "start": 13.3,
+     "end": 13.52,
+     "word": " is",
+     "prob": 0.995
     },
     {
-     "start": 10.06,
-     "end": 10.72,
-     "word": " नहीं",
-     "prob": 0.974
+     "start": 13.52,
+     "end": 13.84,
+     "word": " I",
+     "prob": 0.587
     },
     {
-     "start": 10.72,
-     "end": 11.12,
-     "word": " होता",
+     "start": 13.84,
+     "end": 14.12,
+     "word": " don't",
+     "prob": 0.986
+    },
+    {
+     "start": 14.12,
+     "end": 14.4,
+     "word": " really",
+     "prob": 0.973
+    },
+    {
+     "start": 14.4,
+     "end": 14.78,
+     "word": " have",
+     "prob": 0.998
+    },
+    {
+     "start": 14.78,
+     "end": 14.98,
+     "word": " a",
+     "prob": 0.983
+    },
+    {
+     "start": 14.98,
+     "end": 15.28,
+     "word": " very",
+     "prob": 0.963
+    },
+    {
+     "start": 15.28,
+     "end": 15.64,
+     "word": " like",
+     "prob": 0.299
+    },
+    {
+     "start": 15.64,
+     "end": 16.2,
+     "word": " polarizing",
+     "prob": 0.887
+    },
+    {
+     "start": 16.2,
+     "end": 16.56,
+     "word": " opinion",
+     "prob": 0.994
+    },
+    {
+     "start": 16.56,
+     "end": 16.78,
+     "word": " on",
+     "prob": 0.983
+    },
+    {
+     "start": 16.78,
+     "end": 16.96,
+     "word": " this",
+     "prob": 0.996
+    },
+    {
+     "start": 16.96,
+     "end": 17.3,
+     "word": " because",
+     "prob": 0.942
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 17.3,
+   "end": 23.42,
+   "text": "like I do like some dogs here but then I did like the dog is like the dogs",
+   "avg_logprob": -0.403,
+   "no_speech_prob": 0.566,
+   "words": [
+    {
+     "start": 17.3,
+     "end": 17.58,
+     "word": " like",
+     "prob": 0.118
+    },
+    {
+     "start": 17.58,
+     "end": 17.62,
+     "word": " I",
+     "prob": 0.577
+    },
+    {
+     "start": 17.62,
+     "end": 17.86,
+     "word": " do",
+     "prob": 0.972
+    },
+    {
+     "start": 17.86,
+     "end": 18.04,
+     "word": " like",
+     "prob": 0.984
+    },
+    {
+     "start": 18.04,
+     "end": 18.34,
+     "word": " some",
+     "prob": 0.98
+    },
+    {
+     "start": 18.34,
+     "end": 18.56,
+     "word": " dogs",
      "prob": 0.954
     },
     {
-     "start": 11.12,
-     "end": 11.12,
-     "word": " हैं,",
-     "prob": 0.948
+     "start": 18.56,
+     "end": 18.98,
+     "word": " here",
+     "prob": 0.939
     },
     {
-     "start": 11.66,
-     "end": 13.1,
-     "word": " और",
-     "prob": 0.946
+     "start": 18.98,
+     "end": 19.4,
+     "word": " but",
+     "prob": 0.841
     },
     {
-     "start": 13.1,
-     "end": 13.96,
-     "word": " आपके",
-     "prob": 0.929
+     "start": 19.4,
+     "end": 19.62,
+     "word": " then",
+     "prob": 0.97
     },
     {
-     "start": 13.96,
-     "end": 13.96,
-     "word": " लिए",
+     "start": 19.62,
+     "end": 19.98,
+     "word": " I",
+     "prob": 0.963
+    },
+    {
+     "start": 19.98,
+     "end": 20.18,
+     "word": " did",
+     "prob": 0.922
+    },
+    {
+     "start": 20.18,
+     "end": 20.58,
+     "word": " like",
+     "prob": 0.947
+    },
+    {
+     "start": 20.58,
+     "end": 20.8,
+     "word": " the",
      "prob": 0.949
     },
     {
-     "start": 13.96,
-     "end": 18.48,
-     "word": " नहीं",
-     "prob": 0.979
+     "start": 20.8,
+     "end": 20.94,
+     "word": " dog",
+     "prob": 0.857
     },
     {
-     "start": 18.48,
-     "end": 18.58,
-     "word": " होता",
-     "prob": 0.964
+     "start": 20.94,
+     "end": 21.1,
+     "word": " is",
+     "prob": 0.756
     },
     {
-     "start": 18.58,
-     "end": 26.34,
-     "word": " हैं.",
-     "prob": 0.967
+     "start": 21.1,
+     "end": 21.7,
+     "word": " like",
+     "prob": 0.985
+    },
+    {
+     "start": 21.7,
+     "end": 23.04,
+     "word": " the",
+     "prob": 0.827
+    },
+    {
+     "start": 23.04,
+     "end": 23.42,
+     "word": " dogs",
+     "prob": 0.338
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 23.42,
+   "end": 26.14,
+   "text": "surrounding Mac in my opinion are more like",
+   "avg_logprob": -0.403,
+   "no_speech_prob": 0.566,
+   "words": [
+    {
+     "start": 23.42,
+     "end": 24.0,
+     "word": " surrounding",
+     "prob": 0.926
+    },
+    {
+     "start": 24.0,
+     "end": 24.52,
+     "word": " Mac",
+     "prob": 0.707
+    },
+    {
+     "start": 24.52,
+     "end": 24.68,
+     "word": " in",
+     "prob": 0.767
+    },
+    {
+     "start": 24.68,
+     "end": 24.96,
+     "word": " my",
+     "prob": 0.997
+    },
+    {
+     "start": 24.96,
+     "end": 25.28,
+     "word": " opinion",
+     "prob": 0.986
+    },
+    {
+     "start": 25.28,
+     "end": 25.5,
+     "word": " are",
+     "prob": 0.9
+    },
+    {
+     "start": 25.5,
+     "end": 25.82,
+     "word": " more",
+     "prob": 0.238
+    },
+    {
+     "start": 25.82,
+     "end": 26.14,
+     "word": " like",
+     "prob": 0.949
     }
    ]
   }

@@ -1,900 +1,2619 @@
 {
  "source_file": "Malishka pt2.m4a",
- "created": "2026-10-19T13:23:52.574181+00:00",
+ "created": "2026-10-20T09:11:39.881424+00:00",
  "model": "medium",
  "device": "cpu",
  "compute_type": "float32",
  "faster_whisper": "1.2.1",
  "task": "transcribe",
- "language": "hi",
+ "language": "en",
  "language_probability": 1,
  "language_forced": true,
- "language_policy_detection": {
-  "detected": "en",
-  "probability": 0.593,
-  "top": [
-   [
-    "en",
-    0.593
-   ],
-   [
-    "hi",
-    0.334
-   ],
-   [
-    "mr",
-    0.017
-   ]
-  ]
- },
+ "language_policy_detection": null,
  "duration_s": 334.36,
- "processing_s": 447.4,
+ "processing_s": 142.3,
  "initial_prompt": null,
  "segments": [
   {
    "id": 1,
-   "start": 30.75,
-   "end": 60.73,
-   "text": "और क्योंकि मैं वूँन द्रेस्ता है, आज में नहीं लिए भी अपने रूटीम तो लिए बहुत हुए नहीं बहुत हुए नहीं बहुत हुए नहीं बहुत हुए नहीं बहुत हुए नहीं बहुत हुए नहीं बहुत हुए नहीं बहुत हुए नहीं बहुत हुए नहीं बहु",
-   "avg_logprob": -0.502,
-   "no_speech_prob": 0.913,
+   "start": 0.75,
+   "end": 5.23,
+   "text": "Yeah, so I was saying that now personally for you it was just a graze",
+   "avg_logprob": -0.305,
+   "no_speech_prob": 0.604,
    "words": [
     {
-     "start": 30.75,
-     "end": 31.63,
-     "word": " और",
-     "prob": 0.558
+     "start": 0.75,
+     "end": 1.29,
+     "word": " Yeah,",
+     "prob": 0.119
     },
     {
-     "start": 31.63,
-     "end": 31.87,
-     "word": " क्योंकि",
-     "prob": 0.447
+     "start": 1.29,
+     "end": 1.55,
+     "word": " so",
+     "prob": 0.963
     },
     {
-     "start": 31.87,
-     "end": 33.05,
-     "word": " मैं",
-     "prob": 0.5
-    },
-    {
-     "start": 33.05,
-     "end": 34.03,
-     "word": " वूँन",
-     "prob": 0.472
-    },
-    {
-     "start": 34.03,
-     "end": 34.61,
-     "word": " द्रेस्ता",
-     "prob": 0.431
-    },
-    {
-     "start": 34.61,
-     "end": 34.61,
-     "word": " है,",
-     "prob": 0.331
-    },
-    {
-     "start": 34.61,
-     "end": 35.93,
-     "word": " आज",
-     "prob": 0.578
-    },
-    {
-     "start": 35.93,
-     "end": 36.11,
-     "word": " में",
-     "prob": 0.612
-    },
-    {
-     "start": 36.11,
-     "end": 36.61,
-     "word": " नहीं",
-     "prob": 0.648
-    },
-    {
-     "start": 36.61,
-     "end": 36.89,
-     "word": " लिए",
-     "prob": 0.599
-    },
-    {
-     "start": 36.89,
-     "end": 36.89,
-     "word": " भी",
-     "prob": 0.392
-    },
-    {
-     "start": 36.89,
-     "end": 36.89,
-     "word": " अपने",
-     "prob": 0.473
-    },
-    {
-     "start": 36.89,
-     "end": 37.49,
-     "word": " रूटीम",
-     "prob": 0.472
-    },
-    {
-     "start": 37.49,
-     "end": 37.49,
-     "word": " तो",
-     "prob": 0.335
-    },
-    {
-     "start": 37.49,
-     "end": 37.49,
-     "word": " लिए",
-     "prob": 0.654
-    },
-    {
-     "start": 37.49,
-     "end": 37.59,
-     "word": " बहुत",
-     "prob": 0.578
-    },
-    {
-     "start": 37.59,
-     "end": 37.59,
-     "word": " हुए",
-     "prob": 0.442
-    },
-    {
-     "start": 37.59,
-     "end": 39.11,
-     "word": " नहीं",
-     "prob": 0.647
-    },
-    {
-     "start": 39.11,
-     "end": 39.31,
-     "word": " बहुत",
-     "prob": 0.767
-    },
-    {
-     "start": 39.31,
-     "end": 39.31,
-     "word": " हुए",
-     "prob": 0.836
-    },
-    {
-     "start": 39.31,
-     "end": 39.85,
-     "word": " नहीं",
-     "prob": 0.779
-    },
-    {
-     "start": 39.85,
-     "end": 40.15,
-     "word": " बहुत",
-     "prob": 0.824
-    },
-    {
-     "start": 40.15,
-     "end": 40.29,
-     "word": " हुए",
-     "prob": 0.914
-    },
-    {
-     "start": 40.29,
-     "end": 41.15,
-     "word": " नहीं",
-     "prob": 0.852
-    },
-    {
-     "start": 41.15,
-     "end": 41.17,
-     "word": " बहुत",
-     "prob": 0.87
-    },
-    {
-     "start": 41.17,
-     "end": 41.33,
-     "word": " हुए",
-     "prob": 0.938
-    },
-    {
-     "start": 41.33,
-     "end": 41.99,
-     "word": " नहीं",
-     "prob": 0.915
-    },
-    {
-     "start": 41.99,
-     "end": 41.99,
-     "word": " बहुत",
-     "prob": 0.914
-    },
-    {
-     "start": 41.99,
-     "end": 41.99,
-     "word": " हुए",
+     "start": 1.55,
+     "end": 1.73,
+     "word": " I",
      "prob": 0.946
     },
     {
-     "start": 41.99,
-     "end": 42.39,
-     "word": " नहीं",
-     "prob": 0.943
+     "start": 1.73,
+     "end": 1.95,
+     "word": " was",
+     "prob": 0.985
     },
     {
-     "start": 42.39,
-     "end": 42.39,
-     "word": " बहुत",
-     "prob": 0.941
+     "start": 1.95,
+     "end": 2.09,
+     "word": " saying",
+     "prob": 0.989
     },
     {
-     "start": 42.39,
-     "end": 42.39,
-     "word": " हुए",
-     "prob": 0.954
+     "start": 2.09,
+     "end": 2.93,
+     "word": " that",
+     "prob": 0.866
     },
     {
-     "start": 42.39,
-     "end": 42.59,
-     "word": " नहीं",
-     "prob": 0.953
+     "start": 2.93,
+     "end": 3.43,
+     "word": " now",
+     "prob": 0.163
     },
     {
-     "start": 42.59,
-     "end": 42.59,
-     "word": " बहुत",
-     "prob": 0.958
+     "start": 3.43,
+     "end": 3.79,
+     "word": " personally",
+     "prob": 0.247
     },
     {
-     "start": 42.59,
-     "end": 42.59,
-     "word": " हुए",
-     "prob": 0.96
+     "start": 3.79,
+     "end": 4.07,
+     "word": " for",
+     "prob": 0.931
     },
     {
-     "start": 42.59,
-     "end": 42.91,
-     "word": " नहीं",
-     "prob": 0.966
+     "start": 4.07,
+     "end": 4.21,
+     "word": " you",
+     "prob": 0.998
     },
     {
-     "start": 42.91,
-     "end": 42.91,
-     "word": " बहुत",
-     "prob": 0.967
+     "start": 4.21,
+     "end": 4.29,
+     "word": " it",
+     "prob": 0.457
     },
     {
-     "start": 42.91,
-     "end": 42.91,
-     "word": " हुए",
-     "prob": 0.961
+     "start": 4.29,
+     "end": 4.49,
+     "word": " was",
+     "prob": 0.995
     },
     {
-     "start": 42.91,
-     "end": 45.97,
-     "word": " नहीं",
-     "prob": 0.97
+     "start": 4.49,
+     "end": 4.67,
+     "word": " just",
+     "prob": 0.851
     },
     {
-     "start": 45.97,
-     "end": 45.97,
-     "word": " बहुत",
-     "prob": 0.971
+     "start": 4.67,
+     "end": 4.81,
+     "word": " a",
+     "prob": 0.837
     },
     {
-     "start": 45.97,
-     "end": 45.97,
-     "word": " हुए",
-     "prob": 0.962
-    },
-    {
-     "start": 45.97,
-     "end": 60.63,
-     "word": " नहीं",
-     "prob": 0.972
-    },
-    {
-     "start": 60.63,
-     "end": 60.73,
-     "word": " बहु",
-     "prob": 0.963
+     "start": 4.81,
+     "end": 5.23,
+     "word": " graze",
+     "prob": 0.949
     }
    ]
   },
   {
    "id": 2,
-   "start": 90.73,
-   "end": 95.89,
-   "text": "तो मैं आप कुछ करता है। अब आप कुछ से लिए वाक्सिनेट करता हैं,",
-   "avg_logprob": -0.581,
-   "no_speech_prob": 0.27,
+   "start": 5.23,
+   "end": 7.39,
+   "text": "But you still had to get the vaccine in some cases",
+   "avg_logprob": -0.305,
+   "no_speech_prob": 0.604,
    "words": [
     {
-     "start": 90.73,
-     "end": 90.83,
-     "word": " तो",
-     "prob": 0.43
+     "start": 5.23,
+     "end": 5.71,
+     "word": " But",
+     "prob": 0.269
     },
     {
-     "start": 90.83,
-     "end": 91.17,
-     "word": " मैं",
-     "prob": 0.472
+     "start": 5.71,
+     "end": 5.93,
+     "word": " you",
+     "prob": 0.996
     },
     {
-     "start": 91.17,
-     "end": 92.17,
-     "word": " आप",
-     "prob": 0.546
+     "start": 5.93,
+     "end": 6.03,
+     "word": " still",
+     "prob": 0.974
     },
     {
-     "start": 92.17,
-     "end": 92.17,
-     "word": " कुछ",
-     "prob": 0.603
+     "start": 6.03,
+     "end": 6.13,
+     "word": " had",
+     "prob": 0.922
     },
     {
-     "start": 92.17,
-     "end": 92.17,
-     "word": " करता",
-     "prob": 0.255
+     "start": 6.13,
+     "end": 6.35,
+     "word": " to",
+     "prob": 0.998
     },
     {
-     "start": 92.17,
-     "end": 92.17,
-     "word": " है।",
-     "prob": 0.659
+     "start": 6.35,
+     "end": 6.35,
+     "word": " get",
+     "prob": 0.989
     },
     {
-     "start": 92.17,
-     "end": 92.67,
-     "word": " अब",
-     "prob": 0.452
+     "start": 6.35,
+     "end": 6.51,
+     "word": " the",
+     "prob": 0.997
     },
     {
-     "start": 92.67,
-     "end": 93.29,
-     "word": " आप",
-     "prob": 0.671
+     "start": 6.51,
+     "end": 6.77,
+     "word": " vaccine",
+     "prob": 0.997
     },
     {
-     "start": 93.29,
-     "end": 93.57,
-     "word": " कुछ",
-     "prob": 0.726
+     "start": 6.77,
+     "end": 7.01,
+     "word": " in",
+     "prob": 0.862
     },
     {
-     "start": 93.57,
-     "end": 94.15,
-     "word": " से",
-     "prob": 0.158
+     "start": 7.01,
+     "end": 7.15,
+     "word": " some",
+     "prob": 0.996
     },
     {
-     "start": 94.15,
-     "end": 94.31,
-     "word": " लिए",
-     "prob": 0.607
-    },
-    {
-     "start": 94.31,
-     "end": 95.71,
-     "word": " वाक्सिनेट",
-     "prob": 0.633
-    },
-    {
-     "start": 95.71,
-     "end": 95.73,
-     "word": " करता",
-     "prob": 0.442
-    },
-    {
-     "start": 95.73,
-     "end": 95.89,
-     "word": " हैं,",
-     "prob": 0.773
+     "start": 7.15,
+     "end": 7.39,
+     "word": " cases",
+     "prob": 0.997
     }
    ]
   },
   {
    "id": 3,
-   "start": 95.89,
-   "end": 97.87,
-   "text": "और अभी नहीं आप कुछ से लिए वाक्सिनेट करता है।",
-   "avg_logprob": -0.581,
-   "no_speech_prob": 0.27,
+   "start": 7.89,
+   "end": 10.01,
+   "text": "It's a little more severe like you said with your friends",
+   "avg_logprob": -0.305,
+   "no_speech_prob": 0.604,
    "words": [
     {
-     "start": 95.89,
-     "end": 96.17,
-     "word": " और",
-     "prob": 0.568
+     "start": 7.89,
+     "end": 8.33,
+     "word": " It's",
+     "prob": 0.821
     },
     {
-     "start": 96.17,
-     "end": 96.31,
-     "word": " अभी",
-     "prob": 0.444
+     "start": 8.33,
+     "end": 8.45,
+     "word": " a",
+     "prob": 0.95
     },
     {
-     "start": 96.31,
-     "end": 97.03,
-     "word": " नहीं",
-     "prob": 0.618
+     "start": 8.45,
+     "end": 8.57,
+     "word": " little",
+     "prob": 0.99
     },
     {
-     "start": 97.03,
-     "end": 97.03,
-     "word": " आप",
-     "prob": 0.668
+     "start": 8.57,
+     "end": 8.81,
+     "word": " more",
+     "prob": 0.988
     },
     {
-     "start": 97.03,
-     "end": 97.03,
-     "word": " कुछ",
-     "prob": 0.644
+     "start": 8.81,
+     "end": 9.01,
+     "word": " severe",
+     "prob": 0.99
     },
     {
-     "start": 97.03,
-     "end": 97.23,
-     "word": " से",
-     "prob": 0.504
+     "start": 9.01,
+     "end": 9.23,
+     "word": " like",
+     "prob": 0.641
     },
     {
-     "start": 97.23,
-     "end": 97.23,
-     "word": " लिए",
-     "prob": 0.886
+     "start": 9.23,
+     "end": 9.43,
+     "word": " you",
+     "prob": 0.998
     },
     {
-     "start": 97.23,
-     "end": 97.75,
-     "word": " वाक्सिनेट",
-     "prob": 0.881
+     "start": 9.43,
+     "end": 9.51,
+     "word": " said",
+     "prob": 0.998
     },
     {
-     "start": 97.75,
-     "end": 97.75,
-     "word": " करता",
-     "prob": 0.779
+     "start": 9.51,
+     "end": 9.71,
+     "word": " with",
+     "prob": 0.992
     },
     {
-     "start": 97.75,
-     "end": 97.87,
-     "word": " है।",
-     "prob": 0.796
+     "start": 9.71,
+     "end": 9.89,
+     "word": " your",
+     "prob": 0.997
+    },
+    {
+     "start": 9.89,
+     "end": 10.01,
+     "word": " friends",
+     "prob": 0.975
     }
    ]
   },
   {
    "id": 4,
-   "start": 97.87,
-   "end": 100.01,
-   "text": "यह आप कुछ से लिए वाक्सिनेट करता है।",
-   "avg_logprob": -0.581,
-   "no_speech_prob": 0.27,
+   "start": 10.01,
+   "end": 14.77,
+   "text": "If it is most severe. In such cases when you go to the emergency room and they say to consult a doctor first",
+   "avg_logprob": -0.305,
+   "no_speech_prob": 0.604,
    "words": [
     {
-     "start": 97.87,
-     "end": 98.11,
-     "word": " यह",
-     "prob": 0.546
+     "start": 10.01,
+     "end": 10.15,
+     "word": " If",
+     "prob": 0.029
     },
     {
-     "start": 98.11,
-     "end": 98.19,
-     "word": " आप",
-     "prob": 0.699
+     "start": 10.15,
+     "end": 10.19,
+     "word": " it",
+     "prob": 0.766
     },
     {
-     "start": 98.19,
-     "end": 98.35,
-     "word": " कुछ",
-     "prob": 0.69
+     "start": 10.19,
+     "end": 10.29,
+     "word": " is",
+     "prob": 0.056
     },
     {
-     "start": 98.35,
-     "end": 98.35,
-     "word": " से",
-     "prob": 0.579
+     "start": 10.29,
+     "end": 10.51,
+     "word": " most",
+     "prob": 0.122
     },
     {
-     "start": 98.35,
-     "end": 98.47,
-     "word": " लिए",
-     "prob": 0.935
+     "start": 10.51,
+     "end": 10.73,
+     "word": " severe.",
+     "prob": 0.933
     },
     {
-     "start": 98.47,
-     "end": 99.45,
-     "word": " वाक्सिनेट",
-     "prob": 0.888
+     "start": 10.87,
+     "end": 11.31,
+     "word": " In",
+     "prob": 0.847
     },
     {
-     "start": 99.45,
-     "end": 99.45,
-     "word": " करता",
-     "prob": 0.781
+     "start": 11.31,
+     "end": 11.49,
+     "word": " such",
+     "prob": 0.997
     },
     {
-     "start": 99.45,
-     "end": 100.01,
-     "word": " है।",
-     "prob": 0.774
+     "start": 11.49,
+     "end": 11.91,
+     "word": " cases",
+     "prob": 0.997
+    },
+    {
+     "start": 11.91,
+     "end": 12.09,
+     "word": " when",
+     "prob": 0.934
+    },
+    {
+     "start": 12.09,
+     "end": 12.25,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 12.25,
+     "end": 12.35,
+     "word": " go",
+     "prob": 0.989
+    },
+    {
+     "start": 12.35,
+     "end": 12.47,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 12.47,
+     "end": 12.61,
+     "word": " the",
+     "prob": 0.995
+    },
+    {
+     "start": 12.61,
+     "end": 12.97,
+     "word": " emergency",
+     "prob": 0.978
+    },
+    {
+     "start": 12.97,
+     "end": 13.21,
+     "word": " room",
+     "prob": 0.997
+    },
+    {
+     "start": 13.21,
+     "end": 13.39,
+     "word": " and",
+     "prob": 0.896
+    },
+    {
+     "start": 13.39,
+     "end": 13.59,
+     "word": " they",
+     "prob": 0.872
+    },
+    {
+     "start": 13.59,
+     "end": 13.71,
+     "word": " say",
+     "prob": 0.924
+    },
+    {
+     "start": 13.71,
+     "end": 13.93,
+     "word": " to",
+     "prob": 0.978
+    },
+    {
+     "start": 13.93,
+     "end": 14.15,
+     "word": " consult",
+     "prob": 0.994
+    },
+    {
+     "start": 14.15,
+     "end": 14.29,
+     "word": " a",
+     "prob": 0.842
+    },
+    {
+     "start": 14.29,
+     "end": 14.47,
+     "word": " doctor",
+     "prob": 0.989
+    },
+    {
+     "start": 14.47,
+     "end": 14.77,
+     "word": " first",
+     "prob": 0.991
     }
    ]
   },
   {
    "id": 5,
-   "start": 100.01,
-   "end": 102.75,
-   "text": "तो आप कुछ से लिए वाक्सिनेट करता है।",
-   "avg_logprob": -0.581,
-   "no_speech_prob": 0.27,
+   "start": 14.77,
+   "end": 21.09,
+   "text": "So is it there that they would then call the doctor or would you still have to wait for the next day?",
+   "avg_logprob": -0.305,
+   "no_speech_prob": 0.604,
    "words": [
     {
-     "start": 100.01,
-     "end": 100.33,
-     "word": " तो",
-     "prob": 0.667
+     "start": 14.77,
+     "end": 15.33,
+     "word": " So",
+     "prob": 0.713
     },
     {
-     "start": 100.33,
-     "end": 100.85,
-     "word": " आप",
-     "prob": 0.693
+     "start": 15.33,
+     "end": 15.57,
+     "word": " is",
+     "prob": 0.925
     },
     {
-     "start": 100.85,
-     "end": 101.31,
-     "word": " कुछ",
-     "prob": 0.728
+     "start": 15.57,
+     "end": 15.81,
+     "word": " it",
+     "prob": 0.992
     },
     {
-     "start": 101.31,
-     "end": 101.31,
-     "word": " से",
-     "prob": 0.595
+     "start": 15.81,
+     "end": 16.33,
+     "word": " there",
+     "prob": 0.203
     },
     {
-     "start": 101.31,
-     "end": 101.67,
-     "word": " लिए",
-     "prob": 0.938
+     "start": 16.33,
+     "end": 16.59,
+     "word": " that",
+     "prob": 0.851
     },
     {
-     "start": 101.67,
-     "end": 102.63,
-     "word": " वाक्सिनेट",
-     "prob": 0.898
+     "start": 16.59,
+     "end": 17.05,
+     "word": " they",
+     "prob": 0.944
     },
     {
-     "start": 102.63,
-     "end": 102.63,
-     "word": " करता",
-     "prob": 0.854
+     "start": 17.05,
+     "end": 17.57,
+     "word": " would",
+     "prob": 0.264
     },
     {
-     "start": 102.63,
-     "end": 102.75,
-     "word": " है।",
-     "prob": 0.802
+     "start": 17.57,
+     "end": 17.85,
+     "word": " then",
+     "prob": 0.992
+    },
+    {
+     "start": 17.85,
+     "end": 18.07,
+     "word": " call",
+     "prob": 0.993
+    },
+    {
+     "start": 18.07,
+     "end": 18.27,
+     "word": " the",
+     "prob": 0.989
+    },
+    {
+     "start": 18.27,
+     "end": 18.49,
+     "word": " doctor",
+     "prob": 0.991
+    },
+    {
+     "start": 18.49,
+     "end": 18.81,
+     "word": " or",
+     "prob": 0.831
+    },
+    {
+     "start": 18.81,
+     "end": 19.37,
+     "word": " would",
+     "prob": 0.929
+    },
+    {
+     "start": 19.37,
+     "end": 19.65,
+     "word": " you",
+     "prob": 0.982
+    },
+    {
+     "start": 19.65,
+     "end": 19.83,
+     "word": " still",
+     "prob": 0.992
+    },
+    {
+     "start": 19.83,
+     "end": 19.99,
+     "word": " have",
+     "prob": 0.998
+    },
+    {
+     "start": 19.99,
+     "end": 20.21,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 20.21,
+     "end": 20.37,
+     "word": " wait",
+     "prob": 0.999
+    },
+    {
+     "start": 20.37,
+     "end": 20.61,
+     "word": " for",
+     "prob": 0.994
+    },
+    {
+     "start": 20.61,
+     "end": 20.79,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 20.79,
+     "end": 20.99,
+     "word": " next",
+     "prob": 0.997
+    },
+    {
+     "start": 20.99,
+     "end": 21.09,
+     "word": " day?",
+     "prob": 0.901
     }
    ]
   },
   {
    "id": 6,
-   "start": 102.75,
-   "end": 106.77,
-   "text": "And also if people just knew how to deal with dogs when they are aggressive.",
-   "avg_logprob": -0.332,
-   "no_speech_prob": 0.43,
+   "start": 21.17,
+   "end": 23.85,
+   "text": "No usually they have a doctor on call there",
+   "avg_logprob": -0.305,
+   "no_speech_prob": 0.604,
    "words": [
     {
-     "start": 102.75,
-     "end": 102.75,
-     "word": " And",
-     "prob": 0.02
+     "start": 21.17,
+     "end": 21.39,
+     "word": " No",
+     "prob": 0.539
     },
     {
-     "start": 102.75,
-     "end": 103.45,
-     "word": " also",
-     "prob": 0.896
+     "start": 21.39,
+     "end": 21.83,
+     "word": " usually",
+     "prob": 0.254
     },
     {
-     "start": 103.45,
-     "end": 103.95,
-     "word": " if",
-     "prob": 0.561
-    },
-    {
-     "start": 103.95,
-     "end": 104.29,
-     "word": " people",
-     "prob": 0.917
-    },
-    {
-     "start": 104.29,
-     "end": 104.59,
-     "word": " just",
-     "prob": 0.892
-    },
-    {
-     "start": 104.59,
-     "end": 104.73,
-     "word": " knew",
-     "prob": 0.96
-    },
-    {
-     "start": 104.73,
-     "end": 104.95,
-     "word": " how",
-     "prob": 0.927
-    },
-    {
-     "start": 104.95,
-     "end": 105.11,
-     "word": " to",
-     "prob": 0.961
-    },
-    {
-     "start": 105.11,
-     "end": 105.35,
-     "word": " deal",
-     "prob": 0.971
-    },
-    {
-     "start": 105.35,
-     "end": 105.55,
-     "word": " with",
-     "prob": 0.981
-    },
-    {
-     "start": 105.55,
-     "end": 105.81,
-     "word": " dogs",
-     "prob": 0.941
-    },
-    {
-     "start": 105.81,
-     "end": 105.95,
-     "word": " when",
-     "prob": 0.274
-    },
-    {
-     "start": 105.95,
-     "end": 106.15,
+     "start": 21.83,
+     "end": 22.21,
      "word": " they",
-     "prob": 0.977
+     "prob": 0.875
     },
     {
-     "start": 106.15,
-     "end": 106.27,
-     "word": " are",
-     "prob": 0.849
+     "start": 22.21,
+     "end": 22.49,
+     "word": " have",
+     "prob": 0.992
     },
     {
-     "start": 106.27,
-     "end": 106.77,
-     "word": " aggressive.",
-     "prob": 0.934
+     "start": 22.49,
+     "end": 22.67,
+     "word": " a",
+     "prob": 0.99
+    },
+    {
+     "start": 22.67,
+     "end": 22.99,
+     "word": " doctor",
+     "prob": 0.986
+    },
+    {
+     "start": 22.99,
+     "end": 23.37,
+     "word": " on",
+     "prob": 0.973
+    },
+    {
+     "start": 23.37,
+     "end": 23.59,
+     "word": " call",
+     "prob": 0.965
+    },
+    {
+     "start": 23.59,
+     "end": 23.85,
+     "word": " there",
+     "prob": 0.927
     }
    ]
   },
   {
    "id": 7,
-   "start": 107.99,
-   "end": 115.17,
-   "text": "So, would you suggest like some campaigns around the campus that would tell us or inform us on how to...",
-   "avg_logprob": -0.332,
-   "no_speech_prob": 0.43,
+   "start": 23.85,
+   "end": 29.07,
+   "text": "So they do check you out, but then the day that we went there was a shift change or something",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
    "words": [
     {
-     "start": 107.99,
-     "end": 107.99,
-     "word": " So,",
-     "prob": 0.601
+     "start": 23.85,
+     "end": 24.03,
+     "word": " So",
+     "prob": 0.419
     },
     {
-     "start": 108.97,
-     "end": 109.09,
-     "word": " would",
-     "prob": 0.147
+     "start": 24.03,
+     "end": 24.21,
+     "word": " they",
+     "prob": 0.78
     },
     {
-     "start": 109.09,
-     "end": 109.31,
+     "start": 24.21,
+     "end": 24.45,
+     "word": " do",
+     "prob": 0.942
+    },
+    {
+     "start": 24.45,
+     "end": 24.67,
+     "word": " check",
+     "prob": 0.992
+    },
+    {
+     "start": 24.67,
+     "end": 24.83,
      "word": " you",
+     "prob": 0.987
+    },
+    {
+     "start": 24.83,
+     "end": 25.03,
+     "word": " out,",
+     "prob": 0.975
+    },
+    {
+     "start": 25.09,
+     "end": 25.37,
+     "word": " but",
+     "prob": 0.952
+    },
+    {
+     "start": 25.37,
+     "end": 25.63,
+     "word": " then",
+     "prob": 0.242
+    },
+    {
+     "start": 25.63,
+     "end": 25.71,
+     "word": " the",
+     "prob": 0.921
+    },
+    {
+     "start": 25.71,
+     "end": 25.93,
+     "word": " day",
+     "prob": 0.981
+    },
+    {
+     "start": 25.93,
+     "end": 26.23,
+     "word": " that",
+     "prob": 0.918
+    },
+    {
+     "start": 26.23,
+     "end": 26.47,
+     "word": " we",
+     "prob": 0.994
+    },
+    {
+     "start": 26.47,
+     "end": 26.85,
+     "word": " went",
+     "prob": 0.995
+    },
+    {
+     "start": 26.85,
+     "end": 27.79,
+     "word": " there",
+     "prob": 0.318
+    },
+    {
+     "start": 27.79,
+     "end": 28.01,
+     "word": " was",
+     "prob": 0.964
+    },
+    {
+     "start": 28.01,
+     "end": 28.19,
+     "word": " a",
+     "prob": 0.971
+    },
+    {
+     "start": 28.19,
+     "end": 28.39,
+     "word": " shift",
+     "prob": 0.997
+    },
+    {
+     "start": 28.39,
+     "end": 28.67,
+     "word": " change",
+     "prob": 0.702
+    },
+    {
+     "start": 28.67,
+     "end": 28.85,
+     "word": " or",
+     "prob": 0.958
+    },
+    {
+     "start": 28.85,
+     "end": 29.07,
+     "word": " something",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 29.07,
+   "end": 34.49,
+   "text": "so the doctor would come one hour later and since I already had my wound dressed",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 29.07,
+     "end": 29.27,
+     "word": " so",
+     "prob": 0.367
+    },
+    {
+     "start": 29.27,
+     "end": 29.57,
+     "word": " the",
+     "prob": 0.801
+    },
+    {
+     "start": 29.57,
+     "end": 29.85,
+     "word": " doctor",
+     "prob": 0.954
+    },
+    {
+     "start": 29.85,
+     "end": 30.07,
+     "word": " would",
+     "prob": 0.979
+    },
+    {
+     "start": 30.07,
+     "end": 30.25,
+     "word": " come",
+     "prob": 0.997
+    },
+    {
+     "start": 30.25,
+     "end": 30.49,
+     "word": " one",
+     "prob": 0.773
+    },
+    {
+     "start": 30.49,
+     "end": 30.63,
+     "word": " hour",
      "prob": 0.985
     },
     {
-     "start": 109.31,
-     "end": 109.63,
-     "word": " suggest",
+     "start": 30.63,
+     "end": 31.01,
+     "word": " later",
+     "prob": 0.992
+    },
+    {
+     "start": 31.01,
+     "end": 31.67,
+     "word": " and",
+     "prob": 0.307
+    },
+    {
+     "start": 31.67,
+     "end": 31.91,
+     "word": " since",
+     "prob": 0.952
+    },
+    {
+     "start": 31.91,
+     "end": 32.09,
+     "word": " I",
+     "prob": 0.97
+    },
+    {
+     "start": 32.09,
+     "end": 32.69,
+     "word": " already",
+     "prob": 0.912
+    },
+    {
+     "start": 32.69,
+     "end": 33.25,
+     "word": " had",
+     "prob": 0.965
+    },
+    {
+     "start": 33.25,
+     "end": 33.77,
+     "word": " my",
+     "prob": 0.997
+    },
+    {
+     "start": 33.77,
+     "end": 34.01,
+     "word": " wound",
+     "prob": 0.988
+    },
+    {
+     "start": 34.01,
+     "end": 34.49,
+     "word": " dressed",
+     "prob": 0.971
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 35.09,
+   "end": 38.41,
+   "text": "They asked me I could either wait for an hour or come the next morning",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 35.09,
+     "end": 35.53,
+     "word": " They",
+     "prob": 0.066
+    },
+    {
+     "start": 35.53,
+     "end": 35.89,
+     "word": " asked",
+     "prob": 0.976
+    },
+    {
+     "start": 35.89,
+     "end": 36.13,
+     "word": " me",
+     "prob": 0.998
+    },
+    {
+     "start": 36.13,
+     "end": 36.23,
+     "word": " I",
+     "prob": 0.775
+    },
+    {
+     "start": 36.23,
+     "end": 36.43,
+     "word": " could",
+     "prob": 0.996
+    },
+    {
+     "start": 36.43,
+     "end": 36.73,
+     "word": " either",
+     "prob": 0.94
+    },
+    {
+     "start": 36.73,
+     "end": 36.89,
+     "word": " wait",
+     "prob": 0.976
+    },
+    {
+     "start": 36.89,
+     "end": 37.09,
+     "word": " for",
+     "prob": 0.034
+    },
+    {
+     "start": 37.09,
+     "end": 37.21,
+     "word": " an",
+     "prob": 0.575
+    },
+    {
+     "start": 37.21,
+     "end": 37.31,
+     "word": " hour",
+     "prob": 0.994
+    },
+    {
+     "start": 37.31,
+     "end": 37.37,
+     "word": " or",
+     "prob": 0.74
+    },
+    {
+     "start": 37.37,
+     "end": 37.57,
+     "word": " come",
+     "prob": 0.981
+    },
+    {
+     "start": 37.57,
+     "end": 37.75,
+     "word": " the",
+     "prob": 0.982
+    },
+    {
+     "start": 37.75,
+     "end": 37.99,
+     "word": " next",
+     "prob": 0.995
+    },
+    {
+     "start": 37.99,
+     "end": 38.41,
+     "word": " morning",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 38.41,
+   "end": 38.79,
+   "text": "Okay.",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 38.41,
+     "end": 38.79,
+     "word": " Okay.",
+     "prob": 0.053
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 39.47,
+   "end": 39.91,
+   "text": "Yeah",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 39.47,
+     "end": 39.91,
+     "word": " Yeah",
+     "prob": 0.087
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 39.91,
+   "end": 43.75,
+   "text": "I thought I'll just go the next morning because my wound wasn't that serious",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 39.91,
+     "end": 40.55,
+     "word": " I",
+     "prob": 0.29
+    },
+    {
+     "start": 40.55,
+     "end": 40.81,
+     "word": " thought",
+     "prob": 0.825
+    },
+    {
+     "start": 40.81,
+     "end": 41.05,
+     "word": " I'll",
+     "prob": 0.757
+    },
+    {
+     "start": 41.05,
+     "end": 41.21,
+     "word": " just",
+     "prob": 0.984
+    },
+    {
+     "start": 41.21,
+     "end": 41.35,
+     "word": " go",
+     "prob": 0.992
+    },
+    {
+     "start": 41.35,
+     "end": 41.51,
+     "word": " the",
+     "prob": 0.984
+    },
+    {
+     "start": 41.51,
+     "end": 41.75,
+     "word": " next",
+     "prob": 0.995
+    },
+    {
+     "start": 41.75,
+     "end": 42.03,
+     "word": " morning",
      "prob": 0.993
     },
     {
-     "start": 109.63,
+     "start": 42.03,
+     "end": 42.33,
+     "word": " because",
+     "prob": 0.862
+    },
+    {
+     "start": 42.33,
+     "end": 42.71,
+     "word": " my",
+     "prob": 0.807
+    },
+    {
+     "start": 42.71,
+     "end": 42.89,
+     "word": " wound",
+     "prob": 0.916
+    },
+    {
+     "start": 42.89,
+     "end": 43.19,
+     "word": " wasn't",
+     "prob": 0.956
+    },
+    {
+     "start": 43.19,
+     "end": 43.53,
+     "word": " that",
+     "prob": 0.966
+    },
+    {
+     "start": 43.53,
+     "end": 43.75,
+     "word": " serious",
+     "prob": 0.473
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 43.75,
+   "end": 44.17,
+   "text": "yeah",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 43.75,
+     "end": 44.17,
+     "word": " yeah",
+     "prob": 0.018
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 44.17,
+   "end": 46.69,
+   "text": "Actually, I just wanted to know that coming again",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 44.17,
+     "end": 44.77,
+     "word": " Actually,",
+     "prob": 0.35
+    },
+    {
+     "start": 44.77,
+     "end": 44.93,
+     "word": " I",
+     "prob": 0.997
+    },
+    {
+     "start": 44.93,
+     "end": 45.11,
+     "word": " just",
+     "prob": 0.996
+    },
+    {
+     "start": 45.11,
+     "end": 45.23,
+     "word": " wanted",
+     "prob": 0.914
+    },
+    {
+     "start": 45.23,
+     "end": 45.45,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 45.45,
+     "end": 45.59,
+     "word": " know",
+     "prob": 0.999
+    },
+    {
+     "start": 45.59,
+     "end": 46.05,
+     "word": " that",
+     "prob": 0.987
+    },
+    {
+     "start": 46.05,
+     "end": 46.35,
+     "word": " coming",
+     "prob": 0.928
+    },
+    {
+     "start": 46.35,
+     "end": 46.69,
+     "word": " again",
+     "prob": 0.986
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 46.69,
+   "end": 50.27,
+   "text": "The next day was something that was a routine for them or just happened on their day",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 46.69,
+     "end": 46.83,
+     "word": " The",
+     "prob": 0.108
+    },
+    {
+     "start": 46.83,
+     "end": 47.11,
+     "word": " next",
+     "prob": 0.999
+    },
+    {
+     "start": 47.11,
+     "end": 47.21,
+     "word": " day",
+     "prob": 0.998
+    },
+    {
+     "start": 47.21,
+     "end": 47.69,
+     "word": " was",
+     "prob": 0.998
+    },
+    {
+     "start": 47.69,
+     "end": 48.09,
+     "word": " something",
+     "prob": 0.987
+    },
+    {
+     "start": 48.09,
+     "end": 48.29,
+     "word": " that",
+     "prob": 0.996
+    },
+    {
+     "start": 48.29,
+     "end": 48.47,
+     "word": " was",
+     "prob": 0.999
+    },
+    {
+     "start": 48.47,
+     "end": 48.65,
+     "word": " a",
+     "prob": 0.97
+    },
+    {
+     "start": 48.65,
+     "end": 48.79,
+     "word": " routine",
+     "prob": 0.999
+    },
+    {
+     "start": 48.79,
+     "end": 49.01,
+     "word": " for",
+     "prob": 0.997
+    },
+    {
+     "start": 49.01,
+     "end": 49.13,
+     "word": " them",
+     "prob": 0.998
+    },
+    {
+     "start": 49.13,
+     "end": 49.29,
+     "word": " or",
+     "prob": 0.909
+    },
+    {
+     "start": 49.29,
+     "end": 49.47,
+     "word": " just",
+     "prob": 0.956
+    },
+    {
+     "start": 49.47,
+     "end": 49.73,
+     "word": " happened",
+     "prob": 0.972
+    },
+    {
+     "start": 49.73,
+     "end": 49.95,
+     "word": " on",
+     "prob": 0.997
+    },
+    {
+     "start": 49.95,
+     "end": 50.11,
+     "word": " their",
+     "prob": 0.194
+    },
+    {
+     "start": 50.11,
+     "end": 50.27,
+     "word": " day",
+     "prob": 0.905
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 50.27,
+   "end": 51.05,
+   "text": "No it just happened",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 50.27,
+     "end": 50.45,
+     "word": " No",
+     "prob": 0.158
+    },
+    {
+     "start": 50.45,
+     "end": 50.57,
+     "word": " it",
+     "prob": 0.418
+    },
+    {
+     "start": 50.57,
+     "end": 50.83,
+     "word": " just",
+     "prob": 0.975
+    },
+    {
+     "start": 50.83,
+     "end": 51.05,
+     "word": " happened",
+     "prob": 0.974
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 51.05,
+   "end": 53.59,
+   "text": "Because that being a routine is a little risky",
+   "avg_logprob": -0.345,
+   "no_speech_prob": 0.655,
+   "words": [
+    {
+     "start": 51.05,
+     "end": 51.39,
+     "word": " Because",
+     "prob": 0.186
+    },
+    {
+     "start": 51.39,
+     "end": 52.21,
+     "word": " that",
+     "prob": 0.932
+    },
+    {
+     "start": 52.21,
+     "end": 52.39,
+     "word": " being",
+     "prob": 0.994
+    },
+    {
+     "start": 52.39,
+     "end": 52.55,
+     "word": " a",
+     "prob": 0.985
+    },
+    {
+     "start": 52.55,
+     "end": 52.73,
+     "word": " routine",
+     "prob": 0.998
+    },
+    {
+     "start": 52.73,
+     "end": 53.03,
+     "word": " is",
+     "prob": 0.983
+    },
+    {
+     "start": 53.03,
+     "end": 53.13,
+     "word": " a",
+     "prob": 0.971
+    },
+    {
+     "start": 53.13,
+     "end": 53.31,
+     "word": " little",
+     "prob": 0.99
+    },
+    {
+     "start": 53.31,
+     "end": 53.59,
+     "word": " risky",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 53.59,
+   "end": 58.43,
+   "text": "No, there is usually a doctor on call. It's just that due to shift change I didn't wake up.",
+   "avg_logprob": -0.313,
+   "no_speech_prob": 0.81,
+   "words": [
+    {
+     "start": 53.59,
+     "end": 53.71,
+     "word": " No,",
+     "prob": 0.061
+    },
+    {
+     "start": 54.27,
+     "end": 54.67,
+     "word": " there",
+     "prob": 0.429
+    },
+    {
+     "start": 54.67,
+     "end": 54.83,
+     "word": " is",
+     "prob": 0.408
+    },
+    {
+     "start": 54.83,
+     "end": 55.07,
+     "word": " usually",
+     "prob": 0.834
+    },
+    {
+     "start": 55.07,
+     "end": 55.21,
+     "word": " a",
+     "prob": 0.961
+    },
+    {
+     "start": 55.21,
+     "end": 55.43,
+     "word": " doctor",
+     "prob": 0.918
+    },
+    {
+     "start": 55.43,
+     "end": 55.69,
+     "word": " on",
+     "prob": 0.956
+    },
+    {
+     "start": 55.69,
+     "end": 55.85,
+     "word": " call.",
+     "prob": 0.892
+    },
+    {
+     "start": 56.01,
+     "end": 56.07,
+     "word": " It's",
+     "prob": 0.65
+    },
+    {
+     "start": 56.07,
+     "end": 56.23,
+     "word": " just",
+     "prob": 0.872
+    },
+    {
+     "start": 56.23,
+     "end": 56.45,
+     "word": " that",
+     "prob": 0.742
+    },
+    {
+     "start": 56.45,
+     "end": 56.53,
+     "word": " due",
+     "prob": 0.383
+    },
+    {
+     "start": 56.53,
+     "end": 56.65,
+     "word": " to",
+     "prob": 0.991
+    },
+    {
+     "start": 56.65,
+     "end": 56.81,
+     "word": " shift",
+     "prob": 0.703
+    },
+    {
+     "start": 56.81,
+     "end": 57.01,
+     "word": " change",
+     "prob": 0.675
+    },
+    {
+     "start": 57.01,
+     "end": 57.39,
+     "word": " I",
+     "prob": 0.446
+    },
+    {
+     "start": 57.39,
+     "end": 57.73,
+     "word": " didn't",
+     "prob": 0.975
+    },
+    {
+     "start": 57.73,
+     "end": 57.99,
+     "word": " wake",
+     "prob": 0.317
+    },
+    {
+     "start": 57.99,
+     "end": 58.43,
+     "word": " up.",
+     "prob": 0.398
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 58.43,
+   "end": 63.85,
+   "text": "Okay and one thing which I specifically wanted to inquire about was like in your experience",
+   "avg_logprob": -0.313,
+   "no_speech_prob": 0.81,
+   "words": [
+    {
+     "start": 58.43,
+     "end": 58.55,
+     "word": " Okay",
+     "prob": 0.267
+    },
+    {
+     "start": 58.55,
+     "end": 59.69,
+     "word": " and",
+     "prob": 0.122
+    },
+    {
+     "start": 59.69,
+     "end": 59.99,
+     "word": " one",
+     "prob": 0.809
+    },
+    {
+     "start": 59.99,
+     "end": 60.11,
+     "word": " thing",
+     "prob": 0.995
+    },
+    {
+     "start": 60.11,
+     "end": 60.29,
+     "word": " which",
+     "prob": 0.869
+    },
+    {
+     "start": 60.29,
+     "end": 60.47,
+     "word": " I",
+     "prob": 0.971
+    },
+    {
+     "start": 60.47,
+     "end": 60.81,
+     "word": " specifically",
+     "prob": 0.869
+    },
+    {
+     "start": 60.81,
+     "end": 61.05,
+     "word": " wanted",
+     "prob": 0.882
+    },
+    {
+     "start": 61.05,
+     "end": 61.27,
+     "word": " to",
+     "prob": 0.989
+    },
+    {
+     "start": 61.27,
+     "end": 61.51,
+     "word": " inquire",
+     "prob": 0.975
+    },
+    {
+     "start": 61.51,
+     "end": 61.79,
+     "word": " about",
+     "prob": 0.986
+    },
+    {
+     "start": 61.79,
+     "end": 62.37,
+     "word": " was",
+     "prob": 0.933
+    },
+    {
+     "start": 62.37,
+     "end": 63.21,
+     "word": " like",
+     "prob": 0.588
+    },
+    {
+     "start": 63.21,
+     "end": 63.37,
+     "word": " in",
+     "prob": 0.883
+    },
+    {
+     "start": 63.37,
+     "end": 63.47,
+     "word": " your",
+     "prob": 0.396
+    },
+    {
+     "start": 63.47,
+     "end": 63.85,
+     "word": " experience",
+     "prob": 0.989
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 63.85,
+   "end": 68.66,
+   "text": "that you had with dogs in that space what do you think would having more awareness or",
+   "avg_logprob": -0.313,
+   "no_speech_prob": 0.81,
+   "words": [
+    {
+     "start": 63.85,
+     "end": 64.01,
+     "word": " that",
+     "prob": 0.934
+    },
+    {
+     "start": 64.01,
+     "end": 64.13,
+     "word": " you",
+     "prob": 0.994
+    },
+    {
+     "start": 64.13,
+     "end": 64.37,
+     "word": " had",
+     "prob": 0.949
+    },
+    {
+     "start": 64.37,
+     "end": 64.77,
+     "word": " with",
+     "prob": 0.836
+    },
+    {
+     "start": 64.77,
+     "end": 65.13,
+     "word": " dogs",
+     "prob": 0.973
+    },
+    {
+     "start": 65.13,
+     "end": 65.39,
+     "word": " in",
+     "prob": 0.97
+    },
+    {
+     "start": 65.39,
+     "end": 65.57,
+     "word": " that",
+     "prob": 0.997
+    },
+    {
+     "start": 65.57,
+     "end": 65.85,
+     "word": " space",
+     "prob": 0.991
+    },
+    {
+     "start": 65.85,
+     "end": 66.13,
+     "word": " what",
+     "prob": 0.408
+    },
+    {
+     "start": 66.13,
+     "end": 66.25,
+     "word": " do",
+     "prob": 0.957
+    },
+    {
+     "start": 66.25,
+     "end": 66.37,
+     "word": " you",
+     "prob": 0.997
+    },
+    {
+     "start": 66.37,
+     "end": 66.49,
+     "word": " think",
+     "prob": 0.998
+    },
+    {
+     "start": 66.49,
+     "end": 67.41,
+     "word": " would",
+     "prob": 0.077
+    },
+    {
+     "start": 67.41,
+     "end": 67.77,
+     "word": " having",
+     "prob": 0.813
+    },
+    {
+     "start": 67.77,
+     "end": 68.03,
+     "word": " more",
+     "prob": 0.965
+    },
+    {
+     "start": 68.03,
+     "end": 68.41,
+     "word": " awareness",
+     "prob": 0.993
+    },
+    {
+     "start": 68.41,
+     "end": 68.66,
+     "word": " or",
+     "prob": 0.887
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 69.57,
+   "end": 71.91,
+   "text": "having awareness on how to handle those kind of situations",
+   "avg_logprob": -0.313,
+   "no_speech_prob": 0.81,
+   "words": [
+    {
+     "start": 69.57,
+     "end": 70.07,
+     "word": " having",
+     "prob": 0.445
+    },
+    {
+     "start": 70.07,
+     "end": 70.39,
+     "word": " awareness",
+     "prob": 0.946
+    },
+    {
+     "start": 70.39,
+     "end": 70.59,
+     "word": " on",
+     "prob": 0.942
+    },
+    {
+     "start": 70.59,
+     "end": 70.67,
+     "word": " how",
+     "prob": 0.987
+    },
+    {
+     "start": 70.67,
+     "end": 70.81,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 70.81,
+     "end": 71.05,
+     "word": " handle",
+     "prob": 0.998
+    },
+    {
+     "start": 71.05,
+     "end": 71.27,
+     "word": " those",
+     "prob": 0.942
+    },
+    {
+     "start": 71.27,
+     "end": 71.41,
+     "word": " kind",
+     "prob": 0.877
+    },
+    {
+     "start": 71.41,
+     "end": 71.55,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 71.55,
+     "end": 71.91,
+     "word": " situations",
+     "prob": 0.745
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 71.91,
+   "end": 74.95,
+   "text": "would have helped you basically leave unscathed?",
+   "avg_logprob": -0.313,
+   "no_speech_prob": 0.81,
+   "words": [
+    {
+     "start": 71.91,
+     "end": 72.59,
+     "word": " would",
+     "prob": 0.801
+    },
+    {
+     "start": 72.59,
+     "end": 72.79,
+     "word": " have",
+     "prob": 0.974
+    },
+    {
+     "start": 72.79,
+     "end": 72.97,
+     "word": " helped",
+     "prob": 0.968
+    },
+    {
+     "start": 72.97,
+     "end": 73.69,
+     "word": " you",
+     "prob": 0.994
+    },
+    {
+     "start": 73.69,
+     "end": 74.25,
+     "word": " basically",
+     "prob": 0.843
+    },
+    {
+     "start": 74.25,
+     "end": 74.47,
+     "word": " leave",
+     "prob": 0.866
+    },
+    {
+     "start": 74.47,
+     "end": 74.95,
+     "word": " unscathed?",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 76.09,
+   "end": 82.69,
+   "text": "Yeah i think yes because usually there is one of my friends who does know how",
+   "avg_logprob": -0.313,
+   "no_speech_prob": 0.81,
+   "words": [
+    {
+     "start": 76.09,
+     "end": 76.39,
+     "word": " Yeah",
+     "prob": 0.722
+    },
+    {
+     "start": 76.39,
+     "end": 76.55,
+     "word": " i",
+     "prob": 0.005
+    },
+    {
+     "start": 76.55,
+     "end": 76.85,
+     "word": " think",
+     "prob": 0.996
+    },
+    {
+     "start": 76.85,
+     "end": 77.27,
+     "word": " yes",
+     "prob": 0.948
+    },
+    {
+     "start": 77.27,
+     "end": 78.11,
+     "word": " because",
+     "prob": 0.659
+    },
+    {
+     "start": 78.11,
+     "end": 79.01,
+     "word": " usually",
+     "prob": 0.837
+    },
+    {
+     "start": 79.01,
+     "end": 79.73,
+     "word": " there",
+     "prob": 0.822
+    },
+    {
+     "start": 79.73,
+     "end": 79.95,
+     "word": " is",
+     "prob": 0.994
+    },
+    {
+     "start": 79.95,
+     "end": 80.23,
+     "word": " one",
+     "prob": 0.985
+    },
+    {
+     "start": 80.23,
+     "end": 80.59,
+     "word": " of",
+     "prob": 0.994
+    },
+    {
+     "start": 80.59,
+     "end": 80.81,
+     "word": " my",
+     "prob": 0.998
+    },
+    {
+     "start": 80.81,
+     "end": 81.11,
+     "word": " friends",
+     "prob": 0.981
+    },
+    {
+     "start": 81.11,
+     "end": 81.81,
+     "word": " who",
+     "prob": 0.978
+    },
+    {
+     "start": 81.81,
+     "end": 82.15,
+     "word": " does",
+     "prob": 0.967
+    },
+    {
+     "start": 82.15,
+     "end": 82.33,
+     "word": " know",
+     "prob": 0.991
+    },
+    {
+     "start": 82.33,
+     "end": 82.69,
+     "word": " how",
+     "prob": 0.831
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 82.69,
+   "end": 88.45,
+   "text": "like she has pets so she knows how to handle dogs when they are aggressive but I did not know",
+   "avg_logprob": -0.262,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 82.69,
+     "end": 82.93,
+     "word": " like",
+     "prob": 0.193
+    },
+    {
+     "start": 82.93,
+     "end": 83.05,
+     "word": " she",
+     "prob": 0.848
+    },
+    {
+     "start": 83.05,
+     "end": 83.41,
+     "word": " has",
+     "prob": 0.981
+    },
+    {
+     "start": 83.41,
+     "end": 83.83,
+     "word": " pets",
+     "prob": 0.966
+    },
+    {
+     "start": 83.83,
+     "end": 84.81,
+     "word": " so",
+     "prob": 0.401
+    },
+    {
+     "start": 84.81,
+     "end": 84.99,
+     "word": " she",
+     "prob": 0.977
+    },
+    {
+     "start": 84.99,
+     "end": 85.19,
+     "word": " knows",
+     "prob": 0.964
+    },
+    {
+     "start": 85.19,
+     "end": 85.41,
+     "word": " how",
+     "prob": 0.986
+    },
+    {
+     "start": 85.41,
+     "end": 85.49,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 85.49,
+     "end": 85.79,
+     "word": " handle",
+     "prob": 0.991
+    },
+    {
+     "start": 85.79,
+     "end": 86.07,
+     "word": " dogs",
+     "prob": 0.936
+    },
+    {
+     "start": 86.07,
+     "end": 86.27,
+     "word": " when",
+     "prob": 0.941
+    },
+    {
+     "start": 86.27,
+     "end": 86.47,
+     "word": " they",
+     "prob": 0.983
+    },
+    {
+     "start": 86.47,
+     "end": 86.59,
+     "word": " are",
+     "prob": 0.786
+    },
+    {
+     "start": 86.59,
+     "end": 87.03,
+     "word": " aggressive",
+     "prob": 0.952
+    },
+    {
+     "start": 87.03,
+     "end": 87.55,
+     "word": " but",
+     "prob": 0.683
+    },
+    {
+     "start": 87.55,
+     "end": 87.75,
+     "word": " I",
+     "prob": 0.756
+    },
+    {
+     "start": 87.75,
+     "end": 87.99,
+     "word": " did",
+     "prob": 0.945
+    },
+    {
+     "start": 87.99,
+     "end": 88.21,
+     "word": " not",
+     "prob": 0.996
+    },
+    {
+     "start": 88.21,
+     "end": 88.45,
+     "word": " know",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 88.45,
+   "end": 95.61,
+   "text": "So that's why i got caught in between them. So, one if all dogs could be already vaccinated",
+   "avg_logprob": -0.262,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 88.45,
+     "end": 88.65,
+     "word": " So",
+     "prob": 0.015
+    },
+    {
+     "start": 88.65,
+     "end": 88.83,
+     "word": " that's",
+     "prob": 0.82
+    },
+    {
+     "start": 88.83,
+     "end": 88.89,
+     "word": " why",
+     "prob": 0.981
+    },
+    {
+     "start": 88.89,
+     "end": 88.93,
+     "word": " i",
+     "prob": 0.018
+    },
+    {
+     "start": 88.93,
+     "end": 89.15,
+     "word": " got",
+     "prob": 0.974
+    },
+    {
+     "start": 89.15,
+     "end": 89.39,
+     "word": " caught",
+     "prob": 0.99
+    },
+    {
+     "start": 89.39,
+     "end": 89.59,
+     "word": " in",
+     "prob": 0.944
+    },
+    {
+     "start": 89.59,
+     "end": 89.93,
+     "word": " between",
+     "prob": 0.968
+    },
+    {
+     "start": 89.93,
+     "end": 90.61,
+     "word": " them.",
+     "prob": 0.934
+    },
+    {
+     "start": 90.63,
+     "end": 90.85,
+     "word": " So,",
+     "prob": 0.687
+    },
+    {
+     "start": 91.99,
+     "end": 92.53,
+     "word": " one",
+     "prob": 0.024
+    },
+    {
+     "start": 92.53,
+     "end": 93.05,
+     "word": " if",
+     "prob": 0.421
+    },
+    {
+     "start": 93.05,
+     "end": 93.41,
+     "word": " all",
+     "prob": 0.975
+    },
+    {
+     "start": 93.41,
+     "end": 93.69,
+     "word": " dogs",
+     "prob": 0.952
+    },
+    {
+     "start": 93.69,
+     "end": 93.99,
+     "word": " could",
+     "prob": 0.975
+    },
+    {
+     "start": 93.99,
+     "end": 94.53,
+     "word": " be",
+     "prob": 0.954
+    },
+    {
+     "start": 94.53,
+     "end": 95.05,
+     "word": " already",
+     "prob": 0.832
+    },
+    {
+     "start": 95.05,
+     "end": 95.61,
+     "word": " vaccinated",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 95.61,
+   "end": 99.61,
+   "text": "we wouldn't have to get extra vaccines even if we get bit or whatever",
+   "avg_logprob": -0.262,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 95.61,
+     "end": 96.13,
+     "word": " we",
+     "prob": 0.533
+    },
+    {
+     "start": 96.13,
+     "end": 96.35,
+     "word": " wouldn't",
+     "prob": 0.953
+    },
+    {
+     "start": 96.35,
+     "end": 96.55,
+     "word": " have",
+     "prob": 0.994
+    },
+    {
+     "start": 96.55,
+     "end": 96.69,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 96.69,
+     "end": 96.87,
+     "word": " get",
+     "prob": 0.996
+    },
+    {
+     "start": 96.87,
+     "end": 97.19,
+     "word": " extra",
+     "prob": 0.991
+    },
+    {
+     "start": 97.19,
+     "end": 97.73,
+     "word": " vaccines",
+     "prob": 0.747
+    },
+    {
+     "start": 97.73,
+     "end": 98.11,
+     "word": " even",
+     "prob": 0.806
+    },
+    {
+     "start": 98.11,
+     "end": 98.29,
+     "word": " if",
+     "prob": 0.994
+    },
+    {
+     "start": 98.29,
+     "end": 98.41,
+     "word": " we",
+     "prob": 0.992
+    },
+    {
+     "start": 98.41,
+     "end": 98.63,
+     "word": " get",
+     "prob": 0.978
+    },
+    {
+     "start": 98.63,
+     "end": 98.85,
+     "word": " bit",
+     "prob": 0.956
+    },
+    {
+     "start": 98.85,
+     "end": 99.15,
+     "word": " or",
+     "prob": 0.92
+    },
+    {
+     "start": 99.15,
+     "end": 99.61,
+     "word": " whatever",
+     "prob": 0.985
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 102.45,
+   "end": 106.93,
+   "text": "and also if people just knew how to deal with dogs when they're aggressive",
+   "avg_logprob": -0.262,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 102.45,
+     "end": 102.93,
+     "word": " and",
+     "prob": 0.011
+    },
+    {
+     "start": 102.93,
+     "end": 103.41,
+     "word": " also",
+     "prob": 0.776
+    },
+    {
+     "start": 103.41,
+     "end": 103.99,
+     "word": " if",
+     "prob": 0.895
+    },
+    {
+     "start": 103.99,
+     "end": 104.29,
+     "word": " people",
+     "prob": 0.974
+    },
+    {
+     "start": 104.29,
+     "end": 104.59,
+     "word": " just",
+     "prob": 0.917
+    },
+    {
+     "start": 104.59,
+     "end": 104.71,
+     "word": " knew",
+     "prob": 0.96
+    },
+    {
+     "start": 104.71,
+     "end": 104.95,
+     "word": " how",
+     "prob": 0.985
+    },
+    {
+     "start": 104.95,
+     "end": 105.13,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 105.13,
+     "end": 105.37,
+     "word": " deal",
+     "prob": 0.994
+    },
+    {
+     "start": 105.37,
+     "end": 105.59,
+     "word": " with",
+     "prob": 0.994
+    },
+    {
+     "start": 105.59,
+     "end": 105.81,
+     "word": " dogs",
+     "prob": 0.934
+    },
+    {
+     "start": 105.81,
+     "end": 105.95,
+     "word": " when",
+     "prob": 0.918
+    },
+    {
+     "start": 105.95,
+     "end": 106.29,
+     "word": " they're",
+     "prob": 0.567
+    },
+    {
+     "start": 106.29,
+     "end": 106.93,
+     "word": " aggressive",
+     "prob": 0.98
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 106.93,
+   "end": 114.21,
+   "text": "So, would you suggest like some campaigns around the campus that would tell us or inform",
+   "avg_logprob": -0.356,
+   "no_speech_prob": 0.59,
+   "words": [
+    {
+     "start": 106.93,
+     "end": 107.99,
+     "word": " So,",
+     "prob": 0.266
+    },
+    {
+     "start": 108.99,
+     "end": 109.11,
+     "word": " would",
+     "prob": 0.746
+    },
+    {
+     "start": 109.11,
+     "end": 109.37,
+     "word": " you",
+     "prob": 0.988
+    },
+    {
+     "start": 109.37,
+     "end": 109.65,
+     "word": " suggest",
+     "prob": 0.989
+    },
+    {
+     "start": 109.65,
      "end": 109.97,
      "word": " like",
-     "prob": 0.517
+     "prob": 0.44
     },
     {
      "start": 109.97,
-     "end": 110.83,
+     "end": 110.91,
      "word": " some",
-     "prob": 0.885
+     "prob": 0.911
     },
     {
-     "start": 110.83,
+     "start": 110.91,
      "end": 111.43,
      "word": " campaigns",
-     "prob": 0.912
+     "prob": 0.963
     },
     {
      "start": 111.43,
      "end": 111.97,
      "word": " around",
-     "prob": 0.947
-    },
-    {
-     "start": 111.97,
-     "end": 112.19,
-     "word": " the",
-     "prob": 0.953
-    },
-    {
-     "start": 112.19,
-     "end": 112.45,
-     "word": " campus",
-     "prob": 0.996
-    },
-    {
-     "start": 112.45,
-     "end": 112.67,
-     "word": " that",
-     "prob": 0.839
-    },
-    {
-     "start": 112.67,
-     "end": 112.95,
-     "word": " would",
-     "prob": 0.881
-    },
-    {
-     "start": 112.95,
-     "end": 113.15,
-     "word": " tell",
-     "prob": 0.694
-    },
-    {
-     "start": 113.15,
-     "end": 113.45,
-     "word": " us",
-     "prob": 0.988
-    },
-    {
-     "start": 113.45,
-     "end": 113.93,
-     "word": " or",
-     "prob": 0.841
-    },
-    {
-     "start": 113.93,
-     "end": 114.23,
-     "word": " inform",
      "prob": 0.98
     },
     {
-     "start": 114.23,
+     "start": 111.97,
+     "end": 112.21,
+     "word": " the",
+     "prob": 0.951
+    },
+    {
+     "start": 112.21,
+     "end": 112.45,
+     "word": " campus",
+     "prob": 0.995
+    },
+    {
+     "start": 112.45,
+     "end": 112.71,
+     "word": " that",
+     "prob": 0.931
+    },
+    {
+     "start": 112.71,
+     "end": 112.97,
+     "word": " would",
+     "prob": 0.847
+    },
+    {
+     "start": 112.97,
+     "end": 113.17,
+     "word": " tell",
+     "prob": 0.708
+    },
+    {
+     "start": 113.17,
+     "end": 113.47,
+     "word": " us",
+     "prob": 0.989
+    },
+    {
+     "start": 113.47,
+     "end": 113.93,
+     "word": " or",
+     "prob": 0.872
+    },
+    {
+     "start": 113.93,
+     "end": 114.21,
+     "word": " inform",
+     "prob": 0.977
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 114.21,
+   "end": 115.13,
+   "text": "us on how to...",
+   "avg_logprob": -0.356,
+   "no_speech_prob": 0.59,
+   "words": [
+    {
+     "start": 114.21,
      "end": 114.41,
      "word": " us",
      "prob": 0.992
     },
     {
      "start": 114.41,
-     "end": 114.59,
+     "end": 114.61,
      "word": " on",
-     "prob": 0.967
-    },
-    {
-     "start": 114.59,
-     "end": 114.83,
-     "word": " how",
-     "prob": 0.985
-    },
-    {
-     "start": 114.83,
-     "end": 115.17,
-     "word": " to...",
-     "prob": 0.58
-    }
-   ]
-  },
-  {
-   "id": 8,
-   "start": 115.17,
-   "end": 116.99,
-   "text": "Yeah, that will help definitely.",
-   "avg_logprob": -0.332,
-   "no_speech_prob": 0.43,
-   "words": [
-    {
-     "start": 115.17,
-     "end": 115.35,
-     "word": " Yeah,",
-     "prob": 0.596
-    },
-    {
-     "start": 115.35,
-     "end": 115.57,
-     "word": " that",
      "prob": 0.977
     },
     {
-     "start": 115.57,
-     "end": 115.75,
-     "word": " will",
-     "prob": 0.049
+     "start": 114.61,
+     "end": 114.85,
+     "word": " how",
+     "prob": 0.981
     },
     {
-     "start": 115.75,
-     "end": 116.31,
-     "word": " help",
-     "prob": 0.964
-    },
-    {
-     "start": 116.31,
-     "end": 116.99,
-     "word": " definitely.",
-     "prob": 0.022
+     "start": 114.85,
+     "end": 115.13,
+     "word": " to...",
+     "prob": 0.641
     }
    ]
   },
   {
-   "id": 9,
-   "start": 118.45,
-   "end": 124.11,
-   "text": "Have there been other instances where you have been like overall dissatisfied with dogs in general",
-   "avg_logprob": -0.332,
-   "no_speech_prob": 0.43,
+   "id": 30,
+   "start": 115.13,
+   "end": 115.37,
+   "text": "Yeah.",
+   "avg_logprob": -0.356,
+   "no_speech_prob": 0.59,
    "words": [
     {
-     "start": 118.45,
-     "end": 118.61,
-     "word": " Have",
-     "prob": 0.548
+     "start": 115.13,
+     "end": 115.37,
+     "word": " Yeah.",
+     "prob": 0.629
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 115.53,
+   "end": 116.75,
+   "text": "That will help definitely.",
+   "avg_logprob": -0.356,
+   "no_speech_prob": 0.59,
+   "words": [
+    {
+     "start": 115.53,
+     "end": 115.53,
+     "word": " That",
+     "prob": 0.387
     },
     {
-     "start": 118.61,
+     "start": 115.53,
+     "end": 115.81,
+     "word": " will",
+     "prob": 0.065
+    },
+    {
+     "start": 115.81,
+     "end": 116.35,
+     "word": " help",
+     "prob": 0.907
+    },
+    {
+     "start": 116.35,
+     "end": 116.75,
+     "word": " definitely.",
+     "prob": 0.196
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 118.57,
+   "end": 123.61,
+   "text": "Have there been other instances where you have been like overall dissatisfied with dogs",
+   "avg_logprob": -0.356,
+   "no_speech_prob": 0.59,
+   "words": [
+    {
+     "start": 118.57,
+     "end": 118.63,
+     "word": " Have",
+     "prob": 0.767
+    },
+    {
+     "start": 118.63,
      "end": 118.87,
      "word": " there",
-     "prob": 0.964
+     "prob": 0.944
     },
     {
      "start": 118.87,
      "end": 119.19,
      "word": " been",
-     "prob": 0.982
+     "prob": 0.984
     },
     {
      "start": 119.19,
-     "end": 119.55,
+     "end": 119.53,
      "word": " other",
-     "prob": 0.946
+     "prob": 0.964
     },
     {
-     "start": 119.55,
-     "end": 119.91,
+     "start": 119.53,
+     "end": 119.93,
      "word": " instances",
-     "prob": 0.991
+     "prob": 0.994
     },
     {
-     "start": 119.91,
-     "end": 120.11,
+     "start": 119.93,
+     "end": 120.13,
      "word": " where",
-     "prob": 0.879
+     "prob": 0.919
     },
     {
-     "start": 120.11,
+     "start": 120.13,
      "end": 120.29,
      "word": " you",
      "prob": 0.996
@@ -903,1687 +2622,4223 @@
      "start": 120.29,
      "end": 120.47,
      "word": " have",
-     "prob": 0.95
+     "prob": 0.941
     },
     {
      "start": 120.47,
-     "end": 120.69,
+     "end": 120.67,
      "word": " been",
-     "prob": 0.995
+     "prob": 0.997
     },
     {
-     "start": 120.69,
-     "end": 121.41,
+     "start": 120.67,
+     "end": 121.43,
      "word": " like",
-     "prob": 0.868
+     "prob": 0.914
     },
     {
-     "start": 121.41,
+     "start": 121.43,
      "end": 121.73,
      "word": " overall",
-     "prob": 0.701
+     "prob": 0.686
     },
     {
      "start": 121.73,
      "end": 122.37,
      "word": " dissatisfied",
-     "prob": 0.991
+     "prob": 0.994
     },
     {
      "start": 122.37,
-     "end": 123.29,
+     "end": 123.33,
      "word": " with",
-     "prob": 0.996
+     "prob": 0.998
     },
     {
-     "start": 123.29,
+     "start": 123.33,
      "end": 123.61,
      "word": " dogs",
-     "prob": 0.941
-    },
-    {
-     "start": 123.61,
-     "end": 123.91,
-     "word": " in",
-     "prob": 0.984
-    },
-    {
-     "start": 123.91,
-     "end": 124.11,
-     "word": " general",
-     "prob": 0.996
+     "prob": 0.947
     }
    ]
   },
   {
-   "id": 10,
-   "start": 124.11,
-   "end": 126.93,
-   "text": "Or the way that you have encountered them?",
-   "avg_logprob": -0.332,
-   "no_speech_prob": 0.43,
+   "id": 33,
+   "start": 123.61,
+   "end": 124.11,
+   "text": "in general?",
+   "avg_logprob": -0.356,
+   "no_speech_prob": 0.59,
    "words": [
     {
-     "start": 124.11,
-     "end": 124.81,
-     "word": " Or",
-     "prob": 0.007
+     "start": 123.61,
+     "end": 123.91,
+     "word": " in",
+     "prob": 0.977
     },
     {
-     "start": 124.81,
+     "start": 123.91,
+     "end": 124.11,
+     "word": " general?",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 124.83,
+   "end": 127.81,
+   "text": "Or the way that you have encountered them in the campus?",
+   "avg_logprob": -0.356,
+   "no_speech_prob": 0.59,
+   "words": [
+    {
+     "start": 124.83,
+     "end": 124.83,
+     "word": " Or",
+     "prob": 0.818
+    },
+    {
+     "start": 124.83,
      "end": 125.23,
      "word": " the",
-     "prob": 0.91
+     "prob": 0.867
     },
     {
      "start": 125.23,
      "end": 125.57,
      "word": " way",
-     "prob": 0.991
+     "prob": 0.992
     },
     {
      "start": 125.57,
      "end": 125.83,
      "word": " that",
-     "prob": 0.866
+     "prob": 0.897
     },
     {
      "start": 125.83,
-     "end": 125.97,
+     "end": 125.99,
      "word": " you",
      "prob": 0.998
     },
     {
-     "start": 125.97,
+     "start": 125.99,
      "end": 126.15,
      "word": " have",
-     "prob": 0.984
+     "prob": 0.917
     },
     {
      "start": 126.15,
-     "end": 126.51,
+     "end": 126.49,
      "word": " encountered",
-     "prob": 0.983
+     "prob": 0.99
     },
     {
-     "start": 126.51,
-     "end": 126.93,
-     "word": " them?",
-     "prob": 0.99
-    }
-   ]
-  },
-  {
-   "id": 11,
-   "start": 127.33,
-   "end": 127.93,
-   "text": "In the campus",
-   "avg_logprob": -0.332,
-   "no_speech_prob": 0.43,
-   "words": [
+     "start": 126.49,
+     "end": 126.89,
+     "word": " them",
+     "prob": 0.991
+    },
     {
-     "start": 127.33,
+     "start": 126.89,
      "end": 127.33,
-     "word": " In",
-     "prob": 0.614
+     "word": " in",
+     "prob": 0.565
     },
     {
      "start": 127.33,
      "end": 127.51,
      "word": " the",
-     "prob": 0.997
+     "prob": 0.993
     },
     {
      "start": 127.51,
-     "end": 127.93,
-     "word": " campus",
-     "prob": 0.985
+     "end": 127.81,
+     "word": " campus?",
+     "prob": 0.99
     }
    ]
   },
   {
-   "id": 12,
-   "start": 129.35,
-   "end": 133.57,
-   "text": "विन्तर अपने बागों यह भी नहीं आज्टिक उस्तारी था।",
-   "avg_logprob": -1.312,
-   "no_speech_prob": 0.559,
+   "id": 35,
+   "start": 128.55,
+   "end": 132.83,
+   "text": "I think just during the winters, dogs are in general a lot more aggressive than they",
+   "avg_logprob": -0.356,
+   "no_speech_prob": 0.59,
    "words": [
     {
-     "start": 129.35,
-     "end": 130.11,
-     "word": " विन्तर",
-     "prob": 0.495
+     "start": 128.55,
+     "end": 128.61,
+     "word": " I",
+     "prob": 0.913
     },
     {
-     "start": 130.11,
-     "end": 130.27,
-     "word": " अपने",
-     "prob": 0.363
+     "start": 128.61,
+     "end": 128.85,
+     "word": " think",
+     "prob": 0.986
     },
     {
-     "start": 130.27,
-     "end": 130.61,
-     "word": " बागों",
-     "prob": 0.359
+     "start": 128.85,
+     "end": 129.19,
+     "word": " just",
+     "prob": 0.935
     },
     {
-     "start": 130.61,
-     "end": 130.87,
-     "word": " यह",
-     "prob": 0.377
+     "start": 129.19,
+     "end": 129.59,
+     "word": " during",
+     "prob": 0.98
     },
     {
-     "start": 130.87,
+     "start": 129.59,
+     "end": 129.77,
+     "word": " the",
+     "prob": 0.99
+    },
+    {
+     "start": 129.77,
+     "end": 130.17,
+     "word": " winters,",
+     "prob": 0.72
+    },
+    {
+     "start": 130.17,
+     "end": 130.47,
+     "word": " dogs",
+     "prob": 0.981
+    },
+    {
+     "start": 130.47,
+     "end": 130.85,
+     "word": " are",
+     "prob": 0.932
+    },
+    {
+     "start": 130.85,
+     "end": 131.05,
+     "word": " in",
+     "prob": 0.914
+    },
+    {
+     "start": 131.05,
+     "end": 131.33,
+     "word": " general",
+     "prob": 0.986
+    },
+    {
+     "start": 131.33,
      "end": 131.49,
-     "word": " भी",
-     "prob": 0.373
+     "word": " a",
+     "prob": 0.791
     },
     {
      "start": 131.49,
-     "end": 131.81,
-     "word": " नहीं",
-     "prob": 0.63
+     "end": 131.67,
+     "word": " lot",
+     "prob": 0.999
     },
     {
-     "start": 131.81,
-     "end": 132.31,
-     "word": " आज्टिक",
-     "prob": 0.418
+     "start": 131.67,
+     "end": 131.93,
+     "word": " more",
+     "prob": 0.998
     },
     {
-     "start": 132.31,
-     "end": 133.53,
-     "word": " उस्तारी",
-     "prob": 0.22
+     "start": 131.93,
+     "end": 132.33,
+     "word": " aggressive",
+     "prob": 0.993
     },
     {
-     "start": 133.53,
-     "end": 133.57,
-     "word": " था।",
-     "prob": 0.402
+     "start": 132.33,
+     "end": 132.59,
+     "word": " than",
+     "prob": 0.97
+    },
+    {
+     "start": 132.59,
+     "end": 132.83,
+     "word": " they",
+     "prob": 0.988
     }
    ]
   },
   {
-   "id": 13,
-   "start": 136.19,
-   "end": 150.17,
-   "text": "आप बाज़ाइ आप बागों इस्तारी खुद पड़ा पर लिए यह यह यह हमादी लगता हैं.",
-   "avg_logprob": -1.312,
-   "no_speech_prob": 0.559,
+   "id": 36,
+   "start": 132.83,
+   "end": 140.43,
+   "text": "otherwise so mostly the Mac dogs are very very aggressive usually picking up",
+   "avg_logprob": -0.288,
+   "no_speech_prob": 0.838,
    "words": [
     {
-     "start": 136.19,
-     "end": 136.95,
-     "word": " आप",
-     "prob": 0.592
+     "start": 132.83,
+     "end": 133.99,
+     "word": " otherwise",
+     "prob": 0.092
     },
     {
-     "start": 136.95,
-     "end": 137.33,
-     "word": " बाज़ाइ",
-     "prob": 0.402
+     "start": 133.99,
+     "end": 135.37,
+     "word": " so",
+     "prob": 0.292
     },
     {
-     "start": 137.33,
-     "end": 137.33,
-     "word": " आप",
-     "prob": 0.418
+     "start": 135.37,
+     "end": 136.57,
+     "word": " mostly",
+     "prob": 0.843
     },
     {
-     "start": 137.33,
-     "end": 137.43,
-     "word": " बागों",
-     "prob": 0.539
+     "start": 136.57,
+     "end": 136.87,
+     "word": " the",
+     "prob": 0.983
     },
     {
-     "start": 137.43,
-     "end": 138.41,
-     "word": " इस्तारी",
-     "prob": 0.609
+     "start": 136.87,
+     "end": 137.13,
+     "word": " Mac",
+     "prob": 0.655
     },
     {
-     "start": 138.41,
-     "end": 138.41,
-     "word": " खुद",
-     "prob": 0.445
+     "start": 137.13,
+     "end": 137.37,
+     "word": " dogs",
+     "prob": 0.935
     },
     {
-     "start": 138.41,
+     "start": 137.37,
+     "end": 137.57,
+     "word": " are",
+     "prob": 0.992
+    },
+    {
+     "start": 137.57,
+     "end": 137.87,
+     "word": " very",
+     "prob": 0.991
+    },
+    {
+     "start": 137.87,
+     "end": 138.19,
+     "word": " very",
+     "prob": 0.852
+    },
+    {
+     "start": 138.19,
+     "end": 139.07,
+     "word": " aggressive",
+     "prob": 0.984
+    },
+    {
+     "start": 139.07,
+     "end": 139.89,
+     "word": " usually",
+     "prob": 0.666
+    },
+    {
+     "start": 139.89,
+     "end": 140.15,
+     "word": " picking",
+     "prob": 0.949
+    },
+    {
+     "start": 140.15,
+     "end": 140.43,
+     "word": " up",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 140.43,
+   "end": 146.55,
+   "text": "fights and stuff even the ones in front of HB are sometimes aggressive but",
+   "avg_logprob": -0.288,
+   "no_speech_prob": 0.838,
+   "words": [
+    {
+     "start": 140.43,
      "end": 140.65,
-     "word": " पड़ा",
-     "prob": 0.371
-    },
-    {
-     "start": 140.65,
-     "end": 140.75,
-     "word": " पर",
-     "prob": 0.176
-    },
-    {
-     "start": 140.75,
-     "end": 140.75,
-     "word": " लिए",
-     "prob": 0.547
-    },
-    {
-     "start": 140.75,
-     "end": 141.09,
-     "word": " यह",
-     "prob": 0.451
-    },
-    {
-     "start": 141.09,
-     "end": 141.89,
-     "word": " यह",
-     "prob": 0.477
-    },
-    {
-     "start": 141.89,
-     "end": 142.19,
-     "word": " यह",
-     "prob": 0.422
-    },
-    {
-     "start": 142.19,
-     "end": 149.63,
-     "word": " हमादी",
-     "prob": 0.158
-    },
-    {
-     "start": 149.63,
-     "end": 149.63,
-     "word": " लगता",
-     "prob": 0.36
-    },
-    {
-     "start": 149.63,
-     "end": 150.17,
-     "word": " हैं.",
-     "prob": 0.46
-    }
-   ]
-  },
-  {
-   "id": 14,
-   "start": 150.63,
-   "end": 153.93,
-   "text": "एप वाजार के लिए अपने वाजार आप इस्तारी नहीं आप रूप पाळाओ तरहे हैं.",
-   "avg_logprob": -1.312,
-   "no_speech_prob": 0.559,
-   "words": [
-    {
-     "start": 150.63,
-     "end": 151.39,
-     "word": " एप",
-     "prob": 0.385
-    },
-    {
-     "start": 151.39,
-     "end": 152.47,
-     "word": " वाजार",
-     "prob": 0.271
-    },
-    {
-     "start": 152.47,
-     "end": 153.11,
-     "word": " के",
-     "prob": 0.138
-    },
-    {
-     "start": 153.11,
-     "end": 153.17,
-     "word": " लिए",
-     "prob": 0.729
-    },
-    {
-     "start": 153.17,
-     "end": 153.59,
-     "word": " अपने",
-     "prob": 0.601
-    },
-    {
-     "start": 153.59,
-     "end": 153.59,
-     "word": " वाजार",
-     "prob": 0.571
-    },
-    {
-     "start": 153.59,
-     "end": 153.59,
-     "word": " आप",
-     "prob": 0.449
-    },
-    {
-     "start": 153.59,
-     "end": 153.61,
-     "word": " इस्तारी",
-     "prob": 0.681
-    },
-    {
-     "start": 153.61,
-     "end": 153.61,
-     "word": " नहीं",
-     "prob": 0.718
-    },
-    {
-     "start": 153.61,
-     "end": 153.61,
-     "word": " आप",
-     "prob": 0.7
-    },
-    {
-     "start": 153.61,
-     "end": 153.61,
-     "word": " रूप",
-     "prob": 0.402
-    },
-    {
-     "start": 153.61,
-     "end": 153.89,
-     "word": " पाळाओ",
-     "prob": 0.224
-    },
-    {
-     "start": 153.89,
-     "end": 153.89,
-     "word": " तरहे",
-     "prob": 0.148
-    },
-    {
-     "start": 153.89,
-     "end": 153.93,
-     "word": " हैं.",
-     "prob": 0.672
-    }
-   ]
-  },
-  {
-   "id": 15,
-   "start": 153.93,
-   "end": 162.43,
-   "text": "या, अबचे पर लोग कहती हैं आप नहीं भी तौकार करते है रहा हैं।",
-   "avg_logprob": -1.192,
-   "no_speech_prob": 0.475,
-   "words": [
-    {
-     "start": 153.93,
-     "end": 154.81,
-     "word": " या,",
-     "prob": 0.421
-    },
-    {
-     "start": 154.81,
-     "end": 154.81,
-     "word": " अबचे",
-     "prob": 0.323
-    },
-    {
-     "start": 154.81,
-     "end": 155.07,
-     "word": " पर",
-     "prob": 0.226
-    },
-    {
-     "start": 155.07,
-     "end": 155.07,
-     "word": " लोग",
-     "prob": 0.434
-    },
-    {
-     "start": 155.07,
-     "end": 155.53,
-     "word": " कहती",
-     "prob": 0.136
-    },
-    {
-     "start": 155.53,
-     "end": 155.65,
-     "word": " हैं",
-     "prob": 0.652
-    },
-    {
-     "start": 155.65,
-     "end": 156.15,
-     "word": " आप",
-     "prob": 0.481
-    },
-    {
-     "start": 156.15,
-     "end": 158.61,
-     "word": " नहीं",
-     "prob": 0.606
-    },
-    {
-     "start": 158.61,
-     "end": 159.47,
-     "word": " भी",
-     "prob": 0.439
-    },
-    {
-     "start": 159.47,
-     "end": 161.35,
-     "word": " तौकार",
-     "prob": 0.239
-    },
-    {
-     "start": 161.35,
-     "end": 161.37,
-     "word": " करते",
-     "prob": 0.225
-    },
-    {
-     "start": 161.37,
-     "end": 161.37,
-     "word": " है",
-     "prob": 0.877
-    },
-    {
-     "start": 161.37,
-     "end": 161.73,
-     "word": " रहा",
-     "prob": 0.29
-    },
-    {
-     "start": 161.73,
-     "end": 162.43,
-     "word": " हैं।",
-     "prob": 0.606
-    }
-   ]
-  },
-  {
-   "id": 16,
-   "start": 163.73,
-   "end": 169.03,
-   "text": "जिन्टरल एक बाज़ाइना लोग देखाफार बाज़ाइना था?",
-   "avg_logprob": -1.192,
-   "no_speech_prob": 0.475,
-   "words": [
-    {
-     "start": 163.73,
-     "end": 165.13,
-     "word": " जिन्टरल",
-     "prob": 0.354
-    },
-    {
-     "start": 165.13,
-     "end": 165.49,
-     "word": " एक",
-     "prob": 0.243
-    },
-    {
-     "start": 165.49,
-     "end": 169.03,
-     "word": " बाज़ाइना",
-     "prob": 0.317
-    },
-    {
-     "start": 169.03,
-     "end": 169.03,
-     "word": " लोग",
-     "prob": 0.51
-    },
-    {
-     "start": 169.03,
-     "end": 169.03,
-     "word": " देखाफार",
-     "prob": 0.286
-    },
-    {
-     "start": 169.03,
-     "end": 169.03,
-     "word": " बाज़ाइना",
-     "prob": 0.61
-    },
-    {
-     "start": 169.03,
-     "end": 169.03,
-     "word": " था?",
-     "prob": 0.284
-    }
-   ]
-  },
-  {
-   "id": 17,
-   "start": 169.03,
-   "end": 179.77,
-   "text": "जिसके आप वर्टियों के पर लोग देखाफार पर लोग देखाफार करते हैं?",
-   "avg_logprob": -1.192,
-   "no_speech_prob": 0.475,
-   "words": [
-    {
-     "start": 169.03,
-     "end": 169.85,
-     "word": " जिसके",
-     "prob": 0.265
-    },
-    {
-     "start": 169.85,
-     "end": 170.13,
-     "word": " आप",
-     "prob": 0.669
-    },
-    {
-     "start": 170.13,
-     "end": 170.65,
-     "word": " वर्टियों",
-     "prob": 0.252
-    },
-    {
-     "start": 170.65,
-     "end": 171.33,
-     "word": " के",
-     "prob": 0.346
-    },
-    {
-     "start": 171.33,
-     "end": 174.39,
-     "word": " पर",
-     "prob": 0.365
-    },
-    {
-     "start": 174.39,
-     "end": 175.87,
-     "word": " लोग",
-     "prob": 0.654
-    },
-    {
-     "start": 175.87,
-     "end": 176.97,
-     "word": " देखाफार",
-     "prob": 0.764
-    },
-    {
-     "start": 176.97,
-     "end": 178.29,
-     "word": " पर",
-     "prob": 0.427
-    },
-    {
-     "start": 178.29,
-     "end": 178.29,
-     "word": " लोग",
-     "prob": 0.795
-    },
-    {
-     "start": 178.29,
-     "end": 179.77,
-     "word": " देखाफार",
-     "prob": 0.847
-    },
-    {
-     "start": 179.77,
-     "end": 179.77,
-     "word": " करते",
-     "prob": 0.364
-    },
-    {
-     "start": 179.77,
-     "end": 179.77,
-     "word": " हैं?",
-     "prob": 0.86
-    }
-   ]
-  },
-  {
-   "id": 18,
-   "start": 179.77,
-   "end": 203.31,
-   "text": "और आपके लिए कुछीं होता हैं, जब अपने स्वार्टी नहीं होता हैं, तो यह भी दोमेस्टिकेट होता हैं, तो यह भी अपने स्वार्टी नहीं होता हैं, तो यह भी अपने स्वार्टी नहीं होता हैं, तो यह भी अपने स्वार्टी नहीं होता हैं, तो यह अपने स्व",
-   "avg_logprob": -0.622,
-   "no_speech_prob": 0.516,
-   "words": [
-    {
-     "start": 179.77,
-     "end": 180.23,
-     "word": " और",
-     "prob": 0.571
-    },
-    {
-     "start": 180.23,
-     "end": 180.87,
-     "word": " आपके",
-     "prob": 0.446
-    },
-    {
-     "start": 180.87,
-     "end": 180.89,
-     "word": " लिए",
-     "prob": 0.578
-    },
-    {
-     "start": 180.89,
-     "end": 182.63,
-     "word": " कुछीं",
-     "prob": 0.417
-    },
-    {
-     "start": 182.63,
-     "end": 182.81,
-     "word": " होता",
-     "prob": 0.199
-    },
-    {
-     "start": 182.81,
-     "end": 183.01,
-     "word": " हैं,",
-     "prob": 0.739
-    },
-    {
-     "start": 183.01,
-     "end": 183.09,
-     "word": " जब",
-     "prob": 0.466
-    },
-    {
-     "start": 183.09,
-     "end": 183.09,
-     "word": " अपने",
-     "prob": 0.509
-    },
-    {
-     "start": 183.09,
-     "end": 183.65,
-     "word": " स्वार्टी",
-     "prob": 0.339
-    },
-    {
-     "start": 183.65,
-     "end": 184.19,
-     "word": " नहीं",
-     "prob": 0.618
-    },
-    {
-     "start": 184.19,
-     "end": 184.19,
-     "word": " होता",
-     "prob": 0.488
-    },
-    {
-     "start": 184.19,
-     "end": 184.29,
-     "word": " हैं,",
-     "prob": 0.79
-    },
-    {
-     "start": 184.29,
-     "end": 184.47,
-     "word": " तो",
-     "prob": 0.509
-    },
-    {
-     "start": 184.47,
-     "end": 184.47,
-     "word": " यह",
-     "prob": 0.414
-    },
-    {
-     "start": 184.47,
-     "end": 184.55,
-     "word": " भी",
-     "prob": 0.334
-    },
-    {
-     "start": 184.55,
-     "end": 185.21,
-     "word": " दोमेस्टिकेट",
-     "prob": 0.634
-    },
-    {
-     "start": 185.21,
-     "end": 185.21,
-     "word": " होता",
-     "prob": 0.419
-    },
-    {
-     "start": 185.21,
-     "end": 185.39,
-     "word": " हैं,",
-     "prob": 0.844
-    },
-    {
-     "start": 185.39,
-     "end": 185.43,
-     "word": " तो",
-     "prob": 0.625
-    },
-    {
-     "start": 185.43,
-     "end": 185.59,
-     "word": " यह",
-     "prob": 0.576
-    },
-    {
-     "start": 185.59,
-     "end": 185.59,
-     "word": " भी",
-     "prob": 0.608
-    },
-    {
-     "start": 185.59,
-     "end": 186.59,
-     "word": " अपने",
-     "prob": 0.629
-    },
-    {
-     "start": 186.59,
-     "end": 188.07,
-     "word": " स्वार्टी",
-     "prob": 0.859
-    },
-    {
-     "start": 188.07,
-     "end": 188.07,
-     "word": " नहीं",
-     "prob": 0.922
-    },
-    {
-     "start": 188.07,
-     "end": 188.11,
-     "word": " होता",
-     "prob": 0.911
-    },
-    {
-     "start": 188.11,
-     "end": 188.47,
-     "word": " हैं,",
-     "prob": 0.886
-    },
-    {
-     "start": 188.47,
-     "end": 190.07,
-     "word": " तो",
-     "prob": 0.719
-    },
-    {
-     "start": 190.07,
-     "end": 190.19,
-     "word": " यह",
-     "prob": 0.818
-    },
-    {
-     "start": 190.19,
-     "end": 190.49,
-     "word": " भी",
-     "prob": 0.675
-    },
-    {
-     "start": 190.49,
-     "end": 190.71,
-     "word": " अपने",
+     "word": " fights",
      "prob": 0.816
     },
     {
-     "start": 190.71,
-     "end": 191.31,
-     "word": " स्वार्टी",
-     "prob": 0.933
+     "start": 140.65,
+     "end": 140.87,
+     "word": " and",
+     "prob": 0.951
     },
     {
-     "start": 191.31,
-     "end": 191.41,
-     "word": " नहीं",
-     "prob": 0.961
+     "start": 140.87,
+     "end": 141.07,
+     "word": " stuff",
+     "prob": 0.972
     },
     {
-     "start": 191.41,
-     "end": 191.41,
-     "word": " होता",
-     "prob": 0.96
+     "start": 141.07,
+     "end": 141.49,
+     "word": " even",
+     "prob": 0.87
     },
     {
-     "start": 191.41,
-     "end": 191.49,
-     "word": " हैं,",
-     "prob": 0.941
+     "start": 141.49,
+     "end": 142.05,
+     "word": " the",
+     "prob": 0.983
     },
     {
-     "start": 191.63,
-     "end": 191.63,
-     "word": " तो",
-     "prob": 0.737
+     "start": 142.05,
+     "end": 142.23,
+     "word": " ones",
+     "prob": 0.976
     },
     {
-     "start": 191.63,
-     "end": 191.77,
-     "word": " यह",
-     "prob": 0.906
+     "start": 142.23,
+     "end": 142.45,
+     "word": " in",
+     "prob": 0.994
     },
     {
-     "start": 191.77,
-     "end": 191.93,
-     "word": " भी",
-     "prob": 0.714
+     "start": 142.45,
+     "end": 142.57,
+     "word": " front",
+     "prob": 0.999
     },
     {
-     "start": 191.93,
-     "end": 193.01,
-     "word": " अपने",
-     "prob": 0.839
+     "start": 142.57,
+     "end": 142.85,
+     "word": " of",
+     "prob": 0.994
     },
     {
-     "start": 193.01,
-     "end": 194.45,
-     "word": " स्वार्टी",
-     "prob": 0.937
+     "start": 142.85,
+     "end": 143.29,
+     "word": " HB",
+     "prob": 0.792
     },
     {
-     "start": 194.45,
-     "end": 194.45,
-     "word": " नहीं",
+     "start": 143.29,
+     "end": 144.17,
+     "word": " are",
+     "prob": 0.835
+    },
+    {
+     "start": 144.17,
+     "end": 144.65,
+     "word": " sometimes",
      "prob": 0.967
     },
     {
-     "start": 194.45,
-     "end": 194.61,
-     "word": " होता",
-     "prob": 0.962
+     "start": 144.65,
+     "end": 145.31,
+     "word": " aggressive",
+     "prob": 0.98
     },
     {
-     "start": 194.61,
-     "end": 194.89,
-     "word": " हैं,",
+     "start": 145.31,
+     "end": 146.55,
+     "word": " but",
+     "prob": 0.913
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "start": 146.55,
+   "end": 152.07,
+   "text": "they've never personally like harmed anyone I think but they do run behind",
+   "avg_logprob": -0.288,
+   "no_speech_prob": 0.838,
+   "words": [
+    {
+     "start": 146.55,
+     "end": 146.85,
+     "word": " they've",
      "prob": 0.952
     },
     {
-     "start": 195.13,
+     "start": 146.85,
+     "end": 147.19,
+     "word": " never",
+     "prob": 0.999
+    },
+    {
+     "start": 147.19,
+     "end": 147.73,
+     "word": " personally",
+     "prob": 0.993
+    },
+    {
+     "start": 147.73,
+     "end": 148.17,
+     "word": " like",
+     "prob": 0.755
+    },
+    {
+     "start": 148.17,
+     "end": 149.07,
+     "word": " harmed",
+     "prob": 0.987
+    },
+    {
+     "start": 149.07,
+     "end": 149.61,
+     "word": " anyone",
+     "prob": 0.994
+    },
+    {
+     "start": 149.61,
+     "end": 149.87,
+     "word": " I",
+     "prob": 0.915
+    },
+    {
+     "start": 149.87,
+     "end": 150.19,
+     "word": " think",
+     "prob": 0.999
+    },
+    {
+     "start": 150.19,
+     "end": 150.39,
+     "word": " but",
+     "prob": 0.911
+    },
+    {
+     "start": 150.39,
+     "end": 150.63,
+     "word": " they",
+     "prob": 0.995
+    },
+    {
+     "start": 150.63,
+     "end": 151.19,
+     "word": " do",
+     "prob": 0.99
+    },
+    {
+     "start": 151.19,
+     "end": 151.45,
+     "word": " run",
+     "prob": 0.974
+    },
+    {
+     "start": 151.45,
+     "end": 152.07,
+     "word": " behind",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "start": 152.07,
+   "end": 155.61,
+   "text": "vehicles and stuff which do scare people yeah the aggression is unsettling",
+   "avg_logprob": -0.288,
+   "no_speech_prob": 0.838,
+   "words": [
+    {
+     "start": 152.07,
+     "end": 152.51,
+     "word": " vehicles",
+     "prob": 0.927
+    },
+    {
+     "start": 152.51,
+     "end": 152.75,
+     "word": " and",
+     "prob": 0.928
+    },
+    {
+     "start": 152.75,
+     "end": 152.83,
+     "word": " stuff",
+     "prob": 0.989
+    },
+    {
+     "start": 152.83,
+     "end": 153.05,
+     "word": " which",
+     "prob": 0.926
+    },
+    {
+     "start": 153.05,
+     "end": 153.25,
+     "word": " do",
+     "prob": 0.9
+    },
+    {
+     "start": 153.25,
+     "end": 153.49,
+     "word": " scare",
+     "prob": 0.996
+    },
+    {
+     "start": 153.49,
+     "end": 153.91,
+     "word": " people",
+     "prob": 0.949
+    },
+    {
+     "start": 153.91,
+     "end": 154.29,
+     "word": " yeah",
+     "prob": 0.486
+    },
+    {
+     "start": 154.29,
+     "end": 154.61,
+     "word": " the",
+     "prob": 0.96
+    },
+    {
+     "start": 154.61,
+     "end": 154.87,
+     "word": " aggression",
+     "prob": 0.997
+    },
+    {
+     "start": 154.87,
+     "end": 155.17,
+     "word": " is",
+     "prob": 0.997
+    },
+    {
+     "start": 155.17,
+     "end": 155.61,
+     "word": " unsettling",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "start": 155.61,
+   "end": 161.77,
+   "text": "But even now, there haven't been many cases of actual dog bite injuries.",
+   "avg_logprob": -0.283,
+   "no_speech_prob": 0.606,
+   "words": [
+    {
+     "start": 155.61,
+     "end": 156.07,
+     "word": " But",
+     "prob": 0.181
+    },
+    {
+     "start": 156.07,
+     "end": 157.63,
+     "word": " even",
+     "prob": 0.753
+    },
+    {
+     "start": 157.63,
+     "end": 158.09,
+     "word": " now,",
+     "prob": 0.985
+    },
+    {
+     "start": 158.29,
+     "end": 158.29,
+     "word": " there",
+     "prob": 0.98
+    },
+    {
+     "start": 158.29,
+     "end": 158.63,
+     "word": " haven't",
+     "prob": 0.946
+    },
+    {
+     "start": 158.63,
+     "end": 158.87,
+     "word": " been",
+     "prob": 0.991
+    },
+    {
+     "start": 158.87,
+     "end": 159.17,
+     "word": " many",
+     "prob": 0.967
+    },
+    {
+     "start": 159.17,
+     "end": 159.61,
+     "word": " cases",
+     "prob": 0.978
+    },
+    {
+     "start": 159.61,
+     "end": 160.19,
+     "word": " of",
+     "prob": 0.975
+    },
+    {
+     "start": 160.19,
+     "end": 160.93,
+     "word": " actual",
+     "prob": 0.795
+    },
+    {
+     "start": 160.93,
+     "end": 161.13,
+     "word": " dog",
+     "prob": 0.968
+    },
+    {
+     "start": 161.13,
+     "end": 161.31,
+     "word": " bite",
+     "prob": 0.911
+    },
+    {
+     "start": 161.31,
+     "end": 161.77,
+     "word": " injuries.",
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "start": 163.59,
+   "end": 166.55,
+   "text": "What is your opinion in general on having dogs in campus?",
+   "avg_logprob": -0.283,
+   "no_speech_prob": 0.606,
+   "words": [
+    {
+     "start": 163.59,
+     "end": 163.79,
+     "word": " What",
+     "prob": 0.378
+    },
+    {
+     "start": 163.79,
+     "end": 163.97,
+     "word": " is",
+     "prob": 0.977
+    },
+    {
+     "start": 163.97,
+     "end": 164.19,
+     "word": " your",
+     "prob": 0.99
+    },
+    {
+     "start": 164.19,
+     "end": 164.49,
+     "word": " opinion",
+     "prob": 0.991
+    },
+    {
+     "start": 164.49,
+     "end": 164.67,
+     "word": " in",
+     "prob": 0.813
+    },
+    {
+     "start": 164.67,
+     "end": 165.05,
+     "word": " general",
+     "prob": 0.997
+    },
+    {
+     "start": 165.05,
+     "end": 165.33,
+     "word": " on",
+     "prob": 0.838
+    },
+    {
+     "start": 165.33,
+     "end": 165.55,
+     "word": " having",
+     "prob": 0.935
+    },
+    {
+     "start": 165.55,
+     "end": 165.89,
+     "word": " dogs",
+     "prob": 0.989
+    },
+    {
+     "start": 165.89,
+     "end": 166.15,
+     "word": " in",
+     "prob": 0.931
+    },
+    {
+     "start": 166.15,
+     "end": 166.55,
+     "word": " campus?",
+     "prob": 0.948
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "start": 166.85,
+   "end": 169.33,
+   "text": "Because many times there are dogs inside our buildings as well.",
+   "avg_logprob": -0.283,
+   "no_speech_prob": 0.606,
+   "words": [
+    {
+     "start": 166.85,
+     "end": 166.89,
+     "word": " Because",
+     "prob": 0.557
+    },
+    {
+     "start": 166.89,
+     "end": 167.13,
+     "word": " many",
+     "prob": 0.94
+    },
+    {
+     "start": 167.13,
+     "end": 167.37,
+     "word": " times",
+     "prob": 0.955
+    },
+    {
+     "start": 167.37,
+     "end": 167.57,
+     "word": " there",
+     "prob": 0.662
+    },
+    {
+     "start": 167.57,
+     "end": 167.69,
+     "word": " are",
+     "prob": 0.968
+    },
+    {
+     "start": 167.69,
+     "end": 167.95,
+     "word": " dogs",
+     "prob": 0.993
+    },
+    {
+     "start": 167.95,
+     "end": 168.27,
+     "word": " inside",
+     "prob": 0.91
+    },
+    {
+     "start": 168.27,
+     "end": 168.49,
+     "word": " our",
+     "prob": 0.956
+    },
+    {
+     "start": 168.49,
+     "end": 168.73,
+     "word": " buildings",
+     "prob": 0.929
+    },
+    {
+     "start": 168.73,
+     "end": 168.97,
+     "word": " as",
+     "prob": 0.935
+    },
+    {
+     "start": 168.97,
+     "end": 169.33,
+     "word": " well.",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "start": 169.61,
+   "end": 171.09,
+   "text": "Inside the actual hostels as well.",
+   "avg_logprob": -0.283,
+   "no_speech_prob": 0.606,
+   "words": [
+    {
+     "start": 169.61,
+     "end": 169.77,
+     "word": " Inside",
+     "prob": 0.829
+    },
+    {
+     "start": 169.77,
+     "end": 170.05,
+     "word": " the",
+     "prob": 0.917
+    },
+    {
+     "start": 170.05,
+     "end": 170.39,
+     "word": " actual",
+     "prob": 0.941
+    },
+    {
+     "start": 170.39,
+     "end": 170.71,
+     "word": " hostels",
+     "prob": 0.951
+    },
+    {
+     "start": 170.71,
+     "end": 170.93,
+     "word": " as",
+     "prob": 0.955
+    },
+    {
+     "start": 170.93,
+     "end": 171.09,
+     "word": " well.",
+     "prob": 0.999
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "start": 171.47,
+   "end": 173.07,
+   "text": "So what are your opinions on that like?",
+   "avg_logprob": -0.283,
+   "no_speech_prob": 0.606,
+   "words": [
+    {
+     "start": 171.47,
+     "end": 171.55,
+     "word": " So",
+     "prob": 0.904
+    },
+    {
+     "start": 171.55,
+     "end": 171.71,
+     "word": " what",
+     "prob": 0.829
+    },
+    {
+     "start": 171.71,
+     "end": 171.93,
+     "word": " are",
+     "prob": 0.989
+    },
+    {
+     "start": 171.93,
+     "end": 172.17,
+     "word": " your",
+     "prob": 0.974
+    },
+    {
+     "start": 172.17,
+     "end": 172.51,
+     "word": " opinions",
+     "prob": 0.982
+    },
+    {
+     "start": 172.51,
+     "end": 172.69,
+     "word": " on",
+     "prob": 0.99
+    },
+    {
+     "start": 172.69,
+     "end": 172.89,
+     "word": " that",
+     "prob": 0.998
+    },
+    {
+     "start": 172.89,
+     "end": 173.07,
+     "word": " like?",
+     "prob": 0.116
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "start": 173.27,
+   "end": 175.01,
+   "text": "Do you believe they should be restricted to some places?",
+   "avg_logprob": -0.283,
+   "no_speech_prob": 0.606,
+   "words": [
+    {
+     "start": 173.27,
+     "end": 173.29,
+     "word": " Do",
+     "prob": 0.952
+    },
+    {
+     "start": 173.29,
+     "end": 173.29,
+     "word": " you",
+     "prob": 0.989
+    },
+    {
+     "start": 173.29,
+     "end": 173.45,
+     "word": " believe",
+     "prob": 0.964
+    },
+    {
+     "start": 173.45,
+     "end": 173.57,
+     "word": " they",
+     "prob": 0.925
+    },
+    {
+     "start": 173.57,
+     "end": 173.77,
+     "word": " should",
+     "prob": 0.996
+    },
+    {
+     "start": 173.77,
+     "end": 173.97,
+     "word": " be",
+     "prob": 0.994
+    },
+    {
+     "start": 173.97,
+     "end": 174.27,
+     "word": " restricted",
+     "prob": 0.995
+    },
+    {
+     "start": 174.27,
+     "end": 174.49,
+     "word": " to",
+     "prob": 0.984
+    },
+    {
+     "start": 174.49,
+     "end": 174.63,
+     "word": " some",
+     "prob": 0.996
+    },
+    {
+     "start": 174.63,
+     "end": 175.01,
+     "word": " places?",
+     "prob": 0.991
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "start": 175.97,
+   "end": 179.89,
+   "text": "I think at least they should be kept out of hostels because it causes a lot of ruckus",
+   "avg_logprob": -0.283,
+   "no_speech_prob": 0.606,
+   "words": [
+    {
+     "start": 175.97,
+     "end": 176.35,
+     "word": " I",
+     "prob": 0.956
+    },
+    {
+     "start": 176.35,
+     "end": 176.57,
+     "word": " think",
+     "prob": 0.997
+    },
+    {
+     "start": 176.57,
+     "end": 176.73,
+     "word": " at",
+     "prob": 0.916
+    },
+    {
+     "start": 176.73,
+     "end": 176.85,
+     "word": " least",
+     "prob": 0.798
+    },
+    {
+     "start": 176.85,
+     "end": 176.97,
+     "word": " they",
+     "prob": 0.959
+    },
+    {
+     "start": 176.97,
+     "end": 177.13,
+     "word": " should",
+     "prob": 0.998
+    },
+    {
+     "start": 177.13,
+     "end": 177.27,
+     "word": " be",
+     "prob": 0.994
+    },
+    {
+     "start": 177.27,
+     "end": 177.41,
+     "word": " kept",
+     "prob": 0.997
+    },
+    {
+     "start": 177.41,
+     "end": 177.65,
+     "word": " out",
+     "prob": 0.986
+    },
+    {
+     "start": 177.65,
+     "end": 177.79,
+     "word": " of",
+     "prob": 0.993
+    },
+    {
+     "start": 177.79,
+     "end": 178.11,
+     "word": " hostels",
+     "prob": 0.975
+    },
+    {
+     "start": 178.11,
+     "end": 178.35,
+     "word": " because",
+     "prob": 0.867
+    },
+    {
+     "start": 178.35,
+     "end": 178.59,
+     "word": " it",
+     "prob": 0.984
+    },
+    {
+     "start": 178.59,
+     "end": 178.83,
+     "word": " causes",
+     "prob": 0.779
+    },
+    {
+     "start": 178.83,
+     "end": 178.97,
+     "word": " a",
+     "prob": 0.973
+    },
+    {
+     "start": 178.97,
+     "end": 179.21,
+     "word": " lot",
+     "prob": 0.999
+    },
+    {
+     "start": 179.21,
+     "end": 179.45,
+     "word": " of",
+     "prob": 0.998
+    },
+    {
+     "start": 179.45,
+     "end": 179.89,
+     "word": " ruckus",
+     "prob": 0.963
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "start": 179.89,
+   "end": 184.19,
+   "text": "but then there are dogs in some places on campus which are not aggressive.",
+   "avg_logprob": -0.283,
+   "no_speech_prob": 0.606,
+   "words": [
+    {
+     "start": 179.89,
+     "end": 180.23,
+     "word": " but",
+     "prob": 0.035
+    },
+    {
+     "start": 180.23,
+     "end": 180.51,
+     "word": " then",
+     "prob": 0.941
+    },
+    {
+     "start": 180.51,
+     "end": 180.77,
+     "word": " there",
+     "prob": 0.97
+    },
+    {
+     "start": 180.77,
+     "end": 180.99,
+     "word": " are",
+     "prob": 0.998
+    },
+    {
+     "start": 180.99,
+     "end": 181.55,
+     "word": " dogs",
+     "prob": 0.993
+    },
+    {
+     "start": 181.55,
+     "end": 182.27,
+     "word": " in",
+     "prob": 0.973
+    },
+    {
+     "start": 182.27,
+     "end": 182.59,
+     "word": " some",
+     "prob": 0.997
+    },
+    {
+     "start": 182.59,
+     "end": 182.91,
+     "word": " places",
+     "prob": 0.986
+    },
+    {
+     "start": 182.91,
+     "end": 183.21,
+     "word": " on",
+     "prob": 0.966
+    },
+    {
+     "start": 183.21,
+     "end": 183.41,
+     "word": " campus",
+     "prob": 0.994
+    },
+    {
+     "start": 183.41,
+     "end": 183.61,
+     "word": " which",
+     "prob": 0.829
+    },
+    {
+     "start": 183.61,
+     "end": 183.73,
+     "word": " are",
+     "prob": 0.984
+    },
+    {
+     "start": 183.73,
+     "end": 183.87,
+     "word": " not",
+     "prob": 0.993
+    },
+    {
+     "start": 183.87,
+     "end": 184.19,
+     "word": " aggressive.",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "start": 184.19,
+   "end": 188.07,
+   "text": "They're very domesticated. They just live around like there's dogs in sack",
+   "avg_logprob": -0.385,
+   "no_speech_prob": 0.275,
+   "words": [
+    {
+     "start": 184.19,
+     "end": 184.35,
+     "word": " They're",
+     "prob": 0.246
+    },
+    {
+     "start": 184.35,
+     "end": 184.63,
+     "word": " very",
+     "prob": 0.888
+    },
+    {
+     "start": 184.63,
+     "end": 185.25,
+     "word": " domesticated.",
+     "prob": 0.98
+    },
+    {
+     "start": 185.37,
+     "end": 185.37,
+     "word": " They",
+     "prob": 0.845
+    },
+    {
+     "start": 185.37,
+     "end": 185.67,
+     "word": " just",
+     "prob": 0.9
+    },
+    {
+     "start": 185.67,
+     "end": 185.89,
+     "word": " live",
+     "prob": 0.981
+    },
+    {
+     "start": 185.89,
+     "end": 186.31,
+     "word": " around",
+     "prob": 0.974
+    },
+    {
+     "start": 186.31,
+     "end": 186.55,
+     "word": " like",
+     "prob": 0.635
+    },
+    {
+     "start": 186.55,
+     "end": 187.31,
+     "word": " there's",
+     "prob": 0.807
+    },
+    {
+     "start": 187.31,
+     "end": 187.51,
+     "word": " dogs",
+     "prob": 0.947
+    },
+    {
+     "start": 187.51,
+     "end": 187.79,
+     "word": " in",
+     "prob": 0.984
+    },
+    {
+     "start": 187.79,
+     "end": 188.07,
+     "word": " sack",
+     "prob": 0.79
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "start": 188.07,
+   "end": 192.47,
+   "text": "they don't move out of sack, they are just around that area and they're not aggressive",
+   "avg_logprob": -0.385,
+   "no_speech_prob": 0.275,
+   "words": [
+    {
+     "start": 188.07,
+     "end": 188.71,
+     "word": " they",
+     "prob": 0.048
+    },
+    {
+     "start": 188.71,
+     "end": 189.01,
+     "word": " don't",
+     "prob": 0.978
+    },
+    {
+     "start": 189.01,
+     "end": 189.29,
+     "word": " move",
+     "prob": 0.992
+    },
+    {
+     "start": 189.29,
+     "end": 189.61,
+     "word": " out",
+     "prob": 0.996
+    },
+    {
+     "start": 189.61,
+     "end": 189.85,
+     "word": " of",
+     "prob": 0.991
+    },
+    {
+     "start": 189.85,
+     "end": 189.97,
+     "word": " sack,",
+     "prob": 0.891
+    },
+    {
+     "start": 189.97,
+     "end": 190.13,
+     "word": " they",
+     "prob": 0.835
+    },
+    {
+     "start": 190.13,
+     "end": 190.21,
+     "word": " are",
+     "prob": 0.21
+    },
+    {
+     "start": 190.21,
+     "end": 190.49,
+     "word": " just",
+     "prob": 0.979
+    },
+    {
+     "start": 190.49,
+     "end": 190.79,
+     "word": " around",
+     "prob": 0.988
+    },
+    {
+     "start": 190.79,
+     "end": 191.09,
+     "word": " that",
+     "prob": 0.953
+    },
+    {
+     "start": 191.09,
+     "end": 191.43,
+     "word": " area",
+     "prob": 0.996
+    },
+    {
+     "start": 191.43,
+     "end": 191.65,
+     "word": " and",
+     "prob": 0.741
+    },
+    {
+     "start": 191.65,
+     "end": 191.85,
+     "word": " they're",
+     "prob": 0.789
+    },
+    {
+     "start": 191.85,
+     "end": 192.07,
+     "word": " not",
+     "prob": 0.996
+    },
+    {
+     "start": 192.07,
+     "end": 192.47,
+     "word": " aggressive",
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "start": 192.47,
+   "end": 194.47,
+   "text": "They don't cause any harm",
+   "avg_logprob": -0.385,
+   "no_speech_prob": 0.275,
+   "words": [
+    {
+     "start": 192.47,
+     "end": 192.59,
+     "word": " They",
+     "prob": 0.074
+    },
+    {
+     "start": 192.59,
+     "end": 192.79,
+     "word": " don't",
+     "prob": 0.995
+    },
+    {
+     "start": 192.79,
+     "end": 193.09,
+     "word": " cause",
+     "prob": 0.996
+    },
+    {
+     "start": 193.09,
+     "end": 194.11,
+     "word": " any",
+     "prob": 0.997
+    },
+    {
+     "start": 194.11,
+     "end": 194.47,
+     "word": " harm",
+     "prob": 0.99
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "start": 195.27,
+   "end": 199.17,
+   "text": "So we can say that every dog is a bad dog so removal dogs or anything",
+   "avg_logprob": -0.385,
+   "no_speech_prob": 0.275,
+   "words": [
+    {
+     "start": 195.27,
      "end": 195.75,
-     "word": " तो",
-     "prob": 0.801
+     "word": " So",
+     "prob": 0.222
     },
     {
      "start": 195.75,
-     "end": 196.79,
-     "word": " यह",
-     "prob": 0.881
+     "end": 196.23,
+     "word": " we",
+     "prob": 0.724
     },
     {
-     "start": 196.79,
-     "end": 197.37,
-     "word": " अपने",
-     "prob": 0.786
+     "start": 196.23,
+     "end": 196.45,
+     "word": " can",
+     "prob": 0.99
     },
     {
-     "start": 197.37,
-     "end": 203.31,
-     "word": " स्व",
-     "prob": 0.849
+     "start": 196.45,
+     "end": 196.61,
+     "word": " say",
+     "prob": 0.05
+    },
+    {
+     "start": 196.61,
+     "end": 196.85,
+     "word": " that",
+     "prob": 0.971
+    },
+    {
+     "start": 196.85,
+     "end": 197.03,
+     "word": " every",
+     "prob": 0.977
+    },
+    {
+     "start": 197.03,
+     "end": 197.23,
+     "word": " dog",
+     "prob": 0.995
+    },
+    {
+     "start": 197.23,
+     "end": 197.45,
+     "word": " is",
+     "prob": 0.986
+    },
+    {
+     "start": 197.45,
+     "end": 197.57,
+     "word": " a",
+     "prob": 0.964
+    },
+    {
+     "start": 197.57,
+     "end": 197.73,
+     "word": " bad",
+     "prob": 0.973
+    },
+    {
+     "start": 197.73,
+     "end": 197.91,
+     "word": " dog",
+     "prob": 0.904
+    },
+    {
+     "start": 197.91,
+     "end": 198.05,
+     "word": " so",
+     "prob": 0.2
+    },
+    {
+     "start": 198.05,
+     "end": 198.37,
+     "word": " removal",
+     "prob": 0.387
+    },
+    {
+     "start": 198.37,
+     "end": 198.63,
+     "word": " dogs",
+     "prob": 0.68
+    },
+    {
+     "start": 198.63,
+     "end": 198.81,
+     "word": " or",
+     "prob": 0.189
+    },
+    {
+     "start": 198.81,
+     "end": 199.17,
+     "word": " anything",
+     "prob": 0.962
     }
    ]
   },
   {
-   "id": 19,
-   "start": 203.31,
-   "end": 233.29,
-   "text": "तो आज लॉंग हैं, वे अच्छारी के लिए नहीं होस्टल करते हैं, यह चाहिए।",
-   "avg_logprob": -0.395,
-   "no_speech_prob": 0.584,
+   "id": 52,
+   "start": 199.17,
+   "end": 201.85,
+   "text": "There are dogs which are domesticated in some cases",
+   "avg_logprob": -0.385,
+   "no_speech_prob": 0.275,
    "words": [
     {
-     "start": 203.31,
-     "end": 204.37,
-     "word": " तो",
-     "prob": 0.486
+     "start": 199.17,
+     "end": 199.81,
+     "word": " There",
+     "prob": 0.328
     },
     {
-     "start": 204.37,
-     "end": 204.43,
-     "word": " आज",
-     "prob": 0.473
+     "start": 199.81,
+     "end": 200.05,
+     "word": " are",
+     "prob": 0.994
     },
     {
-     "start": 204.43,
+     "start": 200.05,
+     "end": 200.21,
+     "word": " dogs",
+     "prob": 0.979
+    },
+    {
+     "start": 200.21,
+     "end": 200.45,
+     "word": " which",
+     "prob": 0.671
+    },
+    {
+     "start": 200.45,
+     "end": 200.67,
+     "word": " are",
+     "prob": 0.99
+    },
+    {
+     "start": 200.67,
+     "end": 201.19,
+     "word": " domesticated",
+     "prob": 0.982
+    },
+    {
+     "start": 201.19,
+     "end": 201.43,
+     "word": " in",
+     "prob": 0.941
+    },
+    {
+     "start": 201.43,
+     "end": 201.59,
+     "word": " some",
+     "prob": 0.989
+    },
+    {
+     "start": 201.59,
+     "end": 201.85,
+     "word": " cases",
+     "prob": 0.459
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "start": 201.85,
+   "end": 203.09,
+   "text": "Which is the good thing",
+   "avg_logprob": -0.385,
+   "no_speech_prob": 0.275,
+   "words": [
+    {
+     "start": 201.85,
+     "end": 202.03,
+     "word": " Which",
+     "prob": 0.017
+    },
+    {
+     "start": 202.03,
+     "end": 202.25,
+     "word": " is",
+     "prob": 0.993
+    },
+    {
+     "start": 202.25,
+     "end": 202.43,
+     "word": " the",
+     "prob": 0.027
+    },
+    {
+     "start": 202.43,
+     "end": 202.63,
+     "word": " good",
+     "prob": 0.993
+    },
+    {
+     "start": 202.63,
+     "end": 203.09,
+     "word": " thing",
+     "prob": 0.987
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "start": 203.81,
+   "end": 206.69,
+   "text": "So as long as I think they can stay outside hostels",
+   "avg_logprob": -0.385,
+   "no_speech_prob": 0.275,
+   "words": [
+    {
+     "start": 203.81,
+     "end": 204.29,
+     "word": " So",
+     "prob": 0.499
+    },
+    {
+     "start": 204.29,
+     "end": 204.51,
+     "word": " as",
+     "prob": 0.923
+    },
+    {
+     "start": 204.51,
      "end": 204.63,
-     "word": " लॉंग",
-     "prob": 0.527
+     "word": " long",
+     "prob": 0.997
     },
     {
      "start": 204.63,
-     "end": 204.91,
-     "word": " हैं,",
-     "prob": 0.486
+     "end": 204.85,
+     "word": " as",
+     "prob": 0.996
     },
     {
-     "start": 204.93,
+     "start": 204.85,
+     "end": 204.95,
+     "word": " I",
+     "prob": 0.941
+    },
+    {
+     "start": 204.95,
+     "end": 205.09,
+     "word": " think",
+     "prob": 0.993
+    },
+    {
+     "start": 205.09,
      "end": 205.27,
-     "word": " वे",
-     "prob": 0.493
+     "word": " they",
+     "prob": 0.995
     },
     {
      "start": 205.27,
-     "end": 206.19,
-     "word": " अच्छारी",
-     "prob": 0.439
+     "end": 205.45,
+     "word": " can",
+     "prob": 0.996
     },
     {
-     "start": 206.19,
-     "end": 206.47,
-     "word": " के",
-     "prob": 0.228
+     "start": 205.45,
+     "end": 205.67,
+     "word": " stay",
+     "prob": 0.997
     },
     {
-     "start": 206.47,
-     "end": 206.47,
-     "word": " लिए",
-     "prob": 0.733
+     "start": 205.67,
+     "end": 206.21,
+     "word": " outside",
+     "prob": 0.998
     },
     {
-     "start": 206.47,
-     "end": 214.03,
-     "word": " नहीं",
-     "prob": 0.606
+     "start": 206.21,
+     "end": 206.69,
+     "word": " hostels",
+     "prob": 0.888
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "start": 206.69,
+   "end": 210.19,
+   "text": "It's fine and as long as they're in a controlled environment",
+   "avg_logprob": -0.385,
+   "no_speech_prob": 0.275,
+   "words": [
+    {
+     "start": 206.69,
+     "end": 207.13,
+     "word": " It's",
+     "prob": 0.545
     },
     {
-     "start": 214.03,
-     "end": 230.51,
-     "word": " होस्टल",
-     "prob": 0.539
+     "start": 207.13,
+     "end": 207.49,
+     "word": " fine",
+     "prob": 0.983
     },
     {
-     "start": 230.51,
-     "end": 230.51,
-     "word": " करते",
-     "prob": 0.295
+     "start": 207.49,
+     "end": 208.09,
+     "word": " and",
+     "prob": 0.545
     },
     {
-     "start": 230.51,
-     "end": 230.63,
-     "word": " हैं,",
+     "start": 208.09,
+     "end": 208.23,
+     "word": " as",
+     "prob": 0.987
+    },
+    {
+     "start": 208.23,
+     "end": 208.39,
+     "word": " long",
+     "prob": 0.996
+    },
+    {
+     "start": 208.39,
+     "end": 208.55,
+     "word": " as",
+     "prob": 0.983
+    },
+    {
+     "start": 208.55,
+     "end": 208.97,
+     "word": " they're",
      "prob": 0.768
     },
     {
-     "start": 230.65,
-     "end": 230.91,
-     "word": " यह",
-     "prob": 0.562
+     "start": 208.97,
+     "end": 209.15,
+     "word": " in",
+     "prob": 0.995
     },
     {
-     "start": 230.91,
-     "end": 233.29,
-     "word": " चाहिए।",
-     "prob": 0.505
+     "start": 209.15,
+     "end": 209.39,
+     "word": " a",
+     "prob": 0.994
+    },
+    {
+     "start": 209.39,
+     "end": 209.73,
+     "word": " controlled",
+     "prob": 0.99
+    },
+    {
+     "start": 209.73,
+     "end": 210.19,
+     "word": " environment",
+     "prob": 0.992
     }
    ]
   },
   {
-   "id": 20,
-   "start": 264.19,
-   "end": 269.31,
-   "text": "अपने कुछ में नहीं होता है।",
-   "avg_logprob": -0.419,
-   "no_speech_prob": 0.829,
+   "id": 56,
+   "start": 210.19,
+   "end": 211.67,
+   "text": "and they don't cause harm to people.",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
    "words": [
     {
-     "start": 264.19,
-     "end": 265.23,
-     "word": " अपने",
-     "prob": 0.491
+     "start": 210.19,
+     "end": 210.35,
+     "word": " and",
+     "prob": 0.311
     },
     {
-     "start": 267.79,
-     "end": 268.19,
-     "word": " कुछ",
-     "prob": 0.552
+     "start": 210.35,
+     "end": 210.51,
+     "word": " they",
+     "prob": 0.812
     },
     {
-     "start": 268.19,
-     "end": 268.19,
-     "word": " में",
-     "prob": 0.461
+     "start": 210.51,
+     "end": 210.77,
+     "word": " don't",
+     "prob": 0.923
     },
     {
-     "start": 268.19,
-     "end": 268.81,
-     "word": " नहीं",
-     "prob": 0.619
+     "start": 210.77,
+     "end": 211.01,
+     "word": " cause",
+     "prob": 0.537
     },
     {
-     "start": 268.81,
-     "end": 268.83,
-     "word": " होता",
-     "prob": 0.318
+     "start": 211.01,
+     "end": 211.29,
+     "word": " harm",
+     "prob": 0.526
     },
     {
-     "start": 268.83,
-     "end": 269.31,
-     "word": " है।",
-     "prob": 0.73
+     "start": 211.29,
+     "end": 211.43,
+     "word": " to",
+     "prob": 0.27
+    },
+    {
+     "start": 211.43,
+     "end": 211.67,
+     "word": " people.",
+     "prob": 0.281
     }
    ]
   },
   {
-   "id": 21,
-   "start": 269.31,
-   "end": 271.51,
-   "text": "अपने कुछ में नहीं होता है।",
-   "avg_logprob": -0.419,
-   "no_speech_prob": 0.829,
+   "id": 57,
+   "start": 212.39,
+   "end": 217.77,
+   "text": "Okay, so and from what we have experienced in our hostels many times",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
    "words": [
     {
-     "start": 269.31,
-     "end": 269.51,
-     "word": " अपने",
-     "prob": 0.682
+     "start": 212.39,
+     "end": 212.55,
+     "word": " Okay,",
+     "prob": 0.241
     },
     {
-     "start": 269.51,
-     "end": 269.51,
-     "word": " कुछ",
-     "prob": 0.775
+     "start": 212.81,
+     "end": 213.15,
+     "word": " so",
+     "prob": 0.862
     },
     {
-     "start": 269.51,
-     "end": 269.51,
-     "word": " में",
-     "prob": 0.634
+     "start": 213.15,
+     "end": 213.81,
+     "word": " and",
+     "prob": 0.615
     },
     {
-     "start": 269.51,
-     "end": 270.63,
-     "word": " नहीं",
-     "prob": 0.855
+     "start": 213.81,
+     "end": 214.01,
+     "word": " from",
+     "prob": 0.979
     },
     {
-     "start": 270.63,
-     "end": 270.91,
-     "word": " होता",
+     "start": 214.01,
+     "end": 214.43,
+     "word": " what",
+     "prob": 0.995
+    },
+    {
+     "start": 214.43,
+     "end": 214.73,
+     "word": " we",
+     "prob": 0.995
+    },
+    {
+     "start": 214.73,
+     "end": 214.91,
+     "word": " have",
+     "prob": 0.99
+    },
+    {
+     "start": 214.91,
+     "end": 215.49,
+     "word": " experienced",
+     "prob": 0.82
+    },
+    {
+     "start": 215.49,
+     "end": 216.47,
+     "word": " in",
+     "prob": 0.917
+    },
+    {
+     "start": 216.47,
+     "end": 216.77,
+     "word": " our",
+     "prob": 0.991
+    },
+    {
+     "start": 216.77,
+     "end": 217.13,
+     "word": " hostels",
+     "prob": 0.908
+    },
+    {
+     "start": 217.13,
+     "end": 217.45,
+     "word": " many",
+     "prob": 0.771
+    },
+    {
+     "start": 217.45,
+     "end": 217.77,
+     "word": " times",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "start": 217.77,
+   "end": 221.07,
+   "text": "in the boys' hostels, dogs create, obviously they create ruckus",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
+   "words": [
+    {
+     "start": 217.77,
+     "end": 217.93,
+     "word": " in",
+     "prob": 0.795
+    },
+    {
+     "start": 217.93,
+     "end": 218.05,
+     "word": " the",
+     "prob": 0.978
+    },
+    {
+     "start": 218.05,
+     "end": 218.17,
+     "word": " boys'",
+     "prob": 0.632
+    },
+    {
+     "start": 218.29,
+     "end": 218.77,
+     "word": " hostels,",
+     "prob": 0.942
+    },
+    {
+     "start": 219.01,
+     "end": 219.27,
+     "word": " dogs",
+     "prob": 0.126
+    },
+    {
+     "start": 219.27,
+     "end": 219.85,
+     "word": " create,",
+     "prob": 0.484
+    },
+    {
+     "start": 219.85,
+     "end": 220.35,
+     "word": " obviously",
+     "prob": 0.989
+    },
+    {
+     "start": 220.35,
+     "end": 220.57,
+     "word": " they",
+     "prob": 0.841
+    },
+    {
+     "start": 220.57,
+     "end": 220.77,
+     "word": " create",
+     "prob": 0.979
+    },
+    {
+     "start": 220.77,
+     "end": 221.07,
+     "word": " ruckus",
+     "prob": 0.902
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "start": 221.07,
+   "end": 224.43,
+   "text": "and they end up tearing somebody's blankets or their tires",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
+   "words": [
+    {
+     "start": 221.07,
+     "end": 221.31,
+     "word": " and",
+     "prob": 0.9
+    },
+    {
+     "start": 221.31,
+     "end": 221.57,
+     "word": " they",
+     "prob": 0.983
+    },
+    {
+     "start": 221.57,
+     "end": 221.77,
+     "word": " end",
+     "prob": 0.994
+    },
+    {
+     "start": 221.77,
+     "end": 222.19,
+     "word": " up",
+     "prob": 0.999
+    },
+    {
+     "start": 222.19,
+     "end": 222.49,
+     "word": " tearing",
+     "prob": 0.991
+    },
+    {
+     "start": 222.49,
+     "end": 223.23,
+     "word": " somebody's",
+     "prob": 0.979
+    },
+    {
+     "start": 223.23,
+     "end": 223.51,
+     "word": " blankets",
+     "prob": 0.927
+    },
+    {
+     "start": 223.51,
+     "end": 223.95,
+     "word": " or",
+     "prob": 0.835
+    },
+    {
+     "start": 223.95,
+     "end": 224.21,
+     "word": " their",
+     "prob": 0.272
+    },
+    {
+     "start": 224.21,
+     "end": 224.43,
+     "word": " tires",
+     "prob": 0.474
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "start": 224.43,
+   "end": 225.95,
+   "text": "Property damages also",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
+   "words": [
+    {
+     "start": 224.43,
+     "end": 225.29,
+     "word": " Property",
+     "prob": 0.009
+    },
+    {
+     "start": 225.29,
+     "end": 225.57,
+     "word": " damages",
      "prob": 0.897
     },
     {
-     "start": 270.91,
-     "end": 271.51,
-     "word": " है।",
+     "start": 225.57,
+     "end": 225.95,
+     "word": " also",
+     "prob": 0.752
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "start": 225.95,
+   "end": 227.41,
+   "text": "Yeah property damages take place",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
+   "words": [
+    {
+     "start": 225.95,
+     "end": 226.25,
+     "word": " Yeah",
+     "prob": 0.278
+    },
+    {
+     "start": 226.25,
+     "end": 226.59,
+     "word": " property",
+     "prob": 0.202
+    },
+    {
+     "start": 226.59,
+     "end": 226.89,
+     "word": " damages",
+     "prob": 0.908
+    },
+    {
+     "start": 226.89,
+     "end": 227.21,
+     "word": " take",
+     "prob": 0.932
+    },
+    {
+     "start": 227.21,
+     "end": 227.41,
+     "word": " place",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "start": 227.41,
+   "end": 230.23,
+   "text": "So is that still prevalent in your hostel",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
+   "words": [
+    {
+     "start": 227.41,
+     "end": 228.09,
+     "word": " So",
+     "prob": 0.176
+    },
+    {
+     "start": 228.09,
+     "end": 228.45,
+     "word": " is",
+     "prob": 0.859
+    },
+    {
+     "start": 228.45,
+     "end": 228.77,
+     "word": " that",
+     "prob": 0.989
+    },
+    {
+     "start": 228.77,
+     "end": 229.01,
+     "word": " still",
+     "prob": 0.975
+    },
+    {
+     "start": 229.01,
+     "end": 229.37,
+     "word": " prevalent",
+     "prob": 0.983
+    },
+    {
+     "start": 229.37,
+     "end": 229.73,
+     "word": " in",
+     "prob": 0.991
+    },
+    {
+     "start": 229.73,
+     "end": 229.97,
+     "word": " your",
+     "prob": 0.994
+    },
+    {
+     "start": 229.97,
+     "end": 230.23,
+     "word": " hostel",
+     "prob": 0.88
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "start": 230.23,
+   "end": 232.19,
+   "text": "And is it a very addressed issue",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
+   "words": [
+    {
+     "start": 230.23,
+     "end": 230.53,
+     "word": " And",
+     "prob": 0.007
+    },
+    {
+     "start": 230.53,
+     "end": 230.75,
+     "word": " is",
+     "prob": 0.982
+    },
+    {
+     "start": 230.75,
+     "end": 231.13,
+     "word": " it",
+     "prob": 0.96
+    },
+    {
+     "start": 231.13,
+     "end": 231.25,
+     "word": " a",
+     "prob": 0.959
+    },
+    {
+     "start": 231.25,
+     "end": 231.67,
+     "word": " very",
+     "prob": 0.998
+    },
+    {
+     "start": 231.67,
+     "end": 231.91,
+     "word": " addressed",
+     "prob": 0.944
+    },
+    {
+     "start": 231.91,
+     "end": 232.19,
+     "word": " issue",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "start": 232.19,
+   "end": 236.81,
+   "text": "Or just everybody keeps on complaining about it",
+   "avg_logprob": -0.393,
+   "no_speech_prob": 0.686,
+   "words": [
+    {
+     "start": 232.19,
+     "end": 232.39,
+     "word": " Or",
+     "prob": 0.091
+    },
+    {
+     "start": 232.39,
+     "end": 233.43,
+     "word": " just",
+     "prob": 0.033
+    },
+    {
+     "start": 233.43,
+     "end": 234.65,
+     "word": " everybody",
+     "prob": 0.717
+    },
+    {
+     "start": 234.65,
+     "end": 235.87,
+     "word": " keeps",
+     "prob": 0.606
+    },
+    {
+     "start": 235.87,
+     "end": 236.13,
+     "word": " on",
+     "prob": 0.976
+    },
+    {
+     "start": 236.13,
+     "end": 236.37,
+     "word": " complaining",
+     "prob": 0.993
+    },
+    {
+     "start": 236.37,
+     "end": 236.67,
+     "word": " about",
+     "prob": 0.953
+    },
+    {
+     "start": 236.67,
+     "end": 236.81,
+     "word": " it",
+     "prob": 0.974
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "start": 236.81,
+   "end": 243.73,
+   "text": "So far there hasn't been any personal property damage but there are garbage bins that keep",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.724,
+   "words": [
+    {
+     "start": 236.81,
+     "end": 237.97,
+     "word": " So",
+     "prob": 0.163
+    },
+    {
+     "start": 237.97,
+     "end": 238.29,
+     "word": " far",
+     "prob": 0.962
+    },
+    {
+     "start": 238.29,
+     "end": 238.63,
+     "word": " there",
+     "prob": 0.778
+    },
+    {
+     "start": 238.63,
+     "end": 238.91,
+     "word": " hasn't",
+     "prob": 0.866
+    },
+    {
+     "start": 238.91,
+     "end": 239.11,
+     "word": " been",
+     "prob": 0.984
+    },
+    {
+     "start": 239.11,
+     "end": 239.37,
+     "word": " any",
+     "prob": 0.976
+    },
+    {
+     "start": 239.37,
+     "end": 239.77,
+     "word": " personal",
+     "prob": 0.952
+    },
+    {
+     "start": 239.77,
+     "end": 240.27,
+     "word": " property",
+     "prob": 0.961
+    },
+    {
+     "start": 240.27,
+     "end": 240.67,
+     "word": " damage",
+     "prob": 0.958
+    },
+    {
+     "start": 240.67,
+     "end": 241.05,
+     "word": " but",
+     "prob": 0.64
+    },
+    {
+     "start": 241.05,
+     "end": 241.57,
+     "word": " there",
+     "prob": 0.963
+    },
+    {
+     "start": 241.57,
+     "end": 242.63,
+     "word": " are",
+     "prob": 0.969
+    },
+    {
+     "start": 242.63,
+     "end": 242.99,
+     "word": " garbage",
+     "prob": 0.915
+    },
+    {
+     "start": 242.99,
+     "end": 243.21,
+     "word": " bins",
+     "prob": 0.991
+    },
+    {
+     "start": 243.21,
+     "end": 243.49,
+     "word": " that",
+     "prob": 0.93
+    },
+    {
+     "start": 243.49,
+     "end": 243.73,
+     "word": " keep",
+     "prob": 0.79
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "start": 243.73,
+   "end": 245.71,
+   "text": "getting turned over and stuff in HB.",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.724,
+   "words": [
+    {
+     "start": 243.73,
+     "end": 244.07,
+     "word": " getting",
+     "prob": 0.934
+    },
+    {
+     "start": 244.07,
+     "end": 244.21,
+     "word": " turned",
+     "prob": 0.636
+    },
+    {
+     "start": 244.21,
+     "end": 244.55,
+     "word": " over",
+     "prob": 0.985
+    },
+    {
+     "start": 244.55,
+     "end": 244.75,
+     "word": " and",
+     "prob": 0.873
+    },
+    {
+     "start": 244.75,
+     "end": 244.95,
+     "word": " stuff",
+     "prob": 0.989
+    },
+    {
+     "start": 244.95,
+     "end": 245.21,
+     "word": " in",
+     "prob": 0.86
+    },
+    {
+     "start": 245.21,
+     "end": 245.71,
+     "word": " HB.",
      "prob": 0.874
     }
    ]
   },
   {
-   "id": 22,
-   "start": 271.51,
-   "end": 274.69,
-   "text": "अपने कुछ में नहीं होता है।",
-   "avg_logprob": -0.419,
-   "no_speech_prob": 0.829,
+   "id": 67,
+   "start": 246.05,
+   "end": 253.79,
+   "text": "So we recently had a railing installed, a net installed across the fence so recently",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.724,
    "words": [
     {
-     "start": 271.51,
-     "end": 272.67,
-     "word": " अपने",
-     "prob": 0.749
+     "start": 246.05,
+     "end": 246.19,
+     "word": " So",
+     "prob": 0.771
     },
     {
-     "start": 272.67,
-     "end": 273.59,
-     "word": " कुछ",
-     "prob": 0.824
+     "start": 246.19,
+     "end": 246.39,
+     "word": " we",
+     "prob": 0.294
     },
     {
-     "start": 273.59,
-     "end": 273.61,
-     "word": " में",
-     "prob": 0.661
+     "start": 246.39,
+     "end": 246.93,
+     "word": " recently",
+     "prob": 0.972
     },
     {
-     "start": 273.61,
-     "end": 273.89,
-     "word": " नहीं",
-     "prob": 0.856
+     "start": 246.93,
+     "end": 247.67,
+     "word": " had",
+     "prob": 0.141
     },
     {
-     "start": 273.89,
-     "end": 274.49,
-     "word": " होता",
-     "prob": 0.91
+     "start": 247.67,
+     "end": 248.25,
+     "word": " a",
+     "prob": 0.889
     },
     {
-     "start": 274.49,
-     "end": 274.69,
-     "word": " है।",
-     "prob": 0.896
-    }
-   ]
-  },
-  {
-   "id": 23,
-   "start": 274.69,
-   "end": 276.61,
-   "text": "अपने कुछ में नहीं होता है।",
-   "avg_logprob": -0.419,
-   "no_speech_prob": 0.829,
-   "words": [
-    {
-     "start": 274.69,
-     "end": 275.71,
-     "word": " अपने",
-     "prob": 0.745
-    },
-    {
-     "start": 275.71,
-     "end": 275.79,
-     "word": " कुछ",
-     "prob": 0.85
-    },
-    {
-     "start": 275.79,
-     "end": 276.21,
-     "word": " में",
-     "prob": 0.681
-    },
-    {
-     "start": 276.21,
-     "end": 276.61,
-     "word": " नहीं",
-     "prob": 0.863
-    },
-    {
-     "start": 276.61,
-     "end": 276.61,
-     "word": " होता",
-     "prob": 0.926
-    },
-    {
-     "start": 276.61,
-     "end": 276.61,
-     "word": " है।",
-     "prob": 0.929
-    }
-   ]
-  },
-  {
-   "id": 24,
-   "start": 276.61,
-   "end": 277.69,
-   "text": "अपने कुछ में नहीं होता है।",
-   "avg_logprob": -0.419,
-   "no_speech_prob": 0.829,
-   "words": [
-    {
-     "start": 276.61,
-     "end": 276.61,
-     "word": " अपने",
-     "prob": 0.749
-    },
-    {
-     "start": 276.61,
-     "end": 276.61,
-     "word": " कुछ",
-     "prob": 0.868
-    },
-    {
-     "start": 276.61,
-     "end": 276.61,
-     "word": " में",
-     "prob": 0.673
-    },
-    {
-     "start": 276.61,
-     "end": 276.95,
-     "word": " नहीं",
-     "prob": 0.869
-    },
-    {
-     "start": 276.95,
-     "end": 277.13,
-     "word": " होता",
-     "prob": 0.935
-    },
-    {
-     "start": 277.13,
-     "end": 277.69,
-     "word": " है।",
-     "prob": 0.937
-    }
-   ]
-  },
-  {
-   "id": 25,
-   "start": 279.25,
-   "end": 283.43,
-   "text": "अपने कुछ में नहीं होता है।",
-   "avg_logprob": -0.419,
-   "no_speech_prob": 0.829,
-   "words": [
-    {
-     "start": 279.25,
-     "end": 280.29,
-     "word": " अपने",
-     "prob": 0.77
-    },
-    {
-     "start": 280.29,
-     "end": 281.33,
-     "word": " कुछ",
-     "prob": 0.883
-    },
-    {
-     "start": 281.33,
-     "end": 282.99,
-     "word": " में",
-     "prob": 0.673
-    },
-    {
-     "start": 282.99,
-     "end": 283.31,
-     "word": " नहीं",
-     "prob": 0.883
-    },
-    {
-     "start": 283.31,
-     "end": 283.31,
-     "word": " होता",
-     "prob": 0.94
-    },
-    {
-     "start": 283.31,
-     "end": 283.43,
-     "word": " है।",
-     "prob": 0.946
-    }
-   ]
-  },
-  {
-   "id": 26,
-   "start": 283.43,
-   "end": 295.83,
-   "text": "अपने कुछ में नहीं होता है।",
-   "avg_logprob": -0.419,
-   "no_speech_prob": 0.829,
-   "words": [
-    {
-     "start": 283.43,
-     "end": 283.95,
-     "word": " अपने",
-     "prob": 0.799
-    },
-    {
-     "start": 283.95,
-     "end": 287.85,
-     "word": " कुछ",
-     "prob": 0.895
-    },
-    {
-     "start": 287.85,
-     "end": 290.09,
-     "word": " में",
-     "prob": 0.671
-    },
-    {
-     "start": 290.09,
-     "end": 294.75,
-     "word": " नहीं",
-     "prob": 0.903
-    },
-    {
-     "start": 294.75,
-     "end": 295.81,
-     "word": " होता",
-     "prob": 0.941
-    },
-    {
-     "start": 295.81,
-     "end": 295.83,
-     "word": " है।",
-     "prob": 0.951
-    }
-   ]
-  },
-  {
-   "id": 27,
-   "start": 295.83,
-   "end": 325.81,
-   "text": "आपको कुछाने करती हैं, तो मैं कुछाने करती हैं, यह विज्टारी करती हैं, यह विज्टारी करती हैं, यह विज्टारी करती हैं, यह विज्टारी करती हैं, यह विज्टारी करती हैं, यह विज्टारी करती हैं, यह विज्टारी करती हैं, यह विज्टारी करती हैं, यह",
-   "avg_logprob": -0.421,
-   "no_speech_prob": 0.788,
-   "words": [
-    {
-     "start": 295.83,
-     "end": 296.51,
-     "word": " आपको",
-     "prob": 0.475
-    },
-    {
-     "start": 296.51,
-     "end": 296.51,
-     "word": " कुछाने",
-     "prob": 0.406
-    },
-    {
-     "start": 296.51,
-     "end": 296.95,
-     "word": " करती",
-     "prob": 0.318
-    },
-    {
-     "start": 296.95,
-     "end": 297.19,
-     "word": " हैं,",
-     "prob": 0.69
-    },
-    {
-     "start": 297.43,
-     "end": 297.75,
-     "word": " तो",
-     "prob": 0.521
-    },
-    {
-     "start": 297.75,
-     "end": 298.55,
-     "word": " मैं",
-     "prob": 0.481
-    },
-    {
-     "start": 298.55,
-     "end": 298.63,
-     "word": " कुछाने",
-     "prob": 0.726
-    },
-    {
-     "start": 298.63,
-     "end": 299.41,
-     "word": " करती",
-     "prob": 0.765
-    },
-    {
-     "start": 299.41,
-     "end": 299.41,
-     "word": " हैं,",
-     "prob": 0.843
-    },
-    {
-     "start": 299.51,
-     "end": 300.29,
-     "word": " यह",
-     "prob": 0.414
-    },
-    {
-     "start": 300.29,
-     "end": 301.31,
-     "word": " विज्टारी",
-     "prob": 0.307
-    },
-    {
-     "start": 301.31,
-     "end": 301.31,
-     "word": " करती",
-     "prob": 0.481
-    },
-    {
-     "start": 301.31,
-     "end": 301.31,
-     "word": " हैं,",
-     "prob": 0.853
-    },
-    {
-     "start": 301.99,
-     "end": 301.99,
-     "word": " यह",
-     "prob": 0.619
-    },
-    {
-     "start": 301.99,
-     "end": 301.99,
-     "word": " विज्टारी",
-     "prob": 0.832
-    },
-    {
-     "start": 301.99,
-     "end": 301.99,
-     "word": " करती",
-     "prob": 0.853
-    },
-    {
-     "start": 301.99,
-     "end": 301.99,
-     "word": " हैं,",
-     "prob": 0.923
-    },
-    {
-     "start": 302.17,
-     "end": 303.01,
-     "word": " यह",
-     "prob": 0.731
-    },
-    {
-     "start": 303.01,
-     "end": 303.55,
-     "word": " विज्टारी",
-     "prob": 0.913
-    },
-    {
-     "start": 303.55,
-     "end": 303.59,
-     "word": " करती",
-     "prob": 0.941
-    },
-    {
-     "start": 303.59,
-     "end": 303.71,
-     "word": " हैं,",
-     "prob": 0.964
-    },
-    {
-     "start": 303.71,
-     "end": 303.85,
-     "word": " यह",
-     "prob": 0.915
-    },
-    {
-     "start": 303.85,
-     "end": 304.87,
-     "word": " विज्टारी",
-     "prob": 0.956
-    },
-    {
-     "start": 304.87,
-     "end": 304.87,
-     "word": " करती",
-     "prob": 0.957
-    },
-    {
-     "start": 304.87,
-     "end": 304.87,
-     "word": " हैं,",
-     "prob": 0.977
-    },
-    {
-     "start": 304.87,
-     "end": 304.87,
-     "word": " यह",
-     "prob": 0.945
-    },
-    {
-     "start": 304.87,
-     "end": 304.87,
-     "word": " विज्टारी",
-     "prob": 0.963
-    },
-    {
-     "start": 304.87,
-     "end": 304.87,
-     "word": " करती",
-     "prob": 0.959
-    },
-    {
-     "start": 304.87,
-     "end": 304.87,
-     "word": " हैं,",
-     "prob": 0.975
-    },
-    {
-     "start": 305.97,
-     "end": 306.65,
-     "word": " यह",
+     "start": 248.25,
+     "end": 249.05,
+     "word": " railing",
      "prob": 0.95
     },
     {
-     "start": 306.65,
-     "end": 307.27,
-     "word": " विज्टारी",
-     "prob": 0.965
-    },
-    {
-     "start": 307.27,
-     "end": 307.27,
-     "word": " करती",
-     "prob": 0.949
-    },
-    {
-     "start": 307.27,
-     "end": 307.49,
-     "word": " हैं,",
-     "prob": 0.977
-    },
-    {
-     "start": 307.53,
-     "end": 307.81,
-     "word": " यह",
+     "start": 249.05,
+     "end": 249.61,
+     "word": " installed,",
      "prob": 0.952
     },
     {
-     "start": 307.81,
-     "end": 308.55,
-     "word": " विज्टारी",
-     "prob": 0.966
+     "start": 249.97,
+     "end": 250.15,
+     "word": " a",
+     "prob": 0.881
     },
     {
-     "start": 308.55,
-     "end": 308.59,
-     "word": " करती",
-     "prob": 0.938
+     "start": 250.15,
+     "end": 250.59,
+     "word": " net",
+     "prob": 0.994
     },
     {
-     "start": 308.59,
-     "end": 308.59,
-     "word": " हैं,",
-     "prob": 0.977
+     "start": 250.59,
+     "end": 251.13,
+     "word": " installed",
+     "prob": 0.993
     },
     {
-     "start": 308.81,
-     "end": 308.97,
-     "word": " यह",
+     "start": 251.13,
+     "end": 251.61,
+     "word": " across",
+     "prob": 0.941
+    },
+    {
+     "start": 251.61,
+     "end": 251.83,
+     "word": " the",
+     "prob": 0.996
+    },
+    {
+     "start": 251.83,
+     "end": 252.11,
+     "word": " fence",
+     "prob": 0.98
+    },
+    {
+     "start": 252.11,
+     "end": 253.33,
+     "word": " so",
+     "prob": 0.081
+    },
+    {
+     "start": 253.33,
+     "end": 253.79,
+     "word": " recently",
+     "prob": 0.862
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "start": 253.79,
+   "end": 256.53,
+   "text": "there have been steps taken to keep the dogs out.",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.724,
+   "words": [
+    {
+     "start": 253.79,
+     "end": 253.97,
+     "word": " there",
+     "prob": 0.972
+    },
+    {
+     "start": 253.97,
+     "end": 254.17,
+     "word": " have",
+     "prob": 0.946
+    },
+    {
+     "start": 254.17,
+     "end": 254.33,
+     "word": " been",
+     "prob": 0.989
+    },
+    {
+     "start": 254.33,
+     "end": 254.61,
+     "word": " steps",
+     "prob": 0.992
+    },
+    {
+     "start": 254.61,
+     "end": 255.43,
+     "word": " taken",
+     "prob": 0.058
+    },
+    {
+     "start": 255.43,
+     "end": 255.73,
+     "word": " to",
+     "prob": 0.956
+    },
+    {
+     "start": 255.73,
+     "end": 255.93,
+     "word": " keep",
+     "prob": 0.99
+    },
+    {
+     "start": 255.93,
+     "end": 256.17,
+     "word": " the",
+     "prob": 0.96
+    },
+    {
+     "start": 256.17,
+     "end": 256.23,
+     "word": " dogs",
+     "prob": 0.983
+    },
+    {
+     "start": 256.23,
+     "end": 256.53,
+     "word": " out.",
+     "prob": 0.988
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "start": 256.67,
+   "end": 262.47,
+   "text": "Okay so in HB recently there has been some steps like putting up the fences on the railings",
+   "avg_logprob": -0.404,
+   "no_speech_prob": 0.724,
+   "words": [
+    {
+     "start": 256.67,
+     "end": 256.83,
+     "word": " Okay",
+     "prob": 0.435
+    },
+    {
+     "start": 256.83,
+     "end": 257.19,
+     "word": " so",
+     "prob": 0.632
+    },
+    {
+     "start": 257.19,
+     "end": 257.29,
+     "word": " in",
+     "prob": 0.942
+    },
+    {
+     "start": 257.29,
+     "end": 257.71,
+     "word": " HB",
+     "prob": 0.99
+    },
+    {
+     "start": 257.71,
+     "end": 258.17,
+     "word": " recently",
+     "prob": 0.873
+    },
+    {
+     "start": 258.17,
+     "end": 258.29,
+     "word": " there",
+     "prob": 0.901
+    },
+    {
+     "start": 258.29,
+     "end": 258.47,
+     "word": " has",
+     "prob": 0.065
+    },
+    {
+     "start": 258.47,
+     "end": 258.61,
+     "word": " been",
+     "prob": 0.992
+    },
+    {
+     "start": 258.61,
+     "end": 258.89,
+     "word": " some",
+     "prob": 0.916
+    },
+    {
+     "start": 258.89,
+     "end": 259.07,
+     "word": " steps",
+     "prob": 0.935
+    },
+    {
+     "start": 259.07,
+     "end": 259.91,
+     "word": " like",
+     "prob": 0.96
+    },
+    {
+     "start": 259.91,
+     "end": 260.17,
+     "word": " putting",
+     "prob": 0.652
+    },
+    {
+     "start": 260.17,
+     "end": 260.41,
+     "word": " up",
+     "prob": 0.96
+    },
+    {
+     "start": 260.41,
+     "end": 260.55,
+     "word": " the",
+     "prob": 0.968
+    },
+    {
+     "start": 260.55,
+     "end": 260.85,
+     "word": " fences",
+     "prob": 0.882
+    },
+    {
+     "start": 260.85,
+     "end": 261.29,
+     "word": " on",
+     "prob": 0.251
+    },
+    {
+     "start": 261.29,
+     "end": 262.07,
+     "word": " the",
+     "prob": 0.921
+    },
+    {
+     "start": 262.07,
+     "end": 262.47,
+     "word": " railings",
+     "prob": 0.837
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "start": 262.47,
+   "end": 270.69,
+   "text": "on the fence is okay. Other than that, I believe there isn't much",
+   "avg_logprob": -0.296,
+   "no_speech_prob": 0.866,
+   "words": [
+    {
+     "start": 262.47,
+     "end": 262.71,
+     "word": " on",
+     "prob": 0.085
+    },
+    {
+     "start": 262.71,
+     "end": 262.95,
+     "word": " the",
+     "prob": 0.968
+    },
+    {
+     "start": 262.95,
+     "end": 263.13,
+     "word": " fence",
+     "prob": 0.287
+    },
+    {
+     "start": 263.13,
+     "end": 263.29,
+     "word": " is",
+     "prob": 0.753
+    },
+    {
+     "start": 263.29,
+     "end": 263.69,
+     "word": " okay.",
+     "prob": 0.455
+    },
+    {
+     "start": 267.55,
+     "end": 267.75,
+     "word": " Other",
+     "prob": 0.768
+    },
+    {
+     "start": 267.75,
+     "end": 268.01,
+     "word": " than",
+     "prob": 0.986
+    },
+    {
+     "start": 268.01,
+     "end": 268.15,
+     "word": " that,",
+     "prob": 0.994
+    },
+    {
+     "start": 268.33,
+     "end": 268.33,
+     "word": " I",
+     "prob": 0.904
+    },
+    {
+     "start": 268.33,
+     "end": 268.73,
+     "word": " believe",
+     "prob": 0.936
+    },
+    {
+     "start": 268.73,
+     "end": 270.13,
+     "word": " there",
+     "prob": 0.317
+    },
+    {
+     "start": 270.13,
+     "end": 270.51,
+     "word": " isn't",
+     "prob": 0.806
+    },
+    {
+     "start": 270.51,
+     "end": 270.69,
+     "word": " much",
+     "prob": 0.914
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "start": 270.69,
+   "end": 275.19,
+   "text": "other than that if it's there's anything you would specifically want to add about",
+   "avg_logprob": -0.296,
+   "no_speech_prob": 0.866,
+   "words": [
+    {
+     "start": 270.69,
+     "end": 270.91,
+     "word": " other",
+     "prob": 0.795
+    },
+    {
+     "start": 270.91,
+     "end": 271.11,
+     "word": " than",
      "prob": 0.953
     },
     {
-     "start": 308.97,
-     "end": 310.89,
-     "word": " विज्टारी",
+     "start": 271.11,
+     "end": 271.35,
+     "word": " that",
+     "prob": 0.984
+    },
+    {
+     "start": 271.35,
+     "end": 271.71,
+     "word": " if",
+     "prob": 0.065
+    },
+    {
+     "start": 271.71,
+     "end": 272.57,
+     "word": " it's",
+     "prob": 0.483
+    },
+    {
+     "start": 272.57,
+     "end": 272.83,
+     "word": " there's",
+     "prob": 0.651
+    },
+    {
+     "start": 272.83,
+     "end": 273.05,
+     "word": " anything",
+     "prob": 0.99
+    },
+    {
+     "start": 273.05,
+     "end": 273.27,
+     "word": " you",
+     "prob": 0.974
+    },
+    {
+     "start": 273.27,
+     "end": 273.47,
+     "word": " would",
+     "prob": 0.972
+    },
+    {
+     "start": 273.47,
+     "end": 273.89,
+     "word": " specifically",
+     "prob": 0.996
+    },
+    {
+     "start": 273.89,
+     "end": 274.15,
+     "word": " want",
+     "prob": 0.992
+    },
+    {
+     "start": 274.15,
+     "end": 274.39,
+     "word": " to",
+     "prob": 0.995
+    },
+    {
+     "start": 274.39,
+     "end": 274.63,
+     "word": " add",
+     "prob": 0.99
+    },
+    {
+     "start": 274.63,
+     "end": 275.19,
+     "word": " about",
+     "prob": 0.58
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "start": 275.19,
+   "end": 277.21,
+   "text": "like one thing which i wanted to ask more about",
+   "avg_logprob": -0.296,
+   "no_speech_prob": 0.866,
+   "words": [
+    {
+     "start": 275.19,
+     "end": 275.31,
+     "word": " like",
+     "prob": 0.117
+    },
+    {
+     "start": 275.31,
+     "end": 275.55,
+     "word": " one",
+     "prob": 0.405
+    },
+    {
+     "start": 275.55,
+     "end": 275.65,
+     "word": " thing",
+     "prob": 0.972
+    },
+    {
+     "start": 275.65,
+     "end": 275.79,
+     "word": " which",
+     "prob": 0.818
+    },
+    {
+     "start": 275.79,
+     "end": 275.89,
+     "word": " i",
+     "prob": 0.136
+    },
+    {
+     "start": 275.89,
+     "end": 276.23,
+     "word": " wanted",
+     "prob": 0.992
+    },
+    {
+     "start": 276.23,
+     "end": 276.51,
+     "word": " to",
+     "prob": 0.999
+    },
+    {
+     "start": 276.51,
+     "end": 276.75,
+     "word": " ask",
+     "prob": 0.998
+    },
+    {
+     "start": 276.75,
+     "end": 276.97,
+     "word": " more",
+     "prob": 0.992
+    },
+    {
+     "start": 276.97,
+     "end": 277.21,
+     "word": " about",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "start": 277.21,
+   "end": 281.43,
+   "text": "is basically how like what your perception",
+   "avg_logprob": -0.296,
+   "no_speech_prob": 0.866,
+   "words": [
+    {
+     "start": 277.21,
+     "end": 277.93,
+     "word": " is",
+     "prob": 0.994
+    },
+    {
+     "start": 277.93,
+     "end": 278.61,
+     "word": " basically",
+     "prob": 0.975
+    },
+    {
+     "start": 278.61,
+     "end": 279.79,
+     "word": " how",
+     "prob": 0.842
+    },
+    {
+     "start": 279.79,
+     "end": 280.21,
+     "word": " like",
+     "prob": 0.958
+    },
+    {
+     "start": 280.21,
+     "end": 280.69,
+     "word": " what",
+     "prob": 0.914
+    },
+    {
+     "start": 280.69,
+     "end": 280.99,
+     "word": " your",
+     "prob": 0.99
+    },
+    {
+     "start": 280.99,
+     "end": 281.43,
+     "word": " perception",
+     "prob": 0.983
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "start": 281.43,
+   "end": 284.67,
+   "text": "changed about dogs after that incident or how",
+   "avg_logprob": -0.296,
+   "no_speech_prob": 0.866,
+   "words": [
+    {
+     "start": 281.43,
+     "end": 281.85,
+     "word": " changed",
+     "prob": 0.991
+    },
+    {
+     "start": 281.85,
+     "end": 282.13,
+     "word": " about",
+     "prob": 0.998
+    },
+    {
+     "start": 282.13,
+     "end": 282.37,
+     "word": " dogs",
+     "prob": 0.997
+    },
+    {
+     "start": 282.37,
+     "end": 282.73,
+     "word": " after",
+     "prob": 0.992
+    },
+    {
+     "start": 282.73,
+     "end": 282.91,
+     "word": " that",
+     "prob": 0.982
+    },
+    {
+     "start": 282.91,
+     "end": 283.31,
+     "word": " incident",
+     "prob": 0.997
+    },
+    {
+     "start": 283.31,
+     "end": 283.87,
+     "word": " or",
+     "prob": 0.904
+    },
+    {
+     "start": 283.87,
+     "end": 284.67,
+     "word": " how",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "start": 284.67,
+   "end": 287.49,
+   "text": "your perception to dogs or the way you act around them",
+   "avg_logprob": -0.296,
+   "no_speech_prob": 0.866,
+   "words": [
+    {
+     "start": 284.67,
+     "end": 285.11,
+     "word": " your",
+     "prob": 0.989
+    },
+    {
+     "start": 285.11,
+     "end": 285.47,
+     "word": " perception",
+     "prob": 0.999
+    },
+    {
+     "start": 285.47,
+     "end": 285.65,
+     "word": " to",
+     "prob": 0.994
+    },
+    {
+     "start": 285.65,
+     "end": 285.95,
+     "word": " dogs",
+     "prob": 0.999
+    },
+    {
+     "start": 285.95,
+     "end": 286.17,
+     "word": " or",
+     "prob": 0.991
+    },
+    {
+     "start": 286.17,
+     "end": 286.31,
+     "word": " the",
+     "prob": 0.999
+    },
+    {
+     "start": 286.31,
+     "end": 286.39,
+     "word": " way",
+     "prob": 1.0
+    },
+    {
+     "start": 286.39,
+     "end": 286.57,
+     "word": " you",
+     "prob": 0.999
+    },
+    {
+     "start": 286.57,
+     "end": 286.71,
+     "word": " act",
+     "prob": 0.998
+    },
+    {
+     "start": 286.71,
+     "end": 287.03,
+     "word": " around",
+     "prob": 1.0
+    },
+    {
+     "start": 287.03,
+     "end": 287.49,
+     "word": " them",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "start": 287.49,
+   "end": 290.77,
+   "text": "changed or your views on dogs changed after that incident?",
+   "avg_logprob": -0.296,
+   "no_speech_prob": 0.866,
+   "words": [
+    {
+     "start": 287.49,
+     "end": 288.07,
+     "word": " changed",
+     "prob": 0.98
+    },
+    {
+     "start": 288.07,
+     "end": 288.83,
+     "word": " or",
+     "prob": 0.962
+    },
+    {
+     "start": 288.83,
+     "end": 289.05,
+     "word": " your",
+     "prob": 0.992
+    },
+    {
+     "start": 289.05,
+     "end": 289.15,
+     "word": " views",
+     "prob": 0.999
+    },
+    {
+     "start": 289.15,
+     "end": 289.37,
+     "word": " on",
+     "prob": 0.999
+    },
+    {
+     "start": 289.37,
+     "end": 289.51,
+     "word": " dogs",
+     "prob": 0.997
+    },
+    {
+     "start": 289.51,
+     "end": 289.85,
+     "word": " changed",
+     "prob": 0.988
+    },
+    {
+     "start": 289.85,
+     "end": 290.23,
+     "word": " after",
+     "prob": 0.985
+    },
+    {
+     "start": 290.23,
+     "end": 290.51,
+     "word": " that",
      "prob": 0.965
     },
     {
-     "start": 310.89,
-     "end": 311.81,
-     "word": " करती",
-     "prob": 0.917
-    },
-    {
-     "start": 311.81,
-     "end": 311.81,
-     "word": " हैं,",
-     "prob": 0.976
-    },
-    {
-     "start": 325.75,
-     "end": 325.81,
-     "word": " यह",
-     "prob": 0.951
+     "start": 290.51,
+     "end": 290.77,
+     "word": " incident?",
+     "prob": 0.877
     }
    ]
   },
   {
-   "id": 28,
-   "start": 325.81,
-   "end": 327.81,
-   "text": "आपका कुछ से लिए नहीं है।",
-   "avg_logprob": -0.752,
-   "no_speech_prob": 0.402,
+   "id": 77,
+   "start": 290.77,
+   "end": 294.13,
+   "text": "I mean, I used to be someone who would pet dogs if they are friendly enough",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
    "words": [
     {
-     "start": 325.81,
-     "end": 325.81,
-     "word": " आपका",
+     "start": 290.77,
+     "end": 290.91,
+     "word": " I",
+     "prob": 0.803
+    },
+    {
+     "start": 290.91,
+     "end": 291.05,
+     "word": " mean,",
+     "prob": 0.756
+    },
+    {
+     "start": 291.13,
+     "end": 291.27,
+     "word": " I",
+     "prob": 0.981
+    },
+    {
+     "start": 291.27,
+     "end": 291.51,
+     "word": " used",
+     "prob": 0.93
+    },
+    {
+     "start": 291.51,
+     "end": 291.61,
+     "word": " to",
+     "prob": 0.997
+    },
+    {
+     "start": 291.61,
+     "end": 291.71,
+     "word": " be",
+     "prob": 0.995
+    },
+    {
+     "start": 291.71,
+     "end": 292.01,
+     "word": " someone",
+     "prob": 0.988
+    },
+    {
+     "start": 292.01,
+     "end": 292.21,
+     "word": " who",
+     "prob": 0.975
+    },
+    {
+     "start": 292.21,
+     "end": 292.53,
+     "word": " would",
+     "prob": 0.965
+    },
+    {
+     "start": 292.53,
+     "end": 292.71,
+     "word": " pet",
+     "prob": 0.994
+    },
+    {
+     "start": 292.71,
+     "end": 293.03,
+     "word": " dogs",
+     "prob": 0.96
+    },
+    {
+     "start": 293.03,
+     "end": 293.25,
+     "word": " if",
+     "prob": 0.859
+    },
+    {
+     "start": 293.25,
+     "end": 293.45,
+     "word": " they",
+     "prob": 0.981
+    },
+    {
+     "start": 293.45,
+     "end": 293.47,
+     "word": " are",
+     "prob": 0.519
+    },
+    {
+     "start": 293.47,
+     "end": 293.83,
+     "word": " friendly",
+     "prob": 0.996
+    },
+    {
+     "start": 293.83,
+     "end": 294.13,
+     "word": " enough",
+     "prob": 0.976
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "start": 294.13,
+   "end": 297.59,
+   "text": "but since that, I have been refraining from doing so.",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 294.13,
+     "end": 294.39,
+     "word": " but",
+     "prob": 0.413
+    },
+    {
+     "start": 294.39,
+     "end": 294.83,
+     "word": " since",
+     "prob": 0.968
+    },
+    {
+     "start": 294.83,
+     "end": 295.19,
+     "word": " that,",
+     "prob": 0.941
+    },
+    {
+     "start": 295.27,
+     "end": 295.49,
+     "word": " I",
+     "prob": 0.993
+    },
+    {
+     "start": 295.49,
+     "end": 295.81,
+     "word": " have",
+     "prob": 0.511
+    },
+    {
+     "start": 295.81,
+     "end": 296.13,
+     "word": " been",
+     "prob": 0.985
+    },
+    {
+     "start": 296.13,
+     "end": 296.63,
+     "word": " refraining",
+     "prob": 0.978
+    },
+    {
+     "start": 296.63,
+     "end": 296.91,
+     "word": " from",
+     "prob": 0.994
+    },
+    {
+     "start": 296.91,
+     "end": 297.17,
+     "word": " doing",
+     "prob": 0.989
+    },
+    {
+     "start": 297.17,
+     "end": 297.59,
+     "word": " so.",
+     "prob": 0.982
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "start": 298.01,
+   "end": 301.37,
+   "text": "I've refrained from interacting with any dog even the ones that are friendly",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 298.01,
+     "end": 298.49,
+     "word": " I've",
+     "prob": 0.632
+    },
+    {
+     "start": 298.49,
+     "end": 298.65,
+     "word": " refrained",
+     "prob": 0.835
+    },
+    {
+     "start": 298.65,
+     "end": 298.91,
+     "word": " from",
+     "prob": 0.994
+    },
+    {
+     "start": 298.91,
+     "end": 299.25,
+     "word": " interacting",
+     "prob": 0.993
+    },
+    {
+     "start": 299.25,
+     "end": 299.45,
+     "word": " with",
+     "prob": 0.992
+    },
+    {
+     "start": 299.45,
+     "end": 299.81,
+     "word": " any",
+     "prob": 0.983
+    },
+    {
+     "start": 299.81,
+     "end": 300.01,
+     "word": " dog",
+     "prob": 0.105
+    },
+    {
+     "start": 300.01,
+     "end": 300.35,
+     "word": " even",
      "prob": 0.499
     },
     {
-     "start": 325.81,
-     "end": 326.19,
-     "word": " कुछ",
-     "prob": 0.539
+     "start": 300.35,
+     "end": 300.49,
+     "word": " the",
+     "prob": 0.913
     },
     {
-     "start": 326.19,
-     "end": 326.47,
-     "word": " से",
-     "prob": 0.223
+     "start": 300.49,
+     "end": 300.69,
+     "word": " ones",
+     "prob": 0.955
     },
     {
-     "start": 326.47,
+     "start": 300.69,
+     "end": 300.87,
+     "word": " that",
+     "prob": 0.98
+    },
+    {
+     "start": 300.87,
+     "end": 301.01,
+     "word": " are",
+     "prob": 0.994
+    },
+    {
+     "start": 301.01,
+     "end": 301.37,
+     "word": " friendly",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "start": 301.37,
+   "end": 301.91,
+   "text": "Okay",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 301.37,
+     "end": 301.91,
+     "word": " Okay",
+     "prob": 0.014
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "start": 301.91,
+   "end": 303.67,
+   "text": "So yeah, that has changed",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 301.91,
+     "end": 302.43,
+     "word": " So",
+     "prob": 0.249
+    },
+    {
+     "start": 302.43,
+     "end": 302.95,
+     "word": " yeah,",
+     "prob": 0.354
+    },
+    {
+     "start": 302.95,
+     "end": 303.17,
+     "word": " that",
+     "prob": 0.991
+    },
+    {
+     "start": 303.17,
+     "end": 303.43,
+     "word": " has",
+     "prob": 0.992
+    },
+    {
+     "start": 303.43,
+     "end": 303.67,
+     "word": " changed",
+     "prob": 0.994
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "start": 303.67,
+   "end": 305.31,
+   "text": "like I don't interact with dogs anymore",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 303.67,
+     "end": 303.83,
+     "word": " like",
+     "prob": 0.207
+    },
+    {
+     "start": 303.83,
+     "end": 303.93,
+     "word": " I",
+     "prob": 0.769
+    },
+    {
+     "start": 303.93,
+     "end": 304.11,
+     "word": " don't",
+     "prob": 0.995
+    },
+    {
+     "start": 304.11,
+     "end": 304.49,
+     "word": " interact",
+     "prob": 0.998
+    },
+    {
+     "start": 304.49,
+     "end": 304.65,
+     "word": " with",
+     "prob": 0.998
+    },
+    {
+     "start": 304.65,
+     "end": 304.89,
+     "word": " dogs",
+     "prob": 0.975
+    },
+    {
+     "start": 304.89,
+     "end": 305.31,
+     "word": " anymore",
+     "prob": 0.976
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "start": 305.31,
+   "end": 307.49,
+   "text": "just in case that I don't get injured",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 305.31,
+     "end": 305.85,
+     "word": " just",
+     "prob": 0.445
+    },
+    {
+     "start": 305.85,
+     "end": 306.21,
+     "word": " in",
+     "prob": 0.892
+    },
+    {
+     "start": 306.21,
+     "end": 306.47,
+     "word": " case",
+     "prob": 0.996
+    },
+    {
+     "start": 306.47,
+     "end": 306.73,
+     "word": " that",
+     "prob": 0.868
+    },
+    {
+     "start": 306.73,
+     "end": 306.95,
+     "word": " I",
+     "prob": 0.976
+    },
+    {
+     "start": 306.95,
+     "end": 307.17,
+     "word": " don't",
+     "prob": 0.986
+    },
+    {
+     "start": 307.17,
+     "end": 307.37,
+     "word": " get",
+     "prob": 0.979
+    },
+    {
+     "start": 307.37,
+     "end": 307.49,
+     "word": " injured",
+     "prob": 0.982
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "start": 307.49,
+   "end": 309.91,
+   "text": "I mean, even if they're friendly and they do scratch you",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 307.49,
+     "end": 307.59,
+     "word": " I",
+     "prob": 0.525
+    },
+    {
+     "start": 307.59,
+     "end": 307.75,
+     "word": " mean,",
+     "prob": 0.998
+    },
+    {
+     "start": 307.79,
+     "end": 307.95,
+     "word": " even",
+     "prob": 0.987
+    },
+    {
+     "start": 307.95,
+     "end": 308.03,
+     "word": " if",
+     "prob": 0.986
+    },
+    {
+     "start": 308.03,
+     "end": 308.19,
+     "word": " they're",
+     "prob": 0.63
+    },
+    {
+     "start": 308.19,
+     "end": 308.57,
+     "word": " friendly",
+     "prob": 0.998
+    },
+    {
+     "start": 308.57,
+     "end": 308.95,
+     "word": " and",
+     "prob": 0.944
+    },
+    {
+     "start": 308.95,
+     "end": 309.17,
+     "word": " they",
+     "prob": 0.983
+    },
+    {
+     "start": 309.17,
+     "end": 309.37,
+     "word": " do",
+     "prob": 0.938
+    },
+    {
+     "start": 309.37,
+     "end": 309.75,
+     "word": " scratch",
+     "prob": 0.998
+    },
+    {
+     "start": 309.75,
+     "end": 309.91,
+     "word": " you",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "start": 309.91,
+   "end": 312.03,
+   "text": "That's still an injury that requires care",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 309.91,
+     "end": 310.17,
+     "word": " That's",
+     "prob": 0.496
+    },
+    {
+     "start": 310.17,
+     "end": 310.43,
+     "word": " still",
+     "prob": 0.995
+    },
+    {
+     "start": 310.43,
+     "end": 310.67,
+     "word": " an",
+     "prob": 0.994
+    },
+    {
+     "start": 310.67,
+     "end": 310.85,
+     "word": " injury",
+     "prob": 0.999
+    },
+    {
+     "start": 310.85,
+     "end": 311.09,
+     "word": " that",
+     "prob": 0.972
+    },
+    {
+     "start": 311.09,
+     "end": 311.59,
+     "word": " requires",
+     "prob": 0.982
+    },
+    {
+     "start": 311.59,
+     "end": 312.03,
+     "word": " care",
+     "prob": 0.998
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "start": 312.03,
+   "end": 312.73,
+   "text": "Right, right",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 312.03,
+     "end": 312.51,
+     "word": " Right,",
+     "prob": 0.694
+    },
+    {
+     "start": 312.51,
+     "end": 312.73,
+     "word": " right",
+     "prob": 0.936
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "start": 312.73,
+   "end": 314.13,
+   "text": "So, yeah",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.292,
+   "words": [
+    {
+     "start": 312.73,
+     "end": 313.13,
+     "word": " So,",
+     "prob": 0.533
+    },
+    {
+     "start": 313.13,
+     "end": 314.13,
+     "word": " yeah",
+     "prob": 0.687
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "start": 315.81,
+   "end": 320.29,
+   "text": "So it generally leaves a long lasting impression on us.",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
+   "words": [
+    {
+     "start": 315.81,
+     "end": 316.33,
+     "word": " So",
+     "prob": 0.296
+    },
+    {
+     "start": 316.33,
+     "end": 316.59,
+     "word": " it",
+     "prob": 0.746
+    },
+    {
+     "start": 316.59,
+     "end": 316.91,
+     "word": " generally",
+     "prob": 0.928
+    },
+    {
+     "start": 316.91,
+     "end": 317.71,
+     "word": " leaves",
+     "prob": 0.932
+    },
+    {
+     "start": 317.71,
+     "end": 317.97,
+     "word": " a",
+     "prob": 0.931
+    },
+    {
+     "start": 317.97,
+     "end": 318.09,
+     "word": " long",
+     "prob": 0.922
+    },
+    {
+     "start": 318.09,
+     "end": 318.75,
+     "word": " lasting",
+     "prob": 0.956
+    },
+    {
+     "start": 318.75,
+     "end": 319.83,
+     "word": " impression",
+     "prob": 0.96
+    },
+    {
+     "start": 319.83,
+     "end": 320.03,
+     "word": " on",
+     "prob": 0.66
+    },
+    {
+     "start": 320.03,
+     "end": 320.29,
+     "word": " us.",
+     "prob": 0.517
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "start": 321.49,
+   "end": 322.83,
+   "text": "I think that's about it.",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
+   "words": [
+    {
+     "start": 321.49,
+     "end": 321.65,
+     "word": " I",
+     "prob": 0.708
+    },
+    {
+     "start": 321.65,
+     "end": 321.87,
+     "word": " think",
+     "prob": 0.996
+    },
+    {
+     "start": 321.87,
+     "end": 322.21,
+     "word": " that's",
+     "prob": 0.927
+    },
+    {
+     "start": 322.21,
+     "end": 322.45,
+     "word": " about",
+     "prob": 0.994
+    },
+    {
+     "start": 322.45,
+     "end": 322.83,
+     "word": " it.",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "start": 323.37,
+   "end": 324.21,
+   "text": "Thanks a lot Manish.",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
+   "words": [
+    {
+     "start": 323.37,
+     "end": 323.65,
+     "word": " Thanks",
+     "prob": 0.756
+    },
+    {
+     "start": 323.65,
+     "end": 323.81,
+     "word": " a",
+     "prob": 0.948
+    },
+    {
+     "start": 323.81,
+     "end": 323.93,
+     "word": " lot",
+     "prob": 0.999
+    },
+    {
+     "start": 323.93,
+     "end": 324.21,
+     "word": " Manish.",
+     "prob": 0.607
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "start": 324.21,
+   "end": 324.61,
+   "text": "Thank you.",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
+   "words": [
+    {
+     "start": 324.21,
+     "end": 324.49,
+     "word": " Thank",
+     "prob": 0.388
+    },
+    {
+     "start": 324.49,
+     "end": 324.61,
+     "word": " you.",
+     "prob": 0.919
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "start": 324.67,
+   "end": 327.61,
+   "text": "It was really great having our conversation with you and thanks a lot.",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
+   "words": [
+    {
+     "start": 324.67,
+     "end": 324.83,
+     "word": " It",
+     "prob": 0.629
+    },
+    {
+     "start": 324.83,
+     "end": 325.13,
+     "word": " was",
+     "prob": 0.984
+    },
+    {
+     "start": 325.13,
+     "end": 325.43,
+     "word": " really",
+     "prob": 0.645
+    },
+    {
+     "start": 325.43,
+     "end": 325.67,
+     "word": " great",
+     "prob": 0.981
+    },
+    {
+     "start": 325.67,
+     "end": 325.87,
+     "word": " having",
+     "prob": 0.976
+    },
+    {
+     "start": 325.87,
+     "end": 326.11,
+     "word": " our",
+     "prob": 0.046
+    },
+    {
+     "start": 326.11,
+     "end": 326.41,
+     "word": " conversation",
+     "prob": 0.949
+    },
+    {
+     "start": 326.41,
      "end": 326.63,
-     "word": " लिए",
-     "prob": 0.618
+     "word": " with",
+     "prob": 0.916
     },
     {
      "start": 326.63,
-     "end": 327.21,
-     "word": " नहीं",
-     "prob": 0.559
+     "end": 326.73,
+     "word": " you",
+     "prob": 0.995
     },
     {
-     "start": 327.21,
-     "end": 327.81,
-     "word": " है।",
-     "prob": 0.451
+     "start": 326.73,
+     "end": 326.91,
+     "word": " and",
+     "prob": 0.618
+    },
+    {
+     "start": 326.91,
+     "end": 327.17,
+     "word": " thanks",
+     "prob": 0.946
+    },
+    {
+     "start": 327.17,
+     "end": 327.29,
+     "word": " a",
+     "prob": 0.909
+    },
+    {
+     "start": 327.29,
+     "end": 327.61,
+     "word": " lot.",
+     "prob": 0.998
     }
    ]
   },
   {
-   "id": 29,
-   "start": 328.85,
-   "end": 329.89,
-   "text": "जे, जे, जे",
-   "avg_logprob": -0.752,
-   "no_speech_prob": 0.402,
+   "id": 93,
+   "start": 328.05,
+   "end": 328.63,
+   "text": "Your name?",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
    "words": [
     {
-     "start": 328.85,
-     "end": 329.23,
-     "word": " जे,",
-     "prob": 0.443
+     "start": 328.05,
+     "end": 328.27,
+     "word": " Your",
+     "prob": 0.752
     },
     {
-     "start": 329.23,
-     "end": 329.61,
-     "word": " जे,",
-     "prob": 0.825
-    },
-    {
-     "start": 329.73,
-     "end": 329.89,
-     "word": " जे",
-     "prob": 0.823
+     "start": 328.27,
+     "end": 328.63,
+     "word": " name?",
+     "prob": 0.956
     }
    ]
   },
   {
-   "id": 30,
-   "start": 329.89,
-   "end": 331.59,
-   "text": "विनाइत, विनाइत.",
-   "avg_logprob": -0.752,
-   "no_speech_prob": 0.402,
+   "id": 94,
+   "start": 329.51,
+   "end": 329.53,
+   "text": "Jay.",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
    "words": [
     {
-     "start": 329.89,
-     "end": 330.53,
-     "word": " विनाइत,",
-     "prob": 0.461
+     "start": 329.51,
+     "end": 329.53,
+     "word": " Jay.",
+     "prob": 0.505
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "start": 329.85,
+   "end": 330.87,
+   "text": "I'm Vinayak.",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
+   "words": [
+    {
+     "start": 329.85,
+     "end": 330.01,
+     "word": " I'm",
+     "prob": 0.377
     },
     {
-     "start": 330.57,
-     "end": 331.59,
-     "word": " विनाइत.",
-     "prob": 0.869
+     "start": 330.01,
+     "end": 330.87,
+     "word": " Vinayak.",
+     "prob": 0.947
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "start": 331.83,
+   "end": 332.71,
+   "text": "Thank you.",
+   "avg_logprob": -0.398,
+   "no_speech_prob": 0.685,
+   "words": [
+    {
+     "start": 331.83,
+     "end": 331.83,
+     "word": " Thank",
+     "prob": 0.535
+    },
+    {
+     "start": 331.83,
+     "end": 332.71,
+     "word": " you.",
+     "prob": 0.966
     }
    ]
   }

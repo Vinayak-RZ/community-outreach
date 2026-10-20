@@ -1,144 +1,616 @@
 1
-00:00:01,490 --> 00:00:03,990
-अपने स्वार्णी करते हैं।
+00:00:01,490 --> 00:00:03,730
+Please introduce yourself
 
 2
-00:00:05,490 --> 00:00:06,730
-मुझे भावग्ना है।
+00:00:05,230 --> 00:00:07,810
+I'm Bhavakna. I am a member of CCF
 
 3
-00:00:06,730 --> 00:00:08,590
-मुझे स्वार्णी करते हैं।
+00:00:08,410 --> 00:00:10,410
+and i am in 3rd year
 
 4
-00:00:08,590 --> 00:00:10,590
-और मुझे स्वार्णी करते हैं।
+00:00:10,410 --> 00:00:10,950
+Okay
 
 5
-00:00:10,590 --> 00:00:15,090
-भावग्ना, क्योंकि आप स्वार्णी करते हैं?
+00:00:11,470 --> 00:00:15,270
+So Bhavakna what prompted you to join CCF?
 
 6
-00:00:17,590 --> 00:00:19,460
-इस्वार्णी करते हैं।
+00:00:16,350 --> 00:00:18,070
+Just the
 
 7
-00:00:20,670 --> 00:00:21,910
-इस्वार्णी करते हैं।
+00:00:18,070 --> 00:00:19,730
+Love for animals
 
 8
-00:00:21,910 --> 00:00:34,570
-मुझे स्वार्णी करते हैं।
+00:00:20,510 --> 00:00:23,770
+Also dogs or cats, I just love contributing
 
 9
-00:01:34,570 --> 00:01:37,130
-यो आप का गएकुछ्ये है?
+00:00:25,910 --> 00:00:27,230
+In general? Yeah
 
 10
-00:01:37,830 --> 00:01:39,450
-कि जीवस पर लिए दॉबान करता है?
+00:00:27,870 --> 00:00:29,510
+And it started
 
 11
-00:01:41,610 --> 00:01:44,110
-और में आपको साथ करता है।
+00:00:29,510 --> 00:00:33,470
+it didn't really start as me applying for something.
 
 12
-00:03:44,110 --> 00:03:50,990
-वो काई अब्यादीने के लिए हैं, नहीं तुम्सी आप बारता है।
+00:00:34,190 --> 00:00:38,930
+When I was in Sarojini, there's this group of people who
 
 13
-00:03:50,990 --> 00:03:54,370
-वह उसके लिए रूप ज़ाइर्ट पर यहां था, उसके पर विश्च खाई भी गाओना है।
+00:00:38,930 --> 00:00:43,890
+I saw that were feeding the dogs and through connections
 
 14
-00:03:54,370 --> 00:03:59,450
-आपके लिए रूप पर काई रहे हैं, वह उसके लिए रूप बारता हैं.
+00:00:43,890 --> 00:00:48,730
+I got to know them and then I also started feeding the dogs
 
 15
-00:04:30,450 --> 00:04:32,850
-वाक्सिनेट दोंज और कुछ नहीं हैं।
+00:00:48,730 --> 00:00:53,430
+And one day they just recommended people
 
 16
-00:04:33,150 --> 00:04:39,370
-अपने नुदॉग करते हैं, वेटेन करते हैं।
+00:00:53,430 --> 00:00:55,470
+and the WhatsApp group, to CCF.
 
 17
-00:04:39,370 --> 00:04:41,530
-तो आप तुम इस्टिर्ण करते हैं?
+00:00:57,190 --> 00:01:00,770
+And I think it was first year Sem break.
 
 18
-00:04:42,690 --> 00:04:45,210
-अपने इस्टिर्ण करते हैं?
+00:01:01,150 --> 00:01:01,590
+Okay.
 
 19
-00:04:46,690 --> 00:04:49,590
-अपने इस्टिर्ण करते हैं।
+00:01:01,590 --> 00:01:02,570
+That's when people called
 
 20
-00:04:49,590 --> 00:04:54,230
-तो आप इस्टिर्ण करते हैं। तो आप इस्टिर्ण करते हैं।
+00:01:02,570 --> 00:01:03,770
+and asked for enrollment numbers
 
 21
-00:06:55,230 --> 00:06:56,930
-आपको यहां करते हैं। वो अच्छानी करते हैं।
+00:01:03,770 --> 00:01:05,890
+and that how it became official.
 
 22
-00:06:56,930 --> 00:06:57,830
-वो अच्छानी करते हैं।
+00:01:07,150 --> 00:01:09,590
+And I don't really work under CCF
 
 23
-00:06:57,830 --> 00:06:58,510
-वो अच्छानी करते हैं।
+00:01:09,590 --> 00:01:13,310
+It's more like there is a sorority sector of it.
 
 24
-00:06:58,510 --> 00:06:59,030
-वो अच्छानी करते हैं।
+00:01:13,650 --> 00:01:16,830
+Every Bhavan has their own volunteers
 
 25
-00:06:59,030 --> 00:07:00,310
-वो अच्छानी करते हैं।
+00:01:16,830 --> 00:01:17,730
+who do the feeding
 
 26
-00:07:00,310 --> 00:07:01,150
-वो अच्छानी करते हैं।
+00:01:17,730 --> 00:01:25,090
+and take care of the dogs, medication, winter coats, stuff like that.
 
 27
-00:07:01,150 --> 00:07:02,810
-वो अच्छानी करते हैं।
+00:01:25,130 --> 00:01:29,430
+Okay. So you're responsible for Sarojini's part of the dogs?
 
 28
-00:07:08,970 --> 00:07:15,230
-वो अच्छानी करते हैं।
+00:01:31,450 --> 00:01:37,770
+What do you think about the huge controversy going on
 
 29
-00:07:15,230 --> 00:07:17,230
-आपका कोई में समस्टित हैं।
+00:01:37,770 --> 00:01:41,510
+where so many people are against having dogs on campus at all?
 
 30
-00:07:18,690 --> 00:07:20,190
-अनुभीन करता है.
+00:01:41,710 --> 00:01:46,170
+I get their side as well because dogs are disruptive
 
 31
-00:07:20,410 --> 00:07:23,510
-अनुभीन के लिए क्या जाओगा रहा है?
+00:01:47,990 --> 00:01:57,830
+Especially since December of last year, I've learned from a prob that there have been five rabies cases
 
 32
-00:07:23,970 --> 00:07:24,930
-क्या कि बढ़ा थो?
+00:01:57,830 --> 00:02:02,690
+and at one point in time the hospital didn't even have enough rabies vaccine to give them.
 
 33
-00:07:24,930 --> 00:07:25,950
-वह इसके नहीं खला जाओगा नहीं पर लिए चाहिए।
+00:02:04,130 --> 00:02:08,210
+I think the major issue is that dogs don't get enough food outside
 
 34
-00:07:25,950 --> 00:07:33,930
-वह वह इसके नहीं खाओँ दिया है,
+00:02:08,210 --> 00:02:10,750
+That's why they come inside of bowens in order to get food
 
 35
-00:11:29,950 --> 00:11:31,690
-Okay, I think we are good.
+00:02:10,750 --> 00:02:12,850
+They don't really have any other motive
 
 36
-00:11:32,590 --> 00:11:32,670
-Thanks!
+00:02:12,850 --> 00:02:18,230
+I feel even in Himalaya, the dog issue is huge.
+
+37
+00:02:18,650 --> 00:02:22,890
+They just come and go through the dustbins or drink water.
+
+38
+00:02:22,950 --> 00:02:25,950
+This doesn't really happen in Sarojini
+
+39
+00:02:25,950 --> 00:02:30,610
+because the dogs are fed every day both by volunteers
+
+40
+00:02:30,610 --> 00:02:33,290
+and by CCF members who come.
+
+41
+00:02:34,370 --> 00:02:36,650
+And in Kasturbhai it doesn't happen
+
+42
+00:02:36,650 --> 00:02:38,870
+because there's a dog outside guarding
+
+43
+00:02:38,870 --> 00:02:40,170
+and not letting the other dog in.
+
+44
+00:02:40,170 --> 00:02:45,630
+And also because the bovins have very small entrances and it's easier to manage.
+
+45
+00:02:45,990 --> 00:02:54,530
+With Himalaya, the walls are very low and then the guard is not always present at the
+
+46
+00:02:54,530 --> 00:02:55,930
+huge entrance like there is.
+
+47
+00:02:56,670 --> 00:03:06,170
+The issue is just food and with the dog biting issue I think its not the dogs on campus mostly.
+
+48
+00:03:06,170 --> 00:03:13,610
+I've also had a dog attack on me near Kasturba, when first year I was going to NCC camp.
+
+49
+00:03:13,950 --> 00:03:19,190
+For no reason they just started barking and I even fell down the guard had to come and help me.
+
+50
+00:03:19,190 --> 00:03:25,170
+They didn't bite me but they did have a reputation of being aggressive, dogs near sack
+
+51
+00:03:25,750 --> 00:03:30,290
+And there were also reported cases of dog biting by either of us.
+
+52
+00:03:30,290 --> 00:03:38,450
+Yeah, I think those are the only group of dogs that actually bite people on campus and then that and I think near Mac
+
+53
+00:03:39,630 --> 00:03:41,490
+I don't think so. You know
+
+54
+00:03:41,830 --> 00:03:46,670
+The ones in Mandir, they were two cases of biting near Mandir
+
+55
+00:03:47,150 --> 00:03:48,730
+So maybe that
+
+56
+00:03:49,890 --> 00:03:53,750
+I think the major dog bites are from dogs which come from outside
+
+57
+00:03:54,290 --> 00:03:57,070
+Since there are female dogs on campus they go into heat
+
+58
+00:03:57,070 --> 00:04:03,090
+And during that time, many dogs come from outside and they see that there is availability of food here.
+
+59
+00:04:03,710 --> 00:04:08,450
+Since I have been feeding Sarojini, I think two dogs have added since.
+
+60
+00:04:09,310 --> 00:04:12,770
+And those are big dogs and like they're not neutered or vaccinated.
+
+61
+00:04:13,030 --> 00:04:14,250
+If Seaship does find a new dog,
+
+62
+00:04:14,770 --> 00:04:16,310
+They make sure to get it neutered
+
+63
+00:04:16,310 --> 00:04:18,650
+if you see the cut on the ear
+
+64
+00:04:18,650 --> 00:04:21,210
+It means that they've been vaccinated so
+
+65
+00:04:21,210 --> 00:04:25,310
+even with the bite, there's no high chance of contacting any disease
+
+66
+00:04:26,310 --> 00:04:29,870
+you have to go get a vaccine to not take any chances.
+
+67
+00:04:29,890 --> 00:04:32,350
+So does the CJF plan to vaccinate those dogs or what?
+
+68
+00:04:33,050 --> 00:04:39,370
+If we find new dog, we do make sure to get the vet in and take care of them.
+
+69
+00:04:39,370 --> 00:04:45,210
+Do you think this dog biting issue can be solved if the manpower of the people feeding
+
+70
+00:04:45,210 --> 00:04:48,830
+the dogs is increased like if all their dogs are just properly fed?
+
+71
+00:04:50,110 --> 00:04:56,290
+To an extent I think so but you also need to control the entry and exit.
+
+72
+00:04:56,290 --> 00:05:05,050
+of dogs. Because most of the dogs which come inside, they usually leave. But yeah due to
+
+73
+00:05:05,050 --> 00:05:11,730
+availability of food and then scarcity outside there is usually stay back. And we can't feed
+
+74
+00:05:11,730 --> 00:05:17,270
+every dog in Roorkee. So you have to make sure that these dogs are also territorial
+
+75
+00:05:17,270 --> 00:05:23,990
+very territorial I told you like two dogs have added in Sarosha. Those two dogs still don't fit
+
+76
+00:05:23,990 --> 00:05:31,650
+There is basically the group, the dog group and it's their leader most probably a female
+
+77
+00:05:32,950 --> 00:05:38,110
+And there are tensions always between this leader or the members of the group to the
+
+78
+00:05:38,110 --> 00:05:38,650
+new additions.
+
+79
+00:05:39,350 --> 00:05:42,510
+This since we go to feeding they don't do anything to us
+
+80
+00:05:42,510 --> 00:05:46,410
+And they're very frightful like if you just say their name or point a stick
+
+81
+00:05:47,050 --> 00:05:49,930
+They'll listen but the others don't know that
+
+82
+00:05:49,930 --> 00:05:56,790
+And when we are trying to feed them, their attention is coming near the bowls or shouting
+
+83
+00:05:56,790 --> 00:05:57,350
+or barking.
+
+84
+00:05:58,370 --> 00:06:03,330
+So people see that and they think these dogs are aggressive which is just them being territorial.
+
+85
+00:06:04,710 --> 00:06:08,770
+For them it's kind of valid but if you see from outside it seems like they're rogues
+
+86
+00:06:08,770 --> 00:06:18,510
+and barking at cars or bikes. If the car or bike stops, they don't bark because they are just
+
+87
+00:06:18,510 --> 00:06:23,950
+I told you stupid and dumb. They don't do anything but I get it like you can't
+
+88
+00:06:23,950 --> 00:06:27,890
+just say to people who are afraid of dogs that they're they don't do anything
+
+89
+00:06:27,890 --> 00:06:32,010
+and expect them to be oh my god yeah it's gonna be just fine you can't just expect that
+
+90
+00:06:32,010 --> 00:06:36,990
+I understand two sides of the issue but again i feel like we'll have to be considerate if we
+
+91
+00:06:38,410 --> 00:06:43,870
+are in a campus where, like yeah we also have to recognize that they belong here too.
+
+92
+00:06:45,310 --> 00:06:48,610
+And there's no issue with cats like this because they just don't usually come out
+
+93
+00:06:48,610 --> 00:06:54,270
+of bubbles and so actually majorly the dustbin issue or the toppling of dustbins was due to
+
+94
+00:06:54,270 --> 00:06:58,510
+cats because those are the only ones who live inside they don't go outside because they do
+
+95
+00:07:00,190 --> 00:07:08,230
+So I guess they only eat food but sometimes they also do get greedy, they just want more
+
+96
+00:07:08,230 --> 00:07:08,550
+food.
+
+97
+00:07:09,010 --> 00:07:11,490
+You can't do anything against that issue.
+
+98
+00:07:15,350 --> 00:07:22,450
+The prof who told me about this in AV's cases allegedly when I talked about these cases
+
+99
+00:07:22,450 --> 00:07:26,990
+and the group they were like nothing like has actually happened but he is a professor
+
+100
+00:07:26,990 --> 00:07:29,410
+So I guess we'll have to give wait for his tour.
+
+101
+00:07:29,730 --> 00:07:31,790
+And since it's during holidays,
+
+102
+00:07:31,990 --> 00:07:33,330
+We don't know what actually happened.
+
+103
+00:07:34,290 --> 00:07:38,030
+And even he told me that there are plans
+
+104
+00:07:38,030 --> 00:07:41,250
+about a new shelter outside of campus.
+
+105
+00:07:42,590 --> 00:07:44,370
+Like they're constructing this huge shelter
+
+106
+00:07:44,370 --> 00:07:47,790
+so they could just take every dog from campus
+
+107
+00:07:47,790 --> 00:07:49,430
+and outside Rootki maybe
+
+108
+00:07:49,430 --> 00:07:50,890
+and put her in the shelter.
+
+109
+00:07:51,830 --> 00:07:52,890
+Where will the shelter be?
+
+110
+00:07:53,470 --> 00:07:54,050
+No idea.
+
+111
+00:07:54,410 --> 00:07:56,730
+There is like, it will be constructed not very soon
+
+112
+00:07:56,730 --> 00:08:05,910
+but someday. And we have made some other sources confirming this as well and you
+
+113
+00:08:05,910 --> 00:08:10,450
+most probably think that it is happening. I mean since UK sorry Uttarakhand
+
+114
+00:08:10,450 --> 00:08:16,610
+High Court gave similar ruling to Delhi high courts about the dog issue
+
+115
+00:08:17,770 --> 00:08:26,710
+You can look at Karakpur dog issue even the
+
+116
+00:08:26,710 --> 00:08:31,950
+it's like the way they solve this issue even they put the meshes on before every
+
+117
+00:08:31,950 --> 00:08:36,210
+boven restricting the entry space and things like that so that the dogs don't
+
+118
+00:08:36,210 --> 00:08:40,410
+come in I think Ruki did take inspiration from
+
+119
+00:08:40,410 --> 00:08:50,230
+that yeah because we did suggest from CCF site to look into it. The issue like
+
+120
+00:08:50,230 --> 00:08:54,150
+it is a good solution that you just take every animal from here and give them
+
+121
+00:08:54,150 --> 00:09:00,730
+shelter and food but the issue is a shelter cannot accommodate many animals
+
+122
+00:09:00,730 --> 00:09:06,490
+and they will put animals down it's just like anywhere if you if they don't get
+
+123
+00:09:06,930 --> 00:09:10,410
+enough food or if there's not enough space then this put animals down for no
+
+124
+00:09:10,410 --> 00:09:14,230
+reason hmm that's the only thing that she
+
+125
+00:09:14,230 --> 00:09:23,790
+has an issue with like they don't need to be put down yeah I think that's the
+
+126
+00:09:23,790 --> 00:09:30,750
+sides but I guess we'll have to live with it or find better solutions to deal with this.
+
+127
+00:09:31,690 --> 00:09:37,070
+I had another question which I think has been neutralized now, I was going to ask that usually
+
+128
+00:09:37,070 --> 00:09:43,910
+the people who are very fond of dogs they have never in person experienced a first hand
+
+129
+00:09:43,910 --> 00:09:44,570
+dog attack?
+
+130
+00:09:44,570 --> 00:09:49,750
+I don't think so. I mean, I've been chased by four dogs.
+
+131
+00:09:49,750 --> 00:09:51,950
+That still didn't change your opinion about them?
+
+132
+00:09:53,850 --> 00:10:01,270
+I think you can quote Steve Irwin if an animal attacks me it's my fault we're not the animals
+
+133
+00:10:01,270 --> 00:10:04,570
+and I don't think its true in the dog's case because
+
+134
+00:10:07,750 --> 00:10:14,170
+In Roorkee, even outside, I went to see Nisab so that's why he lives here right?
+
+135
+00:10:14,850 --> 00:10:22,310
+So I went outside to his house and then two dogs chased me the outside ones.
+
+136
+00:10:23,230 --> 00:10:26,550
+The issue with dogs is they are territorial and also very scared
+
+137
+00:10:27,270 --> 00:10:27,910
+Right
+
+138
+00:10:27,910 --> 00:10:32,830
+They tend to attack them to defend themselves
+
+139
+00:10:32,830 --> 00:10:35,090
+But that doesn't instill a fear in you?
+
+140
+00:10:35,090 --> 00:10:39,150
+It does, I do have a fear. It doesn't mean that I'm not afraid of dogs.
+
+141
+00:10:39,310 --> 00:10:43,410
+They just make sure to not get in their business or not look them eye-in-eye
+
+142
+00:10:43,410 --> 00:10:45,450
+But sometimes it happens
+
+143
+00:10:47,070 --> 00:10:48,450
+And it's just me
+
+144
+00:10:49,570 --> 00:10:51,510
+People in the group Sarojini Group
+
+145
+00:10:52,330 --> 00:10:54,090
+they've been a bit as well like
+
+146
+00:10:54,090 --> 00:10:56,930
+had to get vaccines and stuff like that
+
+147
+00:10:56,930 --> 00:10:58,150
+It's just that it happens
+
+148
+00:10:59,750 --> 00:11:03,430
+people move on or try to understand from their perspective
+
+149
+00:11:05,290 --> 00:11:10,010
+It's not that people who love animals don't have bad experiences with them.
+
+150
+00:11:10,630 --> 00:11:16,030
+I think most of those people do have a lot of experience because those are the ones spending more clothes.
+
+151
+00:11:18,210 --> 00:11:22,770
+Is there anything else you would like to say to dog haters or anti-dog people on campus?
+
+152
+00:11:23,150 --> 00:11:25,810
+I'd only urge them to look from the other side.
+
+153
+00:11:26,950 --> 00:11:27,970
+Have some empathy.
+
+154
+00:11:29,890 --> 00:11:31,590
+Okay, I think we're good.
 

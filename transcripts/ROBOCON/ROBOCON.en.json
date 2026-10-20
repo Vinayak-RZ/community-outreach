@@ -1,99 +1,82 @@
 {
  "source_file": "ROBOCON.m4a",
- "created": "2026-10-19T11:13:51.166314+00:00",
+ "created": "2026-10-20T09:09:12.927459+00:00",
  "model": "medium",
  "device": "cpu",
  "compute_type": "float32",
  "faster_whisper": "1.2.1",
  "task": "translate",
- "language": "hi",
+ "language": "en",
  "language_probability": 1,
  "language_forced": true,
- "language_policy_detection": {
-  "detected": "en",
-  "probability": 0.794,
-  "top": [
-   [
-    "en",
-    0.794
-   ],
-   [
-    "hi",
-    0.17
-   ],
-   [
-    "ur",
-    0.003
-   ]
-  ]
- },
+ "language_policy_detection": null,
  "duration_s": 26.37,
- "processing_s": 7.8,
+ "processing_s": 0.0,
  "initial_prompt": null,
  "target_language": "en",
- "method": "whisper translate task",
+ "method": "copy of English transcript",
  "segments": [
   {
    "id": 1,
    "start": 0.0,
-   "end": 3.78,
-   "text": "So this is our community outreach project wherein our topic is campus dogs.",
-   "avg_logprob": -0.381,
+   "end": 5.0,
+   "text": "So this is our community outreach project wherein our topic is campus dogs so we want to know your",
+   "avg_logprob": -0.34,
    "no_speech_prob": 0.151,
    "words": [
     {
      "start": 0.0,
      "end": 0.34,
      "word": " So",
-     "prob": 0.679
+     "prob": 0.736
     },
     {
      "start": 0.34,
      "end": 0.66,
      "word": " this",
-     "prob": 0.588
+     "prob": 0.63
     },
     {
      "start": 0.66,
      "end": 0.82,
      "word": " is",
-     "prob": 0.959
+     "prob": 0.963
     },
     {
      "start": 0.82,
      "end": 0.92,
      "word": " our",
-     "prob": 0.914
+     "prob": 0.923
     },
     {
      "start": 0.92,
      "end": 1.3,
      "word": " community",
-     "prob": 0.795
+     "prob": 0.755
     },
     {
      "start": 1.3,
      "end": 1.66,
      "word": " outreach",
-     "prob": 0.98
+     "prob": 0.983
     },
     {
      "start": 1.66,
-     "end": 2.22,
+     "end": 2.2,
      "word": " project",
      "prob": 0.993
     },
     {
-     "start": 2.22,
+     "start": 2.2,
      "end": 2.54,
      "word": " wherein",
-     "prob": 0.434
+     "prob": 0.534
     },
     {
      "start": 2.54,
      "end": 2.76,
      "word": " our",
-     "prob": 0.972
+     "prob": 0.978
     },
     {
      "start": 2.76,
@@ -111,451 +94,501 @@
      "start": 3.14,
      "end": 3.64,
      "word": " campus",
-     "prob": 0.837
+     "prob": 0.809
     },
     {
      "start": 3.64,
      "end": 3.78,
-     "word": " dogs.",
-     "prob": 0.959
+     "word": " dogs",
+     "prob": 0.952
+    },
+    {
+     "start": 3.78,
+     "end": 4.08,
+     "word": " so",
+     "prob": 0.242
+    },
+    {
+     "start": 4.08,
+     "end": 4.32,
+     "word": " we",
+     "prob": 0.985
+    },
+    {
+     "start": 4.32,
+     "end": 4.44,
+     "word": " want",
+     "prob": 0.976
+    },
+    {
+     "start": 4.44,
+     "end": 4.66,
+     "word": " to",
+     "prob": 0.992
+    },
+    {
+     "start": 4.66,
+     "end": 4.76,
+     "word": " know",
+     "prob": 0.994
+    },
+    {
+     "start": 4.76,
+     "end": 5.0,
+     "word": " your",
+     "prob": 0.983
     }
    ]
   },
   {
    "id": 2,
-   "start": 3.92,
-   "end": 6.62,
-   "text": "We want to know your general take on campus dogs",
-   "avg_logprob": -0.381,
+   "start": 5.0,
+   "end": 8.76,
+   "text": "general take on campus dogs and what do you feel should be have dogs at campus,",
+   "avg_logprob": -0.34,
    "no_speech_prob": 0.151,
    "words": [
     {
-     "start": 3.92,
-     "end": 4.18,
-     "word": " We",
-     "prob": 0.121
-    },
-    {
-     "start": 4.18,
-     "end": 4.46,
-     "word": " want",
-     "prob": 0.956
-    },
-    {
-     "start": 4.46,
-     "end": 4.64,
-     "word": " to",
-     "prob": 0.991
-    },
-    {
-     "start": 4.64,
-     "end": 4.76,
-     "word": " know",
-     "prob": 0.99
-    },
-    {
-     "start": 4.76,
-     "end": 4.98,
-     "word": " your",
-     "prob": 0.97
-    },
-    {
-     "start": 4.98,
-     "end": 5.38,
+     "start": 5.0,
+     "end": 5.4,
      "word": " general",
-     "prob": 0.93
+     "prob": 0.977
     },
     {
-     "start": 5.38,
+     "start": 5.4,
      "end": 5.58,
      "word": " take",
-     "prob": 0.992
+     "prob": 0.994
     },
     {
      "start": 5.58,
-     "end": 5.78,
+     "end": 5.8,
      "word": " on",
-     "prob": 0.993
+     "prob": 0.994
     },
     {
-     "start": 5.78,
+     "start": 5.8,
      "end": 6.32,
      "word": " campus",
      "prob": 0.99
     },
     {
      "start": 6.32,
-     "end": 6.62,
+     "end": 6.6,
      "word": " dogs",
-     "prob": 0.973
-    }
-   ]
-  },
-  {
-   "id": 3,
-   "start": 6.62,
-   "end": 8.76,
-   "text": "and what do you feel should we have dogs at campus?",
-   "avg_logprob": -0.381,
-   "no_speech_prob": 0.151,
-   "words": [
+     "prob": 0.963
+    },
     {
-     "start": 6.62,
+     "start": 6.6,
      "end": 6.96,
      "word": " and",
-     "prob": 0.557
+     "prob": 0.893
     },
     {
      "start": 6.96,
      "end": 7.16,
      "word": " what",
-     "prob": 0.961
+     "prob": 0.991
     },
     {
      "start": 7.16,
      "end": 7.26,
      "word": " do",
-     "prob": 0.661
+     "prob": 0.786
     },
     {
      "start": 7.26,
      "end": 7.32,
      "word": " you",
-     "prob": 0.987
+     "prob": 0.989
     },
     {
      "start": 7.32,
      "end": 7.48,
      "word": " feel",
-     "prob": 0.88
+     "prob": 0.905
     },
     {
      "start": 7.48,
-     "end": 7.72,
+     "end": 7.7,
      "word": " should",
-     "prob": 0.462
+     "prob": 0.652
     },
     {
-     "start": 7.72,
+     "start": 7.7,
      "end": 7.9,
-     "word": " we",
-     "prob": 0.904
+     "word": " be",
+     "prob": 0.045
     },
     {
      "start": 7.9,
      "end": 8.12,
      "word": " have",
-     "prob": 0.984
+     "prob": 0.868
     },
     {
      "start": 8.12,
      "end": 8.3,
      "word": " dogs",
-     "prob": 0.958
+     "prob": 0.948
     },
     {
      "start": 8.3,
      "end": 8.46,
      "word": " at",
-     "prob": 0.263
+     "prob": 0.262
     },
     {
      "start": 8.46,
      "end": 8.76,
-     "word": " campus?",
-     "prob": 0.878
+     "word": " campus,",
+     "prob": 0.944
     }
    ]
   },
   {
-   "id": 4,
+   "id": 3,
    "start": 8.86,
-   "end": 11.36,
-   "text": "Should we not have any incident that you've faced?",
-   "avg_logprob": -0.381,
+   "end": 11.54,
+   "text": "should we not have? And any incident that you've faced.",
+   "avg_logprob": -0.34,
    "no_speech_prob": 0.151,
    "words": [
     {
      "start": 8.86,
      "end": 9.04,
-     "word": " Should",
-     "prob": 0.848
+     "word": " should",
+     "prob": 0.981
     },
     {
      "start": 9.04,
-     "end": 9.26,
+     "end": 9.3,
      "word": " we",
-     "prob": 0.984
+     "prob": 0.832
     },
     {
-     "start": 9.26,
+     "start": 9.3,
      "end": 9.54,
      "word": " not",
      "prob": 0.991
     },
     {
      "start": 9.54,
-     "end": 9.74,
-     "word": " have",
-     "prob": 0.987
+     "end": 9.7,
+     "word": " have?",
+     "prob": 0.986
     },
     {
-     "start": 9.74,
-     "end": 10.04,
+     "start": 9.76,
+     "end": 9.96,
+     "word": " And",
+     "prob": 0.45
+    },
+    {
+     "start": 9.96,
+     "end": 10.18,
      "word": " any",
-     "prob": 0.207
+     "prob": 0.988
     },
     {
-     "start": 10.04,
+     "start": 10.18,
      "end": 10.52,
      "word": " incident",
-     "prob": 0.66
+     "prob": 0.785
     },
     {
      "start": 10.52,
-     "end": 10.76,
+     "end": 10.78,
      "word": " that",
-     "prob": 0.952
+     "prob": 0.966
     },
     {
-     "start": 10.76,
-     "end": 11.08,
+     "start": 10.78,
+     "end": 11.06,
      "word": " you've",
-     "prob": 0.577
+     "prob": 0.594
     },
     {
-     "start": 11.08,
-     "end": 11.36,
-     "word": " faced?",
-     "prob": 0.985
+     "start": 11.06,
+     "end": 11.54,
+     "word": " faced.",
+     "prob": 0.988
     }
    ]
   },
   {
-   "id": 5,
-   "start": 12.24,
-   "end": 16.96,
-   "text": "Akshay, the thing is I don't really have a very polarizing opinion on this",
-   "avg_logprob": -0.381,
+   "id": 4,
+   "start": 12.1,
+   "end": 17.3,
+   "text": "The thing is I don't really have a very like polarizing opinion on this because",
+   "avg_logprob": -0.34,
    "no_speech_prob": 0.151,
    "words": [
     {
-     "start": 12.24,
-     "end": 12.78,
-     "word": " Akshay,",
-     "prob": 0.386
+     "start": 12.1,
+     "end": 12.42,
+     "word": " The",
+     "prob": 0.137
     },
     {
-     "start": 12.96,
-     "end": 13.14,
-     "word": " the",
-     "prob": 0.859
-    },
-    {
-     "start": 13.14,
+     "start": 12.42,
      "end": 13.3,
      "word": " thing",
-     "prob": 0.993
+     "prob": 0.991
     },
     {
      "start": 13.3,
-     "end": 13.54,
+     "end": 13.52,
      "word": " is",
      "prob": 0.995
     },
     {
-     "start": 13.54,
+     "start": 13.52,
      "end": 13.84,
      "word": " I",
-     "prob": 0.599
+     "prob": 0.587
     },
     {
      "start": 13.84,
-     "end": 14.14,
+     "end": 14.12,
      "word": " don't",
      "prob": 0.986
     },
     {
-     "start": 14.14,
-     "end": 14.46,
+     "start": 14.12,
+     "end": 14.4,
      "word": " really",
-     "prob": 0.899
+     "prob": 0.973
     },
     {
-     "start": 14.46,
-     "end": 14.8,
+     "start": 14.4,
+     "end": 14.78,
      "word": " have",
-     "prob": 0.997
+     "prob": 0.998
     },
     {
-     "start": 14.8,
+     "start": 14.78,
      "end": 14.98,
      "word": " a",
      "prob": 0.983
     },
     {
      "start": 14.98,
-     "end": 15.66,
+     "end": 15.28,
      "word": " very",
-     "prob": 0.874
+     "prob": 0.963
     },
     {
-     "start": 15.66,
+     "start": 15.28,
+     "end": 15.64,
+     "word": " like",
+     "prob": 0.299
+    },
+    {
+     "start": 15.64,
      "end": 16.2,
      "word": " polarizing",
-     "prob": 0.858
+     "prob": 0.887
     },
     {
      "start": 16.2,
      "end": 16.56,
      "word": " opinion",
-     "prob": 0.995
+     "prob": 0.994
     },
     {
      "start": 16.56,
      "end": 16.78,
      "word": " on",
-     "prob": 0.968
+     "prob": 0.983
     },
     {
      "start": 16.78,
      "end": 16.96,
      "word": " this",
-     "prob": 0.994
+     "prob": 0.996
+    },
+    {
+     "start": 16.96,
+     "end": 17.3,
+     "word": " because",
+     "prob": 0.942
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 17.3,
+   "end": 23.42,
+   "text": "like I do like some dogs here but then I did like the dog is like the dogs",
+   "avg_logprob": -0.403,
+   "no_speech_prob": 0.566,
+   "words": [
+    {
+     "start": 17.3,
+     "end": 17.58,
+     "word": " like",
+     "prob": 0.118
+    },
+    {
+     "start": 17.58,
+     "end": 17.62,
+     "word": " I",
+     "prob": 0.577
+    },
+    {
+     "start": 17.62,
+     "end": 17.86,
+     "word": " do",
+     "prob": 0.972
+    },
+    {
+     "start": 17.86,
+     "end": 18.04,
+     "word": " like",
+     "prob": 0.984
+    },
+    {
+     "start": 18.04,
+     "end": 18.34,
+     "word": " some",
+     "prob": 0.98
+    },
+    {
+     "start": 18.34,
+     "end": 18.56,
+     "word": " dogs",
+     "prob": 0.954
+    },
+    {
+     "start": 18.56,
+     "end": 18.98,
+     "word": " here",
+     "prob": 0.939
+    },
+    {
+     "start": 18.98,
+     "end": 19.4,
+     "word": " but",
+     "prob": 0.841
+    },
+    {
+     "start": 19.4,
+     "end": 19.62,
+     "word": " then",
+     "prob": 0.97
+    },
+    {
+     "start": 19.62,
+     "end": 19.98,
+     "word": " I",
+     "prob": 0.963
+    },
+    {
+     "start": 19.98,
+     "end": 20.18,
+     "word": " did",
+     "prob": 0.922
+    },
+    {
+     "start": 20.18,
+     "end": 20.58,
+     "word": " like",
+     "prob": 0.947
+    },
+    {
+     "start": 20.58,
+     "end": 20.8,
+     "word": " the",
+     "prob": 0.949
+    },
+    {
+     "start": 20.8,
+     "end": 20.94,
+     "word": " dog",
+     "prob": 0.857
+    },
+    {
+     "start": 20.94,
+     "end": 21.1,
+     "word": " is",
+     "prob": 0.756
+    },
+    {
+     "start": 21.1,
+     "end": 21.7,
+     "word": " like",
+     "prob": 0.985
+    },
+    {
+     "start": 21.7,
+     "end": 23.04,
+     "word": " the",
+     "prob": 0.827
+    },
+    {
+     "start": 23.04,
+     "end": 23.42,
+     "word": " dogs",
+     "prob": 0.338
     }
    ]
   },
   {
    "id": 6,
-   "start": 16.96,
-   "end": 20.44,
-   "text": "because like some dogs here but then I did...",
-   "avg_logprob": -0.381,
-   "no_speech_prob": 0.151,
+   "start": 23.42,
+   "end": 26.14,
+   "text": "surrounding Mac in my opinion are more like",
+   "avg_logprob": -0.403,
+   "no_speech_prob": 0.566,
    "words": [
     {
-     "start": 16.96,
-     "end": 17.34,
-     "word": " because",
-     "prob": 0.682
-    },
-    {
-     "start": 17.34,
-     "end": 17.56,
-     "word": " like",
-     "prob": 0.11
-    },
-    {
-     "start": 17.56,
-     "end": 18.24,
-     "word": " some",
-     "prob": 0.004
-    },
-    {
-     "start": 18.24,
-     "end": 18.52,
-     "word": " dogs",
-     "prob": 0.917
-    },
-    {
-     "start": 18.52,
-     "end": 19.06,
-     "word": " here",
-     "prob": 0.744
-    },
-    {
-     "start": 19.06,
-     "end": 19.44,
-     "word": " but",
-     "prob": 0.515
-    },
-    {
-     "start": 19.44,
-     "end": 19.68,
-     "word": " then",
-     "prob": 0.82
-    },
-    {
-     "start": 19.68,
-     "end": 19.84,
-     "word": " I",
-     "prob": 0.809
-    },
-    {
-     "start": 19.84,
-     "end": 20.44,
-     "word": " did...",
-     "prob": 0.526
-    }
-   ]
-  },
-  {
-   "id": 7,
-   "start": 22.56,
-   "end": 26.34,
-   "text": "The dog surrounding Mac in my opinion are more like...",
-   "avg_logprob": -0.381,
-   "no_speech_prob": 0.151,
-   "words": [
-    {
-     "start": 22.56,
-     "end": 23.1,
-     "word": " The",
-     "prob": 0.256
-    },
-    {
-     "start": 23.1,
-     "end": 23.38,
-     "word": " dog",
-     "prob": 0.159
-    },
-    {
-     "start": 23.38,
-     "end": 23.98,
+     "start": 23.42,
+     "end": 24.0,
      "word": " surrounding",
-     "prob": 0.744
+     "prob": 0.926
     },
     {
-     "start": 23.98,
-     "end": 24.5,
+     "start": 24.0,
+     "end": 24.52,
      "word": " Mac",
-     "prob": 0.612
+     "prob": 0.707
     },
     {
-     "start": 24.5,
+     "start": 24.52,
      "end": 24.68,
      "word": " in",
-     "prob": 0.679
+     "prob": 0.767
     },
     {
      "start": 24.68,
-     "end": 24.94,
+     "end": 24.96,
      "word": " my",
-     "prob": 0.998
-    },
-    {
-     "start": 24.94,
-     "end": 25.34,
-     "word": " opinion",
      "prob": 0.997
     },
     {
-     "start": 25.34,
+     "start": 24.96,
+     "end": 25.28,
+     "word": " opinion",
+     "prob": 0.986
+    },
+    {
+     "start": 25.28,
      "end": 25.5,
      "word": " are",
-     "prob": 0.87
+     "prob": 0.9
     },
     {
      "start": 25.5,
-     "end": 25.8,
+     "end": 25.82,
      "word": " more",
-     "prob": 0.299
+     "prob": 0.238
     },
     {
-     "start": 25.8,
-     "end": 26.34,
-     "word": " like...",
-     "prob": 0.863
+     "start": 25.82,
+     "end": 26.14,
+     "word": " like",
+     "prob": 0.949
     }
    ]
   }
