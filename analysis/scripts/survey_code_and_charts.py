@@ -30,10 +30,11 @@ deid.to_csv(W+'/analysis-work/repo-survey/survey-responses.csv',index=False)
 deid.to_excel(W+'/analysis-work/repo-survey/survey-responses.xlsx',index=False)
 df.to_pickle(O+'/df2.pkl'); json.dump(S,open(O+'/stats2.json','w'),indent=1)
 # ---------- figures ----------
-F=W+'/analysis-work/figures'; os.makedirs(F,exist_ok=True)
-plt.rcParams.update({'font.size':20,'font.family':'DejaVu Sans','axes.spines.top':False,'axes.spines.right':False,'axes.titlesize':26,'axes.titleweight':'bold'})
+F=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','figures')  # poster style: ink + one accent + greys; os.makedirs(F,exist_ok=True)
+plt.rcParams.update({'font.size':20,'font.family':'DejaVu Sans','axes.spines.top':False,'axes.spines.right':False,'axes.titlesize':26,'axes.titleweight':'normal','text.color':'#1A1A1A','axes.edgecolor':'#9A9A9A','ytick.color':'#1A1A1A'})
 SRC=f'Source: group 23 campus-dogs survey, IIT Roorkee, 13–17 Oct 2026 (n = {n})'
-RED,GREY,GREEN,AMBER,BLUE='#c0392b','#95a5a6','#27ae60','#e67e22','#2c6fbb'
+INK,ACC,G1,G2,G3='#1A1A1A','#3D7A8C','#4D4D4D','#9A9A9A','#D9D9D9'
+RED,GREY,GREEN,AMBER,BLUE=ACC,G3,G2,G2,ACC
 def hbar(labels,counts,colors,title,fname,denom=n,sub=None):
     fig,ax=plt.subplots(figsize=(14,1.25*len(labels)+2.4))
     y=range(len(labels))[::-1]
@@ -42,9 +43,9 @@ def hbar(labels,counts,colors,title,fname,denom=n,sub=None):
     m=max(counts)
     for yi,c in zip(y,counts): ax.text(c+m*0.01,yi,f'{c}  ({100*c/denom:.0f}%)',va='center',fontsize=20)
     ax.set_xlim(0,m*1.28); ax.set_xticks([]); ax.spines['bottom'].set_visible(False)
-    fig.suptitle(title,x=0.01,ha='left',fontsize=26,fontweight='bold')
-    fig.text(0.01,0.01,(sub+'\n' if sub else '')+SRC,fontsize=13,color='#555')
-    fig.tight_layout(rect=(0,0.06 if sub else 0.04,1,0.95)); fig.savefig(F+'/'+fname,dpi=200); plt.close(fig)
+    fig.suptitle(title,x=0.01,ha='left',fontsize=26,fontweight='normal')
+    fig.text(0.01,0.01,(sub+'\n' if sub else '')+SRC,fontsize=13,color='#8A8A8A')
+    fig.tight_layout(rect=(0,0.06 if sub else 0.04,1,0.95)); fig.savefig(F+'/'+fname,dpi=300); plt.close(fig)
 ex=['Mostly negative','Both positive and negative','Neutral / Rarely interact','Mostly positive']
 hbar(ex,[int((df.experience==e).sum()) for e in ex],[RED,AMBER,GREY,GREEN],'How would you describe your experience with campus dogs?','fig1_experience.png')
 P=['Dogs entering hostels/buildings','Feeling unsafe or being chased','Noise or dog fights','Hygiene/waste','No significant problems']
@@ -53,35 +54,35 @@ B=['Restricted from hostels/buildings','Restricted to designated areas','Allowed
 bc=[int((df.boundary_recoded==b).sum()) for b in B]
 bc[-1]+=int((df.boundary_recoded=='Remove from campus (free text)').sum())
 oth=int(df.boundary_recoded.isin(['Restriction (free text)','Unclear']).sum())
-hbar(B[:-1]+['Remove from campus (typed)','Other (free text)'],bc+[oth],[BLUE,BLUE,BLUE,GREEN,RED,GREY],'Where should the boundary between dogs and students lie?','fig3_boundary.png',sub='"Remove from campus" was NOT a listed option: all 7 were typed into "Other". Remaining "Other" = 3 restriction + 3 unclear')
+hbar(B[:-1]+['Remove from campus (typed)','Other (free text)'],bc+[oth],[BLUE,BLUE,BLUE,G2,G1,GREY],'Where should the boundary between dogs and students lie?','fig3_boundary.png',sub='"Remove from campus" was NOT a listed option: all 7 were typed into "Other". Remaining "Other" = 3 restriction + 3 unclear')
 # fig4 rating by chased (100% stacked)
 fig,ax=plt.subplots(figsize=(14,5.8))
-cols=['#27ae60','#a3d977','#f1c40f','#e67e22','#c0392b']
+cols=['#E6E6E6','#CCCCCC','#9A9A9A','#6FA3B2','#3D7A8C']
 groups=[('Felt unsafe / chased',True),('Did not report it',False)]
 for i,(lab,v) in enumerate(groups):
     sub=df[df['prob: Feeling unsafe or being chased']==v]; left=0
     for k in range(1,6):
         c=int((sub.problem_rating==k).sum()); w=100*c/len(sub)
         ax.barh(i,w,left=left,color=cols[k-1],height=0.6,label=str(k) if i==0 else None)
-        if w>=6: ax.text(left+w/2,i,f'{w:.0f}%',ha='center',va='center',fontsize=18,color='white' if k in(1,5) else 'black')
+        if w>=6: ax.text(left+w/2,i,f'{w:.0f}%',ha='center',va='center',fontsize=18,color='white' if k==5 else '#1A1A1A')
         left+=w
     ax.text(101,i,f'n={len(sub)}',va='center',fontsize=18)
 ax.set_yticks([0,1]); ax.set_yticklabels([g[0] for g in groups]); ax.invert_yaxis()
 ax.set_xlim(0,112); ax.set_xticks([]); ax.spines['bottom'].set_visible(False)
-fig.suptitle('"How much of a problem are campus dogs?" (rated 1–5)',x=0.01,ha='left',fontsize=26,fontweight='bold')
+fig.suptitle('"How much of a problem are campus dogs?" (rated 1–5)',x=0.01,ha='left',fontsize=26,fontweight='normal')
 ax.legend(title='Rating',ncol=5,loc='upper center',bbox_to_anchor=(0.45,-0.02),frameon=False,fontsize=17,title_fontsize=17)
-fig.text(0.01,0.01,'Split by whether the respondent ticked "Feeling unsafe or being chased"; 1 = No problem, 5 = Serious problem (form labels)\n'+SRC,fontsize=13,color='#555'); fig.tight_layout(rect=(0,0.07,1,0.95)); fig.savefig(F+'/fig4_rating_by_chased.png',dpi=200); plt.close(fig)
+fig.text(0.01,0.01,'Split by whether the respondent ticked "Feeling unsafe or being chased"; 1 = No problem, 5 = Serious problem (form labels)\n'+SRC,fontsize=13,color='#8A8A8A'); fig.tight_layout(rect=(0,0.07,1,0.95)); fig.savefig(F+'/fig4_rating_by_chased.png',dpi=300); plt.close(fig)
 # fig5 awareness by experience
 fig,ax=plt.subplots(figsize=(14,6.5))
 labs=ex+['All respondents']
 for i,e in enumerate(labs):
     sub=df if e=='All respondents' else df[df.experience==e]
     y=int((sub.aware_ccf_sterilisation=='Yes').sum()); w=100*y/len(sub)
-    ax.barh(i,w,color=BLUE,height=0.6); ax.barh(i,100-w,left=w,color='#dfe6ee',height=0.6)
+    ax.barh(i,w,color=BLUE,height=0.6); ax.barh(i,100-w,left=w,color='#E6E6E6',height=0.6)
     ax.text(w+1,i,f'{w:.0f}% aware  ({y}/{len(sub)})',va='center',fontsize=18)
 ax.set_yticks(range(len(labs))); ax.set_yticklabels(labs); ax.invert_yaxis(); ax.set_xlim(0,100); ax.set_xticks([]); ax.spines['bottom'].set_visible(False)
-fig.suptitle('Aware of organised sterilisation or the CCF committee?',x=0.01,ha='left',fontsize=26,fontweight='bold')
-fig.text(0.01,0.01,'Grouped by self-described experience with campus dogs\n'+SRC,fontsize=13,color='#555'); fig.tight_layout(rect=(0,0.07,1,0.94)); fig.savefig(F+'/fig5_awareness_by_experience.png',dpi=200); plt.close(fig)
+fig.suptitle('Aware of organised sterilisation or the CCF committee?',x=0.01,ha='left',fontsize=26,fontweight='normal')
+fig.text(0.01,0.01,'Grouped by self-described experience with campus dogs\n'+SRC,fontsize=13,color='#8A8A8A'); fig.tight_layout(rect=(0,0.07,1,0.94)); fig.savefig(F+'/fig5_awareness_by_experience.png',dpi=300); plt.close(fig)
 R=['They deserve humane treatment','They can coexist with humans','Caring for animals is our responsibility','They are part of campus life','They provide companionship']
 hbar(R,[int((df.reason_place==r).sum()) for r in R],[GREEN]*5,'Strongest reason dogs have a place on campus','fig6_reason_place.png',sub='Single choice; 1 blank answer')
 print(os.listdir(F))
