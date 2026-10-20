@@ -10,6 +10,7 @@ Sub-line: *211 survey respondents, 36 recorded interviews with students, guards,
 | Zone | Holds | Figures / data |
 |---|---|---|
 | **Header** (full width, ~45 mm) | Title, headline, course, group, Topic 3. Small "how we know": 211 survey · 36 interviews · 3.45 h recorded · CMO · CCF | — |
+| **"Our fieldwork" band** (full width under the header, ~70 mm) | Makes the effort visible at a glance: the by-the-numbers row (211 · 36 · 6 groups · 3.95 h · 80 transcripts · 6 field days), the timeline, and a small sources→findings diagram on the right | `fig10_by_the_numbers.png` (as one row of numbers), `fig9_project_timeline.png`, `fig11_sources_to_findings.png` |
 | **Col 1: The question and who we heard** | The course question "What happens when it's not safe to walk in a campus?", our two-sides framing, and the method in 4 lines | `fig8_stakeholder_reach.png` (new) |
 | **Col 1: The afraid side** | Dogs in hostels at 68%, chased or unsafe at 61%. Chased → 87% call it a serious problem. Night routes | `fig2_problems.png`, `fig4_rating_by_chased.png` |
 | **Col 2: Two sides, one street** (centre, biggest) | What each group raises: students (rooms, fear), guards (bites, chasing, outside dogs), staff (hygiene), CCF (feeding and the boundary) | `fig7_theme_by_stakeholder.png` (new), `fig1_experience.png` |
@@ -20,7 +21,17 @@ Sub-line: *211 survey respondents, 36 recorded interviews with students, guards,
 | **Col 3: KPI strip** | The 5-row KPI table, with achieved figures against targets | From `deliverables/kpi-table.md` |
 | **Footer** | Survey caveats (leading items; 94% on 13/10; students only), data and ethics note, QR code to the evidence folder (private link shown only to evaluators) | — |
 
-Charts already in `analysis/figures`: fig1–fig6 (survey), plus **fig7_theme_by_stakeholder** and **fig8_stakeholder_reach**, which are new and made by `analysis/scripts/interview_coding.py`. For print, re-export the charts at 300 dpi or as SVG with the same colours (set `dpi=300` in the scripts).
+Charts in `analysis/figures`: fig1–fig6 (survey, 200 dpi, old palette); fig7–fig8 (`analysis/scripts/interview_coding.py`) and fig9–fig11 (`analysis/scripts/effort_figures.py`), all 300 dpi in the poster style.
+
+## Style spec (Vinayak, 20/10): minimal, designed by a person
+- **White space first.** 15 mm outer margins, 8 mm gutters, one 12-column grid; everything aligns to it. Leave about 30% of the sheet empty.
+- **Colour.** Near-black text `#1A1A1A`, **one** muted accent `#3D7A8C` (only for the key number or bar in each figure), and greys `#4D4D4D`, `#8A8A8A`, `#D9D9D9`. No other colours.
+- **Type.** One clean sans (Inter in Figma; the charts use DejaVu Sans, so re-export them in Inter if you want an exact match). Three sizes only: title 72 pt, section heads 28 pt, body 14–16 pt.
+- **Charts.** Flat. No gradients, shadows, 3D, emoji, clip-art icons or AI imagery. Minimal gridlines, values labelled directly, no legends where a direct label works. Left-aligned titles.
+- **Photos.** At most 2–3 real, geotagged field photos, faces blurred, no team selfies.
+- **Consistency.** The same accent means the same thing everywhere ("our data / the key figure"). Same rounding (1 dp for percentages, with denominators).
+
+The figures fig7–fig11 already follow this; fig1–fig6 (survey) use the older palette and should be re-rendered in the accent and greys before printing.
 
 ## Software
 | Tool | A3 print + PDF | Pros | Cons |
