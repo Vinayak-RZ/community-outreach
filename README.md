@@ -10,7 +10,7 @@ Vansh Gautam (team lead, group admin), Vinayak Raizada, Jay D, Vrinda Gupta, Jiy
 
 <!-- status:start -->
 ## Status
-_Last updated: 20 Oct 2026, 19:41 IST._
+_Last updated: 20 Oct 2026, 19:55 IST._
 
 **Collected**
 - Survey: 211 responses (13–17/10), de-identified copy in `source/survey/`.
@@ -21,7 +21,7 @@ _Last updated: 20 Oct 2026, 19:41 IST._
 
 **Transcribed**: 80 of 80 recordings (3.95 of 3.95 h); interview audio 29 of 29. English translations: 80. See [`transcripts/INDEX.md`](transcripts/INDEX.md). Machine transcripts: check against the audio before quoting.
 
-**Poster**: Figma draft with the campus map in the centre [EEC 399 Group 23 – Campus Dogs Poster](https://www.figma.com/design/17JnrRFCdZtaPkjD30PSb5), preview [`deliverables/poster-preview.png`](deliverables/poster-preview.png).
+**Poster**: Figma draft, visual-first, with the campus map in the centre [EEC 399 Group 23 – Campus Dogs Poster](https://www.figma.com/design/17JnrRFCdZtaPkjD30PSb5), preview [`deliverables/poster-preview.png`](deliverables/poster-preview.png).
 
 **Analysis**: survey in [`analysis/survey-analysis.md`](analysis/survey-analysis.md). Interviews coded by theme in [`analysis/interview-coding.md`](analysis/interview-coding.md): 36 distinct interviews (18 students, 5 guards, 4 mess/shop/cleaning staff, 3 CCF, 2 feeders, 1 faculty, 3 unclear). Findings, conflicts and recommendations in [`analysis/synthesis.md`](analysis/synthesis.md). Deliverables: [`deliverables/kpi-table.md`](deliverables/kpi-table.md), [`deliverables/poster-plan.md`](deliverables/poster-plan.md). Next steps in [`deliverables/next-steps.md`](deliverables/next-steps.md). Campus map: place data in [`analysis/data/places.csv`](analysis/data/places.csv), OSM base and hotspot draft (fig12, fig13), plan in [`deliverables/map-plan.md`](deliverables/map-plan.md). No quotes until checked by ear.
 

@@ -9,6 +9,8 @@ plt.rcParams["font.family"] = ["Inter", "DejaVu Sans"]
 INK, ACC, G1, G2, G3 = "#1A1A1A", "#3D7A8C", "#6B6B6B", "#BDBDBD", "#EDEDED"
 L = json.load(open(R/"analysis/data/osm/layers.json"))
 X0, X1, Y0, Y1 = 77.8875, 77.9035, 29.8595, 29.8735
+# Feeding spots named by Vinayak (20 Oct); exact positions unknown
+FEED = [("Feeding spot near Mechanical (approx.)", 29.86262, 77.89726), ("Feeding spot near Kasturba (approx.)", 29.86695, 77.90035)]
 # Place positions: OSM feature centroid, Nominatim (OSM) lookup, or midpoint of two OSM features. None = not in OSM.
 POS = {
  "Himalaya Bhawan": (29.86113, 77.89610, "OSM (Nominatim)"), "Architecture dept": (29.86354, 77.89922, "OSM"),
@@ -21,7 +23,7 @@ POS = {
  "Ravindra Bhawan": (29.86538, 77.89247, "OSM (canteen node)"), "Cautley Bhawan": (29.87057, 77.89681, "OSM"),
  "Rajendra Bhawan": (29.87101, 77.89411, "OSM"), "Ganga Bhawan": (29.87169, 77.89437, "OSM"),
  "Mandir": (29.86835, 77.89780, "OSM (Saraswati Mandir, uncertain which mandir)"), "LBS ground": (29.86714, 77.89552, "OSM"),
- "ICC": None, "MAC": None, "MNC": None, "Vivekananda Bhawan": None, "Badminton hall": None, "Robocon lab": None,
+ "ICC": None, "MAC": (29.87053, 77.89549, "approx.: between Radhakrishnan and Rajiv (team, 20 Oct)"), "MNC": (29.86158, 77.89528, "approx.: in front of Himalaya, towards Govind (team, 20 Oct)"), "Vivekananda Bhawan": None, "Badminton hall": None, "Robocon lab": None,
  "Gate 7": None, "Gate 5": None, "Boundary wall/railing": None, "Mess / canteen": None, "Feeding zone (unnamed)": None,
  "Thomson": None, "Aravali": None,
 }
@@ -36,7 +38,7 @@ def base(ax):
 LABELS = ["Himalaya Bhawan", "Architecture dept", "Govind Bhawan", "Jawahar Bhawan", "Kasturba Bhawan", "Sarojini Bhawan", "Hospital", "SAC",
           "Library", "Main gate", "Rajiv Bhawan", "Radhakrishnan Bhawan", "Ravindra Bhawan", "Cautley Bhawan", "Rajendra Bhawan", "LBS ground"]
 fig, ax = plt.subplots(figsize=(8, 7.5)); base(ax)
-for k in LABELS:
+for k in LABELS + ["MAC", "MNC"]:
     la, lo, _ = POS[k]; ax.plot(lo, la, "o", ms=2.5, color=INK, zorder=3)
     ax.text(lo + 0.00015, la + 0.00012, k.replace(" Bhawan", ""), fontsize=7, color=INK, zorder=4)
 ax.set_title("IIT Roorkee campus (base)", loc="left", fontsize=11, color=INK, fontweight="bold")
@@ -70,13 +72,18 @@ for p, v in POS.items():
     if n or p in team:
         lab = p.replace(" Bhawan", "").replace(" (towards Chemistry)", "–Chemistry") + (f" {n}" if n else "")
         if night[p]: lab += f"\nnight: {night[p]}"
-        ax.text(lo + 0.0004, la - 0.0001, lab, fontsize=7, color=INK, zorder=8, va="center")
+        left = p in ("MAC", "MNC", "Rajendra Bhawan")
+        ax.text(lo - 0.0006 if left else lo + 0.0004, la - 0.0001, lab, fontsize=7, color=INK, zorder=8, va="center", ha="right" if left else "left")
     out.append([p, la, lo, how, n, dom, night[p], "yes" if p in team else "", "yes" if p in inter else ""])
+for lab, la, lo in FEED:
+    ax.scatter(lo, la, s=70, marker="s", facecolor="white", edgecolor="#5E9AAB", lw=1.4, zorder=6)
+    ax.text(lo + 0.0003, la - 0.0004, "feeding (approx.)", fontsize=6.5, color="#3D7A8C", zorder=8)
+    out.append([lab, la, lo, "approx. (team, 20 Oct)", 0, "feeding zone", 0, "", ""])
 y = Y1 - 0.0004
 for txt, c in [("chasing / bite", ACC), ("dogs in hostel", INK), ("feeding", "#8FB8C4"), ("other", G1)]:
     ax.scatter(X0 + 0.0004, y, s=40, color=c, alpha=0.75, lw=0); ax.text(X0 + 0.0009, y, txt, fontsize=7, va="center", color=INK); y -= 0.0005
 ax.scatter(X0 + 0.0004, y, s=60, facecolor="none", edgecolor=ACC, lw=1.4); ax.text(X0 + 0.0009, y, "team-confirmed hotspot (20 Oct)", fontsize=7, va="center"); y -= 0.0005
-ax.text(X0 + 0.0002, y, "Not placed (no OSM match): MAC, MNC, gate 7, gate 5, wall gaps,\nbadminton hall, Robocon lab, Vivekananda", fontsize=6.5, color=G1, va="top")
+ax.text(X0 + 0.0002, y, "Not placed: gate 7, gate 5, wall gaps, badminton hall,\nRobocon lab, Vivekananda. MAC and MNC are approx.", fontsize=6.5, color=G1, va="top")
 ax.set_title("Where people mentioned dog problems (DRAFT, circle size = mentions)", loc="left", fontsize=10, color=INK, fontweight="bold")
 fig.savefig(R/"analysis/figures/fig13_hotspot_map_draft.png", dpi=300, bbox_inches="tight", facecolor="white")
 fig.savefig(R/"analysis/figures/fig13_hotspot_map_draft.svg", bbox_inches="tight", facecolor="white")

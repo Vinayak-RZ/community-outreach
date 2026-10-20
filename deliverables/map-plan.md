@@ -27,6 +27,13 @@ We looked for an official IIT Roorkee campus map first. iitr.ac.in has campus pa
 | Feeding zones vs where dogs gather | Not possible yet | The chats and CCF talk about "feeding spots", a feeder going once or twice a day, and a feeding team, but never name a spot |
 | Boundary gaps | Not placed | 11 boundary mentions plus gate 7 and gate 5, with no position |
 
+## Positions added from Vinayak (20 Oct)
+- MAC: between Radhakrishnan and Rajiv (approx.).
+- MNC: in front of Himalaya, towards Govind and ICC (approx.).
+- Feeding spots: one near Mechanical, one near Kasturba. Positions are approx. and labelled that way.
+- Mandir is Saraswati Mandir. The Govind–Chemistry spot is right.
+- Gate 7 and the wall gaps are still not placed.
+
 ## Places missing from OSM
 MAC, MNC, gate 7, gate 5, the boundary gaps, the badminton hall, the Robocon lab, Vivekananda Bhawan, plus which mess or canteen people mean. Rajiv, Radhakrishnan and Himalaya are there as OSM entries but not as building outlines we parsed, so they use the Nominatim position.
 
@@ -35,4 +42,4 @@ MAC, MNC, gate 7, gate 5, the boundary gaps, the badminton hall, the Robocon lab
 2. **Map plus side list.** Map on the left two thirds, and on the right a short ranked list (place, mentions, main issue) that also covers MAC and MNC, which can't be placed.
 3. **Map with callouts.** Five team hotspots numbered on the map, each with a one-line callout (what happens there, day or night).
 
-We went with option 1 on the poster for now, with MAC and MNC listed as not placed.
+The poster uses option 2: the map on the left, the key and "Who brought up what" bars on the right.
