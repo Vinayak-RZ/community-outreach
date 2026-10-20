@@ -1,0 +1,57 @@
+{
+ "source_file": "IMG_5264.MOV",
+ "created": "2026-10-20T04:21:39.894453+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.3,
+  "top": [
+   [
+    "hi",
+    0.3
+   ],
+   [
+    "en",
+    0.229
+   ],
+   [
+    "ur",
+    0.151
+   ]
+  ]
+ },
+ "duration_s": 10.15,
+ "processing_s": 4.8,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.13,
+   "end": 4.13,
+   "text": "अभी आज।",
+   "avg_logprob": -0.595,
+   "no_speech_prob": 0.439,
+   "words": [
+    {
+     "start": 2.13,
+     "end": 2.87,
+     "word": " अभी",
+     "prob": 0.605
+    },
+    {
+     "start": 2.87,
+     "end": 4.13,
+     "word": " आज।",
+     "prob": 0.676
+    }
+   ]
+  }
+ ]
+}

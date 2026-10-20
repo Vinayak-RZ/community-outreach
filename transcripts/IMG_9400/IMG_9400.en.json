@@ -1,0 +1,95 @@
+{
+ "source_file": "IMG_9400.MOV",
+ "created": "2026-10-20T04:26:47.595235+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.754,
+  "top": [
+   [
+    "hi",
+    0.754
+   ],
+   [
+    "ur",
+    0.1
+   ],
+   [
+    "en",
+    0.071
+   ]
+  ]
+ },
+ "duration_s": 12.24,
+ "processing_s": 5.7,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.02,
+   "end": 11.24,
+   "text": "Actually, we have to forcefully be on them.",
+   "avg_logprob": -1.274,
+   "no_speech_prob": 0.553,
+   "words": [
+    {
+     "start": 0.02,
+     "end": 2.5,
+     "word": " Actually,",
+     "prob": 0.161
+    },
+    {
+     "start": 4.88,
+     "end": 7.18,
+     "word": " we",
+     "prob": 0.153
+    },
+    {
+     "start": 7.18,
+     "end": 8.78,
+     "word": " have",
+     "prob": 0.163
+    },
+    {
+     "start": 8.78,
+     "end": 8.78,
+     "word": " to",
+     "prob": 0.313
+    },
+    {
+     "start": 8.78,
+     "end": 10.76,
+     "word": " forcefully",
+     "prob": 0.522
+    },
+    {
+     "start": 10.76,
+     "end": 10.88,
+     "word": " be",
+     "prob": 0.08
+    },
+    {
+     "start": 10.88,
+     "end": 11.12,
+     "word": " on",
+     "prob": 0.433
+    },
+    {
+     "start": 11.12,
+     "end": 11.24,
+     "word": " them.",
+     "prob": 0.171
+    }
+   ]
+  }
+ ]
+}

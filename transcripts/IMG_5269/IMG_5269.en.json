@@ -1,0 +1,1507 @@
+{
+ "source_file": "IMG_5269.MOV",
+ "created": "2026-10-20T04:25:36.411733+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.807,
+  "top": [
+   [
+    "hi",
+    0.807
+   ],
+   [
+    "en",
+    0.061
+   ],
+   [
+    "pa",
+    0.058
+   ]
+  ]
+ },
+ "duration_s": 78.31,
+ "processing_s": 27.8,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 3.68,
+   "text": "They are okay with animals but they are scared of them.",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.6,
+     "word": " They",
+     "prob": 0.177
+    },
+    {
+     "start": 0.6,
+     "end": 0.82,
+     "word": " are",
+     "prob": 0.655
+    },
+    {
+     "start": 0.82,
+     "end": 1.32,
+     "word": " okay",
+     "prob": 0.298
+    },
+    {
+     "start": 1.32,
+     "end": 1.62,
+     "word": " with",
+     "prob": 0.842
+    },
+    {
+     "start": 1.62,
+     "end": 2.06,
+     "word": " animals",
+     "prob": 0.906
+    },
+    {
+     "start": 2.06,
+     "end": 2.56,
+     "word": " but",
+     "prob": 0.395
+    },
+    {
+     "start": 2.56,
+     "end": 2.8,
+     "word": " they",
+     "prob": 0.416
+    },
+    {
+     "start": 2.8,
+     "end": 2.8,
+     "word": " are",
+     "prob": 0.484
+    },
+    {
+     "start": 2.8,
+     "end": 2.8,
+     "word": " scared",
+     "prob": 0.246
+    },
+    {
+     "start": 2.8,
+     "end": 2.8,
+     "word": " of",
+     "prob": 0.493
+    },
+    {
+     "start": 2.8,
+     "end": 3.68,
+     "word": " them.",
+     "prob": 0.072
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.12,
+   "end": 6.62,
+   "text": "But they don't run away from us.",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 4.12,
+     "end": 4.86,
+     "word": " But",
+     "prob": 0.377
+    },
+    {
+     "start": 4.86,
+     "end": 5.02,
+     "word": " they",
+     "prob": 0.883
+    },
+    {
+     "start": 5.02,
+     "end": 5.3,
+     "word": " don't",
+     "prob": 0.575
+    },
+    {
+     "start": 5.3,
+     "end": 5.94,
+     "word": " run",
+     "prob": 0.235
+    },
+    {
+     "start": 5.94,
+     "end": 6.62,
+     "word": " away",
+     "prob": 0.561
+    },
+    {
+     "start": 6.62,
+     "end": 6.62,
+     "word": " from",
+     "prob": 0.203
+    },
+    {
+     "start": 6.62,
+     "end": 6.62,
+     "word": " us.",
+     "prob": 0.124
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 6.84,
+   "end": 9.3,
+   "text": "They stay at a distance and we are okay.",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 6.84,
+     "end": 7.1,
+     "word": " They",
+     "prob": 0.749
+    },
+    {
+     "start": 7.1,
+     "end": 7.36,
+     "word": " stay",
+     "prob": 0.778
+    },
+    {
+     "start": 7.36,
+     "end": 8.0,
+     "word": " at",
+     "prob": 0.275
+    },
+    {
+     "start": 8.0,
+     "end": 8.04,
+     "word": " a",
+     "prob": 0.41
+    },
+    {
+     "start": 8.04,
+     "end": 8.62,
+     "word": " distance",
+     "prob": 0.94
+    },
+    {
+     "start": 8.62,
+     "end": 8.82,
+     "word": " and",
+     "prob": 0.274
+    },
+    {
+     "start": 8.82,
+     "end": 8.98,
+     "word": " we",
+     "prob": 0.158
+    },
+    {
+     "start": 8.98,
+     "end": 8.98,
+     "word": " are",
+     "prob": 0.519
+    },
+    {
+     "start": 8.98,
+     "end": 9.3,
+     "word": " okay.",
+     "prob": 0.756
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 10.12,
+   "end": 11.66,
+   "text": "They are scared more than us",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 10.12,
+     "end": 10.86,
+     "word": " They",
+     "prob": 0.605
+    },
+    {
+     "start": 10.86,
+     "end": 10.86,
+     "word": " are",
+     "prob": 0.807
+    },
+    {
+     "start": 10.86,
+     "end": 11.48,
+     "word": " scared",
+     "prob": 0.342
+    },
+    {
+     "start": 11.48,
+     "end": 11.48,
+     "word": " more",
+     "prob": 0.081
+    },
+    {
+     "start": 11.48,
+     "end": 11.66,
+     "word": " than",
+     "prob": 0.125
+    },
+    {
+     "start": 11.66,
+     "end": 11.66,
+     "word": " us",
+     "prob": 0.501
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 11.66,
+   "end": 14.66,
+   "text": "and in proportion to that, they are kind of one-to-person.",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 11.66,
+     "end": 11.92,
+     "word": " and",
+     "prob": 0.534
+    },
+    {
+     "start": 11.92,
+     "end": 11.92,
+     "word": " in",
+     "prob": 0.32
+    },
+    {
+     "start": 11.92,
+     "end": 12.72,
+     "word": " proportion",
+     "prob": 0.37
+    },
+    {
+     "start": 12.72,
+     "end": 13.06,
+     "word": " to",
+     "prob": 0.323
+    },
+    {
+     "start": 13.06,
+     "end": 13.06,
+     "word": " that,",
+     "prob": 0.575
+    },
+    {
+     "start": 13.06,
+     "end": 13.06,
+     "word": " they",
+     "prob": 0.903
+    },
+    {
+     "start": 13.06,
+     "end": 13.26,
+     "word": " are",
+     "prob": 0.89
+    },
+    {
+     "start": 13.26,
+     "end": 13.66,
+     "word": " kind",
+     "prob": 0.196
+    },
+    {
+     "start": 13.66,
+     "end": 13.66,
+     "word": " of",
+     "prob": 0.979
+    },
+    {
+     "start": 13.66,
+     "end": 13.78,
+     "word": " one",
+     "prob": 0.254
+    },
+    {
+     "start": 13.78,
+     "end": 13.94,
+     "word": "-to",
+     "prob": 0.422
+    },
+    {
+     "start": 13.94,
+     "end": 14.66,
+     "word": "-person.",
+     "prob": 0.699
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 14.78,
+   "end": 16.44,
+   "text": "They have an evil nature.",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 14.78,
+     "end": 15.24,
+     "word": " They",
+     "prob": 0.907
+    },
+    {
+     "start": 15.24,
+     "end": 15.24,
+     "word": " have",
+     "prob": 0.193
+    },
+    {
+     "start": 15.24,
+     "end": 15.52,
+     "word": " an",
+     "prob": 0.163
+    },
+    {
+     "start": 15.52,
+     "end": 16.02,
+     "word": " evil",
+     "prob": 0.972
+    },
+    {
+     "start": 16.02,
+     "end": 16.44,
+     "word": " nature.",
+     "prob": 0.128
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 17.74,
+   "end": 19.0,
+   "text": "They say, remove this thing.",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 17.74,
+     "end": 17.74,
+     "word": " They",
+     "prob": 0.335
+    },
+    {
+     "start": 17.74,
+     "end": 18.28,
+     "word": " say,",
+     "prob": 0.027
+    },
+    {
+     "start": 18.3,
+     "end": 18.3,
+     "word": " remove",
+     "prob": 0.057
+    },
+    {
+     "start": 18.3,
+     "end": 18.74,
+     "word": " this",
+     "prob": 0.153
+    },
+    {
+     "start": 18.74,
+     "end": 19.0,
+     "word": " thing.",
+     "prob": 0.145
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 19.9,
+   "end": 21.16,
+   "text": "We will live here.",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 19.9,
+     "end": 20.64,
+     "word": " We",
+     "prob": 0.591
+    },
+    {
+     "start": 20.64,
+     "end": 21.16,
+     "word": " will",
+     "prob": 0.126
+    },
+    {
+     "start": 21.16,
+     "end": 21.16,
+     "word": " live",
+     "prob": 0.2
+    },
+    {
+     "start": 21.16,
+     "end": 21.16,
+     "word": " here.",
+     "prob": 0.321
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 21.8,
+   "end": 23.02,
+   "text": "Which is not possible.",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 21.8,
+     "end": 22.08,
+     "word": " Which",
+     "prob": 0.772
+    },
+    {
+     "start": 22.08,
+     "end": 22.26,
+     "word": " is",
+     "prob": 0.986
+    },
+    {
+     "start": 22.26,
+     "end": 22.54,
+     "word": " not",
+     "prob": 0.992
+    },
+    {
+     "start": 22.54,
+     "end": 23.02,
+     "word": " possible.",
+     "prob": 0.992
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 23.32,
+   "end": 27.5,
+   "text": "At least from the IIT, we should know about sustainable religion",
+   "avg_logprob": -0.821,
+   "no_speech_prob": 0.262,
+   "words": [
+    {
+     "start": 23.32,
+     "end": 23.32,
+     "word": " At",
+     "prob": 0.418
+    },
+    {
+     "start": 23.32,
+     "end": 23.6,
+     "word": " least",
+     "prob": 0.823
+    },
+    {
+     "start": 23.6,
+     "end": 23.86,
+     "word": " from",
+     "prob": 0.68
+    },
+    {
+     "start": 23.86,
+     "end": 24.08,
+     "word": " the",
+     "prob": 0.166
+    },
+    {
+     "start": 24.08,
+     "end": 24.5,
+     "word": " IIT,",
+     "prob": 0.9
+    },
+    {
+     "start": 24.76,
+     "end": 24.76,
+     "word": " we",
+     "prob": 0.964
+    },
+    {
+     "start": 24.76,
+     "end": 25.18,
+     "word": " should",
+     "prob": 0.929
+    },
+    {
+     "start": 25.18,
+     "end": 25.56,
+     "word": " know",
+     "prob": 0.924
+    },
+    {
+     "start": 25.56,
+     "end": 26.68,
+     "word": " about",
+     "prob": 0.186
+    },
+    {
+     "start": 26.68,
+     "end": 27.14,
+     "word": " sustainable",
+     "prob": 0.3
+    },
+    {
+     "start": 27.14,
+     "end": 27.5,
+     "word": " religion",
+     "prob": 0.156
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 27.5,
+   "end": 29.76,
+   "text": "So we will need to be careful.",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 27.5,
+     "end": 28.34,
+     "word": " So",
+     "prob": 0.068
+    },
+    {
+     "start": 28.34,
+     "end": 28.52,
+     "word": " we",
+     "prob": 0.194
+    },
+    {
+     "start": 28.52,
+     "end": 28.62,
+     "word": " will",
+     "prob": 0.097
+    },
+    {
+     "start": 28.62,
+     "end": 29.26,
+     "word": " need",
+     "prob": 0.202
+    },
+    {
+     "start": 29.26,
+     "end": 29.36,
+     "word": " to",
+     "prob": 0.255
+    },
+    {
+     "start": 29.36,
+     "end": 29.36,
+     "word": " be",
+     "prob": 0.054
+    },
+    {
+     "start": 29.36,
+     "end": 29.76,
+     "word": " careful.",
+     "prob": 0.474
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 29.98,
+   "end": 32.84,
+   "text": "So this is where interaction comes in.",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 29.98,
+     "end": 30.1,
+     "word": " So",
+     "prob": 0.341
+    },
+    {
+     "start": 30.1,
+     "end": 30.28,
+     "word": " this",
+     "prob": 0.126
+    },
+    {
+     "start": 30.28,
+     "end": 30.78,
+     "word": " is",
+     "prob": 0.49
+    },
+    {
+     "start": 30.78,
+     "end": 31.48,
+     "word": " where",
+     "prob": 0.4
+    },
+    {
+     "start": 31.48,
+     "end": 32.1,
+     "word": " interaction",
+     "prob": 0.473
+    },
+    {
+     "start": 32.1,
+     "end": 32.46,
+     "word": " comes",
+     "prob": 0.43
+    },
+    {
+     "start": 32.46,
+     "end": 32.84,
+     "word": " in.",
+     "prob": 0.701
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 32.84,
+   "end": 34.7,
+   "text": "That's the only thing that we can tackle",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 32.84,
+     "end": 33.3,
+     "word": " That's",
+     "prob": 0.688
+    },
+    {
+     "start": 33.3,
+     "end": 33.34,
+     "word": " the",
+     "prob": 0.907
+    },
+    {
+     "start": 33.34,
+     "end": 33.66,
+     "word": " only",
+     "prob": 0.996
+    },
+    {
+     "start": 33.66,
+     "end": 33.88,
+     "word": " thing",
+     "prob": 0.965
+    },
+    {
+     "start": 33.88,
+     "end": 34.14,
+     "word": " that",
+     "prob": 0.052
+    },
+    {
+     "start": 34.14,
+     "end": 34.14,
+     "word": " we",
+     "prob": 0.829
+    },
+    {
+     "start": 34.14,
+     "end": 34.4,
+     "word": " can",
+     "prob": 0.945
+    },
+    {
+     "start": 34.4,
+     "end": 34.7,
+     "word": " tackle",
+     "prob": 0.945
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 34.7,
+   "end": 36.06,
+   "text": "so that our number density decreases.",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 34.7,
+     "end": 34.88,
+     "word": " so",
+     "prob": 0.055
+    },
+    {
+     "start": 34.88,
+     "end": 34.98,
+     "word": " that",
+     "prob": 0.813
+    },
+    {
+     "start": 34.98,
+     "end": 35.14,
+     "word": " our",
+     "prob": 0.134
+    },
+    {
+     "start": 35.14,
+     "end": 35.24,
+     "word": " number",
+     "prob": 0.607
+    },
+    {
+     "start": 35.24,
+     "end": 35.52,
+     "word": " density",
+     "prob": 0.992
+    },
+    {
+     "start": 35.52,
+     "end": 36.06,
+     "word": " decreases.",
+     "prob": 0.197
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 36.68,
+   "end": 38.14,
+   "text": "And for our number density to decrease,",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 36.68,
+     "end": 36.76,
+     "word": " And",
+     "prob": 0.58
+    },
+    {
+     "start": 36.76,
+     "end": 36.76,
+     "word": " for",
+     "prob": 0.077
+    },
+    {
+     "start": 36.76,
+     "end": 36.8,
+     "word": " our",
+     "prob": 0.33
+    },
+    {
+     "start": 36.8,
+     "end": 37.1,
+     "word": " number",
+     "prob": 0.899
+    },
+    {
+     "start": 37.1,
+     "end": 37.42,
+     "word": " density",
+     "prob": 0.988
+    },
+    {
+     "start": 37.42,
+     "end": 38.14,
+     "word": " to",
+     "prob": 0.95
+    },
+    {
+     "start": 38.14,
+     "end": 38.14,
+     "word": " decrease,",
+     "prob": 0.824
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 38.34,
+   "end": 41.0,
+   "text": "We have this boundary between us",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 38.34,
+     "end": 38.5,
+     "word": " We",
+     "prob": 0.016
+    },
+    {
+     "start": 38.5,
+     "end": 39.4,
+     "word": " have",
+     "prob": 0.044
+    },
+    {
+     "start": 39.4,
+     "end": 39.76,
+     "word": " this",
+     "prob": 0.381
+    },
+    {
+     "start": 39.76,
+     "end": 40.04,
+     "word": " boundary",
+     "prob": 0.673
+    },
+    {
+     "start": 40.04,
+     "end": 40.66,
+     "word": " between",
+     "prob": 0.092
+    },
+    {
+     "start": 40.66,
+     "end": 41.0,
+     "word": " us",
+     "prob": 0.213
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 41.0,
+   "end": 42.34,
+   "text": "and when they write it down",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 41.0,
+     "end": 41.44,
+     "word": " and",
+     "prob": 0.099
+    },
+    {
+     "start": 41.44,
+     "end": 41.44,
+     "word": " when",
+     "prob": 0.005
+    },
+    {
+     "start": 41.44,
+     "end": 41.8,
+     "word": " they",
+     "prob": 0.084
+    },
+    {
+     "start": 41.8,
+     "end": 42.08,
+     "word": " write",
+     "prob": 0.444
+    },
+    {
+     "start": 42.08,
+     "end": 42.34,
+     "word": " it",
+     "prob": 0.2
+    },
+    {
+     "start": 42.34,
+     "end": 42.34,
+     "word": " down",
+     "prob": 0.223
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 42.34,
+   "end": 43.72,
+   "text": "then they will see more clearly",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 42.34,
+     "end": 42.52,
+     "word": " then",
+     "prob": 0.033
+    },
+    {
+     "start": 42.52,
+     "end": 42.84,
+     "word": " they",
+     "prob": 0.417
+    },
+    {
+     "start": 42.84,
+     "end": 42.96,
+     "word": " will",
+     "prob": 0.55
+    },
+    {
+     "start": 42.96,
+     "end": 43.66,
+     "word": " see",
+     "prob": 0.173
+    },
+    {
+     "start": 43.66,
+     "end": 43.66,
+     "word": " more",
+     "prob": 0.102
+    },
+    {
+     "start": 43.66,
+     "end": 43.72,
+     "word": " clearly",
+     "prob": 0.241
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 43.72,
+   "end": 44.56,
+   "text": "what is inside them",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 43.72,
+     "end": 43.98,
+     "word": " what",
+     "prob": 0.23
+    },
+    {
+     "start": 43.98,
+     "end": 44.56,
+     "word": " is",
+     "prob": 0.502
+    },
+    {
+     "start": 44.56,
+     "end": 44.56,
+     "word": " inside",
+     "prob": 0.696
+    },
+    {
+     "start": 44.56,
+     "end": 44.56,
+     "word": " them",
+     "prob": 0.126
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 44.56,
+   "end": 47.56,
+   "text": "and we can point out them also",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 44.56,
+     "end": 45.04,
+     "word": " and",
+     "prob": 0.156
+    },
+    {
+     "start": 45.04,
+     "end": 45.16,
+     "word": " we",
+     "prob": 0.91
+    },
+    {
+     "start": 45.16,
+     "end": 45.68,
+     "word": " can",
+     "prob": 0.979
+    },
+    {
+     "start": 45.68,
+     "end": 46.8,
+     "word": " point",
+     "prob": 0.499
+    },
+    {
+     "start": 46.8,
+     "end": 47.06,
+     "word": " out",
+     "prob": 0.775
+    },
+    {
+     "start": 47.06,
+     "end": 47.32,
+     "word": " them",
+     "prob": 0.408
+    },
+    {
+     "start": 47.32,
+     "end": 47.56,
+     "word": " also",
+     "prob": 0.21
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 47.56,
+   "end": 50.96,
+   "text": "which are actually a little problematic",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 47.56,
+     "end": 48.24,
+     "word": " which",
+     "prob": 0.022
+    },
+    {
+     "start": 48.24,
+     "end": 48.66,
+     "word": " are",
+     "prob": 0.266
+    },
+    {
+     "start": 48.66,
+     "end": 49.32,
+     "word": " actually",
+     "prob": 0.579
+    },
+    {
+     "start": 49.32,
+     "end": 50.04,
+     "word": " a",
+     "prob": 0.218
+    },
+    {
+     "start": 50.04,
+     "end": 50.34,
+     "word": " little",
+     "prob": 0.553
+    },
+    {
+     "start": 50.34,
+     "end": 50.96,
+     "word": " problematic",
+     "prob": 0.61
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 51.4,
+   "end": 52.82,
+   "text": "We can show them",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 51.4,
+     "end": 51.72,
+     "word": " We",
+     "prob": 0.06
+    },
+    {
+     "start": 51.72,
+     "end": 52.14,
+     "word": " can",
+     "prob": 0.985
+    },
+    {
+     "start": 52.14,
+     "end": 52.44,
+     "word": " show",
+     "prob": 0.597
+    },
+    {
+     "start": 52.44,
+     "end": 52.82,
+     "word": " them",
+     "prob": 0.951
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 52.82,
+   "end": 53.72,
+   "text": "and run away from the gate",
+   "avg_logprob": -0.775,
+   "no_speech_prob": 0.577,
+   "words": [
+    {
+     "start": 52.82,
+     "end": 53.26,
+     "word": " and",
+     "prob": 0.153
+    },
+    {
+     "start": 53.26,
+     "end": 53.72,
+     "word": " run",
+     "prob": 0.107
+    },
+    {
+     "start": 53.72,
+     "end": 53.72,
+     "word": " away",
+     "prob": 0.418
+    },
+    {
+     "start": 53.72,
+     "end": 53.72,
+     "word": " from",
+     "prob": 0.575
+    },
+    {
+     "start": 53.72,
+     "end": 53.72,
+     "word": " the",
+     "prob": 0.581
+    },
+    {
+     "start": 53.72,
+     "end": 53.72,
+     "word": " gate",
+     "prob": 0.945
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 55.2,
+   "end": 57.5,
+   "text": "But that is also like okay possible.",
+   "avg_logprob": -0.733,
+   "no_speech_prob": 0.512,
+   "words": [
+    {
+     "start": 55.2,
+     "end": 55.84,
+     "word": " But",
+     "prob": 0.229
+    },
+    {
+     "start": 55.84,
+     "end": 56.02,
+     "word": " that",
+     "prob": 0.587
+    },
+    {
+     "start": 56.02,
+     "end": 56.26,
+     "word": " is",
+     "prob": 0.871
+    },
+    {
+     "start": 56.26,
+     "end": 56.58,
+     "word": " also",
+     "prob": 0.911
+    },
+    {
+     "start": 56.58,
+     "end": 56.7,
+     "word": " like",
+     "prob": 0.26
+    },
+    {
+     "start": 56.7,
+     "end": 56.92,
+     "word": " okay",
+     "prob": 0.422
+    },
+    {
+     "start": 56.92,
+     "end": 57.5,
+     "word": " possible.",
+     "prob": 0.82
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 58.26,
+   "end": 64.52,
+   "text": "So we have to have a fixed number, after them only all these things will be fine.",
+   "avg_logprob": -0.733,
+   "no_speech_prob": 0.512,
+   "words": [
+    {
+     "start": 58.26,
+     "end": 58.34,
+     "word": " So",
+     "prob": 0.355
+    },
+    {
+     "start": 58.34,
+     "end": 59.02,
+     "word": " we",
+     "prob": 0.269
+    },
+    {
+     "start": 59.02,
+     "end": 60.04,
+     "word": " have",
+     "prob": 0.86
+    },
+    {
+     "start": 60.04,
+     "end": 60.1,
+     "word": " to",
+     "prob": 0.953
+    },
+    {
+     "start": 60.1,
+     "end": 60.5,
+     "word": " have",
+     "prob": 0.641
+    },
+    {
+     "start": 60.5,
+     "end": 60.68,
+     "word": " a",
+     "prob": 0.846
+    },
+    {
+     "start": 60.68,
+     "end": 60.82,
+     "word": " fixed",
+     "prob": 0.977
+    },
+    {
+     "start": 60.82,
+     "end": 61.42,
+     "word": " number,",
+     "prob": 0.984
+    },
+    {
+     "start": 61.66,
+     "end": 62.06,
+     "word": " after",
+     "prob": 0.264
+    },
+    {
+     "start": 62.06,
+     "end": 62.48,
+     "word": " them",
+     "prob": 0.269
+    },
+    {
+     "start": 62.48,
+     "end": 63.0,
+     "word": " only",
+     "prob": 0.519
+    },
+    {
+     "start": 63.0,
+     "end": 63.4,
+     "word": " all",
+     "prob": 0.289
+    },
+    {
+     "start": 63.4,
+     "end": 63.56,
+     "word": " these",
+     "prob": 0.642
+    },
+    {
+     "start": 63.56,
+     "end": 63.56,
+     "word": " things",
+     "prob": 0.815
+    },
+    {
+     "start": 63.56,
+     "end": 63.84,
+     "word": " will",
+     "prob": 0.52
+    },
+    {
+     "start": 63.84,
+     "end": 63.94,
+     "word": " be",
+     "prob": 0.43
+    },
+    {
+     "start": 63.94,
+     "end": 64.52,
+     "word": " fine.",
+     "prob": 0.174
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 65.06,
+   "end": 70.32,
+   "text": "And once we go away small population then it will be easy to handle and people will not collapse.",
+   "avg_logprob": -0.733,
+   "no_speech_prob": 0.512,
+   "words": [
+    {
+     "start": 65.06,
+     "end": 65.38,
+     "word": " And",
+     "prob": 0.831
+    },
+    {
+     "start": 65.38,
+     "end": 65.7,
+     "word": " once",
+     "prob": 0.952
+    },
+    {
+     "start": 65.7,
+     "end": 65.88,
+     "word": " we",
+     "prob": 0.898
+    },
+    {
+     "start": 65.88,
+     "end": 66.12,
+     "word": " go",
+     "prob": 0.175
+    },
+    {
+     "start": 66.12,
+     "end": 66.44,
+     "word": " away",
+     "prob": 0.147
+    },
+    {
+     "start": 66.44,
+     "end": 66.88,
+     "word": " small",
+     "prob": 0.263
+    },
+    {
+     "start": 66.88,
+     "end": 67.48,
+     "word": " population",
+     "prob": 0.652
+    },
+    {
+     "start": 67.48,
+     "end": 67.84,
+     "word": " then",
+     "prob": 0.553
+    },
+    {
+     "start": 67.84,
+     "end": 67.98,
+     "word": " it",
+     "prob": 0.467
+    },
+    {
+     "start": 67.98,
+     "end": 68.2,
+     "word": " will",
+     "prob": 0.701
+    },
+    {
+     "start": 68.2,
+     "end": 68.36,
+     "word": " be",
+     "prob": 0.973
+    },
+    {
+     "start": 68.36,
+     "end": 68.42,
+     "word": " easy",
+     "prob": 0.616
+    },
+    {
+     "start": 68.42,
+     "end": 68.6,
+     "word": " to",
+     "prob": 0.991
+    },
+    {
+     "start": 68.6,
+     "end": 68.86,
+     "word": " handle",
+     "prob": 0.965
+    },
+    {
+     "start": 68.86,
+     "end": 69.42,
+     "word": " and",
+     "prob": 0.229
+    },
+    {
+     "start": 69.42,
+     "end": 69.78,
+     "word": " people",
+     "prob": 0.276
+    },
+    {
+     "start": 69.78,
+     "end": 70.04,
+     "word": " will",
+     "prob": 0.433
+    },
+    {
+     "start": 70.04,
+     "end": 70.32,
+     "word": " not",
+     "prob": 0.332
+    },
+    {
+     "start": 70.32,
+     "end": 70.32,
+     "word": " collapse.",
+     "prob": 0.079
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 72.72,
+   "end": 74.16,
+   "text": "So that's okay.",
+   "avg_logprob": -0.733,
+   "no_speech_prob": 0.512,
+   "words": [
+    {
+     "start": 72.72,
+     "end": 73.18,
+     "word": " So",
+     "prob": 0.392
+    },
+    {
+     "start": 73.18,
+     "end": 73.86,
+     "word": " that's",
+     "prob": 0.829
+    },
+    {
+     "start": 73.86,
+     "end": 74.16,
+     "word": " okay.",
+     "prob": 0.623
+    }
+   ]
+  }
+ ]
+}

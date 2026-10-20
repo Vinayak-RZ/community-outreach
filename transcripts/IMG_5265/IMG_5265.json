@@ -1,0 +1,63 @@
+{
+ "source_file": "IMG_5265.MOV",
+ "created": "2026-10-20T04:21:59.190526+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.319,
+  "top": [
+   [
+    "hi",
+    0.319
+   ],
+   [
+    "es",
+    0.221
+   ],
+   [
+    "nn",
+    0.1
+   ]
+  ]
+ },
+ "duration_s": 10.17,
+ "processing_s": 5.4,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 1.4,
+   "text": "वीडियो नेलो या",
+   "avg_logprob": -0.43,
+   "no_speech_prob": 0.735,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.74,
+     "word": " वीडियो",
+     "prob": 0.77
+    },
+    {
+     "start": 0.74,
+     "end": 1.02,
+     "word": " नेलो",
+     "prob": 0.592
+    },
+    {
+     "start": 1.02,
+     "end": 1.4,
+     "word": " या",
+     "prob": 0.911
+    }
+   ]
+  }
+ ]
+}

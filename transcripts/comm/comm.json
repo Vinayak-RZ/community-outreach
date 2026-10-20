@@ -1,0 +1,167 @@
+{
+ "source_file": "comm.mp4",
+ "created": "2026-10-20T04:27:20.193879+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "nn",
+  "probability": 0.262,
+  "top": [
+   [
+    "nn",
+    0.262
+   ],
+   [
+    "en",
+    0.226
+   ],
+   [
+    "hi",
+    0.118
+   ]
+  ]
+ },
+ "duration_s": 5.97,
+ "processing_s": 11.0,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 3.06,
+   "text": "पाइंकर में अच्छाल में नहीं होते है।",
+   "avg_logprob": -0.652,
+   "no_speech_prob": 0.86,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.68,
+     "word": " पाइंकर",
+     "prob": 0.426
+    },
+    {
+     "start": 0.68,
+     "end": 1.44,
+     "word": " में",
+     "prob": 0.757
+    },
+    {
+     "start": 1.44,
+     "end": 1.66,
+     "word": " अच्छाल",
+     "prob": 0.551
+    },
+    {
+     "start": 1.66,
+     "end": 1.8,
+     "word": " में",
+     "prob": 0.746
+    },
+    {
+     "start": 1.8,
+     "end": 1.98,
+     "word": " नहीं",
+     "prob": 0.623
+    },
+    {
+     "start": 1.98,
+     "end": 2.26,
+     "word": " होते",
+     "prob": 0.474
+    },
+    {
+     "start": 2.26,
+     "end": 3.06,
+     "word": " है।",
+     "prob": 0.764
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 3.06,
+   "end": 4.08,
+   "text": "किसे भिगर दियो रही है?",
+   "avg_logprob": -0.652,
+   "no_speech_prob": 0.86,
+   "words": [
+    {
+     "start": 3.06,
+     "end": 3.44,
+     "word": " किसे",
+     "prob": 0.312
+    },
+    {
+     "start": 3.44,
+     "end": 3.74,
+     "word": " भिगर",
+     "prob": 0.526
+    },
+    {
+     "start": 3.74,
+     "end": 3.92,
+     "word": " दियो",
+     "prob": 0.617
+    },
+    {
+     "start": 3.92,
+     "end": 4.08,
+     "word": " रही",
+     "prob": 0.687
+    },
+    {
+     "start": 4.08,
+     "end": 4.08,
+     "word": " है?",
+     "prob": 0.792
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 4.72,
+   "end": 5.94,
+   "text": "कुन्के ग्राफ्टिका नहीं होते है।",
+   "avg_logprob": -0.652,
+   "no_speech_prob": 0.86,
+   "words": [
+    {
+     "start": 4.72,
+     "end": 5.16,
+     "word": " कुन्के",
+     "prob": 0.534
+    },
+    {
+     "start": 5.16,
+     "end": 5.6,
+     "word": " ग्राफ्टिका",
+     "prob": 0.667
+    },
+    {
+     "start": 5.6,
+     "end": 5.76,
+     "word": " नहीं",
+     "prob": 0.799
+    },
+    {
+     "start": 5.76,
+     "end": 5.9,
+     "word": " होते",
+     "prob": 0.881
+    },
+    {
+     "start": 5.9,
+     "end": 5.94,
+     "word": " है।",
+     "prob": 0.803
+    }
+   ]
+  }
+ ]
+}

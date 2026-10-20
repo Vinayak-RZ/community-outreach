@@ -1,0 +1,36 @@
+{
+ "source_file": "IMG_9397.MOV",
+ "created": "2026-10-20T04:26:22.439444+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "jw",
+  "probability": 0.357,
+  "top": [
+   [
+    "jw",
+    0.357
+   ],
+   [
+    "hi",
+    0.248
+   ],
+   [
+    "nn",
+    0.089
+   ]
+  ]
+ },
+ "duration_s": 23.27,
+ "processing_s": 3.2,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": []
+}

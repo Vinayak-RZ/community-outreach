@@ -1,0 +1,81 @@
+{
+ "source_file": "IMG_9397.MOV",
+ "created": "2026-10-20T04:26:22.439444+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "jw",
+  "probability": 0.357,
+  "top": [
+   [
+    "jw",
+    0.357
+   ],
+   [
+    "hi",
+    0.248
+   ],
+   [
+    "nn",
+    0.089
+   ]
+  ]
+ },
+ "duration_s": 23.27,
+ "processing_s": 8.6,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.11,
+   "end": 17.41,
+   "text": "आप इंटर्वूल लिजे। पहले इंटर्वूल लिजे।",
+   "avg_logprob": -0.452,
+   "no_speech_prob": 0.758,
+   "words": [
+    {
+     "start": 0.11,
+     "end": 2.79,
+     "word": " आप",
+     "prob": 0.656
+    },
+    {
+     "start": 14.76,
+     "end": 15.1,
+     "word": " इंटर्वूल",
+     "prob": 0.711
+    },
+    {
+     "start": 15.1,
+     "end": 16.04,
+     "word": " लिजे।",
+     "prob": 0.77
+    },
+    {
+     "start": 16.04,
+     "end": 16.34,
+     "word": " पहले",
+     "prob": 0.671
+    },
+    {
+     "start": 16.34,
+     "end": 16.74,
+     "word": " इंटर्वूल",
+     "prob": 0.935
+    },
+    {
+     "start": 16.74,
+     "end": 17.41,
+     "word": " लिजे।",
+     "prob": 0.82
+    }
+   ]
+  }
+ ]
+}

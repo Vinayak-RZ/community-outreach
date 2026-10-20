@@ -1,0 +1,36 @@
+{
+ "source_file": "VID-20261016-WA0012.mp4",
+ "created": "2026-10-20T04:27:01.052042+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "ms",
+  "probability": 0.541,
+  "top": [
+   [
+    "ms",
+    0.541
+   ],
+   [
+    "en",
+    0.173
+   ],
+   [
+    "jw",
+    0.105
+   ]
+  ]
+ },
+ "duration_s": 32.32,
+ "processing_s": 0.1,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": []
+}

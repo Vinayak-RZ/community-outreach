@@ -1,0 +1,34 @@
+{
+ "source_file": "IMG_5267.MOV",
+ "created": "2026-10-20T04:22:51.609981+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "nn",
+  "probability": 0.58,
+  "top": [
+   [
+    "nn",
+    0.58
+   ],
+   [
+    "ja",
+    0.195
+   ],
+   [
+    "jw",
+    0.128
+   ]
+  ]
+ },
+ "duration_s": 33.94,
+ "processing_s": 21.8,
+ "initial_prompt": null,
+ "segments": []
+}

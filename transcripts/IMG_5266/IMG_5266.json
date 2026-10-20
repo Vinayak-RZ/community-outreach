@@ -1,0 +1,51 @@
+{
+ "source_file": "IMG_5266.MOV",
+ "created": "2026-10-20T04:22:18.229144+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.828,
+  "top": [
+   [
+    "hi",
+    0.828
+   ],
+   [
+    "en",
+    0.075
+   ],
+   [
+    "ur",
+    0.056
+   ]
+  ]
+ },
+ "duration_s": 4.8,
+ "processing_s": 5.5,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 0.2,
+   "text": "या",
+   "avg_logprob": -0.685,
+   "no_speech_prob": 0.683,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.2,
+     "word": " या",
+     "prob": 0.339
+    }
+   ]
+  }
+ ]
+}

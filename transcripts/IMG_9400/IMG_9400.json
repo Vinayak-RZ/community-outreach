@@ -1,0 +1,183 @@
+{
+ "source_file": "IMG_9400.MOV",
+ "created": "2026-10-20T04:26:47.595235+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.754,
+  "top": [
+   [
+    "hi",
+    0.754
+   ],
+   [
+    "ur",
+    0.1
+   ],
+   [
+    "en",
+    0.071
+   ]
+  ]
+ },
+ "duration_s": 12.24,
+ "processing_s": 14.3,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.12,
+   "end": 11.26,
+   "text": "अच्छाली देखो, ऐसा हुते हैं कि उनका ज़र्म भी है न, तो हम उनको फॉर्श बॉले दे हूँ आप से लिए रहे है।",
+   "avg_logprob": -0.651,
+   "no_speech_prob": 0.553,
+   "words": [
+    {
+     "start": 2.12,
+     "end": 2.76,
+     "word": " अच्छाली",
+     "prob": 0.539
+    },
+    {
+     "start": 2.76,
+     "end": 3.1,
+     "word": " देखो,",
+     "prob": 0.752
+    },
+    {
+     "start": 3.16,
+     "end": 3.42,
+     "word": " ऐसा",
+     "prob": 0.89
+    },
+    {
+     "start": 3.42,
+     "end": 3.66,
+     "word": " हुते",
+     "prob": 0.641
+    },
+    {
+     "start": 3.66,
+     "end": 4.82,
+     "word": " हैं",
+     "prob": 0.702
+    },
+    {
+     "start": 4.82,
+     "end": 4.82,
+     "word": " कि",
+     "prob": 0.656
+    },
+    {
+     "start": 4.82,
+     "end": 5.32,
+     "word": " उनका",
+     "prob": 0.62
+    },
+    {
+     "start": 5.32,
+     "end": 5.64,
+     "word": " ज़र्म",
+     "prob": 0.583
+    },
+    {
+     "start": 5.64,
+     "end": 6.26,
+     "word": " भी",
+     "prob": 0.404
+    },
+    {
+     "start": 6.26,
+     "end": 6.82,
+     "word": " है",
+     "prob": 0.656
+    },
+    {
+     "start": 6.82,
+     "end": 7.44,
+     "word": " न,",
+     "prob": 0.728
+    },
+    {
+     "start": 7.52,
+     "end": 7.92,
+     "word": " तो",
+     "prob": 0.883
+    },
+    {
+     "start": 7.92,
+     "end": 8.16,
+     "word": " हम",
+     "prob": 0.893
+    },
+    {
+     "start": 8.16,
+     "end": 10.12,
+     "word": " उनको",
+     "prob": 0.715
+    },
+    {
+     "start": 10.12,
+     "end": 10.52,
+     "word": " फॉर्श",
+     "prob": 0.661
+    },
+    {
+     "start": 10.52,
+     "end": 10.76,
+     "word": " बॉले",
+     "prob": 0.573
+    },
+    {
+     "start": 10.76,
+     "end": 10.88,
+     "word": " दे",
+     "prob": 0.598
+    },
+    {
+     "start": 10.88,
+     "end": 11.04,
+     "word": " हूँ",
+     "prob": 0.551
+    },
+    {
+     "start": 11.04,
+     "end": 11.12,
+     "word": " आप",
+     "prob": 0.613
+    },
+    {
+     "start": 11.12,
+     "end": 11.26,
+     "word": " से",
+     "prob": 0.232
+    },
+    {
+     "start": 11.26,
+     "end": 11.26,
+     "word": " लिए",
+     "prob": 0.675
+    },
+    {
+     "start": 11.26,
+     "end": 11.26,
+     "word": " रहे",
+     "prob": 0.42
+    },
+    {
+     "start": 11.26,
+     "end": 11.26,
+     "word": " है।",
+     "prob": 0.671
+    }
+   ]
+  }
+ ]
+}

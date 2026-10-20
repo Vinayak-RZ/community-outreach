@@ -1,0 +1,57 @@
+{
+ "source_file": "comm3.mp4",
+ "created": "2026-10-20T04:27:36.160036+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "transcribe",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "en",
+  "probability": 0.34,
+  "top": [
+   [
+    "en",
+    0.34
+   ],
+   [
+    "nn",
+    0.276
+   ],
+   [
+    "ru",
+    0.162
+   ]
+  ]
+ },
+ "duration_s": 6.11,
+ "processing_s": 4.4,
+ "initial_prompt": null,
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.78,
+   "end": 2.7,
+   "text": "रूप रूप",
+   "avg_logprob": -0.73,
+   "no_speech_prob": 0.718,
+   "words": [
+    {
+     "start": 0.78,
+     "end": 1.68,
+     "word": " रूप",
+     "prob": 0.402
+    },
+    {
+     "start": 1.68,
+     "end": 2.7,
+     "word": " रूप",
+     "prob": 0.704
+    }
+   ]
+  }
+ ]
+}
