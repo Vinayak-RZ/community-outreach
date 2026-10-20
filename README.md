@@ -25,6 +25,8 @@ _Last updated: 20 Oct 2026, 19:22 IST._
 
 **Poster**: Figma draft (second pass: native charts, 48 px body) [EEC 399 Group 23 – Campus Dogs Poster](https://www.figma.com/design/17JnrRFCdZtaPkjD30PSb5), preview [`deliverables/poster-preview.png`](deliverables/poster-preview.png).
 
+**Poster**: Figma draft (second pass: native charts, 48 px body) [EEC 399 Group 23 – Campus Dogs Poster](https://www.figma.com/design/17JnrRFCdZtaPkjD30PSb5), preview [`deliverables/poster-preview.png`](deliverables/poster-preview.png).
+
 **Analysis**: survey in [`analysis/survey-analysis.md`](analysis/survey-analysis.md). Interviews coded by theme in [`analysis/interview-coding.md`](analysis/interview-coding.md): 36 distinct interviews (18 students, 5 guards, 4 mess/shop/cleaning staff, 3 CCF, 2 feeders, 1 faculty, 3 unclear). Findings, conflicts and recommendations in [`analysis/synthesis.md`](analysis/synthesis.md). Deliverables: [`deliverables/kpi-table.md`](deliverables/kpi-table.md), [`deliverables/poster-plan.md`](deliverables/poster-plan.md). Poster-style figures fig7–fig11 in `analysis/figures/` (300 dpi; timeline, by-the-numbers, sources-to-findings). No quotes until checked by ear.
 
 **Dropped (20/10)**: face blurring and the EgoBlur test, at Vinayak's call. Raw media stays private in the releases; blur any clip before outside use.
