@@ -12,7 +12,7 @@ _Coded 20/10/2026 by Acads from the machine transcripts in `transcripts/` (Engli
 ## Codebook
 | Code | Theme | Meaning |
 |---|---|---|
-| P-BITE | People's problems | Bite or scratch, to the speaker or someone they name as close (friend, relative, colleague) |
+| P-BITE | People's problems | Bite or scratch mentioned: to the speaker, someone they know, or one they saw or heard of |
 | P-CHASE | People's problems | Chased or charged, packs at night, vehicles chased |
 | P-FEAR | People's problems | Fear, avoiding routes or times, lasting wariness |
 | P-NOISE | People's problems | Barking or fights at night |
