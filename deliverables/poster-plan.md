@@ -54,3 +54,6 @@ The figures fig7–fig11 already follow this; fig1–fig6 (survey) use the older
 - Everything is native Figma now: 9 big numerals (160 px), the timeline, the source matrix for each finding, and the "who brought up what" table, which replaces fig7. No chart images are left on the poster.
 - Body text is 48 px (about 12 pt). Small print is 30–40 px. The copy was rewritten in plain words in the team's voice.
 - Preview: [`poster-preview.png`](poster-preview.png). [`poster-draft.pdf`](poster-draft.pdf) is a 300 dpi raster of the preview, because the Figma tools here can't export PDF. For print, export a vector PDF from Figma.
+
+## Map in the centre (20 Oct)
+The centre band is now a campus map ("Where it happens"): an OpenStreetMap base imported into Figma as a vector, with native circles for mention counts, rings for the five spots we saw ourselves, and night counts as small notes. To make room we took out the timeline (the dates are still in [`work-log.md`](work-log.md)), the source matrix, the "Who brought up what" table and the one-line caveat under each finding. Details in [`map-plan.md`](map-plan.md).
