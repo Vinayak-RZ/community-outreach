@@ -1,0 +1,755 @@
+{
+ "source_file": "Voice 261013_122210.m4a",
+ "created": "2026-10-19T11:23:39.418113+00:00",
+ "model": "medium",
+ "device": "cpu",
+ "compute_type": "float32",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.62,
+  "top": [
+   [
+    "hi",
+    0.62
+   ],
+   [
+    "ur",
+    0.32
+   ],
+   [
+    "en",
+    0.04
+   ]
+  ]
+ },
+ "duration_s": 136.23,
+ "processing_s": 3442.6,
+ "initial_prompt": null,
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 39.58,
+   "end": 41.26,
+   "text": "So what should be done according to you?",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 39.58,
+     "end": 40.18,
+     "word": " So",
+     "prob": 0.203
+    },
+    {
+     "start": 40.18,
+     "end": 40.78,
+     "word": " what",
+     "prob": 0.409
+    },
+    {
+     "start": 40.78,
+     "end": 41.26,
+     "word": " should",
+     "prob": 0.478
+    },
+    {
+     "start": 41.26,
+     "end": 41.26,
+     "word": " be",
+     "prob": 0.42
+    },
+    {
+     "start": 41.26,
+     "end": 41.26,
+     "word": " done",
+     "prob": 0.961
+    },
+    {
+     "start": 41.26,
+     "end": 41.26,
+     "word": " according",
+     "prob": 0.698
+    },
+    {
+     "start": 41.26,
+     "end": 41.26,
+     "word": " to",
+     "prob": 0.996
+    },
+    {
+     "start": 41.26,
+     "end": 41.26,
+     "word": " you?",
+     "prob": 0.887
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 41.8,
+   "end": 45.04,
+   "text": "Have you ever complained that dogs are troubling you?",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 41.8,
+     "end": 42.0,
+     "word": " Have",
+     "prob": 0.286
+    },
+    {
+     "start": 42.0,
+     "end": 42.3,
+     "word": " you",
+     "prob": 0.934
+    },
+    {
+     "start": 42.3,
+     "end": 42.62,
+     "word": " ever",
+     "prob": 0.883
+    },
+    {
+     "start": 42.62,
+     "end": 43.28,
+     "word": " complained",
+     "prob": 0.89
+    },
+    {
+     "start": 43.28,
+     "end": 43.9,
+     "word": " that",
+     "prob": 0.513
+    },
+    {
+     "start": 43.9,
+     "end": 44.22,
+     "word": " dogs",
+     "prob": 0.301
+    },
+    {
+     "start": 44.22,
+     "end": 45.04,
+     "word": " are",
+     "prob": 0.958
+    },
+    {
+     "start": 45.04,
+     "end": 45.04,
+     "word": " troubling",
+     "prob": 0.163
+    },
+    {
+     "start": 45.04,
+     "end": 45.04,
+     "word": " you?",
+     "prob": 0.441
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 45.06,
+   "end": 45.62,
+   "text": "No, we tell them in the office.",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 45.06,
+     "end": 45.08,
+     "word": " No,",
+     "prob": 0.33
+    },
+    {
+     "start": 45.08,
+     "end": 45.08,
+     "word": " we",
+     "prob": 0.4
+    },
+    {
+     "start": 45.08,
+     "end": 45.14,
+     "word": " tell",
+     "prob": 0.213
+    },
+    {
+     "start": 45.14,
+     "end": 45.32,
+     "word": " them",
+     "prob": 0.267
+    },
+    {
+     "start": 45.32,
+     "end": 45.56,
+     "word": " in",
+     "prob": 0.471
+    },
+    {
+     "start": 45.56,
+     "end": 45.56,
+     "word": " the",
+     "prob": 0.885
+    },
+    {
+     "start": 45.56,
+     "end": 45.62,
+     "word": " office.",
+     "prob": 0.853
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 46.18,
+   "end": 48.48,
+   "text": "If it is a job of the office, then they say that they are cleaners.",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 46.18,
+     "end": 46.26,
+     "word": " If",
+     "prob": 0.106
+    },
+    {
+     "start": 46.26,
+     "end": 46.7,
+     "word": " it",
+     "prob": 0.249
+    },
+    {
+     "start": 46.7,
+     "end": 46.84,
+     "word": " is",
+     "prob": 0.619
+    },
+    {
+     "start": 46.84,
+     "end": 46.88,
+     "word": " a",
+     "prob": 0.199
+    },
+    {
+     "start": 46.88,
+     "end": 47.14,
+     "word": " job",
+     "prob": 0.308
+    },
+    {
+     "start": 47.14,
+     "end": 47.3,
+     "word": " of",
+     "prob": 0.658
+    },
+    {
+     "start": 47.3,
+     "end": 47.3,
+     "word": " the",
+     "prob": 0.638
+    },
+    {
+     "start": 47.3,
+     "end": 47.3,
+     "word": " office,",
+     "prob": 0.87
+    },
+    {
+     "start": 47.3,
+     "end": 47.64,
+     "word": " then",
+     "prob": 0.268
+    },
+    {
+     "start": 47.64,
+     "end": 47.66,
+     "word": " they",
+     "prob": 0.162
+    },
+    {
+     "start": 47.66,
+     "end": 47.66,
+     "word": " say",
+     "prob": 0.125
+    },
+    {
+     "start": 47.66,
+     "end": 47.92,
+     "word": " that",
+     "prob": 0.407
+    },
+    {
+     "start": 47.92,
+     "end": 48.08,
+     "word": " they",
+     "prob": 0.303
+    },
+    {
+     "start": 48.08,
+     "end": 48.08,
+     "word": " are",
+     "prob": 0.944
+    },
+    {
+     "start": 48.08,
+     "end": 48.48,
+     "word": " cleaners.",
+     "prob": 0.513
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 50.32,
+   "end": 51.88,
+   "text": "They should be caught from here.",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 50.32,
+     "end": 50.92,
+     "word": " They",
+     "prob": 0.229
+    },
+    {
+     "start": 50.92,
+     "end": 50.96,
+     "word": " should",
+     "prob": 0.885
+    },
+    {
+     "start": 50.96,
+     "end": 51.68,
+     "word": " be",
+     "prob": 0.899
+    },
+    {
+     "start": 51.68,
+     "end": 51.68,
+     "word": " caught",
+     "prob": 0.668
+    },
+    {
+     "start": 51.68,
+     "end": 51.88,
+     "word": " from",
+     "prob": 0.671
+    },
+    {
+     "start": 51.88,
+     "end": 51.88,
+     "word": " here.",
+     "prob": 0.912
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 52.78,
+   "end": 53.08,
+   "text": "It's wrong from this side.",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 52.78,
+     "end": 53.08,
+     "word": " It's",
+     "prob": 0.248
+    },
+    {
+     "start": 53.08,
+     "end": 53.08,
+     "word": " wrong",
+     "prob": 0.765
+    },
+    {
+     "start": 53.08,
+     "end": 53.08,
+     "word": " from",
+     "prob": 0.453
+    },
+    {
+     "start": 53.08,
+     "end": 53.08,
+     "word": " this",
+     "prob": 0.053
+    },
+    {
+     "start": 53.08,
+     "end": 53.08,
+     "word": " side.",
+     "prob": 0.835
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 55.26,
+   "end": 57.82,
+   "text": "Like many go into department or environment.",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 55.26,
+     "end": 55.56,
+     "word": " Like",
+     "prob": 0.15
+    },
+    {
+     "start": 55.56,
+     "end": 55.98,
+     "word": " many",
+     "prob": 0.319
+    },
+    {
+     "start": 55.98,
+     "end": 55.98,
+     "word": " go",
+     "prob": 0.334
+    },
+    {
+     "start": 55.98,
+     "end": 55.98,
+     "word": " into",
+     "prob": 0.084
+    },
+    {
+     "start": 55.98,
+     "end": 56.6,
+     "word": " department",
+     "prob": 0.157
+    },
+    {
+     "start": 56.6,
+     "end": 57.5,
+     "word": " or",
+     "prob": 0.256
+    },
+    {
+     "start": 57.5,
+     "end": 57.82,
+     "word": " environment.",
+     "prob": 0.079
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 58.8,
+   "end": 59.68,
+   "text": "They can bite too.",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 58.8,
+     "end": 59.1,
+     "word": " They",
+     "prob": 0.328
+    },
+    {
+     "start": 59.1,
+     "end": 59.54,
+     "word": " can",
+     "prob": 0.865
+    },
+    {
+     "start": 59.54,
+     "end": 59.54,
+     "word": " bite",
+     "prob": 0.57
+    },
+    {
+     "start": 59.54,
+     "end": 59.68,
+     "word": " too.",
+     "prob": 0.092
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 59.86,
+   "end": 61.12,
+   "text": "There is no problem with any animal.",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 59.86,
+     "end": 60.0,
+     "word": " There",
+     "prob": 0.141
+    },
+    {
+     "start": 60.0,
+     "end": 60.14,
+     "word": " is",
+     "prob": 0.564
+    },
+    {
+     "start": 60.14,
+     "end": 60.54,
+     "word": " no",
+     "prob": 0.596
+    },
+    {
+     "start": 60.54,
+     "end": 60.58,
+     "word": " problem",
+     "prob": 0.142
+    },
+    {
+     "start": 60.58,
+     "end": 60.84,
+     "word": " with",
+     "prob": 0.154
+    },
+    {
+     "start": 60.84,
+     "end": 60.88,
+     "word": " any",
+     "prob": 0.114
+    },
+    {
+     "start": 60.88,
+     "end": 61.12,
+     "word": " animal.",
+     "prob": 0.503
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 61.86,
+   "end": 66.36,
+   "text": "And now he was telling us if a dog bites and it doesn't have proper treatment,",
+   "avg_logprob": -0.734,
+   "no_speech_prob": 0.552,
+   "words": [
+    {
+     "start": 61.86,
+     "end": 62.34,
+     "word": " And",
+     "prob": 0.559
+    },
+    {
+     "start": 62.34,
+     "end": 62.44,
+     "word": " now",
+     "prob": 0.32
+    },
+    {
+     "start": 62.44,
+     "end": 62.84,
+     "word": " he",
+     "prob": 0.134
+    },
+    {
+     "start": 62.84,
+     "end": 62.84,
+     "word": " was",
+     "prob": 0.927
+    },
+    {
+     "start": 62.84,
+     "end": 63.14,
+     "word": " telling",
+     "prob": 0.96
+    },
+    {
+     "start": 63.14,
+     "end": 63.32,
+     "word": " us",
+     "prob": 0.969
+    },
+    {
+     "start": 63.32,
+     "end": 63.9,
+     "word": " if",
+     "prob": 0.066
+    },
+    {
+     "start": 63.9,
+     "end": 63.98,
+     "word": " a",
+     "prob": 0.525
+    },
+    {
+     "start": 63.98,
+     "end": 64.22,
+     "word": " dog",
+     "prob": 0.991
+    },
+    {
+     "start": 64.22,
+     "end": 64.78,
+     "word": " bites",
+     "prob": 0.686
+    },
+    {
+     "start": 64.78,
+     "end": 64.88,
+     "word": " and",
+     "prob": 0.239
+    },
+    {
+     "start": 64.88,
+     "end": 65.3,
+     "word": " it",
+     "prob": 0.291
+    },
+    {
+     "start": 65.3,
+     "end": 65.52,
+     "word": " doesn't",
+     "prob": 0.595
+    },
+    {
+     "start": 65.52,
+     "end": 65.52,
+     "word": " have",
+     "prob": 0.541
+    },
+    {
+     "start": 65.52,
+     "end": 65.92,
+     "word": " proper",
+     "prob": 0.832
+    },
+    {
+     "start": 65.92,
+     "end": 66.36,
+     "word": " treatment,",
+     "prob": 0.993
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 74.14,
+   "end": 75.52,
+   "text": "Sometimes it happens that...",
+   "avg_logprob": -0.975,
+   "no_speech_prob": 0.529,
+   "words": [
+    {
+     "start": 74.14,
+     "end": 74.98,
+     "word": " Sometimes",
+     "prob": 0.198
+    },
+    {
+     "start": 74.98,
+     "end": 75.14,
+     "word": " it",
+     "prob": 0.272
+    },
+    {
+     "start": 75.14,
+     "end": 75.38,
+     "word": " happens",
+     "prob": 0.778
+    },
+    {
+     "start": 75.38,
+     "end": 75.52,
+     "word": " that...",
+     "prob": 0.402
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 75.84,
+   "end": 76.82,
+   "text": "We keep them here.",
+   "avg_logprob": -0.975,
+   "no_speech_prob": 0.529,
+   "words": [
+    {
+     "start": 75.84,
+     "end": 76.32,
+     "word": " We",
+     "prob": 0.101
+    },
+    {
+     "start": 76.32,
+     "end": 76.82,
+     "word": " keep",
+     "prob": 0.756
+    },
+    {
+     "start": 76.82,
+     "end": 76.82,
+     "word": " them",
+     "prob": 0.404
+    },
+    {
+     "start": 76.82,
+     "end": 76.82,
+     "word": " here.",
+     "prob": 0.707
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 78.64,
+   "end": 80.74,
+   "text": "They can't even scratch their hair.",
+   "avg_logprob": -0.975,
+   "no_speech_prob": 0.529,
+   "words": [
+    {
+     "start": 78.64,
+     "end": 79.6,
+     "word": " They",
+     "prob": 0.11
+    },
+    {
+     "start": 79.6,
+     "end": 80.56,
+     "word": " can't",
+     "prob": 0.153
+    },
+    {
+     "start": 80.56,
+     "end": 80.74,
+     "word": " even",
+     "prob": 0.091
+    },
+    {
+     "start": 80.74,
+     "end": 80.74,
+     "word": " scratch",
+     "prob": 0.225
+    },
+    {
+     "start": 80.74,
+     "end": 80.74,
+     "word": " their",
+     "prob": 0.143
+    },
+    {
+     "start": 80.74,
+     "end": 80.74,
+     "word": " hair.",
+     "prob": 0.31
+    }
+   ]
+  }
+ ]
+}
