@@ -10,27 +10,24 @@ Vansh Gautam (team lead, group admin), Vinayak Raizada, Jay D, Vrinda Gupta, Jiy
 
 <!-- status:start -->
 ## Status
-_Last updated: 20 Oct 2026, 19:55 IST._
+_Last updated: 24 Nov 2026._
 
 **Collected**
 - Survey: 211 responses (13–17/10), de-identified copy in `source/survey/`.
-- Interview audio: 29 recordings, 2.07 h (the 28 Drive audio files plus the CCF interview, an audio-only `.mp4`). Two Drive files ("Indian Institute of Technology" and "… 2") have identical audio, so that recording is counted twice here.
-- Videos: 51 files, 1.87 h (Drive videos, the Comm Kaam WhatsApp videos, and the 12 large Drive videos including the 36-minute recording of 25/9).
-- 3 more files were exact re-sends of recordings already held (same decoded audio) and aren't counted.
+- Interviews: **43 recorded and coded** (I01–I43; 24 students, 6 guards, 4 mess/canteen/sanitation staff, 3 CCF, 2 feeders, 1 faculty, 3 unclear) plus **7 unrecorded talks** (CMO, 3 guards, 2 victims, a canteen worker; `analysis/unrecorded-conversations.md`).
+- Media: 88 recordings, 4.41 h. The 24/11 bundle (8 recordings, ~40 photos of the feeding-zone poster drive) is logged in `evidence/poster-campaign-photos.md`; its media is **not** in git and still needs a Release.
 - Releases: [`source-media-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/source-media-v1), [`comm-kaam-media-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/comm-kaam-media-v1), [`raw-drive-videos-v1`](https://github.com/Vinayak-RZ/community-outreach/releases/tag/raw-drive-videos-v1).
 
-**Transcribed**: 80 of 80 recordings (3.95 of 3.95 h); interview audio 29 of 29. English translations: 80. See [`transcripts/INDEX.md`](transcripts/INDEX.md). Machine transcripts: check against the audio before quoting.
+**Transcribed**: 88 of 88 recordings. See [`transcripts/INDEX.md`](transcripts/INDEX.md). Machine transcripts: check against the audio before quoting.
 
-**Poster**: Figma draft, visual-first, with the campus map in the centre [EEC 399 Group 23 – Campus Dogs Poster](https://www.figma.com/design/17JnrRFCdZtaPkjD30PSb5), preview [`deliverables/poster-preview.png`](deliverables/poster-preview.png).
+**KPIs**: [`deliverables/kpi-table.md`](deliverables/kpi-table.md) (v3, 24/11): Reach and Record met; Depth partly evidenced (several team dates conflict with the files); Output evidenced for the 24/11 poster drive, the CCF report is not in the repo; Change not met as the course defines it.
 
-**Analysis**: survey in [`analysis/survey-analysis.md`](analysis/survey-analysis.md). Interviews coded by theme in [`analysis/interview-coding.md`](analysis/interview-coding.md): 36 distinct interviews (18 students, 5 guards, 4 mess/shop/cleaning staff, 3 CCF, 2 feeders, 1 faculty, 3 unclear). Findings, conflicts and recommendations in [`analysis/synthesis.md`](analysis/synthesis.md). Deliverables: [`deliverables/kpi-table.md`](deliverables/kpi-table.md), [`deliverables/poster-plan.md`](deliverables/poster-plan.md). Next steps in [`deliverables/next-steps.md`](deliverables/next-steps.md). Campus map: place data in [`analysis/data/places.csv`](analysis/data/places.csv), OSM base and hotspot draft (fig12, fig13), plan in [`deliverables/map-plan.md`](deliverables/map-plan.md). No quotes until checked by ear.
+**Poster**: one A3 landscape sheet, Canva prompts in `deliverables/posters/canva-poster-*.md`. Settle the "Check before sending" dates first.
 
-**Dropped (20/10)**: face blurring and the EgoBlur test, at Vinayak's call. Raw media stays private in the releases; blur any clip before outside use.
-
-**Open KPI and evidence gaps**
-- No consent sheets, no contact log, and no dated field diary yet (Reach and Depth evidence).
-- No hospital or admin data on bites, vaccination or sterilisation (requests sent, no reply).
-- Output and Change have no written acknowledgement yet.
+**Open gaps**
+- No consent sheets, no contact log, no field diary, no person-hours.
+- No hospital figures on bites, vaccination or sterilisation.
+- The CCF solutions report and any reply are not in the repo; no written commitment (Change).
 <!-- status:end -->
 
 ## Aim and research questions

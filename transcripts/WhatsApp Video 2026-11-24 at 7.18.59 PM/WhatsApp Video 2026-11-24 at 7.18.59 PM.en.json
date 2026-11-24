@@ -1,0 +1,75 @@
+{
+ "source_file": "WhatsApp Video 2026-11-24 at 7.18.59 PM.mp4",
+ "created": "2026-11-24T17:57:10.754748+00:00",
+ "model": "small",
+ "device": "cpu",
+ "compute_type": "int8",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.544,
+  "top": [
+   [
+    "hi",
+    0.544
+   ],
+   [
+    "en",
+    0.28
+   ],
+   [
+    "ur",
+    0.056
+   ]
+  ]
+ },
+ "duration_s": 4.42,
+ "processing_s": 3.0,
+ "initial_prompt": "IIT Roorkee campus dogs, CCF, bhawan, mess, guard, feeding zone, Hinglish interview",
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 0.68,
+   "text": "Dog",
+   "avg_logprob": -1.118,
+   "no_speech_prob": 0.303,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.68,
+     "word": " Dog",
+     "prob": 0.229
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 2.0,
+   "end": 4.24,
+   "text": "Community Outreach",
+   "avg_logprob": -1.118,
+   "no_speech_prob": 0.303,
+   "words": [
+    {
+     "start": 2.0,
+     "end": 2.92,
+     "word": " Community",
+     "prob": 0.195
+    },
+    {
+     "start": 2.92,
+     "end": 4.24,
+     "word": " Outreach",
+     "prob": 0.173
+    }
+   ]
+  }
+ ]
+}

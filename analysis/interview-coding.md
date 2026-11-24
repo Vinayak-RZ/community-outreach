@@ -1,9 +1,9 @@
 # Interview coding: campus dogs (group 23)
 
-_Coded 20/10/2026 by Acads from the machine transcripts in `transcripts/` (English translation where the speech is Hindi) and `transcripts/INDEX.md`. One coder; no second-coder check yet. Machine data: `analysis/data/interview-codes.csv`; counts and charts from `analysis/scripts/interview_coding.py`._
+_Coded 20/10/2026 by Acads (I37–I43 added 24/11/2026, see "November recordings" below) from the machine transcripts in `transcripts/` (English translation where the speech is Hindi) and `transcripts/INDEX.md`. One coder; no second-coder check yet. Machine data: `analysis/data/interview-codes.csv`; counts and charts from `analysis/scripts/interview_coding.py`._
 
 ## Scope
-- **36 coded interviews** (distinct conversations). Out of the 80 transcribed files: 3 exact duplicates, 2 more copies merged (`Indian Institute of Technology` = `… 2`; `IMG_0576` = WhatsApp 3.46.12 PM (1)), parts merged (Malishka pt1+pt2, Neh Road 2+3, the two 13/10 hospital-day fragments), and **one probable duplicate** merged: `IMG_5268` and WhatsApp 3.46.12 PM (2) (9:45 vs 9:27, same points in the same order). **Verify that by ear.**
+- **43 coded interviews** (distinct conversations): I01–I36 from the October files, I37–I43 from the November bundle (`new recordings-20261124…zip`). Out of the 80 transcribed files: 3 exact duplicates, 2 more copies merged (`Indian Institute of Technology` = `… 2`; `IMG_0576` = WhatsApp 3.46.12 PM (1)), parts merged (Malishka pt1+pt2, Neh Road 2+3, the two 13/10 hospital-day fragments), and **one probable duplicate** merged: `IMG_5268` and WhatsApp 3.46.12 PM (2) (9:45 vs 9:27, same points in the same order). **Verify that by ear.**
 - Not coded: ~35 short clips with no usable speech, the off-topic crypto clip (`AUD-20261015-WA0000`), and observation clips (e.g. WhatsApp 3.33.39 PM: a dog in a room). These count as field evidence, not interviews.
 - Also used, but not in the table: the CMO interview of 13/10 (notes only, no recording allowed; `project-brief.md`) and the CCF Google Meet auto-transcript (`source/ccf-gmeet-transcript.txt`), which is the **same conversation** as I24.
 - **No quotes.** None of these lines has been checked against the audio (see `transcripts/SPOT-CHECKS.md`), so everything below is a paraphrase with a file and timestamp. Before quoting any line on the poster, listen to it.
@@ -82,51 +82,51 @@ _Coded 20/10/2026 by Acads from the machine transcripts in `transcripts/` (Engli
 | I34 | Student (late-hours) | 15/10 | P-BITE, P-HYG, P-HOSTEL, P-MED, S-OUT, S-REMOVE-AGG, S-ADMIN | -1 | C | Bitten near a garden; friend also bitten; can't tell aggressive dogs; keep strictly out of hostels for hygiene; admin taking no action; medical response average | `IMG_9409.MOV` · gaps 2:40-3:10 and 3:42-4:06 |
 | I35 | Senior student (bitten 3x) | 16/10 | P-BITE, D-STER, S-ZONE, S-STER, S-AWARE, S-OUT | +1 | C | Mostly positive despite three bites; coexistence: designated areas and feeding spots; sterilisation and vaccination; CCF more proactive; keep dogs from canteens; guidelines for first-years; feeding-spot boards too small | `VID-20261016-WA0018.mp4` · garbled 1:48-2:18 / 6:05-6:15 |
 | I36 | Unclear (hospital visit day) | 13/10 | P-BITE, P-MED | +0 | C | Fragments: post-bite procedure and why bites are frequent | `20261013_120605 + 120723.mp4` · largely garbled |
+| I37 | Student (Chem 3rd yr) | ≤24/11 (export) | P-CHASE, P-FEAR, P-HOSTEL, P-HYG, P-BITE, S-REDUCE, S-ZONE, S-ADMIN | -2 | A | Six dogs ran at her at night in the lane between two girls' bhawans; was not bitten; friends bitten; dogs at her door, spoiling food and tipping bins; was fond of dogs before campus, now supports humane removal; otherwise guards and dogs limited to one area for feeders; a guard helps in the moment but no decision follows; unaware of CCF; says campus is safe without dogs | `Indian Institute of Technology 5.m4a` · 0:25-0:44 night chase; 0:52-1:00 view changed; 2:11-2:33 guard; 3:21-3:33 removal (interviewer's question is leading) |
+| I38 | Student (resident near Himalaya; inferred) | 24/10 (file time; verify) | P-FEAR, P-HOSTEL, P-HYG, P-NOISE, S-ZONE, S-OUT, S-ADMIN, S-AWARE | +0 | B | Fine with dogs on campus but packs barking and running near the bhawan are the issue; scary to meet a dog on her floor at night; a dog urinated on her bag in the hostel; designated spaces, dogs out of hostels, guards outside hostels at night; had not heard of CCF and says it has not explained itself | `interview 4.m4a` · English speech (re-run with -l en); 0:15-0:45 view; 1:06-1:22 bag incident; 1:59-2:10 actions |
+| I39 | Student (Chem 3rd yr) | ≤24/11 (export) | P-CHASE, P-FEAR, P-HOSTEL, P-HYG, C-BREED, S-REDUCE, S-OUT, S-ADMIN | -2 | B | Afraid of dogs near several bhawans and MAC; near the Civil dept 10-12 dogs, two or three surrounded her (she held a coffee); called for a guard but none was near the Electrical or Civil dept and passers-by left; more afraid since; wants numbers reduced, hostel entry stopped, relocation with proper arrangement | `eshita interview.m4a` · 0:33-0:49 Civil dept incident; 0:59-1:06 no guard ('gardener' is a mistranslation of guard); 2:39-3:06 actions; 4:19 relocation |
+| I40 | Student (Economics) | ≤24/11 (export) | P-BITE, P-CHASE, P-FEAR, P-MED, P-HOSTEL, S-REDUCE | -1 | B | Dislikes dogs; around Diwali last year near the Hydrology dept and the temple lane a dog came at her about midnight; jeans prevented a wound; an ambulance took her to hospital, wound washed, injection course started; now avoids that route; names the Maths dept, Govind side, Himalaya side and Hydrology; dogs in hostel and department buildings; streets 'safe only for some people'; answer on removal is garbled | `Indian Institute of Technology 4.m4a` · 0:16-0:49 incident; 0:49-1:16 hospital (verify doses by ear); 2:25-2:42 hotspots; 3:26-3:34 removal answer unclear |
+| I41 | Student (Himalaya Bhawan resident) | ≤24/11 (export) | P-HOSTEL, P-FEAR, C-FEW, S-REMOVE-AGG, S-ADMIN | +0 | B | Not afraid of dogs and knows how to walk past them; was once bitten at home, not on campus; three or four dogs around a lone walker is scary for others; dogs come up to her floor and could enter rooms; wardens or guards should handle it; identify the 'wild' dogs and move only those; friendly dogs can stay | `Indian Institute of Technology 6.m4a` · 0:19-0:29 identify wild dogs; 2:11-2:19 dogs on the floor; 2:52-2:55 move only wild dogs |
+| I42 | Guard (Civil dept; role inferred from 'my duty time') | ≤24/11 (export) | P-BITE, P-CHASE | -1 | C | Says attacks have increased on the Himalaya side and between the Electrical and Civil departments, and that the Civil dept area is known for them; dogs fight; dogs are kept out of the building; has not seen a child attacked during his duty. Gist only | `IIT Roorkee - Civil Engineering Department.m4a` · Small-model pass; 1:50-3:12 and 3:32-5:06 unreadable. Verify by ear before using anything |
+| I43 | Student (MSc Physics) | 24/11 01:20 (camera) | P-BITE, P-MED, P-FEAR, C-FEW, S-REMOVE-AGG | -1 | C | Recorded during the poster drive (interviewer says the team is spreading awareness of dog feeding zones); liked dogs at first, says their behaviour changed in recent days; was bitten; hospital treatment was good and caring; good dogs are fine, aggressive ones should be identified and dealt with | `IMG_6065.MOV` · 0:13-0:21 poster drive; 4:00-4:23 hospital. Do NOT quote: 2:03 'you can kill them' and 4:02 '17 injections' are machine mistranslations |
+
+### November recordings (I37–I43)
+- Five of the seven follow the same short script (general opinion; ever bitten or chased; has your view changed; what should the college do; who do you call; do dogs make streets safer; would you support moving dogs out). It is not the script in `deliverables/unique-interview-qa.pdf`. It ends with **"would you support moving dogs out of campus if it was done nicely?"** That is a leading question, and its answers are coded with that in mind.
+- Five are students from the Himalaya, Sarojini–Kasturba and Civil/Electrical side, and one is a guard at the Civil dept. This partly fills the gap `deliverables/next-steps.md` named (hotspot areas, residents of the bhawans on the Himalaya side).
+- I37 is from the `medium` model. The rest were transcribed on a team laptop with the lighter `small` model (int8), so their Hindi passes are rougher. I38 and I41 are English speech and were re-run as English, so their main transcripts are not translations.
+- **Stance shift, with a caveat.** The six new student interviews average **−1.0**, against about **−0.06** for the 18 October student interviews. Two of the six support humane removal. This may reflect who was asked (people near the Civil/Himalaya hotspots) or the leading last question. It is not evidence that opinion changed over time.
+- I43 was recorded at 01:20 on 24/11 during the poster drive, and the interviewer says so on tape. Do not quote it. Two lines are machine mistranslations (see the locator).
 
 Dates are recording dates. "Export" means the Drive copy only carries its 19/10 export time. The 23/8 camera dates on IMG_52xx/0576 look early for the project and need checking.
 
 ## Theme frequency by stakeholder group
 Number of interviews in each group that raise each code. A conversation counts once per code.
-| Code | Total | Student (n=18) | Guard (n=5) | Mess/shop staff (n=4) | CCF (n=3) | Feeder/caretaker (n=2) | Faculty (n=1) | Unclear (n=3) |
+| Code | Total | Student (n=24) | Guard (n=6) | Mess/shop staff (n=4) | CCF (n=3) | Feeder/caretaker (n=2) | Faculty (n=1) | Unclear (n=3) |
 |---|---|---|---|---|---|---|---|---|
 | C-FEED | 9 | 3 | 2 | 1 | 2 |  | 1 |  |
-| C-FEW | 6 | 3 |  |  | 2 |  |  | 1 |
+| C-FEW | 8 | 5 |  |  | 2 |  |  | 1 |
 | C-WASTE | 6 | 3 | 1 | 1 |  | 1 |  |  |
 | C-BOUND | 5 |  | 2 |  | 2 | 1 |  |  |
-| C-BREED | 3 |  | 1 |  |  | 1 |  | 1 |
+| C-BREED | 4 | 1 | 1 |  |  | 1 |  | 1 |
 | D-FOOD | 6 | 1 | 1 |  | 3 |  | 1 |  |
 | D-STER | 6 | 1 |  |  | 3 | 1 | 1 |  |
 | D-INJ | 3 |  | 1 |  | 2 |  |  |  |
 | D-MIS | 2 | 1 | 1 |  |  |  |  |  |
 | D-SHEL | 2 |  |  |  | 1 | 1 |  |  |
-| P-BITE | 13 | 6 | 3 | 2 | 1 |  |  | 1 |
-| P-FEAR | 12 | 9 |  | 1 |  | 2 |  |  |
-| P-HOSTEL | 11 | 9 | 1 |  |  |  |  | 1 |
-| P-HYG | 11 | 5 | 2 | 2 |  |  | 1 | 1 |
-| P-CHASE | 10 | 5 | 3 | 1 | 1 |  |  |  |
-| P-MED | 6 | 3 | 1 |  | 1 |  |  | 1 |
-| P-NOISE | 2 | 1 | 1 |  |  |  |  |  |
+| P-FEAR | 18 | 15 |  | 1 |  | 2 |  |  |
+| P-BITE | 17 | 9 | 4 | 2 | 1 |  |  | 1 |
+| P-HOSTEL | 16 | 14 | 1 |  |  |  |  | 1 |
+| P-HYG | 14 | 8 | 2 | 2 |  |  | 1 | 1 |
+| P-CHASE | 14 | 8 | 4 | 1 | 1 |  |  |  |
+| P-MED | 8 | 5 | 1 |  | 1 |  |  | 1 |
+| P-NOISE | 3 | 2 | 1 |  |  |  |  |  |
 | P-INJ-OTHER | 2 | 1 |  | 1 |  |  |  |  |
-| S-ZONE | 11 | 7 | 1 |  | 2 |  | 1 |  |
-| S-OUT | 10 | 8 | 1 | 1 |  |  |  |  |
+| S-ZONE | 13 | 9 | 1 |  | 2 |  | 1 |  |
+| S-OUT | 12 | 10 | 1 | 1 |  |  |  |  |
 | S-STER | 10 | 5 |  |  | 3 | 1 | 1 |  |
+| S-REDUCE | 10 | 5 | 1 | 3 |  |  |  | 1 |
+| S-ADMIN | 9 | 7 | 1 | 1 |  |  |  |  |
+| S-AWARE | 8 | 5 |  |  | 2 | 1 |  |  |
 | S-SHEL | 7 | 5 |  | 2 |  |  |  |  |
-| S-REDUCE | 7 | 2 | 1 | 3 |  |  |  | 1 |
-| S-AWARE | 7 | 4 |  |  | 2 | 1 |  |  |
-| S-ADMIN | 5 | 3 | 1 | 1 |  |  |  |  |
-| S-REMOVE-AGG | 4 | 2 |  |  | 1 |  |  | 1 |
+| S-REMOVE-AGG | 6 | 4 |  |  | 1 |  |  | 1 |
 | S-BOUND | 3 |  |  |  | 2 | 1 |  |  |
-
-Chart: `analysis/figures/fig7_theme_by_stakeholder.png` (percentages for the four largest groups). Reach chart: `fig8_stakeholder_reach.png`.
-
-**Stance, mean by group:** students −0.06 (n=18) · guards −0.2 (5) · mess/shop/cleaning staff −1.0 (4) · CCF +2.0 (3) · feeders/caretakers +1.0 (2) · faculty +1 (1). **Reliability:** A 6, B 16, C 14.
-
-## What the coding shows (detail in `synthesis.md`)
-- **Students** mostly raise dogs in hostels (9/18) and fear (9/18), and ask for "out of hostels" (8/18) plus designated zones (7/18). Almost no student asks to remove dogs altogether (2/18 reduce/remove).
-- **Guards** report the most bites and chasing (3/5 each) and point to outside dogs and boundary gaps (2/5). They can only shoo dogs and report upward.
-- **Mess, shop and cleaning staff** are the most negative group (mean −1.0; 3/4 want fewer dogs). Their complaints are hygiene and food.
-- **CCF** puts causes first (feeding outside zones and boundary gaps, 2/3 each), and is the main source on sterilisation, vaccination and shelter.
-- **Shared ground across every group:** feeding zones that actually work, dogs kept out of living and food spaces, and a sealed boundary.
-
-## Limitations
-One coder, coding from machine transcripts. 14 of 36 interviews are reliability C. Group sizes are small: treat counts as a description of *who said what to us*, not as rates. Interviewer prompts often suggested answers (e.g. VID-20261016-WA0018, where interviewers argue for a reduction), which pushes the stance scores. **Next step:** a second team member re-codes 10 interviews and checks the C-rated ones by ear.

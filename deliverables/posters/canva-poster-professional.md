@@ -3,12 +3,14 @@
 Paste everything below the second line into Canva, and upload `deliverables/posters/assets/hotspot-map-v2.jpg` with it. The creative version of the same content is `canva-poster-creative.md`. If you edit copy in one, edit the other.
 
 **Fill before sending** (anything in `[__]` prints as is):
-- Reach counts the repo does not hold: interviews from 30–31 Oct onwards, medical staff, the CCF designated feeder.
+- Reach: filled from the repo on 24/11 (43 recorded + 7 unrecorded). Medical staff and the CCF designated feeder have no file in the repo, so they are left off.
 - Source labels for two "For" quotes ("superior race", "scared and hungry"). They are not in the survey file, so they print as `[source]`.
 - The six quotes are the team's final wording (24 Nov). The beggars line is condensed from survey row 197, which reads "If the campus doesn't allow beggars to come inside and live here and think that dogs should be allowed to live here because they deserve humane treatment or something then this is completely backwards." Its label says "condensed" for that reason.
 
 Dates and counts are the union of the team's list (24 Nov) and the repo record. Where the two give different dates for a similar event, both are kept.
 
+
+**Check before sending (24/11/2026).** Some timeline dates disagree with the files: the survey's 211 responses are all dated 13–17 Oct (not 25–26 Sep); the first CCF interviews on record are 17 Sep and 24 Sep (not 3–4 Sep); the CMO interview on record is 13 Oct; every dated poster photo is from the night of 23–24 Nov (none from 7–8 Nov). See `deliverables/kpi-table.md` → "Depth in detail". Settle these before printing. The Change row was rewritten because the course (slide 21) gives nothing for untestable "awareness"; fill the CCF reply or leave the row as "requested, not yet confirmed".
 ---
 
 Design an A3 landscape academic poster (420 × 297 mm, 300 dpi) titled "Campus dogs: two sides of one street" for EEC 399 Community Outreach, Group 23, IIT Roorkee. It should read like a polished conference research poster: a solid header band, content in titled panels on a clear grid, plenty of white space, every number easy to find, nothing decorative that carries no information.
@@ -126,19 +128,19 @@ A clean table, navy header row, light zebra rows, three columns: KPI · What we 
 
 | KPI | What we did | Evidence |
 |---|---|---|
-| Reach | 44+ people interviewed. 36 recorded by 20 Oct: students 18, guards 5, mess, canteen and sanitation staff 4, CCF 3 (including the joint secretary), feeders 2, faculty 1, roles unclear 3. 7 unrecorded talks: the CMO, 3 guards, 2 bite victims, a canteen worker. A dog lover at an injured-dog rescue. Later rounds [__]. Medical staff [__]. CCF designated feeder [__]. 211 Google Form responses. | Drive recordings and notes, form responses |
-| Depth | 16 dated sessions, 16 Aug to 8 Nov 2026 (timeline below), 2 of them at night. 3.95 hours of audio and video across 80 recordings. Every member also interviewed on their own in between. | Dated Drive files, chat log |
-| Record | A dog hotspot map, compared with the feeding-spot map to find the gap. A survey dataset of 211 responses. 36 interviews coded by theme. 80 recordings transcribed. A Drive archive of permitted audio, video, photos, resident complaints and awareness work. | Drive, this map, survey sheet |
-| Output | Feeding-spot awareness posters put up and handed out across campus. A solutions report sent to CCF. | Poster locations and photos, the report |
-| Change | Residents learnt where the designated feeding spots are and what CCF is. People became more careful about where they feed and pet dogs. | Photos of people engaging with the posters |
+| Reach | 50 conversations. 43 recorded and coded: students 24, guards 6, mess, canteen and sanitation staff 4, CCF 3 (including the joint secretary), feeders 2, faculty 1, roles unclear 3. 7 unrecorded talks: the CMO, 3 guards, 2 bite victims, a canteen worker. 9 of the people we spoke to had been bitten, scratched or attacked themselves. 211 Google Form responses. | Drive recordings and notes, form responses |
+| Depth | Fieldwork from 23 Aug to 24 Nov 2026 (timeline below), 3 nights on file (24 Sep, 14–15 Oct, 24 Nov). 4.41 hours of audio and video across 88 recordings. Every member also interviewed on their own in between. | Dated Drive files, chat log |
+| Record | A dog hotspot map, compared with the 8-point feeding-spot map to find the gap. A survey dataset of 211 responses. 43 interviews coded by theme. 88 recordings transcribed. A Drive archive of permitted audio, video, photos, resident complaints and awareness work. | Drive, this map, survey sheet |
+| Output | Feeding-spot posters (8 designated points) put up at about 8 photographed places and handed out. A solutions report sent to CCF. | Poster locations and photos, the report |
+| Change | Posters now mark the 8 feeding points where people pass: notice boards, a water cooler, pillars, a gate. Written response from CCF: [__]. | Photos of people engaging with the posters |
 
 Grey line under the table: Not obtained: hospital bite and vaccination figures, withheld for privacy.
 
 ### 4. Timeline strip
 
-Title at the left: Our fieldwork. A thin navy line across the width with 17 small dots, date in bold above each, a few words below:
+Title at the left: Our fieldwork. A thin navy line across the width with 18 small dots, date in bold above each, a few words below:
 
-16 Aug group formed · 18 Aug first team meeting · 21–23 Aug first meetup, guard interviews, helped an injured dog · 27 Aug survey draft · 3–4 Sep CCF joint secretary and volunteers · 17–20 Sep CCF volunteer; Govind, Himalaya, Aravali, MNC · 22 Sep anonymous survey · 24 Sep hospital visit, CCF meeting at night · 25–26 Sep Google Form floated · 2–4 Oct KB, SAC, MAC · 7–8 Oct team analysis · 13–17 Oct 211 responses; CMO interview · 14–15 Oct night fieldwork, 21 recordings · 16–17 Oct departments, JB and SB canteens, guards · 24–25 Oct CMO interview · 30–31 Oct interviews in every bhawan · 7–8 Nov feeding-spot posters
+16 Aug group formed · 18 Aug first team meeting · 21–23 Aug first meetup, guard interviews, helped an injured dog · 27 Aug survey draft · 3–4 Sep CCF joint secretary and volunteers · 17–20 Sep CCF volunteer; Govind, Himalaya, Aravali, MNC · 22 Sep anonymous survey · 24 Sep hospital visit, CCF meeting at night · 25–26 Sep Google Form floated · 2–4 Oct KB, SAC, MAC · 7–8 Oct team analysis · 13–17 Oct 211 responses; CMO interview · 14–15 Oct night fieldwork, 21 recordings · 16–17 Oct departments, JB and SB canteens, guards · 24–25 Oct CMO interview · 30–31 Oct interviews in every bhawan · 7–8 Nov feeding-spot posters · 23–24 Nov night poster drive, interviews
 
 ### 5. Footer line
 

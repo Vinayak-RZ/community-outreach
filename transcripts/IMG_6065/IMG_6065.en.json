@@ -1,0 +1,3271 @@
+{
+ "source_file": "IMG_6065.MOV",
+ "created": "2026-11-24T17:59:43.481620+00:00",
+ "model": "small",
+ "device": "cpu",
+ "compute_type": "int8",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.621,
+  "top": [
+   [
+    "hi",
+    0.621
+   ],
+   [
+    "ur",
+    0.24
+   ],
+   [
+    "en",
+    0.091
+   ]
+  ]
+ },
+ "duration_s": 291.7,
+ "processing_s": 102.4,
+ "initial_prompt": "IIT Roorkee campus dogs, CCF, bhawan, mess, guard, feeding zone, Hinglish interview",
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 4.22,
+   "text": "First of all, tell us your name and address.",
+   "avg_logprob": -0.748,
+   "no_speech_prob": 0.582,
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.3,
+     "word": " First",
+     "prob": 0.246
+    },
+    {
+     "start": 0.3,
+     "end": 0.56,
+     "word": " of",
+     "prob": 0.647
+    },
+    {
+     "start": 0.56,
+     "end": 0.7,
+     "word": " all,",
+     "prob": 0.99
+    },
+    {
+     "start": 0.98,
+     "end": 1.32,
+     "word": " tell",
+     "prob": 0.212
+    },
+    {
+     "start": 1.32,
+     "end": 1.32,
+     "word": " us",
+     "prob": 0.473
+    },
+    {
+     "start": 1.32,
+     "end": 1.6,
+     "word": " your",
+     "prob": 0.749
+    },
+    {
+     "start": 1.6,
+     "end": 2.24,
+     "word": " name",
+     "prob": 0.909
+    },
+    {
+     "start": 2.24,
+     "end": 2.56,
+     "word": " and",
+     "prob": 0.572
+    },
+    {
+     "start": 2.56,
+     "end": 4.22,
+     "word": " address.",
+     "prob": 0.283
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 4.8,
+   "end": 9.1,
+   "text": "I am Vasudev. I am a Master's Physics student.",
+   "avg_logprob": -0.748,
+   "no_speech_prob": 0.582,
+   "words": [
+    {
+     "start": 4.8,
+     "end": 5.42,
+     "word": " I",
+     "prob": 0.341
+    },
+    {
+     "start": 5.42,
+     "end": 6.6,
+     "word": " am",
+     "prob": 0.68
+    },
+    {
+     "start": 6.6,
+     "end": 7.24,
+     "word": " Vasudev.",
+     "prob": 0.672
+    },
+    {
+     "start": 7.72,
+     "end": 8.08,
+     "word": " I",
+     "prob": 0.855
+    },
+    {
+     "start": 8.08,
+     "end": 8.18,
+     "word": " am",
+     "prob": 0.64
+    },
+    {
+     "start": 8.18,
+     "end": 8.18,
+     "word": " a",
+     "prob": 0.293
+    },
+    {
+     "start": 8.18,
+     "end": 8.64,
+     "word": " Master's",
+     "prob": 0.568
+    },
+    {
+     "start": 8.64,
+     "end": 8.82,
+     "word": " Physics",
+     "prob": 0.087
+    },
+    {
+     "start": 8.82,
+     "end": 9.1,
+     "word": " student.",
+     "prob": 0.306
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 10.22,
+   "end": 11.16,
+   "text": "I am in the MENA board.",
+   "avg_logprob": -0.748,
+   "no_speech_prob": 0.582,
+   "words": [
+    {
+     "start": 10.22,
+     "end": 10.22,
+     "word": " I",
+     "prob": 0.581
+    },
+    {
+     "start": 10.22,
+     "end": 10.22,
+     "word": " am",
+     "prob": 0.494
+    },
+    {
+     "start": 10.22,
+     "end": 10.76,
+     "word": " in",
+     "prob": 0.182
+    },
+    {
+     "start": 10.76,
+     "end": 10.88,
+     "word": " the",
+     "prob": 0.172
+    },
+    {
+     "start": 10.88,
+     "end": 10.96,
+     "word": " MENA",
+     "prob": 0.168
+    },
+    {
+     "start": 10.96,
+     "end": 11.16,
+     "word": " board.",
+     "prob": 0.117
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 13.7,
+   "end": 16.9,
+   "text": "Actually this is our community outreach post.",
+   "avg_logprob": -0.748,
+   "no_speech_prob": 0.582,
+   "words": [
+    {
+     "start": 13.7,
+     "end": 14.14,
+     "word": " Actually",
+     "prob": 0.225
+    },
+    {
+     "start": 14.14,
+     "end": 14.98,
+     "word": " this",
+     "prob": 0.236
+    },
+    {
+     "start": 14.98,
+     "end": 14.98,
+     "word": " is",
+     "prob": 0.978
+    },
+    {
+     "start": 14.98,
+     "end": 15.2,
+     "word": " our",
+     "prob": 0.861
+    },
+    {
+     "start": 15.2,
+     "end": 15.64,
+     "word": " community",
+     "prob": 0.81
+    },
+    {
+     "start": 15.64,
+     "end": 15.98,
+     "word": " outreach",
+     "prob": 0.98
+    },
+    {
+     "start": 15.98,
+     "end": 16.9,
+     "word": " post.",
+     "prob": 0.202
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 17.54,
+   "end": 20.0,
+   "text": "We are spreading awareness on dogs' leading zones",
+   "avg_logprob": -0.748,
+   "no_speech_prob": 0.582,
+   "words": [
+    {
+     "start": 17.54,
+     "end": 17.76,
+     "word": " We",
+     "prob": 0.49
+    },
+    {
+     "start": 17.76,
+     "end": 18.16,
+     "word": " are",
+     "prob": 0.829
+    },
+    {
+     "start": 18.16,
+     "end": 18.16,
+     "word": " spreading",
+     "prob": 0.955
+    },
+    {
+     "start": 18.16,
+     "end": 18.16,
+     "word": " awareness",
+     "prob": 0.665
+    },
+    {
+     "start": 18.16,
+     "end": 18.16,
+     "word": " on",
+     "prob": 0.16
+    },
+    {
+     "start": 18.16,
+     "end": 18.6,
+     "word": " dogs'",
+     "prob": 0.33
+    },
+    {
+     "start": 18.84,
+     "end": 19.6,
+     "word": " leading",
+     "prob": 0.293
+    },
+    {
+     "start": 19.6,
+     "end": 20.0,
+     "word": " zones",
+     "prob": 0.403
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 21.38,
+   "end": 24.4,
+   "text": "So there was one general question from you",
+   "avg_logprob": -0.748,
+   "no_speech_prob": 0.582,
+   "words": [
+    {
+     "start": 21.38,
+     "end": 22.26,
+     "word": " So",
+     "prob": 0.002
+    },
+    {
+     "start": 22.26,
+     "end": 22.86,
+     "word": " there",
+     "prob": 0.109
+    },
+    {
+     "start": 22.86,
+     "end": 22.86,
+     "word": " was",
+     "prob": 0.317
+    },
+    {
+     "start": 22.86,
+     "end": 22.86,
+     "word": " one",
+     "prob": 0.057
+    },
+    {
+     "start": 22.86,
+     "end": 23.68,
+     "word": " general",
+     "prob": 0.668
+    },
+    {
+     "start": 23.68,
+     "end": 24.06,
+     "word": " question",
+     "prob": 0.988
+    },
+    {
+     "start": 24.06,
+     "end": 24.4,
+     "word": " from",
+     "prob": 0.145
+    },
+    {
+     "start": 24.4,
+     "end": 24.4,
+     "word": " you",
+     "prob": 0.97
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 24.4,
+   "end": 27.08,
+   "text": "What would you like to say about these campus dogs?",
+   "avg_logprob": -0.748,
+   "no_speech_prob": 0.582,
+   "words": [
+    {
+     "start": 24.4,
+     "end": 25.36,
+     "word": " What",
+     "prob": 0.081
+    },
+    {
+     "start": 25.36,
+     "end": 25.36,
+     "word": " would",
+     "prob": 0.247
+    },
+    {
+     "start": 25.36,
+     "end": 25.36,
+     "word": " you",
+     "prob": 0.863
+    },
+    {
+     "start": 25.36,
+     "end": 25.36,
+     "word": " like",
+     "prob": 0.575
+    },
+    {
+     "start": 25.36,
+     "end": 25.36,
+     "word": " to",
+     "prob": 0.99
+    },
+    {
+     "start": 25.36,
+     "end": 25.36,
+     "word": " say",
+     "prob": 0.807
+    },
+    {
+     "start": 25.36,
+     "end": 25.48,
+     "word": " about",
+     "prob": 0.774
+    },
+    {
+     "start": 25.48,
+     "end": 25.74,
+     "word": " these",
+     "prob": 0.179
+    },
+    {
+     "start": 25.74,
+     "end": 26.54,
+     "word": " campus",
+     "prob": 0.89
+    },
+    {
+     "start": 26.54,
+     "end": 27.08,
+     "word": " dogs?",
+     "prob": 0.969
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 36.0,
+   "end": 36.6,
+   "text": "I was a little bit upset.",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 36.0,
+     "end": 36.08,
+     "word": " I",
+     "prob": 0.241
+    },
+    {
+     "start": 36.08,
+     "end": 36.08,
+     "word": " was",
+     "prob": 0.17
+    },
+    {
+     "start": 36.08,
+     "end": 36.08,
+     "word": " a",
+     "prob": 0.05
+    },
+    {
+     "start": 36.08,
+     "end": 36.1,
+     "word": " little",
+     "prob": 0.457
+    },
+    {
+     "start": 36.1,
+     "end": 36.3,
+     "word": " bit",
+     "prob": 0.094
+    },
+    {
+     "start": 36.3,
+     "end": 36.6,
+     "word": " upset.",
+     "prob": 0.098
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 37.3,
+   "end": 40.32,
+   "text": "At first, I used to bring my children for the end of the day.",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 37.3,
+     "end": 37.74,
+     "word": " At",
+     "prob": 0.241
+    },
+    {
+     "start": 37.74,
+     "end": 37.88,
+     "word": " first,",
+     "prob": 0.719
+    },
+    {
+     "start": 38.34,
+     "end": 38.46,
+     "word": " I",
+     "prob": 0.893
+    },
+    {
+     "start": 38.46,
+     "end": 39.02,
+     "word": " used",
+     "prob": 0.364
+    },
+    {
+     "start": 39.02,
+     "end": 39.02,
+     "word": " to",
+     "prob": 0.992
+    },
+    {
+     "start": 39.02,
+     "end": 39.32,
+     "word": " bring",
+     "prob": 0.428
+    },
+    {
+     "start": 39.32,
+     "end": 39.5,
+     "word": " my",
+     "prob": 0.337
+    },
+    {
+     "start": 39.5,
+     "end": 39.6,
+     "word": " children",
+     "prob": 0.171
+    },
+    {
+     "start": 39.6,
+     "end": 39.86,
+     "word": " for",
+     "prob": 0.185
+    },
+    {
+     "start": 39.86,
+     "end": 39.9,
+     "word": " the",
+     "prob": 0.122
+    },
+    {
+     "start": 39.9,
+     "end": 39.9,
+     "word": " end",
+     "prob": 0.055
+    },
+    {
+     "start": 39.9,
+     "end": 40.08,
+     "word": " of",
+     "prob": 0.115
+    },
+    {
+     "start": 40.08,
+     "end": 40.08,
+     "word": " the",
+     "prob": 0.613
+    },
+    {
+     "start": 40.08,
+     "end": 40.32,
+     "word": " day.",
+     "prob": 0.417
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 40.58,
+   "end": 42.54,
+   "text": "I said, hey, good people, how one take out?",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 40.58,
+     "end": 40.58,
+     "word": " I",
+     "prob": 0.535
+    },
+    {
+     "start": 40.58,
+     "end": 40.68,
+     "word": " said,",
+     "prob": 0.173
+    },
+    {
+     "start": 40.74,
+     "end": 40.88,
+     "word": " hey,",
+     "prob": 0.076
+    },
+    {
+     "start": 40.98,
+     "end": 41.16,
+     "word": " good",
+     "prob": 0.302
+    },
+    {
+     "start": 41.16,
+     "end": 41.38,
+     "word": " people,",
+     "prob": 0.554
+    },
+    {
+     "start": 41.54,
+     "end": 42.08,
+     "word": " how",
+     "prob": 0.387
+    },
+    {
+     "start": 42.08,
+     "end": 42.22,
+     "word": " one",
+     "prob": 0.266
+    },
+    {
+     "start": 42.22,
+     "end": 42.34,
+     "word": " take",
+     "prob": 0.326
+    },
+    {
+     "start": 42.34,
+     "end": 42.54,
+     "word": " out?",
+     "prob": 0.333
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 42.8,
+   "end": 44.9,
+   "text": "But gradually, gradually, I don't know what happened in the last 10 days,",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 42.8,
+     "end": 43.24,
+     "word": " But",
+     "prob": 0.352
+    },
+    {
+     "start": 43.24,
+     "end": 43.64,
+     "word": " gradually,",
+     "prob": 0.534
+    },
+    {
+     "start": 43.84,
+     "end": 43.84,
+     "word": " gradually,",
+     "prob": 0.412
+    },
+    {
+     "start": 43.96,
+     "end": 44.04,
+     "word": " I",
+     "prob": 0.524
+    },
+    {
+     "start": 44.04,
+     "end": 44.06,
+     "word": " don't",
+     "prob": 0.867
+    },
+    {
+     "start": 44.06,
+     "end": 44.16,
+     "word": " know",
+     "prob": 0.995
+    },
+    {
+     "start": 44.16,
+     "end": 44.34,
+     "word": " what",
+     "prob": 0.45
+    },
+    {
+     "start": 44.34,
+     "end": 44.34,
+     "word": " happened",
+     "prob": 0.382
+    },
+    {
+     "start": 44.34,
+     "end": 44.34,
+     "word": " in",
+     "prob": 0.694
+    },
+    {
+     "start": 44.34,
+     "end": 44.42,
+     "word": " the",
+     "prob": 0.893
+    },
+    {
+     "start": 44.42,
+     "end": 44.52,
+     "word": " last",
+     "prob": 0.825
+    },
+    {
+     "start": 44.52,
+     "end": 44.72,
+     "word": " 10",
+     "prob": 0.662
+    },
+    {
+     "start": 44.72,
+     "end": 44.9,
+     "word": " days,",
+     "prob": 0.996
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 45.5,
+   "end": 45.98,
+   "text": "I got a little bit upset.",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 45.5,
+     "end": 45.5,
+     "word": " I",
+     "prob": 0.234
+    },
+    {
+     "start": 45.5,
+     "end": 45.5,
+     "word": " got",
+     "prob": 0.52
+    },
+    {
+     "start": 45.5,
+     "end": 45.5,
+     "word": " a",
+     "prob": 0.694
+    },
+    {
+     "start": 45.5,
+     "end": 45.5,
+     "word": " little",
+     "prob": 0.862
+    },
+    {
+     "start": 45.5,
+     "end": 45.54,
+     "word": " bit",
+     "prob": 0.423
+    },
+    {
+     "start": 45.54,
+     "end": 45.98,
+     "word": " upset.",
+     "prob": 0.696
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 47.08,
+   "end": 50.14,
+   "text": "One thing is that their behavioral change is sudden,",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 47.08,
+     "end": 47.52,
+     "word": " One",
+     "prob": 0.064
+    },
+    {
+     "start": 47.52,
+     "end": 47.96,
+     "word": " thing",
+     "prob": 0.141
+    },
+    {
+     "start": 47.96,
+     "end": 48.08,
+     "word": " is",
+     "prob": 0.471
+    },
+    {
+     "start": 48.08,
+     "end": 48.08,
+     "word": " that",
+     "prob": 0.335
+    },
+    {
+     "start": 48.08,
+     "end": 48.24,
+     "word": " their",
+     "prob": 0.295
+    },
+    {
+     "start": 48.24,
+     "end": 48.86,
+     "word": " behavioral",
+     "prob": 0.582
+    },
+    {
+     "start": 48.86,
+     "end": 49.1,
+     "word": " change",
+     "prob": 0.607
+    },
+    {
+     "start": 49.1,
+     "end": 49.3,
+     "word": " is",
+     "prob": 0.574
+    },
+    {
+     "start": 49.3,
+     "end": 50.14,
+     "word": " sudden,",
+     "prob": 0.699
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 50.46,
+   "end": 51.76,
+   "text": "I have seen that change.",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 50.46,
+     "end": 50.84,
+     "word": " I",
+     "prob": 0.114
+    },
+    {
+     "start": 50.84,
+     "end": 50.84,
+     "word": " have",
+     "prob": 0.752
+    },
+    {
+     "start": 50.84,
+     "end": 50.84,
+     "word": " seen",
+     "prob": 0.965
+    },
+    {
+     "start": 50.84,
+     "end": 51.32,
+     "word": " that",
+     "prob": 0.737
+    },
+    {
+     "start": 51.32,
+     "end": 51.76,
+     "word": " change.",
+     "prob": 0.284
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 52.74,
+   "end": 54.62,
+   "text": "They are also there on campus.",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 52.74,
+     "end": 53.18,
+     "word": " They",
+     "prob": 0.11
+    },
+    {
+     "start": 53.18,
+     "end": 53.32,
+     "word": " are",
+     "prob": 0.7
+    },
+    {
+     "start": 53.32,
+     "end": 53.58,
+     "word": " also",
+     "prob": 0.236
+    },
+    {
+     "start": 53.58,
+     "end": 53.8,
+     "word": " there",
+     "prob": 0.139
+    },
+    {
+     "start": 53.8,
+     "end": 54.26,
+     "word": " on",
+     "prob": 0.372
+    },
+    {
+     "start": 54.26,
+     "end": 54.62,
+     "word": " campus.",
+     "prob": 0.074
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 56.71,
+   "end": 57.67,
+   "text": "My brother went to school.",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 56.71,
+     "end": 57.01,
+     "word": " My",
+     "prob": 0.127
+    },
+    {
+     "start": 57.01,
+     "end": 57.01,
+     "word": " brother",
+     "prob": 0.294
+    },
+    {
+     "start": 57.01,
+     "end": 57.01,
+     "word": " went",
+     "prob": 0.104
+    },
+    {
+     "start": 57.01,
+     "end": 57.61,
+     "word": " to",
+     "prob": 0.691
+    },
+    {
+     "start": 57.61,
+     "end": 57.67,
+     "word": " school.",
+     "prob": 0.175
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 58.35,
+   "end": 59.65,
+   "text": "Okay, your friends too,",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 58.35,
+     "end": 58.63,
+     "word": " Okay,",
+     "prob": 0.228
+    },
+    {
+     "start": 58.89,
+     "end": 58.91,
+     "word": " your",
+     "prob": 0.404
+    },
+    {
+     "start": 58.91,
+     "end": 59.45,
+     "word": " friends",
+     "prob": 0.879
+    },
+    {
+     "start": 59.45,
+     "end": 59.65,
+     "word": " too,",
+     "prob": 0.238
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 59.73,
+   "end": 61.45,
+   "text": "when you were fighting in the past few days",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 59.73,
+     "end": 59.83,
+     "word": " when",
+     "prob": 0.15
+    },
+    {
+     "start": 59.83,
+     "end": 60.57,
+     "word": " you",
+     "prob": 0.191
+    },
+    {
+     "start": 60.57,
+     "end": 60.63,
+     "word": " were",
+     "prob": 0.144
+    },
+    {
+     "start": 60.63,
+     "end": 61.27,
+     "word": " fighting",
+     "prob": 0.212
+    },
+    {
+     "start": 61.27,
+     "end": 61.45,
+     "word": " in",
+     "prob": 0.264
+    },
+    {
+     "start": 61.45,
+     "end": 61.45,
+     "word": " the",
+     "prob": 0.795
+    },
+    {
+     "start": 61.45,
+     "end": 61.45,
+     "word": " past",
+     "prob": 0.296
+    },
+    {
+     "start": 61.45,
+     "end": 61.45,
+     "word": " few",
+     "prob": 0.061
+    },
+    {
+     "start": 61.45,
+     "end": 61.45,
+     "word": " days",
+     "prob": 0.995
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 63.45,
+   "end": 65.51,
+   "text": "So I took him to the hospital.",
+   "avg_logprob": -0.924,
+   "no_speech_prob": 0.762,
+   "words": [
+    {
+     "start": 63.45,
+     "end": 63.89,
+     "word": " So",
+     "prob": 0.001
+    },
+    {
+     "start": 63.89,
+     "end": 64.33,
+     "word": " I",
+     "prob": 0.385
+    },
+    {
+     "start": 64.33,
+     "end": 64.61,
+     "word": " took",
+     "prob": 0.631
+    },
+    {
+     "start": 64.61,
+     "end": 64.81,
+     "word": " him",
+     "prob": 0.528
+    },
+    {
+     "start": 64.81,
+     "end": 64.97,
+     "word": " to",
+     "prob": 0.837
+    },
+    {
+     "start": 64.97,
+     "end": 65.11,
+     "word": " the",
+     "prob": 0.726
+    },
+    {
+     "start": 65.11,
+     "end": 65.51,
+     "word": " hospital.",
+     "prob": 0.983
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 66.51,
+   "end": 71.57,
+   "text": "I don't know if it's because of your experience and the environment",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 66.51,
+     "end": 66.69,
+     "word": " I",
+     "prob": 0.122
+    },
+    {
+     "start": 66.69,
+     "end": 66.73,
+     "word": " don't",
+     "prob": 0.58
+    },
+    {
+     "start": 66.73,
+     "end": 66.73,
+     "word": " know",
+     "prob": 0.816
+    },
+    {
+     "start": 66.73,
+     "end": 67.09,
+     "word": " if",
+     "prob": 0.387
+    },
+    {
+     "start": 67.09,
+     "end": 67.17,
+     "word": " it's",
+     "prob": 0.329
+    },
+    {
+     "start": 67.17,
+     "end": 67.17,
+     "word": " because",
+     "prob": 0.224
+    },
+    {
+     "start": 67.17,
+     "end": 67.45,
+     "word": " of",
+     "prob": 0.557
+    },
+    {
+     "start": 67.45,
+     "end": 67.45,
+     "word": " your",
+     "prob": 0.477
+    },
+    {
+     "start": 67.45,
+     "end": 67.97,
+     "word": " experience",
+     "prob": 0.408
+    },
+    {
+     "start": 67.97,
+     "end": 69.49,
+     "word": " and",
+     "prob": 0.222
+    },
+    {
+     "start": 69.49,
+     "end": 70.63,
+     "word": " the",
+     "prob": 0.094
+    },
+    {
+     "start": 70.63,
+     "end": 71.57,
+     "word": " environment",
+     "prob": 0.077
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 72.53,
+   "end": 74.21,
+   "text": "It would be traumatic",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 72.53,
+     "end": 73.29,
+     "word": " It",
+     "prob": 0.011
+    },
+    {
+     "start": 73.29,
+     "end": 73.47,
+     "word": " would",
+     "prob": 0.073
+    },
+    {
+     "start": 73.47,
+     "end": 73.57,
+     "word": " be",
+     "prob": 0.64
+    },
+    {
+     "start": 73.57,
+     "end": 74.21,
+     "word": " traumatic",
+     "prob": 0.531
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 74.21,
+   "end": 79.99,
+   "text": "We see dogs running, we don't want to go",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 74.21,
+     "end": 75.71,
+     "word": " We",
+     "prob": 0.006
+    },
+    {
+     "start": 75.71,
+     "end": 76.75,
+     "word": " see",
+     "prob": 0.181
+    },
+    {
+     "start": 76.75,
+     "end": 76.99,
+     "word": " dogs",
+     "prob": 0.395
+    },
+    {
+     "start": 76.99,
+     "end": 77.61,
+     "word": " running,",
+     "prob": 0.373
+    },
+    {
+     "start": 77.93,
+     "end": 78.93,
+     "word": " we",
+     "prob": 0.142
+    },
+    {
+     "start": 78.93,
+     "end": 79.07,
+     "word": " don't",
+     "prob": 0.694
+    },
+    {
+     "start": 79.07,
+     "end": 79.07,
+     "word": " want",
+     "prob": 0.132
+    },
+    {
+     "start": 79.07,
+     "end": 79.19,
+     "word": " to",
+     "prob": 0.639
+    },
+    {
+     "start": 79.19,
+     "end": 79.99,
+     "word": " go",
+     "prob": 0.318
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "start": 79.99,
+   "end": 81.25,
+   "text": "It will be so traumatic",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 79.99,
+     "end": 80.39,
+     "word": " It",
+     "prob": 0.006
+    },
+    {
+     "start": 80.39,
+     "end": 80.89,
+     "word": " will",
+     "prob": 0.08
+    },
+    {
+     "start": 80.89,
+     "end": 80.91,
+     "word": " be",
+     "prob": 0.829
+    },
+    {
+     "start": 80.91,
+     "end": 80.91,
+     "word": " so",
+     "prob": 0.236
+    },
+    {
+     "start": 80.91,
+     "end": 81.25,
+     "word": " traumatic",
+     "prob": 0.896
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "start": 81.25,
+   "end": 84.59,
+   "text": "We don't even know that some dogs are good",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 81.25,
+     "end": 82.39,
+     "word": " We",
+     "prob": 0.027
+    },
+    {
+     "start": 82.39,
+     "end": 82.75,
+     "word": " don't",
+     "prob": 0.704
+    },
+    {
+     "start": 82.75,
+     "end": 83.21,
+     "word": " even",
+     "prob": 0.081
+    },
+    {
+     "start": 83.21,
+     "end": 83.35,
+     "word": " know",
+     "prob": 0.955
+    },
+    {
+     "start": 83.35,
+     "end": 83.79,
+     "word": " that",
+     "prob": 0.162
+    },
+    {
+     "start": 83.79,
+     "end": 84.15,
+     "word": " some",
+     "prob": 0.143
+    },
+    {
+     "start": 84.15,
+     "end": 84.29,
+     "word": " dogs",
+     "prob": 0.723
+    },
+    {
+     "start": 84.29,
+     "end": 84.41,
+     "word": " are",
+     "prob": 0.925
+    },
+    {
+     "start": 84.41,
+     "end": 84.59,
+     "word": " good",
+     "prob": 0.549
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "start": 84.59,
+   "end": 86.73,
+   "text": "They're all lovable and cute",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 84.59,
+     "end": 85.31,
+     "word": " They're",
+     "prob": 0.115
+    },
+    {
+     "start": 85.31,
+     "end": 85.41,
+     "word": " all",
+     "prob": 0.242
+    },
+    {
+     "start": 85.41,
+     "end": 85.85,
+     "word": " lovable",
+     "prob": 0.597
+    },
+    {
+     "start": 85.85,
+     "end": 86.25,
+     "word": " and",
+     "prob": 0.528
+    },
+    {
+     "start": 86.25,
+     "end": 86.73,
+     "word": " cute",
+     "prob": 0.959
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "start": 86.73,
+   "end": 88.95,
+   "text": "But now they've become a bit dramatic",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 86.73,
+     "end": 87.37,
+     "word": " But",
+     "prob": 0.587
+    },
+    {
+     "start": 87.37,
+     "end": 88.05,
+     "word": " now",
+     "prob": 0.225
+    },
+    {
+     "start": 88.05,
+     "end": 88.33,
+     "word": " they've",
+     "prob": 0.276
+    },
+    {
+     "start": 88.33,
+     "end": 88.33,
+     "word": " become",
+     "prob": 0.11
+    },
+    {
+     "start": 88.33,
+     "end": 88.47,
+     "word": " a",
+     "prob": 0.255
+    },
+    {
+     "start": 88.47,
+     "end": 88.47,
+     "word": " bit",
+     "prob": 0.07
+    },
+    {
+     "start": 88.47,
+     "end": 88.95,
+     "word": " dramatic",
+     "prob": 0.115
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "start": 89.51,
+   "end": 90.87,
+   "text": "They'll eat dog food",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 89.51,
+     "end": 90.37,
+     "word": " They'll",
+     "prob": 0.193
+    },
+    {
+     "start": 90.37,
+     "end": 90.65,
+     "word": " eat",
+     "prob": 0.474
+    },
+    {
+     "start": 90.65,
+     "end": 90.87,
+     "word": " dog",
+     "prob": 0.056
+    },
+    {
+     "start": 90.87,
+     "end": 90.87,
+     "word": " food",
+     "prob": 0.601
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "start": 90.87,
+   "end": 92.11,
+   "text": "So it is a bit",
+   "avg_logprob": -1.046,
+   "no_speech_prob": 0.523,
+   "words": [
+    {
+     "start": 90.87,
+     "end": 91.35,
+     "word": " So",
+     "prob": 0.139
+    },
+    {
+     "start": 91.35,
+     "end": 91.95,
+     "word": " it",
+     "prob": 0.347
+    },
+    {
+     "start": 91.95,
+     "end": 91.95,
+     "word": " is",
+     "prob": 0.099
+    },
+    {
+     "start": 91.95,
+     "end": 92.01,
+     "word": " a",
+     "prob": 0.449
+    },
+    {
+     "start": 92.01,
+     "end": 92.11,
+     "word": " bit",
+     "prob": 0.821
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "start": 123.21,
+   "end": 126.73,
+   "text": "You can kill them, you can upset them, get out of there.",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 123.21,
+     "end": 123.69,
+     "word": " You",
+     "prob": 0.064
+    },
+    {
+     "start": 123.69,
+     "end": 123.85,
+     "word": " can",
+     "prob": 0.589
+    },
+    {
+     "start": 123.85,
+     "end": 124.21,
+     "word": " kill",
+     "prob": 0.43
+    },
+    {
+     "start": 124.21,
+     "end": 124.21,
+     "word": " them,",
+     "prob": 0.581
+    },
+    {
+     "start": 124.67,
+     "end": 124.73,
+     "word": " you",
+     "prob": 0.201
+    },
+    {
+     "start": 124.73,
+     "end": 124.99,
+     "word": " can",
+     "prob": 0.947
+    },
+    {
+     "start": 124.99,
+     "end": 125.03,
+     "word": " upset",
+     "prob": 0.332
+    },
+    {
+     "start": 125.03,
+     "end": 125.65,
+     "word": " them,",
+     "prob": 0.815
+    },
+    {
+     "start": 125.65,
+     "end": 125.95,
+     "word": " get",
+     "prob": 0.116
+    },
+    {
+     "start": 125.95,
+     "end": 125.95,
+     "word": " out",
+     "prob": 0.251
+    },
+    {
+     "start": 125.95,
+     "end": 126.13,
+     "word": " of",
+     "prob": 0.5
+    },
+    {
+     "start": 126.13,
+     "end": 126.73,
+     "word": " there.",
+     "prob": 0.614
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "start": 126.95,
+   "end": 129.31,
+   "text": "The good dogs don't have any problem with that.",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 126.95,
+     "end": 127.21,
+     "word": " The",
+     "prob": 0.178
+    },
+    {
+     "start": 127.21,
+     "end": 127.77,
+     "word": " good",
+     "prob": 0.664
+    },
+    {
+     "start": 127.77,
+     "end": 128.01,
+     "word": " dogs",
+     "prob": 0.641
+    },
+    {
+     "start": 128.01,
+     "end": 128.39,
+     "word": " don't",
+     "prob": 0.596
+    },
+    {
+     "start": 128.39,
+     "end": 128.51,
+     "word": " have",
+     "prob": 0.645
+    },
+    {
+     "start": 128.51,
+     "end": 128.87,
+     "word": " any",
+     "prob": 0.425
+    },
+    {
+     "start": 128.87,
+     "end": 128.99,
+     "word": " problem",
+     "prob": 0.67
+    },
+    {
+     "start": 128.99,
+     "end": 129.31,
+     "word": " with",
+     "prob": 0.113
+    },
+    {
+     "start": 129.31,
+     "end": 129.31,
+     "word": " that.",
+     "prob": 0.184
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "start": 129.31,
+   "end": 131.43,
+   "text": "The dogs are good, normally they are very nice.",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 129.31,
+     "end": 129.37,
+     "word": " The",
+     "prob": 0.368
+    },
+    {
+     "start": 129.37,
+     "end": 129.49,
+     "word": " dogs",
+     "prob": 0.687
+    },
+    {
+     "start": 129.49,
+     "end": 129.63,
+     "word": " are",
+     "prob": 0.955
+    },
+    {
+     "start": 129.63,
+     "end": 129.81,
+     "word": " good,",
+     "prob": 0.419
+    },
+    {
+     "start": 130.09,
+     "end": 130.39,
+     "word": " normally",
+     "prob": 0.56
+    },
+    {
+     "start": 130.39,
+     "end": 130.97,
+     "word": " they",
+     "prob": 0.137
+    },
+    {
+     "start": 130.97,
+     "end": 130.97,
+     "word": " are",
+     "prob": 0.848
+    },
+    {
+     "start": 130.97,
+     "end": 131.15,
+     "word": " very",
+     "prob": 0.369
+    },
+    {
+     "start": 131.15,
+     "end": 131.43,
+     "word": " nice.",
+     "prob": 0.355
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "start": 131.99,
+   "end": 133.89,
+   "text": "But the ones who are really cutting, then it's not good.",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 131.99,
+     "end": 132.19,
+     "word": " But",
+     "prob": 0.8
+    },
+    {
+     "start": 132.19,
+     "end": 132.67,
+     "word": " the",
+     "prob": 0.617
+    },
+    {
+     "start": 132.67,
+     "end": 132.91,
+     "word": " ones",
+     "prob": 0.452
+    },
+    {
+     "start": 132.91,
+     "end": 132.91,
+     "word": " who",
+     "prob": 0.643
+    },
+    {
+     "start": 132.91,
+     "end": 132.91,
+     "word": " are",
+     "prob": 0.717
+    },
+    {
+     "start": 132.91,
+     "end": 132.91,
+     "word": " really",
+     "prob": 0.379
+    },
+    {
+     "start": 132.91,
+     "end": 133.17,
+     "word": " cutting,",
+     "prob": 0.158
+    },
+    {
+     "start": 133.47,
+     "end": 133.63,
+     "word": " then",
+     "prob": 0.183
+    },
+    {
+     "start": 133.63,
+     "end": 133.77,
+     "word": " it's",
+     "prob": 0.406
+    },
+    {
+     "start": 133.77,
+     "end": 133.77,
+     "word": " not",
+     "prob": 0.779
+    },
+    {
+     "start": 133.77,
+     "end": 133.89,
+     "word": " good.",
+     "prob": 0.876
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "start": 134.45,
+   "end": 135.87,
+   "text": "The one who is going to cut will be good.",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 134.45,
+     "end": 134.87,
+     "word": " The",
+     "prob": 0.369
+    },
+    {
+     "start": 134.87,
+     "end": 135.05,
+     "word": " one",
+     "prob": 0.175
+    },
+    {
+     "start": 135.05,
+     "end": 135.05,
+     "word": " who",
+     "prob": 0.901
+    },
+    {
+     "start": 135.05,
+     "end": 135.05,
+     "word": " is",
+     "prob": 0.664
+    },
+    {
+     "start": 135.05,
+     "end": 135.05,
+     "word": " going",
+     "prob": 0.409
+    },
+    {
+     "start": 135.05,
+     "end": 135.05,
+     "word": " to",
+     "prob": 0.995
+    },
+    {
+     "start": 135.05,
+     "end": 135.05,
+     "word": " cut",
+     "prob": 0.937
+    },
+    {
+     "start": 135.05,
+     "end": 135.45,
+     "word": " will",
+     "prob": 0.047
+    },
+    {
+     "start": 135.45,
+     "end": 135.51,
+     "word": " be",
+     "prob": 0.257
+    },
+    {
+     "start": 135.51,
+     "end": 135.87,
+     "word": " good.",
+     "prob": 0.37
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "start": 136.59,
+   "end": 139.11,
+   "text": "And without walking like this, he came slowly and cut himself.",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 136.59,
+     "end": 137.07,
+     "word": " And",
+     "prob": 0.647
+    },
+    {
+     "start": 137.07,
+     "end": 137.35,
+     "word": " without",
+     "prob": 0.432
+    },
+    {
+     "start": 137.35,
+     "end": 137.83,
+     "word": " walking",
+     "prob": 0.12
+    },
+    {
+     "start": 137.83,
+     "end": 138.17,
+     "word": " like",
+     "prob": 0.209
+    },
+    {
+     "start": 138.17,
+     "end": 138.17,
+     "word": " this,",
+     "prob": 0.787
+    },
+    {
+     "start": 138.25,
+     "end": 138.45,
+     "word": " he",
+     "prob": 0.1
+    },
+    {
+     "start": 138.45,
+     "end": 138.49,
+     "word": " came",
+     "prob": 0.345
+    },
+    {
+     "start": 138.49,
+     "end": 138.49,
+     "word": " slowly",
+     "prob": 0.585
+    },
+    {
+     "start": 138.49,
+     "end": 138.81,
+     "word": " and",
+     "prob": 0.419
+    },
+    {
+     "start": 138.81,
+     "end": 138.89,
+     "word": " cut",
+     "prob": 0.365
+    },
+    {
+     "start": 138.89,
+     "end": 139.11,
+     "word": " himself.",
+     "prob": 0.133
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "start": 139.49,
+   "end": 140.01,
+   "text": "What is this?",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 139.49,
+     "end": 139.97,
+     "word": " What",
+     "prob": 0.589
+    },
+    {
+     "start": 139.97,
+     "end": 140.01,
+     "word": " is",
+     "prob": 0.585
+    },
+    {
+     "start": 140.01,
+     "end": 140.01,
+     "word": " this?",
+     "prob": 0.719
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "start": 140.65,
+   "end": 144.49,
+   "text": "If I leave him, I'll say, okay, you left me, then cut yourself.",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 140.65,
+     "end": 140.85,
+     "word": " If",
+     "prob": 0.234
+    },
+    {
+     "start": 140.85,
+     "end": 141.01,
+     "word": " I",
+     "prob": 0.095
+    },
+    {
+     "start": 141.01,
+     "end": 141.15,
+     "word": " leave",
+     "prob": 0.055
+    },
+    {
+     "start": 141.15,
+     "end": 141.33,
+     "word": " him,",
+     "prob": 0.442
+    },
+    {
+     "start": 141.43,
+     "end": 141.61,
+     "word": " I'll",
+     "prob": 0.347
+    },
+    {
+     "start": 141.61,
+     "end": 141.61,
+     "word": " say,",
+     "prob": 0.197
+    },
+    {
+     "start": 142.15,
+     "end": 143.05,
+     "word": " okay,",
+     "prob": 0.141
+    },
+    {
+     "start": 143.17,
+     "end": 143.39,
+     "word": " you",
+     "prob": 0.53
+    },
+    {
+     "start": 143.39,
+     "end": 143.55,
+     "word": " left",
+     "prob": 0.17
+    },
+    {
+     "start": 143.55,
+     "end": 143.79,
+     "word": " me,",
+     "prob": 0.729
+    },
+    {
+     "start": 143.91,
+     "end": 144.13,
+     "word": " then",
+     "prob": 0.724
+    },
+    {
+     "start": 144.13,
+     "end": 144.31,
+     "word": " cut",
+     "prob": 0.194
+    },
+    {
+     "start": 144.31,
+     "end": 144.49,
+     "word": " yourself.",
+     "prob": 0.185
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "start": 144.83,
+   "end": 147.63,
+   "text": "So the one who is aggressive in nature should identify a little bit",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 144.83,
+     "end": 145.15,
+     "word": " So",
+     "prob": 0.738
+    },
+    {
+     "start": 145.15,
+     "end": 145.69,
+     "word": " the",
+     "prob": 0.326
+    },
+    {
+     "start": 145.69,
+     "end": 145.99,
+     "word": " one",
+     "prob": 0.263
+    },
+    {
+     "start": 145.99,
+     "end": 146.11,
+     "word": " who",
+     "prob": 0.938
+    },
+    {
+     "start": 146.11,
+     "end": 146.11,
+     "word": " is",
+     "prob": 0.679
+    },
+    {
+     "start": 146.11,
+     "end": 146.29,
+     "word": " aggressive",
+     "prob": 0.092
+    },
+    {
+     "start": 146.29,
+     "end": 146.59,
+     "word": " in",
+     "prob": 0.061
+    },
+    {
+     "start": 146.59,
+     "end": 146.79,
+     "word": " nature",
+     "prob": 0.784
+    },
+    {
+     "start": 146.79,
+     "end": 147.07,
+     "word": " should",
+     "prob": 0.136
+    },
+    {
+     "start": 147.07,
+     "end": 147.63,
+     "word": " identify",
+     "prob": 0.563
+    },
+    {
+     "start": 147.63,
+     "end": 147.63,
+     "word": " a",
+     "prob": 0.115
+    },
+    {
+     "start": 147.63,
+     "end": 147.63,
+     "word": " little",
+     "prob": 0.735
+    },
+    {
+     "start": 147.63,
+     "end": 147.63,
+     "word": " bit",
+     "prob": 0.341
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "start": 147.63,
+   "end": 149.03,
+   "text": "Then he should be a little more upset.",
+   "avg_logprob": -0.859,
+   "no_speech_prob": 0.78,
+   "words": [
+    {
+     "start": 147.63,
+     "end": 148.31,
+     "word": " Then",
+     "prob": 0.002
+    },
+    {
+     "start": 148.31,
+     "end": 148.47,
+     "word": " he",
+     "prob": 0.546
+    },
+    {
+     "start": 148.47,
+     "end": 148.55,
+     "word": " should",
+     "prob": 0.852
+    },
+    {
+     "start": 148.55,
+     "end": 148.55,
+     "word": " be",
+     "prob": 0.601
+    },
+    {
+     "start": 148.55,
+     "end": 148.57,
+     "word": " a",
+     "prob": 0.665
+    },
+    {
+     "start": 148.57,
+     "end": 148.65,
+     "word": " little",
+     "prob": 0.807
+    },
+    {
+     "start": 148.65,
+     "end": 148.75,
+     "word": " more",
+     "prob": 0.088
+    },
+    {
+     "start": 148.75,
+     "end": 149.03,
+     "word": " upset.",
+     "prob": 0.798
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "start": 240.07,
+   "end": 241.91,
+   "text": "In general, it has been a dog bite.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 240.07,
+     "end": 240.55,
+     "word": " In",
+     "prob": 0.156
+    },
+    {
+     "start": 240.55,
+     "end": 240.83,
+     "word": " general,",
+     "prob": 0.941
+    },
+    {
+     "start": 241.07,
+     "end": 241.31,
+     "word": " it",
+     "prob": 0.141
+    },
+    {
+     "start": 241.31,
+     "end": 241.31,
+     "word": " has",
+     "prob": 0.453
+    },
+    {
+     "start": 241.31,
+     "end": 241.47,
+     "word": " been",
+     "prob": 0.334
+    },
+    {
+     "start": 241.47,
+     "end": 241.47,
+     "word": " a",
+     "prob": 0.225
+    },
+    {
+     "start": 241.47,
+     "end": 241.63,
+     "word": " dog",
+     "prob": 0.824
+    },
+    {
+     "start": 241.63,
+     "end": 241.91,
+     "word": " bite.",
+     "prob": 0.963
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "start": 242.51,
+   "end": 244.11,
+   "text": "So you have to take 17 injections.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 242.51,
+     "end": 242.65,
+     "word": " So",
+     "prob": 0.528
+    },
+    {
+     "start": 242.65,
+     "end": 242.97,
+     "word": " you",
+     "prob": 0.318
+    },
+    {
+     "start": 242.97,
+     "end": 243.27,
+     "word": " have",
+     "prob": 0.4
+    },
+    {
+     "start": 243.27,
+     "end": 243.39,
+     "word": " to",
+     "prob": 0.977
+    },
+    {
+     "start": 243.39,
+     "end": 243.41,
+     "word": " take",
+     "prob": 0.763
+    },
+    {
+     "start": 243.41,
+     "end": 243.61,
+     "word": " 17",
+     "prob": 0.269
+    },
+    {
+     "start": 243.61,
+     "end": 244.11,
+     "word": " injections.",
+     "prob": 0.89
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "start": 244.81,
+   "end": 247.33,
+   "text": "The procedure for taking the injection will be in this hospital.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 244.81,
+     "end": 245.15,
+     "word": " The",
+     "prob": 0.385
+    },
+    {
+     "start": 245.15,
+     "end": 245.47,
+     "word": " procedure",
+     "prob": 0.872
+    },
+    {
+     "start": 245.47,
+     "end": 245.47,
+     "word": " for",
+     "prob": 0.154
+    },
+    {
+     "start": 245.47,
+     "end": 245.47,
+     "word": " taking",
+     "prob": 0.267
+    },
+    {
+     "start": 245.47,
+     "end": 246.21,
+     "word": " the",
+     "prob": 0.415
+    },
+    {
+     "start": 246.21,
+     "end": 246.21,
+     "word": " injection",
+     "prob": 0.634
+    },
+    {
+     "start": 246.21,
+     "end": 246.93,
+     "word": " will",
+     "prob": 0.427
+    },
+    {
+     "start": 246.93,
+     "end": 246.95,
+     "word": " be",
+     "prob": 0.792
+    },
+    {
+     "start": 246.95,
+     "end": 246.95,
+     "word": " in",
+     "prob": 0.446
+    },
+    {
+     "start": 246.95,
+     "end": 247.09,
+     "word": " this",
+     "prob": 0.248
+    },
+    {
+     "start": 247.09,
+     "end": 247.33,
+     "word": " hospital.",
+     "prob": 0.429
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "start": 248.43,
+   "end": 252.45,
+   "text": "So that procedure was smooth or something else?",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 248.43,
+     "end": 248.91,
+     "word": " So",
+     "prob": 0.318
+    },
+    {
+     "start": 248.91,
+     "end": 249.39,
+     "word": " that",
+     "prob": 0.354
+    },
+    {
+     "start": 249.39,
+     "end": 249.95,
+     "word": " procedure",
+     "prob": 0.926
+    },
+    {
+     "start": 249.95,
+     "end": 250.55,
+     "word": " was",
+     "prob": 0.195
+    },
+    {
+     "start": 250.55,
+     "end": 251.39,
+     "word": " smooth",
+     "prob": 0.74
+    },
+    {
+     "start": 251.39,
+     "end": 252.01,
+     "word": " or",
+     "prob": 0.538
+    },
+    {
+     "start": 252.01,
+     "end": 252.41,
+     "word": " something",
+     "prob": 0.09
+    },
+    {
+     "start": 252.41,
+     "end": 252.45,
+     "word": " else?",
+     "prob": 0.363
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "start": 252.45,
+   "end": 253.25,
+   "text": "It was an A1.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 252.45,
+     "end": 252.57,
+     "word": " It",
+     "prob": 0.352
+    },
+    {
+     "start": 252.57,
+     "end": 252.79,
+     "word": " was",
+     "prob": 0.843
+    },
+    {
+     "start": 252.79,
+     "end": 253.11,
+     "word": " an",
+     "prob": 0.316
+    },
+    {
+     "start": 253.11,
+     "end": 253.25,
+     "word": " A1.",
+     "prob": 0.229
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "start": 253.65,
+   "end": 254.93,
+   "text": "Now I have cut it and now it is A1.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 253.65,
+     "end": 253.91,
+     "word": " Now",
+     "prob": 0.444
+    },
+    {
+     "start": 253.91,
+     "end": 254.09,
+     "word": " I",
+     "prob": 0.167
+    },
+    {
+     "start": 254.09,
+     "end": 254.09,
+     "word": " have",
+     "prob": 0.513
+    },
+    {
+     "start": 254.09,
+     "end": 254.19,
+     "word": " cut",
+     "prob": 0.727
+    },
+    {
+     "start": 254.19,
+     "end": 254.43,
+     "word": " it",
+     "prob": 0.766
+    },
+    {
+     "start": 254.43,
+     "end": 254.53,
+     "word": " and",
+     "prob": 0.284
+    },
+    {
+     "start": 254.53,
+     "end": 254.63,
+     "word": " now",
+     "prob": 0.267
+    },
+    {
+     "start": 254.63,
+     "end": 254.71,
+     "word": " it",
+     "prob": 0.709
+    },
+    {
+     "start": 254.71,
+     "end": 254.71,
+     "word": " is",
+     "prob": 0.546
+    },
+    {
+     "start": 254.71,
+     "end": 254.93,
+     "word": " A1.",
+     "prob": 0.845
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "start": 256.07,
+   "end": 256.91,
+   "text": "That was good.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 256.07,
+     "end": 256.55,
+     "word": " That",
+     "prob": 0.256
+    },
+    {
+     "start": 256.55,
+     "end": 256.75,
+     "word": " was",
+     "prob": 0.895
+    },
+    {
+     "start": 256.75,
+     "end": 256.91,
+     "word": " good.",
+     "prob": 0.385
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "start": 257.63,
+   "end": 259.41,
+   "text": "He said he was caring about me.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 257.63,
+     "end": 258.11,
+     "word": " He",
+     "prob": 0.726
+    },
+    {
+     "start": 258.11,
+     "end": 258.31,
+     "word": " said",
+     "prob": 0.853
+    },
+    {
+     "start": 258.31,
+     "end": 258.55,
+     "word": " he",
+     "prob": 0.331
+    },
+    {
+     "start": 258.55,
+     "end": 258.89,
+     "word": " was",
+     "prob": 0.804
+    },
+    {
+     "start": 258.89,
+     "end": 258.89,
+     "word": " caring",
+     "prob": 0.397
+    },
+    {
+     "start": 258.89,
+     "end": 259.21,
+     "word": " about",
+     "prob": 0.06
+    },
+    {
+     "start": 259.21,
+     "end": 259.41,
+     "word": " me.",
+     "prob": 0.443
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "start": 259.59,
+   "end": 261.43,
+   "text": "He told me that he didn't see it.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 259.59,
+     "end": 259.65,
+     "word": " He",
+     "prob": 0.376
+    },
+    {
+     "start": 259.65,
+     "end": 259.77,
+     "word": " told",
+     "prob": 0.14
+    },
+    {
+     "start": 259.77,
+     "end": 260.75,
+     "word": " me",
+     "prob": 0.799
+    },
+    {
+     "start": 260.75,
+     "end": 260.75,
+     "word": " that",
+     "prob": 0.261
+    },
+    {
+     "start": 260.75,
+     "end": 260.89,
+     "word": " he",
+     "prob": 0.717
+    },
+    {
+     "start": 260.89,
+     "end": 260.89,
+     "word": " didn't",
+     "prob": 0.546
+    },
+    {
+     "start": 260.89,
+     "end": 260.89,
+     "word": " see",
+     "prob": 0.755
+    },
+    {
+     "start": 260.89,
+     "end": 261.43,
+     "word": " it.",
+     "prob": 0.288
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "start": 261.87,
+   "end": 263.57,
+   "text": "Later on we found out if anything happened",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 261.87,
+     "end": 262.35,
+     "word": " Later",
+     "prob": 0.407
+    },
+    {
+     "start": 262.35,
+     "end": 262.51,
+     "word": " on",
+     "prob": 0.244
+    },
+    {
+     "start": 262.51,
+     "end": 262.73,
+     "word": " we",
+     "prob": 0.044
+    },
+    {
+     "start": 262.73,
+     "end": 262.73,
+     "word": " found",
+     "prob": 0.288
+    },
+    {
+     "start": 262.73,
+     "end": 262.85,
+     "word": " out",
+     "prob": 0.947
+    },
+    {
+     "start": 262.85,
+     "end": 263.19,
+     "word": " if",
+     "prob": 0.228
+    },
+    {
+     "start": 263.19,
+     "end": 263.43,
+     "word": " anything",
+     "prob": 0.227
+    },
+    {
+     "start": 263.43,
+     "end": 263.57,
+     "word": " happened",
+     "prob": 0.414
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "start": 263.57,
+   "end": 264.81,
+   "text": "that everything was done with great care.",
+   "avg_logprob": -0.725,
+   "no_speech_prob": 0.501,
+   "words": [
+    {
+     "start": 263.57,
+     "end": 264.27,
+     "word": " that",
+     "prob": 0.035
+    },
+    {
+     "start": 264.27,
+     "end": 264.37,
+     "word": " everything",
+     "prob": 0.178
+    },
+    {
+     "start": 264.37,
+     "end": 264.37,
+     "word": " was",
+     "prob": 0.776
+    },
+    {
+     "start": 264.37,
+     "end": 264.37,
+     "word": " done",
+     "prob": 0.827
+    },
+    {
+     "start": 264.37,
+     "end": 264.37,
+     "word": " with",
+     "prob": 0.507
+    },
+    {
+     "start": 264.37,
+     "end": 264.49,
+     "word": " great",
+     "prob": 0.355
+    },
+    {
+     "start": 264.49,
+     "end": 264.81,
+     "word": " care.",
+     "prob": 0.997
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "start": 269.41,
+   "end": 270.63,
+   "text": "I liked it.",
+   "avg_logprob": -1.006,
+   "no_speech_prob": 0.575,
+   "words": [
+    {
+     "start": 269.41,
+     "end": 269.93,
+     "word": " I",
+     "prob": 0.048
+    },
+    {
+     "start": 269.93,
+     "end": 270.45,
+     "word": " liked",
+     "prob": 0.184
+    },
+    {
+     "start": 270.45,
+     "end": 270.63,
+     "word": " it.",
+     "prob": 0.609
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "start": 270.99,
+   "end": 273.67,
+   "text": "The male one also took him straight away.",
+   "avg_logprob": -1.006,
+   "no_speech_prob": 0.575,
+   "words": [
+    {
+     "start": 270.99,
+     "end": 271.51,
+     "word": " The",
+     "prob": 0.175
+    },
+    {
+     "start": 271.51,
+     "end": 271.89,
+     "word": " male",
+     "prob": 0.034
+    },
+    {
+     "start": 271.89,
+     "end": 272.15,
+     "word": " one",
+     "prob": 0.059
+    },
+    {
+     "start": 272.15,
+     "end": 272.27,
+     "word": " also",
+     "prob": 0.247
+    },
+    {
+     "start": 272.27,
+     "end": 272.39,
+     "word": " took",
+     "prob": 0.351
+    },
+    {
+     "start": 272.39,
+     "end": 272.73,
+     "word": " him",
+     "prob": 0.16
+    },
+    {
+     "start": 272.73,
+     "end": 272.99,
+     "word": " straight",
+     "prob": 0.227
+    },
+    {
+     "start": 272.99,
+     "end": 273.67,
+     "word": " away.",
+     "prob": 0.308
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "start": 273.79,
+   "end": 275.47,
+   "text": "He said, let's go and get him.",
+   "avg_logprob": -1.006,
+   "no_speech_prob": 0.575,
+   "words": [
+    {
+     "start": 273.79,
+     "end": 273.81,
+     "word": " He",
+     "prob": 0.119
+    },
+    {
+     "start": 273.81,
+     "end": 273.81,
+     "word": " said,",
+     "prob": 0.113
+    },
+    {
+     "start": 273.89,
+     "end": 274.69,
+     "word": " let's",
+     "prob": 0.513
+    },
+    {
+     "start": 274.69,
+     "end": 274.69,
+     "word": " go",
+     "prob": 0.325
+    },
+    {
+     "start": 274.69,
+     "end": 274.75,
+     "word": " and",
+     "prob": 0.441
+    },
+    {
+     "start": 274.75,
+     "end": 274.83,
+     "word": " get",
+     "prob": 0.328
+    },
+    {
+     "start": 274.83,
+     "end": 275.47,
+     "word": " him.",
+     "prob": 0.473
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "start": 275.57,
+   "end": 277.85,
+   "text": "It is good but",
+   "avg_logprob": -1.006,
+   "no_speech_prob": 0.575,
+   "words": [
+    {
+     "start": 275.57,
+     "end": 275.91,
+     "word": " It",
+     "prob": 0.131
+    },
+    {
+     "start": 275.91,
+     "end": 277.01,
+     "word": " is",
+     "prob": 0.245
+    },
+    {
+     "start": 277.01,
+     "end": 277.31,
+     "word": " good",
+     "prob": 0.366
+    },
+    {
+     "start": 277.31,
+     "end": 277.85,
+     "word": " but",
+     "prob": 0.145
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "start": 278.61,
+   "end": 281.03,
+   "text": "they leave the doge and give him a hand.",
+   "avg_logprob": -1.006,
+   "no_speech_prob": 0.575,
+   "words": [
+    {
+     "start": 278.61,
+     "end": 278.87,
+     "word": " they",
+     "prob": 0.088
+    },
+    {
+     "start": 278.87,
+     "end": 279.67,
+     "word": " leave",
+     "prob": 0.158
+    },
+    {
+     "start": 279.67,
+     "end": 280.25,
+     "word": " the",
+     "prob": 0.396
+    },
+    {
+     "start": 280.25,
+     "end": 280.39,
+     "word": " doge",
+     "prob": 0.225
+    },
+    {
+     "start": 280.39,
+     "end": 280.59,
+     "word": " and",
+     "prob": 0.22
+    },
+    {
+     "start": 280.59,
+     "end": 280.67,
+     "word": " give",
+     "prob": 0.11
+    },
+    {
+     "start": 280.67,
+     "end": 280.67,
+     "word": " him",
+     "prob": 0.299
+    },
+    {
+     "start": 280.67,
+     "end": 280.97,
+     "word": " a",
+     "prob": 0.521
+    },
+    {
+     "start": 280.97,
+     "end": 281.03,
+     "word": " hand.",
+     "prob": 0.041
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "start": 282.21,
+   "end": 284.57,
+   "text": "You must have been scared that you are coming to kill me.",
+   "avg_logprob": -1.006,
+   "no_speech_prob": 0.575,
+   "words": [
+    {
+     "start": 282.21,
+     "end": 282.69,
+     "word": " You",
+     "prob": 0.189
+    },
+    {
+     "start": 282.69,
+     "end": 282.95,
+     "word": " must",
+     "prob": 0.728
+    },
+    {
+     "start": 282.95,
+     "end": 282.95,
+     "word": " have",
+     "prob": 0.5
+    },
+    {
+     "start": 282.95,
+     "end": 283.09,
+     "word": " been",
+     "prob": 0.644
+    },
+    {
+     "start": 283.09,
+     "end": 283.49,
+     "word": " scared",
+     "prob": 0.408
+    },
+    {
+     "start": 283.49,
+     "end": 284.03,
+     "word": " that",
+     "prob": 0.265
+    },
+    {
+     "start": 284.03,
+     "end": 284.25,
+     "word": " you",
+     "prob": 0.368
+    },
+    {
+     "start": 284.25,
+     "end": 284.25,
+     "word": " are",
+     "prob": 0.206
+    },
+    {
+     "start": 284.25,
+     "end": 284.25,
+     "word": " coming",
+     "prob": 0.508
+    },
+    {
+     "start": 284.25,
+     "end": 284.39,
+     "word": " to",
+     "prob": 0.876
+    },
+    {
+     "start": 284.39,
+     "end": 284.57,
+     "word": " kill",
+     "prob": 0.703
+    },
+    {
+     "start": 284.57,
+     "end": 284.57,
+     "word": " me.",
+     "prob": 0.824
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "start": 285.03,
+   "end": 286.31,
+   "text": "It can be from up or down.",
+   "avg_logprob": -1.006,
+   "no_speech_prob": 0.575,
+   "words": [
+    {
+     "start": 285.03,
+     "end": 285.35,
+     "word": " It",
+     "prob": 0.265
+    },
+    {
+     "start": 285.35,
+     "end": 285.35,
+     "word": " can",
+     "prob": 0.213
+    },
+    {
+     "start": 285.35,
+     "end": 285.59,
+     "word": " be",
+     "prob": 0.393
+    },
+    {
+     "start": 285.59,
+     "end": 285.61,
+     "word": " from",
+     "prob": 0.182
+    },
+    {
+     "start": 285.61,
+     "end": 285.81,
+     "word": " up",
+     "prob": 0.284
+    },
+    {
+     "start": 285.81,
+     "end": 286.01,
+     "word": " or",
+     "prob": 0.272
+    },
+    {
+     "start": 286.01,
+     "end": 286.31,
+     "word": " down.",
+     "prob": 0.922
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "start": 289.77,
+   "end": 291.43,
+   "text": "That's all. Thank you.",
+   "avg_logprob": -1.006,
+   "no_speech_prob": 0.575,
+   "words": [
+    {
+     "start": 289.77,
+     "end": 290.29,
+     "word": " That's",
+     "prob": 0.465
+    },
+    {
+     "start": 290.29,
+     "end": 290.81,
+     "word": " all.",
+     "prob": 0.544
+    },
+    {
+     "start": 291.07,
+     "end": 291.29,
+     "word": " Thank",
+     "prob": 0.948
+    },
+    {
+     "start": 291.29,
+     "end": 291.43,
+     "word": " you.",
+     "prob": 0.944
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1289 @@
+{
+ "source_file": "IIT Roorkee - Civil Engineering Department.m4a",
+ "created": "2026-11-24T17:56:24.860192+00:00",
+ "model": "small",
+ "device": "cpu",
+ "compute_type": "int8",
+ "faster_whisper": "1.2.1",
+ "task": "translate",
+ "language": "hi",
+ "language_probability": 1,
+ "language_forced": true,
+ "language_policy_detection": {
+  "detected": "hi",
+  "probability": 0.675,
+  "top": [
+   [
+    "hi",
+    0.675
+   ],
+   [
+    "ur",
+    0.261
+   ],
+   [
+    "en",
+    0.034
+   ]
+  ]
+ },
+ "duration_s": 307.8,
+ "processing_s": 38.1,
+ "initial_prompt": "IIT Roorkee campus dogs, CCF, bhawan, mess, guard, feeding zone, Hinglish interview",
+ "target_language": "en",
+ "method": "whisper translate task",
+ "segments": [
+  {
+   "id": 1,
+   "start": 2.64,
+   "end": 4.98,
+   "text": "Nowadays, the attacks on dogs have increased a lot.",
+   "avg_logprob": -0.851,
+   "no_speech_prob": 0.252,
+   "words": [
+    {
+     "start": 2.64,
+     "end": 3.32,
+     "word": " Nowadays,",
+     "prob": 0.205
+    },
+    {
+     "start": 3.32,
+     "end": 4.0,
+     "word": " the",
+     "prob": 0.345
+    },
+    {
+     "start": 4.0,
+     "end": 4.54,
+     "word": " attacks",
+     "prob": 0.551
+    },
+    {
+     "start": 4.54,
+     "end": 4.66,
+     "word": " on",
+     "prob": 0.441
+    },
+    {
+     "start": 4.66,
+     "end": 4.66,
+     "word": " dogs",
+     "prob": 0.795
+    },
+    {
+     "start": 4.66,
+     "end": 4.92,
+     "word": " have",
+     "prob": 0.645
+    },
+    {
+     "start": 4.92,
+     "end": 4.98,
+     "word": " increased",
+     "prob": 0.591
+    },
+    {
+     "start": 4.98,
+     "end": 4.98,
+     "word": " a",
+     "prob": 0.18
+    },
+    {
+     "start": 4.98,
+     "end": 4.98,
+     "word": " lot.",
+     "prob": 0.971
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "start": 5.44,
+   "end": 6.66,
+   "text": "Like Himalaya's side has also increased.",
+   "avg_logprob": -0.851,
+   "no_speech_prob": 0.252,
+   "words": [
+    {
+     "start": 5.44,
+     "end": 5.5,
+     "word": " Like",
+     "prob": 0.217
+    },
+    {
+     "start": 5.5,
+     "end": 6.18,
+     "word": " Himalaya's",
+     "prob": 0.539
+    },
+    {
+     "start": 6.18,
+     "end": 6.34,
+     "word": " side",
+     "prob": 0.236
+    },
+    {
+     "start": 6.34,
+     "end": 6.5,
+     "word": " has",
+     "prob": 0.447
+    },
+    {
+     "start": 6.5,
+     "end": 6.54,
+     "word": " also",
+     "prob": 0.274
+    },
+    {
+     "start": 6.54,
+     "end": 6.66,
+     "word": " increased.",
+     "prob": 0.914
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "start": 7.04,
+   "end": 9.74,
+   "text": "And there is an electrical department and civil department in between.",
+   "avg_logprob": -0.851,
+   "no_speech_prob": 0.252,
+   "words": [
+    {
+     "start": 7.04,
+     "end": 7.1,
+     "word": " And",
+     "prob": 0.363
+    },
+    {
+     "start": 7.1,
+     "end": 7.9,
+     "word": " there",
+     "prob": 0.266
+    },
+    {
+     "start": 7.9,
+     "end": 7.9,
+     "word": " is",
+     "prob": 0.577
+    },
+    {
+     "start": 7.9,
+     "end": 8.12,
+     "word": " an",
+     "prob": 0.342
+    },
+    {
+     "start": 8.12,
+     "end": 8.12,
+     "word": " electrical",
+     "prob": 0.663
+    },
+    {
+     "start": 8.12,
+     "end": 8.56,
+     "word": " department",
+     "prob": 0.96
+    },
+    {
+     "start": 8.56,
+     "end": 8.74,
+     "word": " and",
+     "prob": 0.497
+    },
+    {
+     "start": 8.74,
+     "end": 8.92,
+     "word": " civil",
+     "prob": 0.461
+    },
+    {
+     "start": 8.92,
+     "end": 9.42,
+     "word": " department",
+     "prob": 0.956
+    },
+    {
+     "start": 9.42,
+     "end": 9.56,
+     "word": " in",
+     "prob": 0.173
+    },
+    {
+     "start": 9.56,
+     "end": 9.74,
+     "word": " between.",
+     "prob": 0.713
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "start": 10.94,
+   "end": 14.12,
+   "text": "Civil department is very well known for its attacks.",
+   "avg_logprob": -0.851,
+   "no_speech_prob": 0.252,
+   "words": [
+    {
+     "start": 10.94,
+     "end": 11.62,
+     "word": " Civil",
+     "prob": 0.283
+    },
+    {
+     "start": 11.62,
+     "end": 11.86,
+     "word": " department",
+     "prob": 0.081
+    },
+    {
+     "start": 11.86,
+     "end": 11.96,
+     "word": " is",
+     "prob": 0.206
+    },
+    {
+     "start": 11.96,
+     "end": 12.0,
+     "word": " very",
+     "prob": 0.036
+    },
+    {
+     "start": 12.0,
+     "end": 12.82,
+     "word": " well",
+     "prob": 0.128
+    },
+    {
+     "start": 12.82,
+     "end": 12.88,
+     "word": " known",
+     "prob": 0.29
+    },
+    {
+     "start": 12.88,
+     "end": 13.48,
+     "word": " for",
+     "prob": 0.206
+    },
+    {
+     "start": 13.48,
+     "end": 13.48,
+     "word": " its",
+     "prob": 0.358
+    },
+    {
+     "start": 13.48,
+     "end": 14.12,
+     "word": " attacks.",
+     "prob": 0.811
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "start": 14.74,
+   "end": 16.64,
+   "text": "Dogs are fighting a lot.",
+   "avg_logprob": -0.851,
+   "no_speech_prob": 0.252,
+   "words": [
+    {
+     "start": 14.74,
+     "end": 14.92,
+     "word": " Dogs",
+     "prob": 0.373
+    },
+    {
+     "start": 14.92,
+     "end": 16.4,
+     "word": " are",
+     "prob": 0.645
+    },
+    {
+     "start": 16.4,
+     "end": 16.56,
+     "word": " fighting",
+     "prob": 0.443
+    },
+    {
+     "start": 16.56,
+     "end": 16.64,
+     "word": " a",
+     "prob": 0.564
+    },
+    {
+     "start": 16.64,
+     "end": 16.64,
+     "word": " lot.",
+     "prob": 0.972
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "start": 18.2,
+   "end": 19.92,
+   "text": "What effect did you get?",
+   "avg_logprob": -0.851,
+   "no_speech_prob": 0.252,
+   "words": [
+    {
+     "start": 18.2,
+     "end": 18.88,
+     "word": " What",
+     "prob": 0.399
+    },
+    {
+     "start": 18.88,
+     "end": 19.56,
+     "word": " effect",
+     "prob": 0.137
+    },
+    {
+     "start": 19.56,
+     "end": 19.78,
+     "word": " did",
+     "prob": 0.128
+    },
+    {
+     "start": 19.78,
+     "end": 19.78,
+     "word": " you",
+     "prob": 0.884
+    },
+    {
+     "start": 19.78,
+     "end": 19.92,
+     "word": " get?",
+     "prob": 0.201
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "start": 20.08,
+   "end": 22.12,
+   "text": "And what do you see that affects people?",
+   "avg_logprob": -0.851,
+   "no_speech_prob": 0.252,
+   "words": [
+    {
+     "start": 20.08,
+     "end": 20.28,
+     "word": " And",
+     "prob": 0.325
+    },
+    {
+     "start": 20.28,
+     "end": 20.98,
+     "word": " what",
+     "prob": 0.477
+    },
+    {
+     "start": 20.98,
+     "end": 20.98,
+     "word": " do",
+     "prob": 0.113
+    },
+    {
+     "start": 20.98,
+     "end": 20.98,
+     "word": " you",
+     "prob": 0.911
+    },
+    {
+     "start": 20.98,
+     "end": 21.08,
+     "word": " see",
+     "prob": 0.695
+    },
+    {
+     "start": 21.08,
+     "end": 21.3,
+     "word": " that",
+     "prob": 0.131
+    },
+    {
+     "start": 21.3,
+     "end": 21.78,
+     "word": " affects",
+     "prob": 0.353
+    },
+    {
+     "start": 21.78,
+     "end": 22.12,
+     "word": " people?",
+     "prob": 0.35
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "start": 22.24,
+   "end": 24.46,
+   "text": "Students or anyone who goes to the university?",
+   "avg_logprob": -0.851,
+   "no_speech_prob": 0.252,
+   "words": [
+    {
+     "start": 22.24,
+     "end": 22.58,
+     "word": " Students",
+     "prob": 0.381
+    },
+    {
+     "start": 22.58,
+     "end": 23.14,
+     "word": " or",
+     "prob": 0.603
+    },
+    {
+     "start": 23.14,
+     "end": 23.44,
+     "word": " anyone",
+     "prob": 0.438
+    },
+    {
+     "start": 23.44,
+     "end": 23.64,
+     "word": " who",
+     "prob": 0.186
+    },
+    {
+     "start": 23.64,
+     "end": 24.08,
+     "word": " goes",
+     "prob": 0.3
+    },
+    {
+     "start": 24.08,
+     "end": 24.46,
+     "word": " to",
+     "prob": 0.397
+    },
+    {
+     "start": 24.46,
+     "end": 24.46,
+     "word": " the",
+     "prob": 0.309
+    },
+    {
+     "start": 24.46,
+     "end": 24.46,
+     "word": " university?",
+     "prob": 0.102
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "start": 67.36,
+   "end": 69.16,
+   "text": "This is a special thing for dogs.",
+   "avg_logprob": -0.91,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 67.36,
+     "end": 68.12,
+     "word": " This",
+     "prob": 0.056
+    },
+    {
+     "start": 68.12,
+     "end": 68.12,
+     "word": " is",
+     "prob": 0.699
+    },
+    {
+     "start": 68.12,
+     "end": 68.12,
+     "word": " a",
+     "prob": 0.231
+    },
+    {
+     "start": 68.12,
+     "end": 68.88,
+     "word": " special",
+     "prob": 0.263
+    },
+    {
+     "start": 68.88,
+     "end": 69.16,
+     "word": " thing",
+     "prob": 0.1
+    },
+    {
+     "start": 69.16,
+     "end": 69.16,
+     "word": " for",
+     "prob": 0.711
+    },
+    {
+     "start": 69.16,
+     "end": 69.16,
+     "word": " dogs.",
+     "prob": 0.681
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "start": 69.28,
+   "end": 74.58,
+   "text": "Yes, that's why we need to know how dogs are affecting people in this area.",
+   "avg_logprob": -0.91,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 69.28,
+     "end": 69.6,
+     "word": " Yes,",
+     "prob": 0.113
+    },
+    {
+     "start": 69.92,
+     "end": 70.72,
+     "word": " that's",
+     "prob": 0.454
+    },
+    {
+     "start": 70.72,
+     "end": 70.82,
+     "word": " why",
+     "prob": 0.76
+    },
+    {
+     "start": 70.82,
+     "end": 71.08,
+     "word": " we",
+     "prob": 0.931
+    },
+    {
+     "start": 71.08,
+     "end": 71.28,
+     "word": " need",
+     "prob": 0.353
+    },
+    {
+     "start": 71.28,
+     "end": 71.32,
+     "word": " to",
+     "prob": 0.998
+    },
+    {
+     "start": 71.32,
+     "end": 71.5,
+     "word": " know",
+     "prob": 0.709
+    },
+    {
+     "start": 71.5,
+     "end": 72.18,
+     "word": " how",
+     "prob": 0.614
+    },
+    {
+     "start": 72.18,
+     "end": 72.38,
+     "word": " dogs",
+     "prob": 0.657
+    },
+    {
+     "start": 72.38,
+     "end": 73.24,
+     "word": " are",
+     "prob": 0.586
+    },
+    {
+     "start": 73.24,
+     "end": 74.18,
+     "word": " affecting",
+     "prob": 0.632
+    },
+    {
+     "start": 74.18,
+     "end": 74.58,
+     "word": " people",
+     "prob": 0.441
+    },
+    {
+     "start": 74.58,
+     "end": 74.58,
+     "word": " in",
+     "prob": 0.483
+    },
+    {
+     "start": 74.58,
+     "end": 74.58,
+     "word": " this",
+     "prob": 0.876
+    },
+    {
+     "start": 74.58,
+     "end": 74.58,
+     "word": " area.",
+     "prob": 0.955
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "start": 74.76,
+   "end": 77.54,
+   "text": "Whether the dog is good or not,",
+   "avg_logprob": -0.91,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 74.76,
+     "end": 74.98,
+     "word": " Whether",
+     "prob": 0.213
+    },
+    {
+     "start": 74.98,
+     "end": 75.18,
+     "word": " the",
+     "prob": 0.301
+    },
+    {
+     "start": 75.18,
+     "end": 75.32,
+     "word": " dog",
+     "prob": 0.33
+    },
+    {
+     "start": 75.32,
+     "end": 75.54,
+     "word": " is",
+     "prob": 0.838
+    },
+    {
+     "start": 75.54,
+     "end": 75.84,
+     "word": " good",
+     "prob": 0.552
+    },
+    {
+     "start": 75.84,
+     "end": 76.2,
+     "word": " or",
+     "prob": 0.673
+    },
+    {
+     "start": 76.2,
+     "end": 77.54,
+     "word": " not,",
+     "prob": 0.353
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "start": 78.92,
+   "end": 80.84,
+   "text": "or if the dog is barking at people,",
+   "avg_logprob": -0.91,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 78.92,
+     "end": 79.48,
+     "word": " or",
+     "prob": 0.658
+    },
+    {
+     "start": 79.48,
+     "end": 79.98,
+     "word": " if",
+     "prob": 0.283
+    },
+    {
+     "start": 79.98,
+     "end": 80.06,
+     "word": " the",
+     "prob": 0.551
+    },
+    {
+     "start": 80.06,
+     "end": 80.06,
+     "word": " dog",
+     "prob": 0.622
+    },
+    {
+     "start": 80.06,
+     "end": 80.48,
+     "word": " is",
+     "prob": 0.867
+    },
+    {
+     "start": 80.48,
+     "end": 80.48,
+     "word": " barking",
+     "prob": 0.315
+    },
+    {
+     "start": 80.48,
+     "end": 80.48,
+     "word": " at",
+     "prob": 0.287
+    },
+    {
+     "start": 80.48,
+     "end": 80.84,
+     "word": " people,",
+     "prob": 0.572
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "start": 82.0,
+   "end": 84.0,
+   "text": "then it is affecting them negatively.",
+   "avg_logprob": -0.91,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 82.0,
+     "end": 82.76,
+     "word": " then",
+     "prob": 0.123
+    },
+    {
+     "start": 82.76,
+     "end": 83.48,
+     "word": " it",
+     "prob": 0.548
+    },
+    {
+     "start": 83.48,
+     "end": 84.0,
+     "word": " is",
+     "prob": 0.561
+    },
+    {
+     "start": 84.0,
+     "end": 84.0,
+     "word": " affecting",
+     "prob": 0.326
+    },
+    {
+     "start": 84.0,
+     "end": 84.0,
+     "word": " them",
+     "prob": 0.159
+    },
+    {
+     "start": 84.0,
+     "end": 84.0,
+     "word": " negatively.",
+     "prob": 0.362
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "start": 90.74,
+   "end": 92.22,
+   "text": "Some of the dogs are under attack",
+   "avg_logprob": -0.91,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 90.74,
+     "end": 91.06,
+     "word": " Some",
+     "prob": 0.056
+    },
+    {
+     "start": 91.06,
+     "end": 91.24,
+     "word": " of",
+     "prob": 0.103
+    },
+    {
+     "start": 91.24,
+     "end": 91.36,
+     "word": " the",
+     "prob": 0.472
+    },
+    {
+     "start": 91.36,
+     "end": 91.36,
+     "word": " dogs",
+     "prob": 0.673
+    },
+    {
+     "start": 91.36,
+     "end": 91.36,
+     "word": " are",
+     "prob": 0.707
+    },
+    {
+     "start": 91.36,
+     "end": 91.74,
+     "word": " under",
+     "prob": 0.149
+    },
+    {
+     "start": 91.74,
+     "end": 92.22,
+     "word": " attack",
+     "prob": 0.067
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "start": 93.4,
+   "end": 97.22,
+   "text": "because they don't allow them to enter inside.",
+   "avg_logprob": -0.91,
+   "no_speech_prob": 0.696,
+   "words": [
+    {
+     "start": 93.4,
+     "end": 94.16,
+     "word": " because",
+     "prob": 0.051
+    },
+    {
+     "start": 94.16,
+     "end": 94.92,
+     "word": " they",
+     "prob": 0.528
+    },
+    {
+     "start": 94.92,
+     "end": 94.92,
+     "word": " don't",
+     "prob": 0.593
+    },
+    {
+     "start": 94.92,
+     "end": 95.12,
+     "word": " allow",
+     "prob": 0.871
+    },
+    {
+     "start": 95.12,
+     "end": 96.02,
+     "word": " them",
+     "prob": 0.132
+    },
+    {
+     "start": 96.02,
+     "end": 96.18,
+     "word": " to",
+     "prob": 0.605
+    },
+    {
+     "start": 96.18,
+     "end": 96.76,
+     "word": " enter",
+     "prob": 0.467
+    },
+    {
+     "start": 96.76,
+     "end": 97.22,
+     "word": " inside.",
+     "prob": 0.083
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "start": 192.43,
+   "end": 193.25,
+   "text": "They don't want to be seen.",
+   "avg_logprob": -0.956,
+   "no_speech_prob": 0.786,
+   "words": [
+    {
+     "start": 192.43,
+     "end": 192.43,
+     "word": " They",
+     "prob": 0.035
+    },
+    {
+     "start": 192.43,
+     "end": 192.43,
+     "word": " don't",
+     "prob": 0.537
+    },
+    {
+     "start": 192.43,
+     "end": 192.43,
+     "word": " want",
+     "prob": 0.314
+    },
+    {
+     "start": 192.43,
+     "end": 193.01,
+     "word": " to",
+     "prob": 0.763
+    },
+    {
+     "start": 193.01,
+     "end": 193.25,
+     "word": " be",
+     "prob": 0.13
+    },
+    {
+     "start": 193.25,
+     "end": 193.25,
+     "word": " seen.",
+     "prob": 0.063
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "start": 193.25,
+   "end": 196.67,
+   "text": "They can't speak, they should be careful.",
+   "avg_logprob": -0.956,
+   "no_speech_prob": 0.786,
+   "words": [
+    {
+     "start": 193.25,
+     "end": 193.65,
+     "word": " They",
+     "prob": 0.325
+    },
+    {
+     "start": 193.65,
+     "end": 194.39,
+     "word": " can't",
+     "prob": 0.492
+    },
+    {
+     "start": 194.39,
+     "end": 194.45,
+     "word": " speak,",
+     "prob": 0.515
+    },
+    {
+     "start": 195.01,
+     "end": 195.83,
+     "word": " they",
+     "prob": 0.416
+    },
+    {
+     "start": 195.83,
+     "end": 196.23,
+     "word": " should",
+     "prob": 0.32
+    },
+    {
+     "start": 196.23,
+     "end": 196.41,
+     "word": " be",
+     "prob": 0.643
+    },
+    {
+     "start": 196.41,
+     "end": 196.67,
+     "word": " careful.",
+     "prob": 0.668
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "start": 197.57,
+   "end": 202.09,
+   "text": "We can tell them that if someone is following the student or is hungry",
+   "avg_logprob": -0.956,
+   "no_speech_prob": 0.786,
+   "words": [
+    {
+     "start": 197.57,
+     "end": 198.01,
+     "word": " We",
+     "prob": 0.264
+    },
+    {
+     "start": 198.01,
+     "end": 198.17,
+     "word": " can",
+     "prob": 0.9
+    },
+    {
+     "start": 198.17,
+     "end": 198.73,
+     "word": " tell",
+     "prob": 0.202
+    },
+    {
+     "start": 198.73,
+     "end": 198.89,
+     "word": " them",
+     "prob": 0.822
+    },
+    {
+     "start": 198.89,
+     "end": 199.27,
+     "word": " that",
+     "prob": 0.251
+    },
+    {
+     "start": 199.27,
+     "end": 199.47,
+     "word": " if",
+     "prob": 0.346
+    },
+    {
+     "start": 199.47,
+     "end": 200.59,
+     "word": " someone",
+     "prob": 0.247
+    },
+    {
+     "start": 200.59,
+     "end": 200.77,
+     "word": " is",
+     "prob": 0.339
+    },
+    {
+     "start": 200.77,
+     "end": 200.89,
+     "word": " following",
+     "prob": 0.419
+    },
+    {
+     "start": 200.89,
+     "end": 200.99,
+     "word": " the",
+     "prob": 0.201
+    },
+    {
+     "start": 200.99,
+     "end": 200.99,
+     "word": " student",
+     "prob": 0.758
+    },
+    {
+     "start": 200.99,
+     "end": 201.41,
+     "word": " or",
+     "prob": 0.313
+    },
+    {
+     "start": 201.41,
+     "end": 201.41,
+     "word": " is",
+     "prob": 0.175
+    },
+    {
+     "start": 201.41,
+     "end": 202.09,
+     "word": " hungry",
+     "prob": 0.034
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "start": 204.63,
+   "end": 207.23,
+   "text": "we cannot do anything about it.",
+   "avg_logprob": -0.956,
+   "no_speech_prob": 0.786,
+   "words": [
+    {
+     "start": 204.63,
+     "end": 205.43,
+     "word": " we",
+     "prob": 0.016
+    },
+    {
+     "start": 205.43,
+     "end": 206.23,
+     "word": " cannot",
+     "prob": 0.173
+    },
+    {
+     "start": 206.23,
+     "end": 206.27,
+     "word": " do",
+     "prob": 0.733
+    },
+    {
+     "start": 206.27,
+     "end": 206.43,
+     "word": " anything",
+     "prob": 0.971
+    },
+    {
+     "start": 206.43,
+     "end": 207.23,
+     "word": " about",
+     "prob": 0.271
+    },
+    {
+     "start": 207.23,
+     "end": 207.23,
+     "word": " it.",
+     "prob": 0.561
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "start": 207.43,
+   "end": 212.29,
+   "text": "Have you ever seen a child attack a house?",
+   "avg_logprob": -0.956,
+   "no_speech_prob": 0.786,
+   "words": [
+    {
+     "start": 207.43,
+     "end": 207.75,
+     "word": " Have",
+     "prob": 0.609
+    },
+    {
+     "start": 207.75,
+     "end": 207.91,
+     "word": " you",
+     "prob": 0.995
+    },
+    {
+     "start": 207.91,
+     "end": 208.09,
+     "word": " ever",
+     "prob": 0.396
+    },
+    {
+     "start": 208.09,
+     "end": 208.55,
+     "word": " seen",
+     "prob": 0.886
+    },
+    {
+     "start": 208.55,
+     "end": 210.31,
+     "word": " a",
+     "prob": 0.156
+    },
+    {
+     "start": 210.31,
+     "end": 210.99,
+     "word": " child",
+     "prob": 0.544
+    },
+    {
+     "start": 210.99,
+     "end": 211.89,
+     "word": " attack",
+     "prob": 0.052
+    },
+    {
+     "start": 211.89,
+     "end": 212.29,
+     "word": " a",
+     "prob": 0.252
+    },
+    {
+     "start": 212.29,
+     "end": 212.29,
+     "word": " house?",
+     "prob": 0.227
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "start": 212.29,
+   "end": 214.75,
+   "text": "No I haven't seen this since my duty time",
+   "avg_logprob": -0.956,
+   "no_speech_prob": 0.786,
+   "words": [
+    {
+     "start": 212.29,
+     "end": 212.47,
+     "word": " No",
+     "prob": 0.703
+    },
+    {
+     "start": 212.47,
+     "end": 212.83,
+     "word": " I",
+     "prob": 0.147
+    },
+    {
+     "start": 212.83,
+     "end": 212.83,
+     "word": " haven't",
+     "prob": 0.666
+    },
+    {
+     "start": 212.83,
+     "end": 212.83,
+     "word": " seen",
+     "prob": 0.753
+    },
+    {
+     "start": 212.83,
+     "end": 212.83,
+     "word": " this",
+     "prob": 0.11
+    },
+    {
+     "start": 212.83,
+     "end": 213.17,
+     "word": " since",
+     "prob": 0.336
+    },
+    {
+     "start": 213.17,
+     "end": 213.91,
+     "word": " my",
+     "prob": 0.545
+    },
+    {
+     "start": 213.91,
+     "end": 214.33,
+     "word": " duty",
+     "prob": 0.794
+    },
+    {
+     "start": 214.33,
+     "end": 214.75,
+     "word": " time",
+     "prob": 0.088
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "start": 306.9,
+   "end": 307.54,
+   "text": "Thank you.",
+   "avg_logprob": -0.616,
+   "no_speech_prob": 0.433,
+   "words": [
+    {
+     "start": 306.9,
+     "end": 307.34,
+     "word": " Thank",
+     "prob": 0.755
+    },
+    {
+     "start": 307.34,
+     "end": 307.54,
+     "word": " you.",
+     "prob": 0.876
+    }
+   ]
+  }
+ ]
+}

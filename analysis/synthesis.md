@@ -2,6 +2,16 @@
 
 _Rewritten 20/10/2026 (v2, sharper findings with strength ratings and an evidence matrix); drafted 20/10/2026 by Acads for the team to check. Sources: survey n = 211 ([`survey-analysis.md`](survey-analysis.md)), 36 coded interviews ([`interview-coding.md`](interview-coding.md), IDs I01–I36), the CMO notes of 13/10 ([`../project-brief.md`](../project-brief.md)), the CCF Meet of 24/9 ([`../source/ccf-gmeet-transcript.txt`](../source/ccf-gmeet-transcript.txt), the same conversation as I24) and Vinayak's field notes ([`../source/gandagi.md`](../source/gandagi.md)). Every interview point is a paraphrase from a machine transcript. Check the audio before quoting anything._
 
+## Update, 24/11/2026: seven more recorded interviews (I37–I43)
+The findings below were written on the first 36 interviews and keep those denominators. Seven November recordings have since been coded ([`interview-coding.md`](interview-coding.md), "November recordings"): six students and one guard at the Civil dept. Across all 43 interviews:
+- **F2 (dogs in hostels):** P-HOSTEL 16/43 (was 11/36). Dogs on the floor or at the door near Himalaya and between Sarojini and Kasturba (I37, I38, I41).
+- **F3 (night chases on a few routes):** P-CHASE 14/43, P-FEAR 18/43. New named places: the lane between Sarojini and Kasturba (I37), the Civil and Electrical depts (I39, I42), the Hydrology dept and temple lane (I40). Two people say no guard was near when it happened (I37, I39).
+- **F6 (few know CCF):** three of the new students had not heard of CCF or had never seen it act (I37, I38; I43 is unclear).
+- **F7 (post-bite care):** P-BITE 17/43. Two new first-hand accounts of hospital care: an ambulance, washing and an injection course (I40), and care described as good (I43). Dose counts are not verified.
+- **F1 (space, not presence) needs a caveat:** the six new students average stance **−1.0**, and two support humane removal (I37, I39). Their script ended with a leading removal question, and they were found near hotspots. Report this as a split, not as a change in campus opinion.
+- **Unrecorded talks** (CMO, three guards, two victims, a canteen worker) are in [`unrecorded-conversations.md`](unrecorded-conversations.md). They add accounts, not numbers.
+- **Output:** the "Dog Feeding Zone" poster (8 points) went up on the night of 23–24/11. Photos and their dates: [`../evidence/poster-campaign-photos.md`](../evidence/poster-campaign-photos.md).
+
 **Labels:** **[S]** survey · **[I]** interviews · **[CCF]** CCF office-bearer or volunteer · **[G]** guards · **[CMO]** CMO notes · **unverified** means a claim with no record behind it yet.
 
 ## How to read the findings
