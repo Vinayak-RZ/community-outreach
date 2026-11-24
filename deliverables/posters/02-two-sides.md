@@ -1,5 +1,7 @@
 # Sheet 02 — Two sides
 
+_Not the sheet to build. The maintained form for the one A3 is [`improve-poster-prompt.md`](improve-poster-prompt.md). That sheet includes the KPI table and the previous campus map._
+
 A3 portrait, 297 × 420 mm. Hung in the middle. If the committee takes one sheet, it is this one. Slide 8 of `course/course-deck.txt` names the topic "Two sides of one street" and asks for the feeders' view and the afraid side. This sheet is that ask.
 
 The course wants the psychology of people we actually spoke to. The page is built from interviews and from two survey lines kept in the writer's spelling. Interview lines are paraphrases. `analysis/interview-coding.md` says none of them has been checked against the audio. Quotation marks are reserved for the survey rows.

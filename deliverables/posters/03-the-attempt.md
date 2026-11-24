@@ -1,5 +1,7 @@
 # Sheet 03 — The attempt
 
+_Not the sheet to build. The maintained form for the one A3 is [`improve-poster-prompt.md`](improve-poster-prompt.md). That sheet includes the KPI table and the previous campus map._
+
 A3 portrait, 297 × 420 mm. Hung on the right. Slide 8 asks for a coexistence plan both sides would sign. Slide 2 asks whether technology helps, and says an honest no is a result. Slide 21 says an untestable aim such as "spread awareness" earns nothing. This sheet is an attempt the team can defend in a viva. It does not look like a solved policy.
 
 ## What the sheet says

@@ -1,6 +1,8 @@
-# Prompt: rebuild the existing A3 poster
+# Poster form (maintained)
 
-Paste the block below to the layout agent. The copy is closed. Do not add a line.
+This is the file to hand a layout agent. One A3, the existing poster revised. The KPI table is on the sheet. The map is the previous "Where it happens" map. Copy below the line is closed: do not add a sentence.
+
+_Updated 24 Nov 2026. Earlier draft of this file told the agent to delete the KPI block. That instruction is withdrawn._
 
 ---
 
@@ -10,7 +12,7 @@ Improve that sheet. Do not design a new brand. Do not make a second poster. Do n
 
 ## Hard rules
 
-- The KPI table is a separate hand-in. Delete the whole KPI block (Reach, Depth, Record, Output, Change). Do not replace it with a smaller KPI.
+- The KPI table is part of this poster. Print the five rows in the copy below. Do not drop a row, and do not mark a row met if the status word says it is not.
 - Non-disinformation. Every sentence below is the sentence to print. If a fact is not in this prompt, it does not go on the sheet.
 - Survey lines inside quotation marks are printed as typed, including grammar. Interview lines are paraphrases: do not put quotation marks on them, and print the label "Paraphrase" or "Field notes" that sits with them.
 - No names of people we interviewed. No name of a hospital officer. No story that ties one guard to one bhawan. Govind may appear only as a place on the map and in the survey line that already names the MNC–Govind corner.
@@ -21,20 +23,20 @@ Improve that sheet. Do not design a new brand. Do not make a second poster. Do n
 
 ## What is wrong with the current sheet
 
-The corridor reads a row of our effort, then charts, then our coding. The opposition between people is a small bar chart and a disagreement table. The page headline overclaims: "as long as they stay out of the hostels" is only one of three limits people chose. Delete the fieldwork number row and its timeline. Delete "Who brought up what". Delete the F1–F7 dot matrix. Delete the KPI block. Keep the map artwork and its existing circle counts; do not draw new counts.
+The corridor reads a row of our effort, then charts, then our coding. The opposition between people is a small bar chart and a disagreement table. The page headline overclaims: "as long as they stay out of the hostels" is only one of three limits people chose. Delete the fieldwork number row and its timeline. Delete "Who brought up what". Delete the F1–F7 dot matrix. Keep the KPI table and move it to the bottom band. Keep the map. It stays the same drawing as the previous poster.
 
 ## Page
 
-A3 portrait, 297 × 420 mm. Margins 14 mm. Paper stays off-white. Ink stays near-black. The existing teal stays, and it is allowed on the three facts and on the map marks only. The new top band is type, not a chart. One family you already use on this file. Walk-by line about 36–44 pt. Body at least 12 pt. Source labels 8–9 pt, grey.
+A3 portrait, 297 × 420 mm. Margins 14 mm. Paper stays off-white. Ink stays near-black. The existing teal stays, and it is allowed on the three facts, the map marks, and the KPI status words. The new top band is type, not a chart. One family you already use on this file. Walk-by line about 36–44 pt. Body at least 12 pt. Source labels 8–9 pt, grey.
 
 From the top:
 
-1. Masthead, 28 mm.
-2. The two poles, about 128 mm. This is the thing someone sees first.
-3. Three facts, about 48 mm. Not four equal cards.
-4. Map, left, about 118 mm, with disagreements to its right.
-5. What we would ask, about 52 mm.
-6. Foot, about 16 mm.
+1. Masthead, 24 mm.
+2. The two poles, about 100 mm. This is the thing someone sees first.
+3. Three facts, about 32 mm. One line each, not four cards.
+4. Map, left, about 128 mm, with disagreements on its right. This block should have the same weight as on the previous poster.
+5. Bottom band, about 78 mm. Asks on the left, the KPI table on the right. The table is a real five-row table, not a set of progress bars.
+6. Foot, about 14 mm.
 
 ## Copy to set, in this order
 
@@ -121,7 +123,13 @@ If you keep the waffle, its only job is fact 1, and the caption must list the th
 
 ### Map and disagreements
 
-Keep the existing map, the existing circles, and the existing caption that the circles are how often a place was mentioned. Add one clause to that caption: mentions in interviews, survey answers and CCF notes, not a count of dogs. Credit: Map data © OpenStreetMap contributors. Do not add a place. Do not change a number on a circle.
+Heading: Where it happens
+
+Reuse the previous poster's map artwork. Do not redraw it and do not recalculate. Same OpenStreetMap base. Same circle sizes. Same rings for the five spots the team saw. Same squares for the two approximate feeding spots. Same night notes. Same legend, with one label change: if the legend says "CMO notes", print "hospital notes" instead. Do not add a place. Do not change a number on a circle.
+
+Caption, under the legend, one sentence: Circle size is how often a place was mentioned in interviews, survey answers and CCF or hospital notes. It is not a count of dogs. Map data © OpenStreetMap contributors.
+
+The counted hotspot map in the KPI table is a different thing. That walk, with a dog count and an ear-notch check, has not been done. Do not let the mention map change the Record row to "met".
 
 Right of the map, heading: Where our sources disagree
 
@@ -153,10 +161,26 @@ A way to report one aggressive dog. Not a clearance, and not culling. The curren
 
 One sentence under the list, smaller: Technology mostly does not help. The changes are doors, bins, walls, zones, and a published count. 2 of 98 written answers suggested any tool. Telling first-years how to pass a dog is worth doing. It is not the result.
 
+### KPI table
+
+Heading: KPI table
+
+Sit this on the right of the bottom band, beside the asks. Five rows, four columns: KPI, target, achieved, status. Use these words. Source: `deliverables/kpi-table.md`, 20 Oct 2026. Do not import the evidence-file column. Do not colour a row green unless the status is met on the thing the course asked for.
+
+Reach. Target: 30 interviews across at least 5 groups, and a survey of at least 150. Achieved: 36 interviews, 6 groups, 211 survey responses. Status: numbers met. Consent sheets and a contact log are not done.
+
+Depth. Target: 40 person-hours, including at least 2 night sessions. Achieved: 3.45 hours of interview audio, 6 dated field days, 2 night sessions. Person-hours are not measured. Status: not met.
+
+Record. Target: a survey dataset, a coded interview dataset, and a hotspot map with a dog count. Achieved: the survey and the coded interviews. The counted map is not made. Status: 2 of 3.
+
+Output. Target: a findings note handed to an office, with an acknowledgement. Achieved: nothing handed back. Status: not met.
+
+Change. Target: one written commitment. Achieved: none. Status: not met.
+
 ### Foot
 
 211 answers, 199 of them on one day. The form offered no removal option, and one question assumed dogs have a place. Interview lines are from machine transcripts. 14 of 36 are hard to read. None of those lines has been checked against the audio. Group 23. No person we spoke to is named.
 
 ## Do not add
 
-A KPI in any form. A sixth recommendation. A quote you like better than the ones above. A percent without its fraction. A caption that says campus opinion. Colour on both poles, which would turn the opposition into decoration. The teal belongs to the three facts and the map, so the poles stay black type.
+A sixth KPI row. A sixth recommendation. A quote you like better than the ones above. A percent without its fraction. A caption that says campus opinion. A new map with new counts. Colour on both poles, which would turn the opposition into decoration. The teal belongs to the three facts, the map marks, and the KPI status words, so the poles stay black type.

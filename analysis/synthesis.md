@@ -95,6 +95,7 @@ Interview counts use the 36 coded interviews (denominators by group: students 18
   - "five rabies cases since last December" and a vaccine shortage (I23 1:47–1:57, attributed to a professor)
   - "~90 female dogs, all neutered" (I24 14:50)
   - A survey claim of a death (row 193): **unverified, keep it off the poster**
+- A 24 Nov 2026 recollection of the hospital talk (about an hour, no tape) remembers a yearly bite count in the hundreds and a per-case cost. Both are memory, not a register. Write-up: [`unrecorded-conversations.md`](unrecorded-conversations.md). They do not replace this finding.
 - **Post-bite care.**
   - P-MED in 6/36 interviews.
   - A bitten student waited until morning for a physician (I12 pt1 1:39–1:50).

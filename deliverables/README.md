@@ -1,9 +1,7 @@
 Poster, KPI table, and other final deliverables for EEC 399.
 
-The working poster is three A3 sheets, specified in `posters/`:
+The sheet to build is one A3. The maintained form for it is [`posters/improve-poster-prompt.md`](posters/improve-poster-prompt.md). Hand that file to a layout agent. It keeps the previous campus map and puts the five-row KPI table on the sheet.
 
-- `posters/01-the-street.md` — what people chose, and the records we do not have
-- `posters/02-two-sides.md` — feeders and the afraid side; the sheet to submit if only one is taken
-- `posters/03-the-attempt.md` — what does not transfer, what we ask for, and what failed
+The 10-slide deck has its own form: [`posters/slides-prompt.md`](posters/slides-prompt.md). The words on each slide are already written. Do not raise a count past the record.
 
-`poster-plan.md` is the earlier single-sheet draft (20/10/2026). The three files above replace it as the layout to build.
+`posters/01-the-street.md`, `02-two-sides.md` and `03-the-attempt.md` are an earlier three-sheet split. They are not the layout to build. `poster-plan.md` is the 20 Oct single-sheet draft.

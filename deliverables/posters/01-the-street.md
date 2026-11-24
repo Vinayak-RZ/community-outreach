@@ -1,5 +1,7 @@
 # Sheet 01 — The street
 
+_Not the sheet to build. The maintained form for the one A3 is [`improve-poster-prompt.md`](improve-poster-prompt.md). That sheet includes the KPI table and the previous campus map._
+
 A3 portrait, 297 × 420 mm. Hung on the left. An evaluator in a bright EE corridor should get the sentence without stepping in. The body is for the person who stops.
 
 This sheet answers slide 8's "facts on record" and the population question by saying what we have and what we were refused. It does not open with a story. The two lines remembered from the hospital visit and from a hostel guard are not in the notes or the transcripts, and slide 20 of `course/course-deck.txt` bars a quote that identifies an official or a guard. They stay off this sheet.
