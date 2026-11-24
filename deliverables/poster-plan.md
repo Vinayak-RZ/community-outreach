@@ -1,5 +1,7 @@
 # A3 poster plan: "Campus dogs: two sides of one street" (group 23)
 
+_Earlier single-sheet draft, 20/10/2026. The layout to build is the three sheets in `deliverables/posters/`._
+
 _Draft of 20/10/2026 (Acads), for the team to edit. Every number on it has to trace back to `analysis/`. No team selfies, no faces, and no names of interviewees or officials [course ethics, slides 20–21]._
 
 ## Headline message
