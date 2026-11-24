@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Campus dogs: two sides of one street — EEC 399 Group 23</title>
+<link rel="stylesheet" href="../../deck-design-system/css/deck.css">
+<style>
+  @font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Barlow Condensed";
+    src: url("fonts/BarlowCondensed-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  :root {
+    --canvas: #FAFAF9;
+    --surface: #FAFAF9;
+    --band: #F1F1EF;
+    --ink: oklch(0.24 0.012 55);
+    --ink2: oklch(0.40 0.010 55);
+    --muted: oklch(0.52 0.010 55);
+    --hair: oklch(0.86 0.012 85);
+    --oxide: oklch(0.47 0.11 38);
+    --accent: oklch(0.47 0.11 38);
+    --accent-deep: oklch(0.47 0.11 38);
+    --accent-soft: transparent;
+    --accent-wash: transparent;
+    --display: "Barlow Condensed", "Barlow", sans-serif;
+    --sans: "Barlow", sans-serif;
+    --mono: "Barlow", sans-serif;
+  }
+
+  .slide {
+    font-family: var(--sans);
+    color: var(--ink);
+  }
+
+  .h {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    white-space: normal;
+    max-width: 1664px;
+    text-wrap: balance;
+  }
+
+  .foot .brand {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    color: var(--ink2);
+  }
+
+  .foot .pg {
+    font-family: var(--sans);
+    font-size: 20px;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+
+  .foot .pg::before { display: none; }
+
+  .foot .src {
+    font-size: 18px;
+    color: var(--muted);
+  }
+
+  .ct { top: 300px; }
+
+  .lab {
+    font-size: 20px;
+    line-height: 1.35;
+    color: var(--muted);
+    margin-top: 10px;
+  }
+
+  .q {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+  }
+
+  .q.sm { font-size: 32px; }
+
+  .body {
+    font-size: 26px;
+    line-height: 1.4;
+    color: var(--ink2);
+  }
+
+  .para {
+    margin-top: 14px;
+  }
+
+  .krow {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 28px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--hair);
+  }
+
+  .krow:first-child { border-top: 1px solid var(--hair); }
+
+  .krow .k {
+    font-size: 20px;
+    line-height: 1.3;
+    color: var(--muted);
+    padding-top: 4px;
+  }
+
+  .krow .t {
+    font-size: 26px;
+    line-height: 1.4;
+    color: var(--ink2);
+  }
+
+  .cols {
+    display: grid;
+    gap: 56px;
+  }
+
+  .s1 .cols,
+  .s3 .cols,
+  .s4 .cols,
+  .s8 .cols {
+    height: 100%;
+  }
+
+  .cols.two-uneven { grid-template-columns: 1.15fr 1fr; }
+  .cols.two-even { grid-template-columns: 1fr 1fr; }
+  .cols.two-map { grid-template-columns: 760px 1fr; gap: 48px; }
+  .cols.two-flow { grid-template-columns: 1.2fr 0.8fr; gap: 48px; }
+
+  .sep {
+    border-left: 1px solid var(--hair);
+    padding-left: 56px;
+  }
+
+  .stat-table {
+    display: grid;
+    gap: 0;
+    margin-bottom: 28px;
+  }
+
+  .stat-table .row {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 28px;
+    align-items: baseline;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--hair);
+  }
+
+  .stat-table .row:first-child { border-top: 1px solid var(--hair); }
+
+  .stat-table .n {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+
+  .stat-table .n.oxide { color: var(--oxide); }
+
+  .stat-table .of {
+    font-size: 22px;
+    color: var(--muted);
+    font-weight: 400;
+    margin-left: 6px;
+  }
+
+  .stat-table .t {
+    font-size: 26px;
+    line-height: 1.35;
+    color: var(--ink2);
+  }
+
+  .chorus .line {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    align-items: baseline;
+    padding: 8px 0;
+  }
+
+  .chorus .line .q {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .chorus .rn {
+    font-size: 18px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .map-wrap img {
+    width: 100%;
+    max-height: 560px;
+    height: auto;
+    object-fit: contain;
+    object-position: top left;
+    display: block;
+  }
+
+  .map-cap {
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--muted);
+    margin-top: 10px;
+  }
+
+  .psych {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid var(--hair);
+  }
+
+  .psych .head {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .close {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--hair);
+    font-size: 28px;
+    line-height: 1.35;
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  .flow {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .flow-row {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .node {
+    border: 1px solid var(--hair);
+    padding: 18px 22px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .node.narrow { flex: 0.85; }
+  .node.wide { flex: 1.2; }
+  .node.oxide {
+    border-color: var(--oxide);
+    color: var(--ink);
+  }
+
+  .node .nh {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+
+  .node .nt {
+    font-size: 22px;
+    line-height: 1.35;
+    color: var(--ink2);
+  }
+
+  .node.oxide .nh { color: var(--oxide); }
+
+  .arrow {
+    flex: 0 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ink2);
+  }
+
+  .arrow svg { width: 24px; height: 24px; }
+
+  .fork-label {
+    font-size: 20px;
+    color: var(--muted);
+    margin-top: 8px;
+  }
+
+  .fork {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .attempt {
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--ink);
+    font-weight: 500;
+    margin-top: 16px;
+  }
+
+  .side-head {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 12px;
+  }
+
+  .honesty {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--hair);
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--muted);
+  }
+
+  .s2 .ct { top: 268px; }
+  .s3 .ct { top: 268px; }
+  .s6 .ct { top: 248px; }
+  .s6 .cols { gap: 40px; }
+  .s8 .ct { top: 268px; }
+  .s10 .ct { top: 240px; }
+  .s10 .cols { gap: 36px; }
+
+  .s2 .stat-table .n { font-size: 44px; }
+  .s2 .stat-table .row { padding: 8px 0; }
+  .s2 .stat-table .t { font-size: 22px; }
+  .s2 .krow { padding: 10px 0; }
+  .s2 .krow .t { font-size: 22px; }
+
+  .s3 .krow .t { font-size: 20px; }
+  .s3 .krow { padding: 10px 0; }
+  .s3 .krow .k { font-size: 17px; }
+  .s3 .map-wrap img { max-height: 500px; }
+
+  .s6 .chorus .line { padding: 4px 0; }
+  .s6 .chorus .line .q { font-size: 28px; }
+  .s6 .q.sm { font-size: 22px !important; line-height: 1.25 !important; }
+  .s6 .psych { margin-top: 12px; padding-top: 10px; }
+  .s6 .psych .body { font-size: 20px; }
+  .s6 .psych .head { font-size: 18px; margin-bottom: 6px; }
+  .s6 .lab { font-size: 16px; margin-top: 6px; }
+  .s6 .body.para { font-size: 20px; margin-top: 8px; }
+
+  .s8 .cols.two-even { grid-template-columns: 1.05fr 0.95fr; gap: 36px; }
+  .s8 .krow { grid-template-columns: 150px 1fr; gap: 18px; padding: 10px 0; }
+  .s8 .krow .k { font-size: 17px; }
+  .s8 .krow .t { font-size: 20px; }
+
+  .s9 .krow .t { font-size: 24px; }
+
+  .s10 .node { padding: 10px 12px; }
+  .s10 .node .nt { font-size: 17px; }
+  .s10 .node .nh { font-size: 16px; }
+  .s10 .attempt { font-size: 19px; margin-top: 8px; }
+  .s10 .honesty { font-size: 15px; margin-top: 6px; padding-top: 6px; }
+  .s10 .krow { grid-template-columns: 1fr; gap: 4px; padding: 6px 0; }
+  .s10 .krow .k { padding-top: 0; font-size: 16px; }
+  .s10 .krow .t { font-size: 18px; }
+  .s10 .side-head { font-size: 17px; margin-bottom: 6px; }
+  .s10 .fork-label { font-size: 15px; }
+  .s10 .lab { font-size: 15px; }
+  .s10 .body.para { font-size: 18px !important; margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="deck">
+
+<!-- ========== 1 ========== -->
+<section class="slide s1">
+  <div class="hd">
+    <h1 class="h">One side would clear the campus. The other would not.</h1>
+  </div>
+  <div class="ct">
+    <div class="cols two-uneven">
+      <div>
+        <div class="q sm">“Bro, why the hell do we need dogs on campus? They are completely useless. … And why the fuck are they inside the hostel? … I hate them. … My suggestion is to completely kick all the dogs out of the campus and let everyone feel safe..”</div>
+        <div class="lab">Survey, written answer, row 193. The form had no removal option. 16 of 98 written answers make removal the whole solution.</div>
+        <div class="body para">A hostel staff member wants the dogs taken away by vehicle, or at least out of the bhawan.</div>
+        <div class="lab">Paraphrase. Interview I30. Machine transcript, not checked by ear.</div>
+      </div>
+      <div class="sep">
+        <div class="q sm">“throwing them out of the campus will be really inhumane , I get the fear of dogs can be fatal for a few , but vicious dogs are also very few in here”</div>
+        <div class="lab">Survey, written answer, row 179.</div>
+        <div class="q sm para" style="font-size:28px">“Eliminating animals isn't a solution”</div>
+        <div class="lab">Survey, written answer, row 37.</div>
+        <div class="body para">A senior student who had been bitten three times still asked for designated spots, sterilisation, and dogs kept out of canteens. The recording is garbled. The interviewers argued for fewer dogs.</div>
+        <div class="lab">Paraphrase. Interview I35. Not the speaker's exact words.</div>
+      </div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="src">IIT Roorkee. What happens when it is not safe to walk in a campus?</span>
+    <span class="pg num">01 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Sources: survey rows 193, 179, 37; paraphrase I30, I35. Death sentence in row 193 stays off. Names stay off.</p>
+  </aside>
+</section>
+
+<!-- ========== 2 ========== -->
+<section class="slide s2">
+  <div class="hd">
+    <h1 class="h">We can describe the conflict. We cannot count it.</h1>
+  </div>
+  <div class="ct">
+    <div class="stat-table">
+      <div class="row">
+        <div class="n oxide">181<span class="of">of 211</span></div>
+        <div class="t">chose a limit: out of hostels 75, designated areas 54, or vaccinated and sterilised only 52. 17 of 211 chose free movement.</div>
+      </div>
+      <div class="row">
+        <div class="n">143<span class="of">of 211</span></div>
+        <div class="t">have had a dog inside a hostel or building.</div>
+      </div>
+      <div class="row">
+        <div class="n">129<span class="of">of 211</span></div>
+        <div class="t">have felt unsafe or been chased.</div>
+      </div>
+      <div class="row">
+        <div class="n">149<span class="of">of 211</span></div>
+        <div class="t">had not heard of the campus animal-care group, CCF, or of organised sterilisation.</div>
+      </div>
+    </div>
+    <div class="krow">
+      <div class="k">Respondents</div>
+      <div class="t">211 people answered a survey, 13–17 October 2026. 209 were students. 199 of the 211 arrived on one day. Call them respondents, not campus opinion.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Interviews</div>
+      <div class="t">36 interviews: students 18, guards 5, mess and cleaning staff 4, CCF 3, feeders 2, faculty 1, and 3 roles unclear.</div>
+    </div>
+    <div class="krow">
+      <div class="k">CCF</div>
+      <div class="t">CCF feeds at set spots, treats injured animals, and says bites come from a few dogs and from gaps in the boundary. A medical shelter exists and cannot hold every dog. Their sterilisation claim is verbal, and they were unsure of the number. Guards and a caretaker say litters keep coming.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Records</div>
+      <div class="t">No written IIT Roorkee dog policy was found. The hospital was asked, in person and by email. No bite register, vaccination total, or sterilisation record was handed over. This team did not count the dogs.</div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="pg num">02 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Sources: analysis/survey-analysis.md, analysis/synthesis.md, analysis/interview-coding.md. Oxide on 181 only. No dog-population total.</p>
+    <p>Places people named, not a walked census: MAC toward Rajiv, MNC toward Govind, SAC, the Mandir, the library route, a broken gate, gaps on the Himalaya side.</p>
+  </aside>
+</section>
+
+<!-- ========== 3 ========== -->
+<section class="slide s3">
+  <div class="hd">
+    <h1 class="h">The fight is about place, not about whether dogs belong.</h1>
+  </div>
+  <div class="ct">
+    <div class="cols two-map">
+      <div class="map-wrap">
+        <img src="assets/hotspot-walk-map.jpg" alt="Team walk map of dog hotspots and feeding spots on IIT Roorkee campus">
+        <p class="map-cap">Team walk, date not recorded. Colour ranks how many dogs were seen; no counts were kept. Feeding spots as told to us by CCF or feeders. MAC and MNC are not marked. Map data © OpenStreetMap contributors.</p>
+      </div>
+      <div>
+        <div class="krow">
+          <div class="k">Feeding zones</div>
+          <div class="t">Feeding zones exist and do not work. People describe them as next to garbage, or marked by a board too small to matter. Students feed near rooms. Nine of 36 interviews raised feeding outside the zones.</div>
+        </div>
+        <div class="krow">
+          <div class="k">Boundary</div>
+          <div class="t">A broken gate and gaps on the Himalaya side are how outside dogs and dumped puppies are said to enter. A gate guard says outside dogs are not let in at the gate. Both can be true if the gate is watched and the wall is not.</div>
+        </div>
+        <div class="krow">
+          <div class="k">Bins and packs</div>
+          <div class="t">Open bins and mess waste draw dogs to doors. A few packs are blamed for most of the chasing. The survey did not ask which packs.</div>
+        </div>
+        <div class="krow">
+          <div class="k">What people live with</div>
+          <div class="t">Dogs in rooms, on beds, in washrooms; chases at night on a few roads; a wait until morning for a doctor before the vaccine, even though emergency is open.</div>
+        </div>
+        <div class="krow">
+          <div class="k">What the dogs live with</div>
+          <div class="t">Water is not provided, so CCF puts bowls out; there is nowhere most of them can be sheltered; puppies are dumped; guards are told to drive dogs out and not to kill them.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="pg num">03 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Map: evidence/hotspot-walk-map.md. Not yet a protocol: one student screenshot says a director's mail forbids feeding outside zones. We do not have that mail. It is not yet a protocol. KPI Record still not met.</p>
+  </aside>
+</section>
+
+<!-- ========== 4 ========== -->
+<section class="slide s4">
+  <div class="hd">
+    <h1 class="h">Harm does not flip them.</h1>
+  </div>
+  <div class="ct">
+    <div class="cols two-uneven">
+      <div>
+        <div class="q">“I strongly believe not all dogs should be kicked out of the campus, few bad incidents don't make all dogs bad.”</div>
+        <div class="lab">Survey, row 75.</div>
+        <div class="body para">CCF says dogs have a right to be on campus. Clearing it fails, they say, because a moved pack fights, and they expect rats and monkeys if the dogs go. They treat bites as the work of a few dogs. They put water out because it is not provided.</div>
+        <div class="lab">Paraphrase. Interviews I07 and I24. I24 is readable. I07 is a gist.</div>
+        <div class="body para">A senior bitten three times still asked for spots, sterilisation, dogs out of canteens, and a line for first-years on how to pass a dog.</div>
+        <div class="lab">Paraphrase. Interview I35. Tape garbled. Interviewers argued for fewer dogs.</div>
+      </div>
+      <div class="sep">
+        <div class="psych" style="margin-top:0;padding-top:0;border-top:none">
+          <div class="head">What they are protecting</div>
+          <div class="body">They explain a bite as one dog, or as a person who approached badly, and they treat a fixed feeding spot as the thing that keeps the others calm. A guard who had himself been bitten still said most people are dog lovers. Even among respondents whose experience was mostly negative, 94 of 110 chose a limit rather than free movement.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="pg num">04 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Sources: survey row 75; paraphrases I07, I24, I35. No quotation marks on paraphrases.</p>
+  </aside>
+</section>
+
+<!-- ========== 5 ========== -->
+<section class="slide s5">
+  <div class="hd">
+    <h1 class="h">They will sign a limit. They will not sign a clearance.</h1>
+  </div>
+  <div class="ct">
+    <div class="krow">
+      <div class="k">Accept</div>
+      <div class="t">They accept dogs out of rooms and canteens. They accept fewer spots, if the spots are real and people use them. They accept sterilisation, and they already claim it is largely done. That claim is disputed on the next-but-one facts, and it stays disputed.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Will not sign</div>
+      <div class="t">They will not sign taking every dog away. Their reason is territorial, not sentimental: a gap fills with a new pack, or with rats and monkeys.</div>
+    </div>
+    <div class="krow">
+      <div class="k">What we take from them</div>
+      <div class="t">The feeding spot only works if it is the only place food appears. A bowl at a door pulls dogs into the room, which is the complaint on the other side. Water, a shelter that can hold a sick dog, and a published count of who has been neutered are the practical things they asked for and we could not verify.</div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="src">Feeders and caretakers were 2 interviews. CCF was 3. These are who we spoke to, not a census of dog lovers.</span>
+    <span class="pg num">05 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Sources: analysis/synthesis.md F1, F5; interview coding I07, I24, I25.</p>
+  </aside>
+</section>
+
+<!-- ========== 6 ========== -->
+<!-- Left off chorus extras: rows 51, 60, 80, 84, 74, 186, 192. Also row 189 fragment. -->
+<section class="slide s6">
+  <div class="hd">
+    <h1 class="h">A chase rewrites the night.</h1>
+  </div>
+  <div class="ct">
+    <div class="cols two-uneven">
+      <div>
+        <div class="chorus">
+          <div class="line"><div class="q">“Throw them out of campus”</div><div class="rn">row 25</div></div>
+          <div class="line"><div class="q">“Nikal do inko”</div><div class="rn">row 162</div></div>
+          <div class="line"><div class="q">“Remove dogs<br>Forever”</div><div class="rn">row 210</div></div>
+        </div>
+        <div class="q sm para" style="font-size:26px;margin-top:20px">“If the campus doesn't allow beggars to come inside and live here and think that dogs should be allowed to live here because they deserve humane treatment or something then this is completely backwards. … dogs also should not be allowed inside the campus since they hinder and danger the life of students living inside.”</div>
+        <div class="lab">Survey, row 197.</div>
+      </div>
+      <div class="sep">
+        <div class="q sm" style="font-size:28px">“i’m scared to even walk in campus because of dogs i have been chased multiple times before. i can’t use the washroom in peace in my own bhawan because these dogs eat the used sanitary pads. i can’t drink water from the coolers because they lick them.”</div>
+        <div class="lab">Survey, row 68. Bhawan and floor left off.</div>
+        <div class="q sm para">“We have so less guards in campus, e.g. if u have to say go between rajiv and govind at night how the hell are there 0 guards on basically the entire path, once a lot of dogs were literally moving these entire paths. Make institute put more guards in necessary places, our campus security is trash currently”</div>
+        <div class="lab">Survey, row 148.</div>
+      </div>
+    </div>
+    <div class="psych">
+      <div class="head">What they are reacting to</div>
+      <div class="body">Everyone who typed “remove” into the form was in the chased group: 7 people. Among those chased, 112 of 129 rated the problem 4 or 5. Among those who were not chased, 18 of 82 did. Mess, shop and cleaning staff were the most negative group we spoke to: 3 of 4 want fewer dogs. This is a night road, and a room that does not stay theirs.</div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="pg num">06 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Chorus on slide: rows 25, 162, 210; then 197, 68, 148. Dropped for fit: rows 17, 72, 93. Also left off: 51, 60, 80, 84, 74, 186, 192. Death claim stays off.</p>
+    <p>Paraphrase, Interview I30: A hostel staff member wants the dogs taken off by vehicle. Students feed near rooms, he said, and more dogs come. A student slipped while running from one. Machine transcript, not checked by ear.</p>
+  </aside>
+</section>
+
+<!-- ========== 7 ========== -->
+<section class="slide s7">
+  <div class="hd">
+    <h1 class="h">They want the road back. Most of them still do not want a clearance.</h1>
+  </div>
+  <div class="ct">
+    <div class="krow">
+      <div class="k">Students</div>
+      <div class="t">Of 18 student interviews, 9 brought up dogs in hostels, 9 brought up fear, 8 want dogs out of hostels, 7 want designated zones, and 2 ask for fewer dogs or removal.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Guards</div>
+      <div class="t">Guards, 5 interviews: 3 mention a bite, 3 mention a chase. They can shoo a dog and report upward. Field notes, unattributed, so not a quote: students press them not to act, and the path is still their duty. Some of those notes call for complete removal.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Bites</div>
+      <div class="t">13 of 36 interviews mention a bite, to the speaker, to someone they know, or one they saw or heard of. CCF calls bites exceptional. Only the hospital register settles the scale. We asked. It was not handed over.</div>
+    </div>
+    <div class="krow">
+      <div class="k">The night wait</div>
+      <div class="t">A bitten student waited until morning because a physician had to see them before the vaccine. Do not print a dose count.</div>
+    </div>
+    <div class="q para" style="font-size:36px;margin-top:28px">“Once the dustbin were place at a height, dogs stopped entering our Bhawan.”</div>
+    <div class="lab">Survey, row 112.</div>
+    <div class="close">They meet on place: dogs out of rooms, fed away from doors, and the boundary shut. They do not meet on clearing the campus.</div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="pg num">07 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Sources: interview-coding.md; synthesis.md F2, F3, F7; survey row 112. Unchecked speech (CCF rampage, “removed ASAP”, 3:47 field note) stays off the slide.</p>
+  </aside>
+</section>
+
+<!-- ========== 8 ========== -->
+<section class="slide s8">
+  <div class="hd">
+    <h1 class="h">Other campuses regulate place. The Court split the law in two.</h1>
+  </div>
+  <div class="ct">
+    <div class="cols two-even">
+      <div>
+        <div class="krow">
+          <div class="k">IIT Bombay</div>
+          <div class="t">3 June 2024: feed only at designated spots, not in hostels or academic buildings. Feeders register. Feeding outside a spot draws a penalty of Rs 500. An April 2026 annexure names 19 spots and says it is interim, while municipal measures under the Supreme Court order of 7 November 2025 are pending.</div>
+        </div>
+        <div class="krow">
+          <div class="k">IIT Kanpur</div>
+          <div class="t">Office order, 28 January 2025: 12 feeding zones, none in the academic area. Dogs are not permitted in lecture complexes, hall rooms, or children's play areas. Feed elsewhere and the repeat offence removes the person from campus.</div>
+        </div>
+        <div class="krow">
+          <div class="k">Outside India</div>
+          <div class="t">MIT, Stanford and Harvard ban or license owned pets, allow trained service dogs, and sit inside city leash laws. A loose dog is impounded. They are not a model for an ownerless campus pack. Boğaziçi University, in its own note through February 2023: vaccinate, sterilise, do not feed inside buildings, do not leave outside animals on campus, and send aggressive dogs to animal living areas.</div>
+        </div>
+      </div>
+      <div class="sep" style="padding-left:40px">
+        <div class="krow">
+          <div class="k">Street</div>
+          <div class="t">On an ordinary street, the 2023 Animal Birth Control Rules and the Supreme Court order of 22 August 2025 say: capture, sterilise, vaccinate, and release back to the same area. Not if the dog is rabid or suspected rabid, and not if it displays aggressive behaviour.</div>
+        </div>
+        <div class="krow">
+          <div class="k">Institution</div>
+          <div class="t">On an educational institution, the order of 7 November 2025, affirmed on 19 May 2026: fence the premises, name a nodal officer at the entrance, and have the municipality remove every stray dog found there to a shelter. Not back to that institution.</div>
+        </div>
+        <div class="krow">
+          <div class="k">Not this</div>
+          <div class="t">Do not say this repeals the street rule. Do not say an aggressive dog may be killed. The Court's later direction stays inside the 2023 Rules, and the retrieved euthanasia rule is for incurably ill and mortally wounded dogs.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="pg num">08 / 10</span>
+  </footer>
+  <aside class="notes">
+      <p>Source: analysis/institutions-and-law.md only. No JNU dog count. Boğaziçi counts stop at February 2023 and are not printed as current.</p>
+    <p>Others: IIT Delhi: no current office order of that kind was found. IISc: a June 2026 request for proposals for birth control, vaccination and shelter. It does not show the work was awarded. IIT Madras: a 2020 news report of five feeding sites. The circular was not retrieved.</p>
+  </aside>
+</section>
+
+<!-- ========== 9 ========== -->
+<section class="slide s9">
+  <div class="hd">
+    <h1 class="h">A rule we already fail will not start working because another campus printed it.</h1>
+  </div>
+  <div class="ct">
+    <div class="krow">
+      <div class="k">Feeding zones</div>
+      <div class="t">Feeding zones are already on this campus. They sit by garbage or behind a small board, and people feed at rooms. Bombay and Kanpur add a sanction, and they keep the spots out of hostels. The spot alone is the part we have already watched fail.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Leash rule</div>
+      <div class="t">A leash-and-owner rule does not transfer. These dogs do not have an owner to fine.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Sterilised dogs</div>
+      <div class="t">“Keep the sterilised dogs where they are” was the coexistence most of our respondents would sign: 181 of 211 chose a limit, not removal. Direction E of 7 November 2025, affirmed 19 May 2026, says a dog removed from an institution is not released back there. Repairing the boundary is the part of our own fieldwork the order now requires. Keeping removed dogs on the campus is the part it does not allow.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Clearing every dog</div>
+      <div class="t">Clearing every dog is what 26 of 98 written answers still ask, and what CCF will not sign. The order gives removal to the municipality, into a shelter. We have not seen a Roorkee shelter arrangement, and we did not retrieve a Uttarakhand High Court compliance order. Do not promise the removal.</div>
+    </div>
+    <div class="krow">
+      <div class="k">Frequent bites</div>
+      <div class="t">We also cannot say bites here are “frequent” in the sense of the Court's later direction. We have no hospital register.</div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="pg num">09 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Sources: institutions-and-law.md; synthesis.md; survey-analysis.md. No claim that ABC Rules are repealed.</p>
+  </aside>
+</section>
+
+<!-- ========== 10 ========== -->
+<section class="slide s10">
+  <div class="hd">
+    <h1 class="h">The spot only works if it is the only place food appears.</h1>
+  </div>
+  <div class="ct">
+    <div class="cols two-flow">
+      <div class="flow">
+        <div class="flow-row">
+          <div class="node narrow">
+            <div class="nh">Food at a door, or outside a zone</div>
+            <div class="nt">Nine of 36 interviews raised feeding outside the zones. Students feed near rooms.</div>
+          </div>
+          <div class="arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="node">
+            <div class="nh">Dogs come to that place</div>
+            <div class="nt">A hostel staff member said more dogs come. A faculty member fed a hungry dog and it followed her. One pair of students was followed while carrying food.</div>
+          </div>
+          <div class="arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="node wide oxide">
+            <div class="nh">The complaint on the other side</div>
+            <div class="nt">A bowl at a door pulls dogs into the room. Hungry dogs bark and chase.</div>
+          </div>
+        </div>
+        <div class="fork-label">Why dogs enter rooms</div>
+        <div class="fork">
+          <div class="node">
+            <div class="nh">Their account</div>
+            <div class="nt">A CCF office-bearer says students feed dogs and keep them in rooms.</div>
+          </div>
+          <div class="node">
+            <div class="nh">The other account</div>
+            <div class="nt">Open entrances, low walls, bins and mess waste.</div>
+          </div>
+        </div>
+        <div class="attempt">Feed only at signed spots, at a fixed hour, away from doors and garbage. Do not put a bowl by a room.</div>
+        <div class="lab">Paraphrase. Interviews I24, I23, I13, I10, I30, I02. Not checked by ear.</div>
+      </div>
+      <div>
+        <div class="side-head">What only an office can change</div>
+        <div class="krow">
+          <div class="k">Doors and bins</div>
+          <div class="t">Mesh or a self-closing door at bhawan and mess entrances. Raise or cover the bins. One bhawan already saw dogs stop after the bins were raised. Survey, row 112.</div>
+        </div>
+        <div class="krow">
+          <div class="k">Boundary</div>
+          <div class="t">Photograph the gaps, then repair the broken gate and the Himalaya side.</div>
+        </div>
+        <div class="krow">
+          <div class="k">Published count</div>
+          <div class="t">Publish sterilisation and vaccination counts once a year.</div>
+        </div>
+        <div class="body para">Technology mostly does not help. Doors, bins, a wall, zones, and a published count. 2 of 98 written answers suggested any tool.</div>
+      </div>
+    </div>
+    <div class="honesty">Nothing has been handed to an office, and there is no written commitment, consent sheet or field diary. 14 of 36 interview transcripts are hard to read, and none of the paraphrases has been checked against the audio.</div>
+  </div>
+  <footer class="foot">
+    <span class="brand">EEC 399, Group 23, Topic 3</span>
+    <span class="pg num">10 / 10</span>
+  </footer>
+  <aside class="notes">
+    <p>Full office text from the brief: Chief Warden, wardens, Estate for doors and bins. Estate, Security for the boundary; the 7 November 2025 order is why the boundary is no longer only our preference. Institute hospital, CCF, Security for the night notice: where to go, first dose within two days. A dog found inside the institution, removed by the municipality to a shelter, not back to the same spot: we have not seen that arrangement in Roorkee; do not print it as if it exists.</p>
+    <p>Person-hours were not measured: 3.45 hours of interview audio is not 40 person-hours.</p>
+    <p>Do not say on the slide: a normal dog attacks only when unfed; every unsterilised dog is thrown out; dogs enter hostels only because they are cuddled; they never enter if nobody is kind to them inside. None of these is in synthesis.md or interview-coding.md.</p>
+  </aside>
+</section>
+
+</div>
+<div id="notesPanel"></div>
+<script src="../../deck-design-system/js/deck.js"></script>
+</body>
+</html>

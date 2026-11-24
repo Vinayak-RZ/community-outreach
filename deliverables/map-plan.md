@@ -43,3 +43,7 @@ MAC, MNC, gate 7, gate 5, the boundary gaps, the badminton hall, the Robocon lab
 3. **Map with callouts.** Five team hotspots numbered on the map, each with a one-line callout (what happens there, day or night).
 
 The poster uses option 2: the map on the left, the key and "Who brought up what" bars on the right.
+
+## Later walk map (deck)
+
+A separate team-walk map is used on slide 3 of the deck. Source note: [`evidence/hotspot-walk-map.md`](../evidence/hotspot-walk-map.md). Image: `deliverables/posters/assets/hotspot-walk-map.jpg`. It ranks dogs seen on a walk (counts not kept) and plots feeding spots as told by CCF or feeders. It is not the mention map in fig13, and it does not meet the KPI Record row.

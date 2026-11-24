@@ -1,0 +1,208 @@
+/* Slide chrome — 1920×1080, shared header / content / footer zones. */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: #0b0f0d;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.deck { position: fixed; inset: 0; }
+
+.slide {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--slide-w);
+  height: var(--slide-h);
+  background: var(--canvas);
+  overflow: hidden;
+  transform: translate(-50%, -50%) scale(var(--s, 1));
+  display: none;
+}
+
+.slide.active { display: block; }
+
+.num { font-variant-numeric: tabular-nums; }
+
+a.numlink,
+a.lin {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.numlink.accent { color: var(--accent); }
+
+a.lin {
+  display: inline-flex;
+  flex: none;
+  line-height: 0;
+}
+
+a.lin svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+/* Shared grid: header ~96–360, content ~388–944, footer ~1000 */
+.hd {
+  position: absolute;
+  left: var(--m-x);
+  right: var(--m-x);
+  top: var(--hd-top);
+}
+
+.h {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 88px;
+  line-height: 1;
+  letter-spacing: -0.035em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.sub {
+  font-size: 32px;
+  line-height: 1.4;
+  color: var(--ink2);
+  margin-top: 28px;
+  max-width: 1500px;
+  letter-spacing: -0.005em;
+  text-wrap: balance;
+}
+
+.ct {
+  position: absolute;
+  left: var(--m-x);
+  right: var(--m-x);
+  top: var(--ct-top);
+  bottom: 136px;
+}
+
+.foot {
+  position: absolute;
+  left: var(--m-x);
+  right: var(--m-x);
+  bottom: var(--foot-bottom);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.foot .brand svg {
+  width: 28px;
+  height: 28px;
+}
+
+.foot .pg {
+  font-family: var(--mono);
+  font-size: 24px;
+  color: var(--accent-deep);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.foot .pg::before {
+  content: "";
+  width: 28px;
+  height: 2px;
+  background: var(--accent);
+}
+
+.foot .src {
+  flex: 1;
+  margin: 0 64px;
+  font-size: 18px;
+  line-height: 1.35;
+  color: var(--muted);
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* Type helpers */
+.mono {
+  font-family: var(--mono);
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.disp {
+  font-family: var(--display);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.accent { color: var(--accent); }
+.nw { white-space: nowrap; }
+
+.est {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  color: var(--accent-deep);
+  border: 1.5px solid rgba(247, 84, 64, 0.7);
+  border-radius: 4px;
+  padding: 3px 10px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* Speaker notes (hidden on slide; shown in #notesPanel) */
+.notes { display: none; }
+
+#notesPanel {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 42vh;
+  overflow: auto;
+  background: rgba(10, 14, 12, 0.96);
+  color: #E9ECE7;
+  font: 16px/1.55 var(--sans);
+  padding: 20px 32px 28px;
+  display: none;
+  z-index: 10;
+  border-top: 2px solid var(--accent);
+}
+
+#notesPanel.on { display: block; }
+
+#notesPanel h4 {
+  font: 500 12px var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #FDA08E;
+  margin-bottom: 10px;
+}
+
+#notesPanel ul { padding-left: 20px; }
+#notesPanel li { margin: 4px 0; }
+#notesPanel p { margin: 4px 0; }

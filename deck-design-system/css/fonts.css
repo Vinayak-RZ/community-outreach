@@ -1,0 +1,25 @@
+/* Local faces — Space Grotesk (display), Geist (body), Geist Mono (labels) */
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk.woff") format("woff");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("../fonts/Geist.woff") format("woff");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("../fonts/GeistMono.woff") format("woff");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: block;
+}

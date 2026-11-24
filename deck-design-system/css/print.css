@@ -1,0 +1,57 @@
+@page {
+  size: 1920px 1080px;
+  margin: 0;
+}
+
+@media print {
+  @page {
+    size: 1920px 1080px;
+    margin: 0;
+  }
+
+  html, body {
+    height: auto;
+    overflow: visible;
+    background: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .deck { position: static; }
+
+  .slide {
+    display: block !important;
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    transform: none !important;
+    break-after: page;
+    page-break-after: always;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .slide:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  #notesPanel { display: none !important; }
+
+  a.numlink,
+  a.numlink:link,
+  a.numlink:visited,
+  a.lin,
+  a.lin:link,
+  a.lin:visited {
+    text-decoration: none !important;
+  }
+
+  a.numlink:not(.accent),
+  a.lin {
+    color: inherit !important;
+  }
+}

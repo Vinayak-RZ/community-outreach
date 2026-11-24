@@ -1,0 +1,7 @@
+/* Single import for a deck HTML file. */
+
+@import url("fonts.css");
+@import url("tokens.css");
+@import url("base.css");
+@import url("components.css");
+@import url("print.css");

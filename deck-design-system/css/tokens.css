@@ -1,0 +1,44 @@
+/* Design tokens — override in a deck to rebrand; keep role names stable. */
+
+:root {
+  /* Surfaces */
+  --canvas: #FAFAF9;
+  --surface: #FFFFFF;
+  --band: #F1F1EF;
+  --sunken: #EBEBE8;
+  --border: #E2E2DF;
+  --border-strong: #CFCFCB;
+
+  /* Ink */
+  --ink: #191c1a;
+  --ink2: #4B4D4A;
+  --muted: #6E706C;
+  --faint: #B9BBB7;
+
+  /* Accent (coral family) */
+  --accent: #F75440;
+  --accent-deep: #C2361F;
+  --accent-soft: #FFF3F0;
+  --accent-wash: #FFE3DC;
+
+  /* Cover / dark field */
+  --cover: #000a07;
+  --cover-muted: #C9CCC9;
+  --cover-faint: #9AA09B;
+  --cover-rule: #5C635E;
+  --on-cover: #F4F2EE;
+
+  /* Type */
+  --display: "Space Grotesk", sans-serif;
+  --sans: "Geist", sans-serif;
+  --mono: "Geist Mono", monospace;
+
+  /* Frame */
+  --slide-w: 1920px;
+  --slide-h: 1080px;
+  --m-x: 128px;
+  --hd-top: 96px;
+  --ct-top: 388px;
+  --foot-bottom: 40px;
+  --foot-h: 96px; /* bottom keep-out ≈ 136px from edge for .ct */
+}
