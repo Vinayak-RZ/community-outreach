@@ -10,11 +10,6 @@ transcripts/<recording-name>/
   <name>.en.*     English translation (when run with --translate)
 ```
 
-- The repo is **private** (since 19 Oct 2026), so transcripts can be committed as produced, with real names left in.
-  Privacy still matters. Keep them inside the team. Before any quote reaches the poster, a deliverable or anything shared outside, replace
-  names with roles/codes unless written consent covers publishing.
-- Transcripts are machine-made (Whisper). Check names, numbers and key quotes against the
-  audio before citing them, and mark corrections.
-- **No audio or video in git.** Raw recordings stay on the box (`media/raw/`). Face-blurred videos are
-  bundled and published as [GitHub Release](https://github.com/Vinayak-RZ/Illusion/releases)
-  assets, with a note here or in `evidence/` naming the release and asset.
+- Real names appear in the transcripts. They stay off the poster and out of the written deliverables, unless written consent covers publishing a name. The analysis uses interview codes.
+- Transcripts are machine-made (Whisper). Check names, numbers and key lines against the audio before quoting them. An English file (`.en.*`) is a translation, not the speaker's words.
+- **No audio or video in git.** Raw recordings stay outside the repository. Face-blurred videos are published as [GitHub Release](https://github.com/Vinayak-RZ/community-outreach/releases) assets, with a note here or in `evidence/` naming the release and asset.

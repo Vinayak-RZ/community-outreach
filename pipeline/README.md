@@ -3,9 +3,10 @@
 Turns interview audio/video for the EEC 399 campus-dogs project into timestamped
 transcripts (Hindi / English / mixed) and face-blurred copies of the videos.
 
-Runs on the shared box. Media lives in `/workspace/library/acads/community-outreach/media/`
-and **is never committed to git**. Transcripts can go into the private Illusion repo under
-`transcripts/`; blurred videos go to GitHub Releases.
+Runs on the shared machine. Media lives outside the repository
+and **is never committed to git**. Transcripts go under `transcripts/`.
+Blurred videos go to GitHub Releases:
+https://github.com/Vinayak-RZ/community-outreach/releases
 
 ## Folders (`$MEDIA_ROOT`)
 

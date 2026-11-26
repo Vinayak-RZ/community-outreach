@@ -1,6 +1,8 @@
-# source/ — raw team material (INTERNAL, private repo)
+# source/ — raw material
 
-Raw group-chat export and shared files from the project team. Contains real names of classmates and interviewees: keep internal, and anonymise in analysis/deliverables (see AGENTS.md rule 4).
+Raw group-chat export and shared files. This folder is the Aug–Oct material. The November recordings and the 24 Nov poster drive are logged from the repository README, `transcripts/` and `evidence/`.
+
+Real names of classmates and interviewees appear here. The analysis and the deliverables use roles and interview codes.
 
 | Path | What it is |
 |---|---|

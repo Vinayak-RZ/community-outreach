@@ -1,7 +1,9 @@
 # Project brief: EEC 399 Community Outreach, "Campus dogs: two sides of one street" (group 23)
 
-INTERNAL ONLY — classmates' and interviewees' material. Lives in the PRIVATE repo Vinayak-RZ/community-outreach (formerly "Illusion"; private since 19/10/2026). Don't publish it or put interviewee names on the poster.
-Updated 19/10/2026 by Acads (survey added 19/10 afternoon; Comm Kaam material 19/10, 4:30 pm IST).
+Compiled 19 Oct 2026. This file is the record of what was known then, and it has not been rewritten since. Transcripts, the coded interviews (I01–I43), the 24 Nov poster drive and the checked KPI table came later. For the current account, read the repository [README](README.md) and [`deliverables/kpi-table.md`](deliverables/kpi-table.md).
+
+Classmates' and interviewees' names appear below. They stay off the poster. The repository is Vinayak-RZ/community-outreach (formerly "Illusion"; private since 19 Oct 2026).
+Updated 19 Oct 2026 (survey added that afternoon; Comm Kaam material the same day, 4:30 pm IST).
 
 **Source keys**
 - Paths are relative to the repo root. Audio/video live in GitHub release `source-media-v1` (see source/README.md).

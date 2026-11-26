@@ -1,6 +1,8 @@
 # Work log: how we got here (group 23, campus dogs)
 
-_Built 20/10/2026 from the WhatsApp chat (`source/whatsapp/timeline.md`, `raw-transcript.txt`), file timestamps (`transcripts/INDEX.md`, `source/media-metadata.csv`) and the repo history. Dates are 2026, IST. **(est.)** marks an estimate._
+_Built 20 Oct 2026. The counts in this log are from that date (36 recorded interviews, 80 recordings). The 24 Nov counts are in [`kpi-table.md`](kpi-table.md)._
+
+_Sources: the WhatsApp chat (`source/whatsapp/timeline.md`, `raw-transcript.txt`), file timestamps (`transcripts/INDEX.md`, `source/media-metadata.csv`) and the repo history. Dates are 2026, IST. **(est.)** marks an estimate._
 
 ![By the numbers](../analysis/figures/fig10_by_the_numbers.png)
 
