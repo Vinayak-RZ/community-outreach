@@ -3,9 +3,11 @@
 **EEC 399 Community Outreach · Department of Electrical Engineering, IIT Roorkee · Autumn 2026–27**
 Topic 3 · Group 23
 
-![A3 poster: Campus dogs, two sides of one street](deliverables/campus-dogs-poster.jpg)
+![Feeding-zone poster put up across campus](deliverables/feeding-zone-poster.jpg)
 
-[A3 poster (PDF)](deliverables/campus-dogs-poster.pdf) · [KPI evidence report (PDF)](deliverables/kpi-evidence-report.pdf) · [KPI table](deliverables/kpi-table.md) · [Team Drive](https://drive.google.com/drive/folders/1RwPyoukOcCx7umyHtwqF9Zhilzpci8-V) · [Recordings (GitHub Releases)](https://github.com/Vinayak-RZ/community-outreach/releases)
+The sheet above is the feeding-zone poster we printed and put up on campus (24 Nov). It marks the eight designated points and the four rules for feeding.
+
+[Feeding-zone poster (JPG)](deliverables/feeding-zone-poster.jpg) · [A3 research poster (PDF)](deliverables/campus-dogs-poster.pdf) · [KPI evidence report (PDF)](deliverables/kpi-evidence-report.pdf) · [KPI table](deliverables/kpi-table.md) · [Team Drive](https://drive.google.com/drive/folders/1RwPyoukOcCx7umyHtwqF9Zhilzpci8-V) · [Recordings (GitHub Releases)](https://github.com/Vinayak-RZ/community-outreach/releases)
 
 This repository is the group's record of the fieldwork: the course material, the raw sources, the survey, the transcripts, the analysis, and the deliverables. Figures on this page come from `project-brief.md`, `course/course-overview.md`, `analysis/survey-analysis.md` and `deliverables/kpi-table.md`. The Drive folder is the one listed in `source/whatsapp/INDEX.md`.
 
@@ -13,7 +15,8 @@ This repository is the group's record of the fieldwork: the course material, the
 
 | Read this | What it is |
 |---|---|
-| [`deliverables/campus-dogs-poster.pdf`](deliverables/campus-dogs-poster.pdf) | The A3 poster. The image above is the same sheet. |
+| [`deliverables/feeding-zone-poster.jpg`](deliverables/feeding-zone-poster.jpg) | The awareness poster printed and pasted across campus on the 24 Nov drive. |
+| [`deliverables/campus-dogs-poster.pdf`](deliverables/campus-dogs-poster.pdf) | The A3 research poster (PDF). Preview: [`campus-dogs-poster.jpg`](deliverables/campus-dogs-poster.jpg). |
 | [`deliverables/kpi-evidence-report.pdf`](deliverables/kpi-evidence-report.pdf) | The written account of the five KPIs (same text as the `.md`). |
 | [`deliverables/kpi-table.md`](deliverables/kpi-table.md) | The same five rows, checked against the files on 24 Nov 2026. Where a team date and a file disagree, this table says so. |
 | [Team Drive](https://drive.google.com/drive/folders/1RwPyoukOcCx7umyHtwqF9Zhilzpci8-V) | The shared folder of recordings, photos and documents. Inventory: `source/drive-inventory.csv`. |
@@ -84,7 +87,7 @@ From `analysis/survey-analysis.md`:
 
 From the course deck, slides 16–19. The deck schedules the final review as "October sometime" and does not give a date. The record in this repository runs through 24 Nov 2026.
 
-1. **A3 poster**, printed, plus a PDF: [`deliverables/campus-dogs-poster.pdf`](deliverables/campus-dogs-poster.pdf). The slide deck is [`deliverables/posters/campus-dogs.pdf`](deliverables/posters/campus-dogs.pdf).
+1. **A3 poster**, printed, plus a PDF: [`deliverables/campus-dogs-poster.pdf`](deliverables/campus-dogs-poster.pdf). The feeding-zone sheet that went up on campus is [`deliverables/feeding-zone-poster.jpg`](deliverables/feeding-zone-poster.jpg). The slide deck is [`deliverables/posters/campus-dogs.pdf`](deliverables/posters/campus-dogs.pdf).
 2. **KPI table**: five rows (Reach, Depth, Record, Output, Change), with the team's targets and the achieved figures, each backed by evidence. The checked table is [`deliverables/kpi-table.md`](deliverables/kpi-table.md). An earlier draft remains inside `project-brief.md` and is not the current table.
 3. **Evidence**: geotagged photos, dated videos, interview records, datasets, consent sheets and a dated field diary. The deck says a claim with no evidence is treated as not done. The gaps are listed under Status.
 4. **Group and individual viva.** `analysis/synthesis.md` is the shared account of the findings.
